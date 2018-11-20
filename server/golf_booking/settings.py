@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'django_react.urls'
+ROOT_URLCONF = 'server.golf_booking.urls'
 
 TEMPLATES = [
     {
@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'django_react.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'server/../db.sqlite3'),
     }
 }
 
@@ -122,14 +122,14 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-
 WEBPACK_LOADER = {
     'DEFAULT': {
         'BUNDLE_DIR_NAME': 'bundles/',
-        'STATS_FILE': os.path.join(BASE_DIR, 'webpack-stats.json'),
+        'STATS_FILE': os.path.join(BASE_DIR, '../../webpack-stats.json'),
     }
 }
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'assets'),
+    os.path.join(BASE_DIR, 'client/../../client/dist'),
+    # os.path.join(BASE_DIR, 'assets'),
 )
