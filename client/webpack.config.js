@@ -5,7 +5,7 @@ const BundleTracker = require('webpack-bundle-tracker');
 module.exports = {
     context: __dirname,
 
-    entry: './src/app.js',
+    entry: './src/index.js',
 
     mode: 'development',
 
