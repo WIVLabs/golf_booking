@@ -106,31 +106,29 @@ AUTH_PASSWORD_VALIDATORS = [
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
-
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
+LANGUAGE_CODE = 'ko-kr'
+TIME_ZONE = 'Asia/Seoul'
 
 USE_I18N = True
-
 USE_L10N = True
-
 USE_TZ = True
+
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
+STATIC_URL = '/assets/'
+CLIENT_DIR = os.path.join(BASE_DIR, 'client')
 
-STATIC_URL = '/static/'
+STATICFILES_DIRS = (
+    os.path.join(CLIENT_DIR, 'dist'),
+    os.path.join(CLIENT_DIR, 'src/assets'),
+)
+print('STATICFILES_DIRS:', STATICFILES_DIRS)
 
 WEBPACK_LOADER = {
     'DEFAULT': {
         'BUNDLE_DIR_NAME': 'bundles/',
-        'STATS_FILE': os.path.join(BASE_DIR, './client/webpack-stats.json'),
+        'STATS_FILE': os.path.join(CLIENT_DIR, 'webpack-stats.json'),
     }
 }
-
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, './client/dist'),
-    # os.path.join(BASE_DIR, 'assets'),
-)
