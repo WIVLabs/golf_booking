@@ -1,1 +1,1 @@
-[{"model": "server.site", "pk": 1, "fields": {"name": "SBS\uace8\ud504", "url": "http://bk.golf.sbs.co.kr", "status": "A"}}]
+[{"model": "server.site", "pk": 1, "fields": {"name": "SBS\uace8\ud504", "url": "http://bk.golf.sbs.co.kr", "icon_url": "http://bk.golf.sbs.co.kr/favicon.ico", "status": "A"}}]

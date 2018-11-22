@@ -5,10 +5,11 @@ from gcrawler.utils.timer import timeit
 
 
 class Downloader:
-    def __init__(self, url, fname=None, debug=False):
+    def __init__(self, url, fname=None, debug=False, encoding=None):
         self.url = url
         self.fname = fname
         self.debug = debug
+        self.encoding = encoding
 
     @property
     def soup(self):
@@ -24,7 +25,9 @@ class Downloader:
         else:
             print('download: {}'.format(self.url))
             resp = requests.get(self.url, headers=self.make_headers())
-            text = resp.ok and resp.text or ''
+            text = resp.ok \
+                   and (self.encoding and str(resp.content, self.encoding, 'replace') or resp.text) \
+                   or ''
             if self.fname:
                 with open(self.fname, 'w') as f:
                     f.write(text)
