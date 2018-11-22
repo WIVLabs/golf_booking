@@ -7,4 +7,8 @@ class Status(enum.Enum):
 
 
 def get_choices(obj):
-    return [(_obj, _obj.value) for _obj in obj]
+    return [(_obj.name, _obj.value) for _obj in obj]
+
+
+if __name__ == '__main__':
+    print(get_choices(Status))
