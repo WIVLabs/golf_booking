@@ -7,8 +7,9 @@ import '../../node_modules/ion-rangeslider/css/ion.rangeSlider.css';
 export default class IonSlider extends React.Component {
     componentDidMount() {
         this.$el = $(this.refs.input);
-        this.$el.ionRangeSlider();
-        console.log(this.$el);
+        this.$el.ionRangeSlider({
+            onChange : this.props.onChange
+        });
     }
 
     componentWillUnmount() {

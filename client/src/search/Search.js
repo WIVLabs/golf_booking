@@ -3,10 +3,31 @@ import './Search.scss';
 import IonSlider from '../components/IonSlider';
 import Calendar from 'react-calendar-multiday';
 
+const timeRangeData = "08:00,08:30,09:00,09:30,10:00,10:30,11:00,11:30," +
+    "12:00,12:30,13:00,13:30,14:00,14:30,15:00,15:30," +
+    "16:00,16:30,17:00,17:30,18:00,18:30,19:00";
+
 class Search extends React.Component {
 
-    reactToChange(ob) {
+
+    changeCalendar(ob) {
         console.log(ob)
+    }
+
+    changeTimeRange(ob) {
+        console.log(ob.from_value + ' ~ ' + ob.to_value);
+    }
+
+    changeGreenFeeRange(ob) {
+        console.log(ob.from + ' ~ ' + ob.to);
+    }
+
+    changeRegion(ob) {
+        console.log(ob.target.value);
+    }
+
+    changeCourse(ob){
+        console.log(ob.target.value);
     }
 
     render() {
@@ -19,39 +40,45 @@ class Search extends React.Component {
                                 <div className="border float-right bg-light p-4" style={{width: 500 + 'px'}}>
                                     <form>
                                         <div className="form-group">
-                                            <label htmlFor="exampleFormControlInput1">일자</label>
+                                            <label>일자</label>
                                             <Calendar
                                                 isMultiple={true}
-                                                onChange={this.reactToChange}/>
+                                                onChange={this.changeCalendar}/>
                                         </div>
                                         <div className="form-group">
-                                            <label htmlFor="exampleFormControlSelect1">시간대</label>
+                                            <label>시간대</label>
                                             <IonSlider type="text" data-min="5"
                                                        data-max="8" data-from="0" data-to="10"
                                                        data-type="double" data-step="1"
                                                        data-prettify="false" data-hasgrid="true"
-                                                       data-values="
-                                                            08:00, 08:15, 08:30, 08:45,
-                                                            09:00, 09:15, 09:30, 09:45,
-                                                            10:00, 10:15, 10:30, 10:45,
-                                                            11:00, 11:15, 11:30, 11:45,
-                                                            12:00, 12:15, 12:30, 12:45,
-                                                            13:00, 13:15, 13:30, 13:45,
-                                                            14:00, 14:15, 14:30, 14:45,
-                                                            15:00, 15:15, 15:30, 15:45,
-                                                            16:00, 16:15, 16:30, 16:45,
-                                                            17:00, 17:15, 17:30, 17:45,
-                                                            18:00, 18:15, 18:30, 18:45,
-                                                            19:00"/>
+                                                       data-values={timeRangeData}
+                                                       onChange={this.changeTimeRange}/>
                                         </div>
                                         <div className="form-group">
-                                            <label htmlFor="exampleFormControlSelect2">지역</label>
-                                            <select className="form-control" id="exampleFormControlSelect2">
-                                                <option>경기</option>
-                                                <option>제주</option>
-                                                <option>강원도</option>
-                                                <option>충청도</option>
-                                                <option>우도</option>
+                                            <label>지역</label>
+                                            <select className="form-control" onChange={this.changeRegion}>
+                                                <option value="경기">경기</option>
+                                                <option value="제주">제주</option>
+                                                <option value="강원도">강원도</option>
+                                                <option value="충청도">충청도</option>
+                                                <option value="우도">우도</option>
+                                            </select>
+                                        </div>
+                                        <div className="form-group">
+                                            <label>그린피</label>
+                                            <IonSlider type="text" data-min="10000"
+                                                       data-max="200000" data-from="50000" data-to="200000"
+                                                       data-type="double" data-step="10000"
+                                                       data-prettify="false" data-hasgrid="true"
+                                                       onChange={this.changeGreenFeeRange}/>
+                                        </div>
+                                        <div className="form-group">
+                                            <label>골프장</label>
+                                            <select className="form-control" onChange={this.changeCourse}>
+                                                <option value="A골프장">A골프장</option>
+                                                <option value="A골프장">B골프장</option>
+                                                <option value="A골프장">C골프장</option>
+                                                <option value="A골프장">D골프장</option>
                                             </select>
                                         </div>
                                     </form>
