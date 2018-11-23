@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'golf_booking.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'golf.sqlite3'),
     }
 }
 
@@ -119,6 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 STATIC_URL = '/assets/'
 CLIENT_DIR = os.path.join(BASE_DIR, 'client')
+SERVER_DIR = os.path.join(BASE_DIR, 'server')
 
 STATICFILES_DIRS = (
     os.path.join(CLIENT_DIR, 'dist'),
@@ -132,3 +133,9 @@ WEBPACK_LOADER = {
         'STATS_FILE': os.path.join(CLIENT_DIR, 'webpack-stats.json'),
     }
 }
+
+
+# https://docs.djangoproject.com/en/2.1/howto/initial-data/
+FIXTURE_DIRS = [
+    os.path.join(SERVER_DIR, 'models', 'fixture')
+]
