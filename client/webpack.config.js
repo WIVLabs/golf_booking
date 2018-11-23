@@ -22,7 +22,7 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/, // include .js files
-                //exclude: /node_modules/, // exclude any and all files in the node_modules folder
+                exclude: /node_modules/, // exclude any and all files in the node_modules folder
                 use: [{
                     loader: "babel-loader"
                 }]

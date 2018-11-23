@@ -1,9 +1,14 @@
 import React from 'react';
 import './Search.scss';
 import IonSlider from '../components/IonSlider';
-import MultiDatePicker from '../components/MultiDatePicker';
+import Calendar from 'react-calendar-multiday';
 
 class Search extends React.Component {
+
+    reactToChange(ob) {
+        console.log(ob)
+    }
+
     render() {
         return (
             <div>
@@ -15,7 +20,9 @@ class Search extends React.Component {
                                     <form>
                                         <div className="form-group">
                                             <label htmlFor="exampleFormControlInput1">일자</label>
-
+                                            <Calendar
+                                                isMultiple={true}
+                                                onChange={this.reactToChange}/>
                                         </div>
                                         <div className="form-group">
                                             <label htmlFor="exampleFormControlSelect1">시간대</label>
