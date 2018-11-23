@@ -22,16 +22,17 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/, // include .js files
-                exclude: /node_modules/, // exclude any and all files in the node_modules folder
+                //exclude: /node_modules/, // exclude any and all files in the node_modules folder
                 use: [{
-                    loader: "babel-loader",
+                    loader: "babel-loader"
                 }]
             },
             {
-                test: /\.css$/,
+                test: /\.(css|scss)$/,
                 use: [
                     "style-loader",
                     "css-loader",
+                    "sass-loader"
                 ]
             },
             {
@@ -45,6 +46,10 @@ module.exports = {
                 use: [
                     'file-loader'
                 ]
+            },
+            {
+                test: /\.exec\.js$/,
+                use: ['script-loader']
             }]
     },
 }
