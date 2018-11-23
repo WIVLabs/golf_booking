@@ -1,5 +1,6 @@
 import time
 import json
+import re
 from random import randint
 from pprint import pprint
 from gcrawler.utils.downloader import Downloader
@@ -13,8 +14,8 @@ def process():
         (1, 'R2'),
         (4, 'R3'),
         (3, 'R4'),
-        (5, 'R5'),
-        (6, 'R6'),
+        (6, 'R5'),
+        (5, 'R6'),
         (7, 'R7'),
     ]
     for i, (map_area, code) in enumerate(areas, start=1):
@@ -37,13 +38,23 @@ def iter_golf_courses(map_area):
     soup_obj = Downloader(uri, 'list.html', debug=DEBUG, encoding='euc-kr').soup
     for tag in soup_obj.select('dl.list_area > dd > a'):
         code = tag.attrs['onclick'].split("'")[1]
-        name = tag.string.strip()
-        if name.find('(P)') >= 0: continue
+        name = trim_name(tag.string)
 
         yield {
             'code': code,
-            'name': name.split('(', 1)[0].strip()
+            'name': name.strip()
         }
+
+
+R1 = re.compile('\(구\s[^\)]+\)')
+R2 = re.compile('\([\d]+홀?\)')
+
+
+def trim_name(name):
+    _name = name
+    for _R in [R1, R2]:
+        _name = _R.subn('', _name)[0].strip()
+    return _name
 
 
 def get_info(code):
@@ -58,6 +69,12 @@ def get_info(code):
             if value:
                 info.append((key, value.strip()))
     return info
+
+
+def test():
+    name = '뉴서울(9홀) (9)'
+    name = '양지파인(구 양지) (27)'
+    print(trim_name(name))
 
 
 if __name__ == '__main__':

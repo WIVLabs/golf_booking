@@ -14,12 +14,12 @@ class Status(CustomEnum):
 
 class Region(CustomEnum):
     R0 = '미확인'
-    R1 = '경기남부'
-    R2 = '경기북부'
+    R1 = '한강이남'
+    R2 = '한강이북'
     R3 = '충청도'
     R4 = '강원도'
-    R5 = '경상도'
-    R6 = '전라도'
+    R5 = '전라도'
+    R6 = '경상도'
     R7 = '제주도'
 
 
