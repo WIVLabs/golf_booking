@@ -12,6 +12,8 @@ class Search extends React.Component {
         super(props);
         this.state = {showCalendar: false};
         this.toggleCalendar = this.toggleCalendar.bind(this);
+
+        this.clickSearch = this.clickSearch.bind(this);
     }
 
     changeCalendar(ob) {
@@ -37,6 +39,11 @@ class Search extends React.Component {
     toggleCalendar() {
         const {showCalendar} = this.state;
         this.setState({showCalendar: !showCalendar})
+    }
+
+    clickSearch(obj) {
+        this.props.history.push('./courses?name=good');
+        return false;
     }
 
     render() {
@@ -91,6 +98,10 @@ class Search extends React.Component {
                                                 <option value="C골프장">C골프장</option>
                                                 <option value="D골프장">D골프장</option>
                                             </select>
+                                        </div>
+                                        {/*조회버튼*/}
+                                        <div className="form-group">
+                                            <a href='javascript:;' className="form-control bg-primary" onClick={this.clickSearch}>조회하기</a>
                                         </div>
                                         <button type="submit" className="btn btn-primary align-right"><i className="fa fa-golf-ball"></i> 검색</button>
                                     </form>
