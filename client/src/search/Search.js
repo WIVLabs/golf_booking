@@ -3,12 +3,16 @@ import './Search.scss';
 import IonSlider from '../components/IonSlider';
 import Calendar from 'react-calendar-multiday';
 
-const timeRangeData = "08:00,08:30,09:00,09:30,10:00,10:30,11:00,11:30," +
-    "12:00,12:30,13:00,13:30,14:00,14:30,15:00,15:30," +
-    "16:00,16:30,17:00,17:30,18:00,18:30,19:00";
+const timeRangeData = "04:00,05:00,06:00,07:00,08:00,09:00,10:00,11:00,12:00,13:00,14:00,15:00," +
+    "16:00,17:00,18:00,19:00,20:00,21:00,22:00,23:00";
 
 class Search extends React.Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {showCalendar: false};
+        this.toggleCalendar = this.toggleCalendar.bind(this);
+    }
 
     changeCalendar(ob) {
         console.log(ob)
@@ -26,24 +30,31 @@ class Search extends React.Component {
         console.log(ob.target.value);
     }
 
-    changeCourse(ob){
+    changeCourse(ob) {
         console.log(ob.target.value);
+    }
+
+    toggleCalendar() {
+        const {showCalendar} = this.state;
+        this.setState({showCalendar: !showCalendar})
     }
 
     render() {
         return (
             <div>
-                <header className="masthead text-center d-flex">
+                <header className="masthead d-flex">
                     <div className="container my-auto">
                         <div className="row">
-                            <div className="col-lg-10 mx-auto">
-                                <div className="border float-right bg-light p-4" style={{width: 500 + 'px'}}>
+                            <div className="col-lg-12 mx-auto">
+                                <div className="border rounded border-light float-right bg-search-panel p-5">
                                     <form>
                                         <div className="form-group">
-                                            <label>일자</label>
-                                            <Calendar
-                                                isMultiple={true}
-                                                onChange={this.changeCalendar}/>
+                                            <label>일자</label><a className="btn btn-light text-primary ml-2" role="button" data-toggle="collapse" href="#date-calendar"><i
+                                            className="fa fa-calendar-check"></i></a>
+                                            <div id="date-calendar" className="collapse">
+                                                <Calendar
+                                                    isMultiple={true}
+                                                    onChange={this.changeCalendar}/></div>
                                         </div>
                                         <div className="form-group">
                                             <label>시간대</label>
@@ -67,7 +78,7 @@ class Search extends React.Component {
                                         <div className="form-group">
                                             <label>그린피</label>
                                             <IonSlider type="text" data-min="10000"
-                                                       data-max="200000" data-from="50000" data-to="200000"
+                                                       data-max="400000" data-from="10000" data-to="100000"
                                                        data-type="double" data-step="10000"
                                                        data-prettify="false" data-hasgrid="true"
                                                        onChange={this.changeGreenFeeRange}/>
@@ -76,11 +87,12 @@ class Search extends React.Component {
                                             <label>골프장</label>
                                             <select className="form-control" onChange={this.changeCourse}>
                                                 <option value="A골프장">A골프장</option>
-                                                <option value="A골프장">B골프장</option>
-                                                <option value="A골프장">C골프장</option>
-                                                <option value="A골프장">D골프장</option>
+                                                <option value="B골프장">B골프장</option>
+                                                <option value="C골프장">C골프장</option>
+                                                <option value="D골프장">D골프장</option>
                                             </select>
                                         </div>
+                                        <button type="submit" className="btn btn-primary align-right"><i className="fa fa-golf-ball"></i> 검색</button>
                                     </form>
                                 </div>
                             </div>
