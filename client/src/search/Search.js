@@ -10,8 +10,10 @@ const timeRangeData = "08:00,08:30,09:00,09:30,10:00,10:30,11:00,11:30," +
 
 class Search extends React.Component {
 
-    constructor({match, location}) {
+    constructor() {
         super();
+
+        this.clickSearch = this.clickSearch.bind(this);
     }
 
     changeCalendar(ob) {
@@ -35,7 +37,7 @@ class Search extends React.Component {
     }
 
     clickSearch(obj) {
-        window.location = "./courses?name=good";
+        this.props.history.push('./courses?name=good');
         return false;
     }
 

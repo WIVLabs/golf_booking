@@ -4,13 +4,11 @@ class Courses extends React.Component {
 
     constructor({match}) {
         super();
-
-        console.log(match.params);
+        this.clickPrevious = this.clickPrevious.bind(this);
     }
 
     clickPrevious() {
-        console.log(this);
-        window.history.back();
+        this.props.history.goBack();
         return false;
     }
 
