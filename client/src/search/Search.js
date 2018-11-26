@@ -3,12 +3,16 @@ import './Search.scss';
 import IonSlider from '../components/IonSlider';
 import Calendar from 'react-calendar-multiday';
 
+
 const timeRangeData = "08:00,08:30,09:00,09:30,10:00,10:30,11:00,11:30," +
     "12:00,12:30,13:00,13:30,14:00,14:30,15:00,15:30," +
     "16:00,16:30,17:00,17:30,18:00,18:30,19:00";
 
 class Search extends React.Component {
 
+    constructor({match, location}) {
+        super();
+    }
 
     changeCalendar(ob) {
         console.log(ob)
@@ -28,6 +32,11 @@ class Search extends React.Component {
 
     changeCourse(ob){
         console.log(ob.target.value);
+    }
+
+    clickSearch(obj) {
+        window.location = "./courses?name=good";
+        return false;
     }
 
     render() {
@@ -80,6 +89,10 @@ class Search extends React.Component {
                                                 <option value="A골프장">C골프장</option>
                                                 <option value="A골프장">D골프장</option>
                                             </select>
+                                        </div>
+                                        {/*조회버튼*/}
+                                        <div className="form-group">
+                                            <a href='javascript:;' className="form-control bg-primary" onClick={this.clickSearch}>조회하기</a>
                                         </div>
                                     </form>
                                 </div>
