@@ -99,11 +99,7 @@ class Search extends React.Component {
                                                 <option value="D골프장">D골프장</option>
                                             </select>
                                         </div>
-                                        {/*조회버튼*/}
-                                        <div className="form-group">
-                                            <a href='javascript:;' className="form-control bg-primary" onClick={this.clickSearch}>조회하기</a>
-                                        </div>
-                                        <button type="submit" className="btn btn-primary align-right"><i className="fa fa-golf-ball"></i> 검색</button>
+                                        <button type="submit" className="btn btn-primary" onClick={this.clickSearch}><i className="fa fa-golf-ball"></i> 검색</button>
                                     </form>
                                 </div>
                             </div>
