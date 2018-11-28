@@ -1,32 +1,24 @@
 import React from "react";
+import CourseList from "../components/CourseList";
+
 
 class Courses extends React.Component {
 
-    constructor({match}) {
+    constructor() {
         super();
-        this.clickPrevious = this.clickPrevious.bind(this);
-    }
-
-    clickPrevious() {
-        this.props.history.goBack();
-        return false;
     }
 
     render() {
         let params = new URLSearchParams(window.location.search);
 
-        let name = params.get('name');
-
         return (
             <div>
-                - QueryString으로 받은 파라미터.<br />
-                Name : {name}
+                <h4>검색</h4>
 
-                <form>
-                    <div className="form-group">
-                        <a href='javascript:;' className="form-control bg-primary" onClick={this.clickPrevious}>이전화면으로가기</a>
-                    </div>
-                </form>
+                {/*TODO shine 검색창 추가*/}
+
+                <h4>골프장부킹가능목록</h4>
+                <CourseList />
             </div>
     )};
 }

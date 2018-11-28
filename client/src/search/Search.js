@@ -42,7 +42,7 @@ class Search extends React.Component {
     }
 
     clickSearch(obj) {
-        this.props.history.push('./courses?name=good');
+        this.props.history.push('./courses');
         return false;
     }
 
