@@ -9,7 +9,9 @@ class GreenFeeRangeForm extends React.Component {
                 <IonSlider type="text" data-min="10000"
                            data-max="400000" data-from="10000" data-to="100000"
                            data-type="double" data-step="10000"
-                           data-prettify="false" data-hasgrid="true"
+                           data-hasgrid="true"
+                           data-prettify-separator=","
+                           data-postfix="원"
                            onChange={this.props.changeGreenFeeRange}/>
             </div>
         );

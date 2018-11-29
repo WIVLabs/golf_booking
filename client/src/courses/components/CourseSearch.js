@@ -6,6 +6,7 @@ import RegionForm from "../../components/RegionForm";
 import CourseForm from "../../components/CourseForm";
 
 const params = {};
+
 class CourseSearch extends React.Component {
 
 
@@ -17,18 +18,18 @@ class CourseSearch extends React.Component {
     }
 
     changeCalendar(ob) {
-        console.log(ob);
-        params.booking_dates = ob.selected;
+        console.log(ob.selectedDates);
+        params.booking_dates = ob.selectedDates;
     }
 
     changeTimeRange(ob) {
         console.log(ob.from_value + ' ~ ' + ob.to_value);
-        params.time_range = { from : ob.from_value, to : ob.to_value};
+        params.time_range = {from: ob.from_value, to: ob.to_value};
     }
 
     changeGreenFeeRange(ob) {
         console.log(ob.from + ' ~ ' + ob.to);
-        params.greenfee_range = { from : ob.from, to : ob.to};
+        params.greenfee_range = {from: ob.from, to: ob.to};
     }
 
     changeRegion(ob) {

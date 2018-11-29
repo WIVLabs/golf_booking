@@ -18,7 +18,7 @@ class Search extends React.Component {
     }
 
     changeCalendar(ob) {
-        console.log(ob)
+        console.log(ob.selectedDates);
     }
 
     changeTimeRange(ob) {
