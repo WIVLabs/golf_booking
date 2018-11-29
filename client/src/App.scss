@@ -21,7 +21,12 @@
 .irs-line-left, .irs-line-mid, .irs-line-right {
   position: absolute;
   display: block;
-  top: 0
+  top: 0;
+  background : none !important;
+}
+
+.irs-line-left, .irs-line-right, .irs-bar, .irs-bar-edge, .irs-slider {
+  background : none !important;
 }
 
 .irs-line-left {
@@ -232,7 +237,7 @@
   height: 22px;
   top: 17px;
   border: 1px solid #fff;
-  background: #858585
+  background: #858585 !important;
 }
 
 .irs-slider:hover {
@@ -285,9 +290,9 @@
 }
 
 .irs-bar {
-  background: $primary;
+  background: $primary !important;
   top: 25px;
-  height: 8px;
+  height: 12px;
   margin-left: -5px
 }
 
