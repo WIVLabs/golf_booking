@@ -2,6 +2,7 @@ import React from 'react';
 import './Search.scss';
 import IonSlider from '../plugin/IonSlider';
 import Calendar from 'react-calendar-multiday';
+import MultiDateForm from "../components/MultiDateForm";
 
 const timeRangeData = "04:00,05:00,06:00,07:00,08:00,09:00,10:00,11:00,12:00,13:00,14:00,15:00," +
     "16:00,17:00,18:00,19:00,20:00,21:00,22:00,23:00";
@@ -55,14 +56,7 @@ class Search extends React.Component {
                             <div className="col-lg-12 mx-auto">
                                 <div className="border rounded border-light float-right bg-search-panel p-5">
                                     <form>
-                                        <div className="form-group">
-                                            <label>일자</label><a className="btn btn-light text-primary ml-2" role="button" data-toggle="collapse" href="#date-calendar"><i
-                                            className="fa fa-calendar-check"></i></a>
-                                            <div id="date-calendar" className="collapse">
-                                                <Calendar
-                                                    isMultiple={true}
-                                                    onChange={this.changeCalendar}/></div>
-                                        </div>
+                                        <MultiDateForm changeCalendar={this.changeCalendar}/>
                                         <div className="form-group">
                                             <label>시간대</label>
                                             <IonSlider type="text" data-min="5"
