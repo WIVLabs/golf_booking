@@ -1,6 +1,6 @@
 import React from "react";
-import BookingList from "../components/BookingList";
-import CourseSearch from "../components/CourseSearch";
+import BookingList from "./components/BookingList";
+import CourseSearch from "./components/CourseSearch";
 
 
 class Courses extends React.Component {

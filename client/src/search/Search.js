@@ -93,7 +93,7 @@ class Search extends React.Component {
                                                 <option value="D골프장">D골프장</option>
                                             </select>
                                         </div>
-                                        <button type="submit" className="btn btn-primary" onClick={this.clickSearch}><i className="fa fa-golf-ball"></i> 검색</button>
+                                        <button type="button" className="btn btn-primary" onClick={this.clickSearch}><i className="fa fa-golf-ball"></i> 검색</button>
                                     </form>
                                 </div>
                             </div>
