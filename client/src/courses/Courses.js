@@ -23,12 +23,16 @@ class Courses extends React.Component {
             });
     }
 
+    clickSearch(ob){
+        console.log('여기는 Course! 전달된 검색 파라미터:',ob);
+    }
+
     render() {
         let params = new URLSearchParams(window.location.search);
         let lastedRefreshDateTime = "2018/11/28 15:00:01"; // TODO : 필요 없으면 제거
         return (
             <div>
-                <CourseSearch/>
+                <CourseSearch onClick={this.clickSearch}/>
                 <hr />
 
                 <div className="container-fluid">

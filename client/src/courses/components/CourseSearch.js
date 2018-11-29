@@ -5,31 +5,50 @@ import TimeRangeForm from "../../components/TimeRangeForm";
 import RegionForm from "../../components/RegionForm";
 import CourseForm from "../../components/CourseForm";
 
+const params = {};
 class CourseSearch extends React.Component {
 
+
+    constructor(props) {
+        super(props);
+        this.clickSearch = this.clickSearch.bind(this);
+
+        //TODO 각 디폴트 값을 설정해줘야 함.
+    }
+
     changeCalendar(ob) {
-        console.log(ob)
+        console.log(ob);
+        params.booking_dates = ob.selected;
     }
 
     changeTimeRange(ob) {
         console.log(ob.from_value + ' ~ ' + ob.to_value);
+        params.time_range = { from : ob.from_value, to : ob.to_value};
     }
 
     changeGreenFeeRange(ob) {
         console.log(ob.from + ' ~ ' + ob.to);
+        params.greenfee_range = { from : ob.from, to : ob.to};
     }
 
     changeRegion(ob) {
         console.log(ob.target.value);
+        params.region = ob.target.value;
     }
 
     changeCourse(ob) {
         console.log(ob.target.value);
+        params.course = ob.target.value;
+    }
+
+    clickSearch() {
+        console.log(params);
+        this.props.onClick(params);
     }
 
     render() {
         return (
-            <div className="border rounded border-info m-5">
+            <div className="border rounded border-info m-5 bg-light">
                 <form style={{width: 800 + 'px'}} className="m-auto">
                     <div className="form-row">
                         <div className="col p-3"><MultiDateForm changeCalendar={this.changeCalendar}/></div>
@@ -41,10 +60,10 @@ class CourseSearch extends React.Component {
                         <div className="col p-3"><GreenFeeRangeForm changeGreenFeeRange={this.changeGreenFeeRange}/>
                         </div>
                     </div>
-                    <div className="form-row">
-                        <button type="button" className="btn btn-primary" onClick={this.clickSearch}>
+                    <div className="form-row mb-3">
+                        <a className="btn btn-primary ml-auto" onClick={this.clickSearch}>
                             <i className="fa fa-golf-ball"></i> 검색
-                        </button>
+                        </a>
                     </div>
                 </form>
             </div>
