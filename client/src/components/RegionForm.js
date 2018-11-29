@@ -1,17 +1,37 @@
 import * as React from "react";
 
 class RegionForm extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {regions: []};
+
+    }
+
+    componentDidMount() {
+        const url = 'https://14nc6umut2.execute-api.ap-northeast-2.amazonaws.com/v1/regions';
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                console.log(data);
+                this.setState({regions: data.data});
+            });
+
+    }
+
+
     render() {
         return (
             <div className="form-group">
                 <label>지역</label>
-                <select className="form-control" onChange={this.props.changeRegion}>
-                    <option value="경기">경기</option>
-                    <option value="제주">제주</option>
-                    <option value="강원도">강원도</option>
-                    <option value="충청도">충청도</option>
-                    <option value="우도">우도</option>
-                </select>
+                {this.state.regions ?
+                    <select className="form-control" onChange={this.props.changeRegion}>
+                        {this.state.regions.map((_region, i) => {
+                            return (<option key={i} value={_region.id}>{_region.name}</option>);
+                        })}
+                    </select>
+                    : <span>Loading...</span>
+                }
             </div>
         );
     }
