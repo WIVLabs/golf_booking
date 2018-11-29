@@ -1,5 +1,6 @@
 import React from "react";
 import CourseList from "../components/CourseList";
+import CourseSearch from "../components/CourseSearch";
 
 
 class Courses extends React.Component {
@@ -13,7 +14,7 @@ class Courses extends React.Component {
 
         return (
             <div>
-                <h4>검색</h4>
+                <CourseSearch/>
 
                 {/*TODO shine 검색창 추가*/}
 
