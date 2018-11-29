@@ -1,15 +1,20 @@
 import React from 'react';
-import Calendar from "react-calendar-multiday";
+import AirDatePicker from "../plugin/AirDatePicker";
 
 class MultiDateForm extends React.Component {
+    constructor(props) {
+        super(props);
+        // this.state.defaultSelectedDays = [];
+    }
+
+    componentDidMount() {
+        //console.log(this.state.defaultSelectedDays);
+    }
+
     render() {
         return (<div className="form-group">
             <label>일자</label>
-            <a className="btn btn-light text-primary ml-2" role="button" data-toggle="collapse" href="#date-calendar">
-                <i className="fa fa-calendar-check"></i></a>
-            <div id="date-calendar" className="collapse">
-                <Calendar isMultiple={true} onChange={this.props.changeCalendar}/>
-            </div>
+            <AirDatePicker onSelect={(dp, ani) => ani ? this.props.changeCalendar(dp) : null}/>
         </div>)
     }
 }
