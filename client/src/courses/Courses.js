@@ -2,12 +2,13 @@ import React from "react";
 import CourseSearch from "./components/CourseSearch";
 import BookingRow from "./components/BookingRow";
 import {DateUtility} from "../components/Utility";
+import {Api} from "../components/Api";
 
 
 class Courses extends React.Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
             bookings: []
@@ -15,10 +16,8 @@ class Courses extends React.Component {
     }
 
     componentDidMount() {
-        const url = 'https://14nc6umut2.execute-api.ap-northeast-2.amazonaws.com/v1/bookings2';
-
-        fetch(url)
-            .then(response => response.json())
+        let params = {};
+        Api.getBookings(params)
             .then(data => {
                 let dates = [];
 
