@@ -1,6 +1,7 @@
 import React from "react";
 import CourseSearch from "./components/CourseSearch";
-import Booking from "./components/Booking";
+import BookingRow from "./components/BookingRow";
+import {DateUtility} from "../components/Utility";
 
 
 class Courses extends React.Component {
@@ -14,12 +15,17 @@ class Courses extends React.Component {
     }
 
     componentDidMount() {
-        const url = 'https://14nc6umut2.execute-api.ap-northeast-2.amazonaws.com/v1/bookings';
+        const url = 'https://14nc6umut2.execute-api.ap-northeast-2.amazonaws.com/v1/bookings2';
 
         fetch(url)
             .then(response => response.json())
             .then(data => {
-                this.setState({bookings: data.data});
+                let dates = [];
+
+                this.setState({
+                    courses: data.data.courses,
+                    kickoff_dates : data.data.kickoff_dates
+                });
             });
     }
 
@@ -29,7 +35,8 @@ class Courses extends React.Component {
 
     render() {
         let params = new URLSearchParams(window.location.search);
-        let lastedRefreshDateTime = "2018/11/28 15:00:01"; // TODO : 필요 없으면 제거
+
+        let lastedRefreshDateTime = DateUtility.now(); // TODO : 필요 없으면 제거
         return (
             <div>
                 <CourseSearch onClick={this.clickSearch}/>
@@ -42,14 +49,16 @@ class Courses extends React.Component {
                             <thead>
                             <tr>
                                 <th></th>
-                                {this.state.bookings.map(booking => {
-                                    return <th key={`booking-${booking.kickoff_date}`}>{booking.kickoff_date}({booking.kickoff_weekday})</th>
-                                })}
+                                {this.state.kickoff_dates ?
+                                    this.state.kickoff_dates.map(kickoff_date => {
+                                        return (<th key={`booking-${kickoff_date.date}`}>{DateUtility.convert(kickoff_date.date, 'YYYYMMDD', 'YYYY-MM-DD(ddd)')}</th>)
+                                    }) : <th>Loading...</th>}
                             </tr></thead>
                             <tbody>
-                                {this.state.bookings.map(booking => {
-                                    return <Booking key={`booking-${booking.kickoff_date}`} booking={booking} />
-                                })}
+                                {this.state.courses ?
+                                    this.state.courses.map(course => {
+                                        return <BookingRow key={`course-${course.id}`} course={course} />
+                                    }) : <tr><td>Loading...</td></tr>}
                             </tbody>
                         </table>
                     </div>
