@@ -1,8 +1,9 @@
 {
-  "name": "django_react",
+  "name": "golf_booking",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "licenses": "다내꺼임",
   "scripts": {
     "watch": "./node_modules/.bin/webpack --config webpack.config.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -31,9 +32,8 @@
   },
   "dependencies": {
     "air-datepicker": "^2.2.3",
-    "axios": "^0.18.0",
     "classnames": "^2.2.6",
-    "history": "latest",
+    "history": "^4.7.2",
     "ion-rangeslider": "^2.2.0",
     "jquery": "^3.3.1",
     "moment": "^2.22.2"
