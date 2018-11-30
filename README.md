@@ -4,11 +4,14 @@
 # How to start
 django react 기술 기반 프로젝트
 1. git clone THIS PROJECT
+2. Install yarn
+* MacOS : brew install yarn
+* Others : https://yarnpkg.com/en/docs/install#windows-stable
 ## CLIENT - REACT
 1. cd PROEJCT/client
-2. npm install
+2. yarn OR npm install
 3. Open Terminal
-4. npm run watch
+4. yarn run watch OR npm run watch
 
 ## SERVER - DJANGO
 1. cd PROJECT
