@@ -12,7 +12,7 @@ class RegionForm extends React.Component {
         fetch(url)
             .then(response => response.json())
             .then(data => {
-                console.log(data);
+                // console.log(data);
                 this.setState({regions: data.data});
             });
     }

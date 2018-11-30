@@ -3,6 +3,18 @@ import * as React from "react";
 class CourseForm extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {courses: []};
+    }
+
+     componentDidMount() {
+        const url = 'https://14nc6umut2.execute-api.ap-northeast-2.amazonaws.com/v1/golf-courses';
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                // console.log(data);
+                this.setState({courses: data.data});
+            });
     }
 
     render() {
@@ -10,10 +22,9 @@ class CourseForm extends React.Component {
             <div className="form-group">
                 <label>골프장</label>
                 <select className="form-control" onChange={(ob) => this.props.searchParams.course = ob.target.value}>
-                    <option value="A골프장">A골프장</option>
-                    <option value="B골프장">B골프장</option>
-                    <option value="C골프장">C골프장</option>
-                    <option value="D골프장">D골프장</option>
+                    {this.state.courses.map((_course, i) => {
+                            return (<option key={i} value={_course.id}>{_course.name}</option>);
+                        })}
                 </select>
             </div>
         );

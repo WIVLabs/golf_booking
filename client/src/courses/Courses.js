@@ -9,6 +9,8 @@ class Courses extends React.Component {
     constructor(props) {
         super(props);
 
+        console.log('Courses Props', this.props);
+
         this.state = {
             bookings: []
         }
@@ -17,7 +19,8 @@ class Courses extends React.Component {
     }
 
     componentDidMount() {
-        let params = {};
+        const {searchParams} = this.props.match.params;
+        const params = new URLSearchParams(searchParams);
         Api.getBookings(params)
             .then(data => {
                 let dates = [];
@@ -31,10 +34,30 @@ class Courses extends React.Component {
 
     clickSearch(ob) {
         console.log('여기는 Course! 전달된 검색 파라미터:', ob);
+        const params = new URLSearchParams();
+        params.set('booking_dates', ob.booking_dates);
+        params.set('time_range_from', ob.time_range.from);
+        params.set('time_range_to', ob.time_range.to);
+        params.set('region', ob.region);
+        params.set('course', ob.course);
+        params.set('greenfee_range_from', ob.greenfee_range.from);
+        params.set('greenfee_range_to', ob.greenfee_range.to);
+
+        Api.getBookings(params)
+            .then(data => {
+                let dates = [];
+
+                this.setState({
+                    courses: data.data.courses,
+                    kickoff_dates: data.data.kickoff_dates
+                });
+            });
+
     }
 
     render() {
-        let params = new URLSearchParams(window.location.search);
+        // let params = new URLSearchParams(window.location.search);
+        // console.log(params);
 
         let lastedRefreshDateTime = DateUtility.now(); // TODO : 필요 없으면 제거
         return (

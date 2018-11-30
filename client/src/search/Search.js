@@ -11,38 +11,23 @@ class Search extends React.Component {
 
     constructor(props) {
         super(props);
-        this.toggleCalendar = this.toggleCalendar.bind(this);
-
         this.clickSearch = this.clickSearch.bind(this);
-    }
 
-    changeCalendar(ob) {
-        console.log(ob.selectedDates);
-    }
-
-    changeTimeRange(ob) {
-        console.log(ob.from_value + ' ~ ' + ob.to_value);
-    }
-
-    changeGreenFeeRange(ob) {
-        console.log(ob.from + ' ~ ' + ob.to);
-    }
-
-    changeRegion(ob) {
-        console.log(ob.target.value);
-    }
-
-    changeCourse(ob) {
-        console.log(ob.target.value);
-    }
-
-    toggleCalendar() {
-        const {showCalendar} = this.state;
-        this.setState({showCalendar: !showCalendar})
+        //TODO 각 디폴트 값을 설정해줘야 함.
+        this.state = {searchParams: {}};
     }
 
     clickSearch() {
-        this.props.history.push('./courses?');
+        console.log('Search Params', this.state.searchParams);
+        const params = new URLSearchParams();
+        params.set('booking_dates', this.state.searchParams.booking_dates);
+        params.set('time_range_from', this.state.searchParams.time_range.from);
+        params.set('time_range_to', this.state.searchParams.time_range.to);
+        params.set('region', this.state.searchParams.region);
+        params.set('course', this.state.searchParams.course);
+        params.set('greenfee_range_from', this.state.searchParams.greenfee_range.from);
+        params.set('greenfee_range_to', this.state.searchParams.greenfee_range.to);
+        this.props.history.push('./courses/' + params.toString());
         return false;
     }
 
@@ -55,11 +40,11 @@ class Search extends React.Component {
                             <div className="col-lg-12 mx-auto">
                                 <div className="border rounded border-light float-right bg-search-panel p-5">
                                     <form>
-                                        <MultiDateForm changeCalendar={this.changeCalendar}/>
-                                        <TimeRangeForm changeTimeRange={this.changeTimeRange}/>
-                                        <RegionForm changeRegion={this.changeRegion}/>
-                                        <GreenFeeRangeForm changeGreenFeeRange={this.changeGreenFeeRange}/>
-                                        <CourseForm changeCourse={this.changeCourse}/>
+                                        <MultiDateForm searchParams={this.state.searchParams}/>
+                                        <TimeRangeForm searchParams={this.state.searchParams}/>
+                                        <RegionForm searchParams={this.state.searchParams}/>
+                                        <GreenFeeRangeForm searchParams={this.state.searchParams}/>
+                                        <CourseForm searchParams={this.state.searchParams}/>
                                         <button type="button" className="btn btn-primary" onClick={this.clickSearch}><i
                                             className="fa fa-golf-ball"></i> 검색
                                         </button>
