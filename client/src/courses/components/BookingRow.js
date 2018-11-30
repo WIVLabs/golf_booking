@@ -7,8 +7,6 @@ class BookingRow extends React.Component {
         this.state = {
             course : props.course
         }
-
-        console.log(this.state);
     }
 
     render() {
