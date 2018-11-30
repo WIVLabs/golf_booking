@@ -1,5 +1,3 @@
-import React from "react";
-
 const Api = {
     // 예약 목록 조회
     getBookings : (params) => {
