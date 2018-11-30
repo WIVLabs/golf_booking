@@ -2,6 +2,10 @@ import * as React from "react";
 import IonSlider from "../plugin/IonSlider";
 
 class GreenFeeRangeForm extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (
             <div className="form-group">
@@ -12,7 +16,7 @@ class GreenFeeRangeForm extends React.Component {
                            data-hasgrid="true"
                            data-prettify-separator=","
                            data-postfix="원"
-                           onChange={this.props.changeGreenFeeRange}/>
+                           onChange={(ob) => this.props.searchParams.greenfee_range = {from: ob.from, to: ob.to}}/>
             </div>
         );
     }

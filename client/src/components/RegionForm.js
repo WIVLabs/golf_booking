@@ -4,7 +4,6 @@ class RegionForm extends React.Component {
     constructor(props) {
         super(props);
         this.state = {regions: []};
-
     }
 
     componentDidMount() {
@@ -16,16 +15,15 @@ class RegionForm extends React.Component {
                 console.log(data);
                 this.setState({regions: data.data});
             });
-
     }
-
 
     render() {
         return (
             <div className="form-group">
                 <label>지역</label>
                 {this.state.regions ?
-                    <select className="form-control" onChange={this.props.changeRegion}>
+                    <select className="form-control"
+                            onChange={(ob) => this.props.searchParams.region = ob.target.value}>
                         {this.state.regions.map((_region, i) => {
                             return (<option key={i} value={_region.id}>{_region.name}</option>);
                         })}

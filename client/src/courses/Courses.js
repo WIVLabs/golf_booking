@@ -3,15 +3,16 @@ import CourseSearch from "./components/CourseSearch";
 import BookingRow from "./components/BookingRow";
 import {DateUtility} from "../components/Utility";
 
-
 class Courses extends React.Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
 
         this.state = {
             bookings: []
         }
+
+        this.clickSearch = this.clickSearch.bind(this);
     }
 
     componentDidMount() {
@@ -24,13 +25,13 @@ class Courses extends React.Component {
 
                 this.setState({
                     courses: data.data.courses,
-                    kickoff_dates : data.data.kickoff_dates
+                    kickoff_dates: data.data.kickoff_dates
                 });
             });
     }
 
-    clickSearch(ob){
-        console.log('여기는 Course! 전달된 검색 파라미터:',ob);
+    clickSearch(ob) {
+        console.log('여기는 Course! 전달된 검색 파라미터:', ob);
     }
 
     render() {
@@ -40,7 +41,7 @@ class Courses extends React.Component {
         return (
             <div>
                 <CourseSearch onClick={this.clickSearch}/>
-                <hr />
+                <hr/>
 
                 <div className="container-fluid">
                     <div className="table-responsive">
@@ -51,21 +52,25 @@ class Courses extends React.Component {
                                 <th></th>
                                 {this.state.kickoff_dates ?
                                     this.state.kickoff_dates.map(kickoff_date => {
-                                        return (<th key={`booking-${kickoff_date.date}`}>{DateUtility.convert(kickoff_date.date, 'YYYYMMDD', 'YYYY-MM-DD(ddd)')}</th>)
+                                        return (
+                                            <th key={`booking-${kickoff_date.date}`}>{DateUtility.convert(kickoff_date.date, 'YYYYMMDD', 'YYYY-MM-DD(ddd)')}</th>)
                                     }) : <th>Loading...</th>}
-                            </tr></thead>
+                            </tr>
+                            </thead>
                             <tbody>
-                                {this.state.courses ?
-                                    this.state.courses.map(course => {
-                                        return <BookingRow key={`course-${course.id}`} course={course} />
-                                    }) : <tr><td>Loading...</td></tr>}
+                            {this.state.courses ?
+                                this.state.courses.map(course => {
+                                    return <BookingRow key={`course-${course.id}`} course={course}/>
+                                }) : <tr>
+                                    <td>Loading...</td>
+                                </tr>}
                             </tbody>
                         </table>
                     </div>
                 </div>
             </div>
-    )};
+        )
+    };
 }
-
 
 export default Courses;

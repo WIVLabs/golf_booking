@@ -15,36 +15,12 @@ class CourseSearch extends React.Component {
         this.clickSearch = this.clickSearch.bind(this);
 
         //TODO 각 디폴트 값을 설정해줘야 함.
-    }
-
-    changeCalendar(ob) {
-        console.log(ob.selectedDates);
-        params.booking_dates = ob.selectedDates;
-    }
-
-    changeTimeRange(ob) {
-        console.log(ob.from_value + ' ~ ' + ob.to_value);
-        params.time_range = {from: ob.from_value, to: ob.to_value};
-    }
-
-    changeGreenFeeRange(ob) {
-        console.log(ob.from + ' ~ ' + ob.to);
-        params.greenfee_range = {from: ob.from, to: ob.to};
-    }
-
-    changeRegion(ob) {
-        console.log(ob.target.value);
-        params.region = ob.target.value;
-    }
-
-    changeCourse(ob) {
-        console.log(ob.target.value);
-        params.course = ob.target.value;
+        this.state = {searchParams: {}};
     }
 
     clickSearch() {
-        console.log(params);
-        this.props.onClick(params);
+        console.log('Search Params', this.state.searchParams);
+        this.props.onClick(this.state.searchParams);
     }
 
     render() {
@@ -52,13 +28,13 @@ class CourseSearch extends React.Component {
             <div className="border rounded border-info m-5 bg-light">
                 <form style={{width: 800 + 'px'}} className="m-auto">
                     <div className="form-row">
-                        <div className="col p-3"><MultiDateForm changeCalendar={this.changeCalendar}/></div>
-                        <div className="col p-3"><TimeRangeForm changeTimeRange={this.changeTimeRange}/></div>
+                        <div className="col p-3"><MultiDateForm searchParams={this.state.searchParams}/></div>
+                        <div className="col p-3"><TimeRangeForm searchParams={this.state.searchParams}/></div>
                     </div>
                     <div className="form-row">
-                        <div className="col p-3"><RegionForm changeRegion={this.changeRegion}/></div>
-                        <div className="col p-3"><CourseForm changeCourse={this.changeCourse}/></div>
-                        <div className="col p-3"><GreenFeeRangeForm changeGreenFeeRange={this.changeGreenFeeRange}/>
+                        <div className="col p-3"><RegionForm searchParams={this.state.searchParams}/></div>
+                        <div className="col p-3"><CourseForm searchParams={this.state.searchParams}/></div>
+                        <div className="col p-3"><GreenFeeRangeForm searchParams={this.state.searchParams}/>
                         </div>
                     </div>
                     <div className="form-row mb-3">

@@ -11,7 +11,6 @@ class Search extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = {showCalendar: false};
         this.toggleCalendar = this.toggleCalendar.bind(this);
 
         this.clickSearch = this.clickSearch.bind(this);
@@ -43,7 +42,7 @@ class Search extends React.Component {
     }
 
     clickSearch() {
-        this.props.history.push('./courses');
+        this.props.history.push('./courses?');
         return false;
     }
 
