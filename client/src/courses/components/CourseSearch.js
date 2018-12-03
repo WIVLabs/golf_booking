@@ -15,7 +15,21 @@ class CourseSearch extends React.Component {
         this.clickSearch = this.clickSearch.bind(this);
 
         //TODO 각 디폴트 값을 설정해줘야 함.
-        this.state = {searchParams: {}};
+        this.state = {
+            searchParams: {
+                booking_dates: [],
+                time_range: {
+                    from: {},
+                    to: {}
+                },
+                region: '',
+                course: '',
+                greenfee_range: {
+                    from: {},
+                    to: {}
+                }
+            }
+        };
     }
 
     clickSearch() {
