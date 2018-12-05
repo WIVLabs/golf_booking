@@ -21,7 +21,8 @@ class CourseForm extends React.Component {
         return (
             <div className="form-group">
                 <label>골프장</label>
-                <select className="form-control" onChange={(ob) => this.props.searchParams.course = ob.target.value}>
+                <select className="form-control" onChange={(ob) => this.props.course = ob.target.value}>
+                    <option value="">전체</option>
                     {this.state.courses.map((_course, i) => {
                             return (<option key={i} value={_course.id}>{_course.name}</option>);
                         })}

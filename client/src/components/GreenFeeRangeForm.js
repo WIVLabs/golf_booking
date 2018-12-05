@@ -4,19 +4,28 @@ import IonSlider from "../plugin/IonSlider";
 class GreenFeeRangeForm extends React.Component {
     constructor(props) {
         super(props);
+        this.state = {
+            from : this.props.greenfeerange.from,
+            to : this.props.greenfeerange.to
+        }
     }
 
     render() {
         return (
             <div className="form-group">
                 <label>그린피</label>
-                <IonSlider type="text" data-min="10000"
-                           data-max="400000" data-from="10000" data-to="100000"
-                           data-type="double" data-step="10000"
-                           data-hasgrid="true"
-                           data-prettify-separator=","
-                           data-postfix="원"
-                           onChange={(ob) => this.props.searchParams.greenfee_range = {from: ob.from, to: ob.to}}/>
+                <IonSlider options={{
+                    type: 'double',
+                    min: '10000',
+                    max: '400000',
+                    from: this.state.from,
+                    to: this.state.to,
+                    step: '10000',
+                    postfix: '원',
+                    prettifySeparator: ',',
+                    onChange: (ob) => this.props.greenfeerange = {from: ob.from, to: ob.to}
+                }}
+                />
             </div>
         );
     }
