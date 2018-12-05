@@ -5,8 +5,8 @@ class TimeRangeForm extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            from : this.props.timerange.from,
-            to : this.props.timerange.to,
+            from: this.props.timerange.from,
+            to: this.props.timerange.to,
         }
     }
 
@@ -21,10 +21,7 @@ class TimeRangeForm extends React.Component {
                     from: this.state.from,
                     to: this.state.to,
                     postfix: '시',
-                    onChange: (ob) => this.props.timerange = {
-                        from: ob.from_value,
-                        to: ob.to_value
-                    }
+                    onChange: (range) => this.props.onChange({from: range.from, to: range.to})
                 }}/>
             </div>
         );

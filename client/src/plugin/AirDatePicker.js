@@ -7,13 +7,13 @@ export default class AirDatePicker extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            bookingDates: this.props.bookingDates
+            bookingDates: this.props.bookingdates
         }
     }
 
     componentDidMount() {
         this.$el = $(this.refs.input);
-        this.$el.datepicker({
+        const $dl = this.$el.datepicker({
             language: 'kr',
             position: 'bottom right',
             onHide: this.props.onSelect,
@@ -21,7 +21,9 @@ export default class AirDatePicker extends React.Component {
             multipleDates: 3,
             multipleDatesSeparator: ', '
         }).data('datepicker');
-        console.log('파라미터 일자값 설정', this.state.bookingDates);
+
+        console.log('전달된 날짜들 ', this.state.bookingDates);
+        $dl.selectDate(this.state.bookingDates);
     }
 
     componentWillUnmount() {

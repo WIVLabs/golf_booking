@@ -5,8 +5,10 @@ class MultiDateForm extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            bookingDates : this.props.bookingdates
+            bookingDates: this.props.bookingdates.map(_d => new Date(_d))
         }
+
+        console.log(this.state);
     }
 
     render() {
@@ -14,7 +16,7 @@ class MultiDateForm extends React.Component {
             <div className="form-group">
                 <label>일자</label>
                 <AirDatePicker bookingdates={this.state.bookingDates}
-                    onSelect={(dp, ani) => ani ? this.props.bookingdates = dp.selectedDates : null}/>
+                               onSelect={(dp, ani) => ani ? this.props.onChange(dp.selectedDates) : null}/>
             </div>
         )
     }

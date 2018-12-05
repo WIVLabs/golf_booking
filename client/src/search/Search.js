@@ -5,6 +5,7 @@ import TimeRangeForm from "../components/TimeRangeForm";
 import RegionForm from "../components/RegionForm";
 import GreenFeeRangeForm from "../components/GreenFeeRangeForm";
 import CourseForm from "../components/CourseForm";
+import moment from "moment";
 
 
 class Search extends React.Component {
@@ -33,7 +34,7 @@ class Search extends React.Component {
     clickSearch() {
         const params = JSON.stringify(this.state.searchParams);
         console.log('Search Params', JSON.stringify(this.state.searchParams));
-        this.props.history.push('./courses/search_params=' + params);
+        this.props.history.push('./courses/' + params);
         return false;
     }
 
@@ -46,11 +47,17 @@ class Search extends React.Component {
                             <div className="col-lg-12 mx-auto">
                                 <div className="border rounded border-light float-right bg-search-panel p-5">
                                     <form>
-                                        <MultiDateForm bookingdates={this.state.searchParams.booking_dates}/>
-                                        <TimeRangeForm timerange={this.state.searchParams.time_range}/>
-                                        <RegionForm region={this.state.searchParams.region}/>
-                                        <GreenFeeRangeForm greenfeerange={this.state.searchParams.greenfee_range}/>
-                                        <CourseForm course={this.state.searchParams.course}/>
+                                        <MultiDateForm bookingdates={this.state.searchParams.booking_dates}
+                                                       onChange={(_bookingDates) => this.state.searchParams.booking_dates = _bookingDates.map(_d => moment(_d).format('YYYY-MM-DD'))}/>
+                                        <TimeRangeForm timerange={this.state.searchParams.time_range}
+                                                       onChange={(_timeRange) => this.state.searchParams.time_range = _timeRange}/>
+                                        <RegionForm region={this.state.searchParams.region}
+                                                    onChange={(_region) => this.state.searchParams.region = _region}/>
+                                        <GreenFeeRangeForm
+                                            greenfeerange={this.state.searchParams.greenfee_range}
+                                            onChange={(_range) => this.state.searchParams.greenfee_range = _range}/>
+                                        <CourseForm course={this.state.searchParams.course}
+                                                    onChange={(_course) => this.state.searchParams.course = _course}/>
                                         <button type="button" className="btn btn-primary" onClick={this.clickSearch}><i
                                             className="fa fa-golf-ball"></i> 검색
                                         </button>

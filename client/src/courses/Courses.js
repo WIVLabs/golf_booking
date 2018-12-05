@@ -11,39 +11,26 @@ class Courses extends React.Component {
 
         console.log('Courses Props', this.props);
 
+        let {searchParams} = this.props.match.params;
+        let paramsObj = JSON.parse(searchParams);
+        console.log(paramsObj);
         this.state = {
-            bookings: []
+            bookings: [],
+            searchParams: paramsObj
         }
 
-        this.clickSearch = this.clickSearch.bind(this);
+        this.getBookings = this.getBookings.bind(this);
+        this.getBookings(paramsObj);
+
     }
 
     componentDidMount() {
-        const {searchParams} = this.props.match.params;
-        const params = new URLSearchParams(searchParams);
-        Api.getBookings(params)
-            .then(data => {
-                let dates = [];
 
-                this.setState({
-                    courses: data.data.courses,
-                    kickoff_dates: data.data.kickoff_dates
-                });
-            });
     }
 
-    clickSearch(ob) {
-        console.log('여기는 Course! 전달된 검색 파라미터:', ob);
-        const params = new URLSearchParams();
-        params.set('booking_dates', ob.booking_dates);
-        params.set('time_range_from', ob.time_range.from);
-        params.set('time_range_to', ob.time_range.to);
-        params.set('region', ob.region);
-        params.set('course', ob.course);
-        params.set('greenfee_range_from', ob.greenfee_range.from);
-        params.set('greenfee_range_to', ob.greenfee_range.to);
-
-        Api.getBookings(params)
+    getBookings(paramsObj) {
+        console.log('여기는 Course getBookings! 전달된 검색 파라미터:', paramsObj);
+        Api.getBookings(paramsObj)
             .then(data => {
                 let dates = [];
 
@@ -52,17 +39,14 @@ class Courses extends React.Component {
                     kickoff_dates: data.data.kickoff_dates
                 });
             });
-
     }
 
     render() {
-        // let params = new URLSearchParams(window.location.search);
-        // console.log(params);
 
         let lastedRefreshDateTime = DateUtility.now(); // TODO : 필요 없으면 제거
         return (
             <div>
-                <CourseSearch onClick={this.clickSearch}/>
+                <CourseSearch searchparams={this.state.searchParams} onClick={this.getBookings}/>
                 <hr/>
 
                 <div className="container-fluid">

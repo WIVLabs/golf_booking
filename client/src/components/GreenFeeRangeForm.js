@@ -5,8 +5,8 @@ class GreenFeeRangeForm extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            from : this.props.greenfeerange.from,
-            to : this.props.greenfeerange.to
+            from: this.props.greenfeerange.from,
+            to: this.props.greenfeerange.to
         }
     }
 
@@ -23,7 +23,7 @@ class GreenFeeRangeForm extends React.Component {
                     step: '10000',
                     postfix: '원',
                     prettifySeparator: ',',
-                    onChange: (ob) => this.props.greenfeerange = {from: ob.from, to: ob.to}
+                    onChange: (ob) => this.props.onChange({from: ob.from, to: ob.to})
                 }}
                 />
             </div>
