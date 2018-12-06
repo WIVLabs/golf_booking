@@ -17,11 +17,8 @@ const Api = {
      * @returns {Promise<any | never>}
      */
     getBookings: (paramsObj) => {
-
-        console.log('Api.getBookings', paramsObj);
-
-
-        const url = 'https://14nc6umut2.execute-api.ap-northeast-2.amazonaws.com/v1/bookings2';
+        const queryStringParameters = encodeURIComponent(JSON.stringify(paramsObj));
+        const url = `https://14nc6umut2.execute-api.ap-northeast-2.amazonaws.com/v1/bookings2?${queryStringParameters}`;
 
         return fetch(url).then(response => response.json());
     }
