@@ -1,27 +1,18 @@
 import React from "react";
-import {DateUtility} from "../../components/Utility";
+import {DateUtility, CollectionUtility} from "../../components/Utility";
 
 class BookingCell extends React.Component {
 
-    constructor({kickoff}) {
-        super();
+    constructor(props) {
+        super(props);
 
-        // let sitesPerHours = {
-        //     getSitesByHour : (hour) => {
-        //
-        //     },
-        //     addSite : (site) => {
-        //
-        //     }
-        // };
-        //
-        // kickoff.sites.map((site, idx) => {
-        //     let hour = DateUtility.convert(site.kickoff_time, 'YYYY.MM.DD HH:mm', 'HH');
-        //     let sitesPerHour = sitesPerHours.get(hour);
-        //     sitesPerHour.addSite(site);
-        // });
-        //
-        // console.log(sites);
+        // 시간생성
+        this.props.kickoff.sites.map((site, idx) => {
+            let hour = DateUtility.convert(site.kickoff_time, 'YYYY.MM.DD HH:mm', 'HH');
+            site['hour'] = hour;
+        });
+
+        const kickoff = CollectionUtility.groupBy(this.props.kickoff.sites, site => site.hour);
 
         this.state = {
             kickoff : kickoff
@@ -31,14 +22,15 @@ class BookingCell extends React.Component {
     render() {
         return (
             <td className={'booking-cell'}>
-            {this.state.kickoff.sites ?
-                this.state.kickoff.sites.map((site, idx) => {
+            {!this.state.kickoff.values().next().done ?
+                this.state.kickoff.values().next().value.map((site, idx) => {
                     return (
                         <span key={`site-${idx}`} style={{paddingRight: 1 + 'px'}} >
                             <span className='booking-cell-time badge badge-warning'>
                                 {DateUtility.convert(site.kickoff_time, 'YYYY.MM.DD HH:mm', 'HH:mm')}
-                                &nbsp;<a href='http://golf.sbs.co.kr' target='_blank'><img src={site.icon_url} /></a></span>
-                            {/*<a href="http://golf.sbs.co.kr" className="badge badge-info">SBS</a>*/}
+                                {/*&nbsp;<a href='http://golf.sbs.co.kr' target='_blank'><img src={site.icon_url} /></a>*/}
+                                &nbsp;<a href="http://golf.sbs.co.kr" className="badge badge-primary">{site.name}</a>
+                            </span>
                         </span> );
                 })
                 : ''
@@ -46,6 +38,7 @@ class BookingCell extends React.Component {
             </td>
         )
     }
-}
+};
+
 
 export default BookingCell;
