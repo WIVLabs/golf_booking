@@ -5,6 +5,7 @@ import TimeRangeForm from "../components/TimeRangeForm";
 import RegionForm from "../components/RegionForm";
 import GreenFeeRangeForm from "../components/GreenFeeRangeForm";
 import CourseForm from "../components/CourseForm";
+import moment from "moment";
 
 
 class Search extends React.Component {
@@ -13,35 +14,27 @@ class Search extends React.Component {
         super(props);
         this.clickSearch = this.clickSearch.bind(this);
 
-        //TODO 각 디폴트 값을 설정해줘야 함.
         this.state = {
             searchParams: {
                 booking_dates: [],
                 time_range: {
-                    from: {},
-                    to: {}
+                    from: '6',
+                    to: '11'
                 },
-                region: '',
+                region: 'R02',
                 course: '',
                 greenfee_range: {
-                    from: {},
-                    to: {}
+                    from: '20000',
+                    to: '110000'
                 }
             }
         };
     }
 
     clickSearch() {
-        console.log('Search Params', this.state.searchParams);
-        const params = new URLSearchParams();
-        params.set('booking_dates', this.state.searchParams.booking_dates);
-        params.set('time_range_from', this.state.searchParams.time_range.from);
-        params.set('time_range_to', this.state.searchParams.time_range.to);
-        params.set('region', this.state.searchParams.region);
-        params.set('course', this.state.searchParams.course);
-        params.set('greenfee_range_from', this.state.searchParams.greenfee_range.from);
-        params.set('greenfee_range_to', this.state.searchParams.greenfee_range.to);
-        this.props.history.push('./courses/' + params.toString());
+        const params = JSON.stringify(this.state.searchParams);
+        console.log('Search Params', JSON.stringify(this.state.searchParams));
+        this.props.history.push('./courses/' + params);
         return false;
     }
 
@@ -54,11 +47,17 @@ class Search extends React.Component {
                             <div className="col-lg-12 mx-auto">
                                 <div className="border rounded border-light float-right bg-search-panel p-5">
                                     <form>
-                                        <MultiDateForm searchParams={this.state.searchParams}/>
-                                        <TimeRangeForm searchParams={this.state.searchParams}/>
-                                        <RegionForm searchParams={this.state.searchParams}/>
-                                        <GreenFeeRangeForm searchParams={this.state.searchParams}/>
-                                        <CourseForm searchParams={this.state.searchParams}/>
+                                        <MultiDateForm bookingdates={this.state.searchParams.booking_dates}
+                                                       onChange={(_bookingDates) => this.state.searchParams.booking_dates = _bookingDates.map(_d => moment(_d).format('YYYY-MM-DD'))}/>
+                                        <TimeRangeForm timerange={this.state.searchParams.time_range}
+                                                       onChange={(_timeRange) => this.state.searchParams.time_range = _timeRange}/>
+                                        <RegionForm region={this.state.searchParams.region}
+                                                    onChange={(_region) => this.state.searchParams.region = _region}/>
+                                        <GreenFeeRangeForm
+                                            greenfeerange={this.state.searchParams.greenfee_range}
+                                            onChange={(_range) => this.state.searchParams.greenfee_range = _range}/>
+                                        <CourseForm course={this.state.searchParams.course}
+                                                    onChange={(_course) => this.state.searchParams.course = _course}/>
                                         <button type="button" className="btn btn-primary" onClick={this.clickSearch}><i
                                             className="fa fa-golf-ball"></i> 검색
                                         </button>

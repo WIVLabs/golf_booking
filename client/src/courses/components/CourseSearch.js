@@ -4,31 +4,15 @@ import GreenFeeRangeForm from "../../components/GreenFeeRangeForm";
 import TimeRangeForm from "../../components/TimeRangeForm";
 import RegionForm from "../../components/RegionForm";
 import CourseForm from "../../components/CourseForm";
-
-const params = {};
+import moment from "moment";
 
 class CourseSearch extends React.Component {
-
 
     constructor(props) {
         super(props);
         this.clickSearch = this.clickSearch.bind(this);
-
-        //TODO 각 디폴트 값을 설정해줘야 함.
         this.state = {
-            searchParams: {
-                booking_dates: [],
-                time_range: {
-                    from: {},
-                    to: {}
-                },
-                region: '',
-                course: '',
-                greenfee_range: {
-                    from: {},
-                    to: {}
-                }
-            }
+            searchParams: this.props.searchparams
         };
     }
 
@@ -42,13 +26,23 @@ class CourseSearch extends React.Component {
             <div className="border rounded border-info m-5 bg-light">
                 <form style={{width: 800 + 'px'}} className="m-auto">
                     <div className="form-row">
-                        <div className="col p-3"><MultiDateForm searchParams={this.state.searchParams}/></div>
-                        <div className="col p-3"><TimeRangeForm searchParams={this.state.searchParams}/></div>
+                        <div className="col p-3"><MultiDateForm bookingdates={this.state.searchParams.booking_dates}
+                                                                onChange={(_bookingDates) => this.state.searchParams.booking_dates = _bookingDates.map(_d => moment(_d).format('YYYY-MM-DD'))}/>
+                        </div>
+                        <div className="col p-3"><TimeRangeForm timerange={this.state.searchParams.time_range}
+                                                                onChange={(_timeRange) => this.state.searchParams.time_range = _timeRange}/>
+                        </div>
                     </div>
                     <div className="form-row">
-                        <div className="col p-3"><RegionForm searchParams={this.state.searchParams}/></div>
-                        <div className="col p-3"><CourseForm searchParams={this.state.searchParams}/></div>
-                        <div className="col p-3"><GreenFeeRangeForm searchParams={this.state.searchParams}/>
+                        <div className="col p-3"><RegionForm region={this.state.searchParams.region}
+                                                             onChange={(_region) => this.state.searchParams.region = _region}/>
+                        </div>
+                        <div className="col p-3"><CourseForm course={this.state.searchParams.course}
+                                                             onChange={(_course) => this.state.searchParams.course = _course}/>
+                        </div>
+                        <div className="col p-3"><GreenFeeRangeForm
+                            greenfeerange={this.state.searchParams.greenfee_range}
+                            onChange={(_range) => this.state.searchParams.greenfee_range = _range}/>
                         </div>
                     </div>
                     <div className="form-row mb-3">

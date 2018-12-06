@@ -7,9 +7,7 @@ import '../../node_modules/ion-rangeslider/css/ion.rangeSlider.skinFlat.css';
 export default class IonSlider extends React.Component {
     componentDidMount() {
         this.$el = $(this.refs.input);
-        this.$el.ionRangeSlider({
-            onChange : this.props.onChange
-        });
+        this.$el.ionRangeSlider(this.props.options);
     }
 
     componentWillUnmount() {

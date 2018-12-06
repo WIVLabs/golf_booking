@@ -1,14 +1,25 @@
 const Api = {
     // 예약 목록 조회
-    getBookings: (params) => {
+    /**
+     * @param paramsObj : {
+                booking_dates: ['2018-01-01','2018-01-07'],
+                time_range: {
+                    from: 6,
+                    to: 11
+                },
+                region: 'R02',
+                course: '1',
+                greenfee_range: {
+                    from: 20000,
+                    to: 110000
+                }
+            }
+     * @returns {Promise<any | never>}
+     */
+    getBookings: (paramsObj) => {
 
-        console.log(params.get('booking_dates'));
-        console.log(params.get('time_range_from'));
-        console.log(params.get('time_range_to'));
-        console.log(params.get('region'));
-        console.log(params.get('course'));
-        console.log(params.get('greenfee_range_from'));
-        console.log(params.get('greenfee_range_to'));
+        console.log('Api.getBookings', paramsObj);
+
 
         const url = 'https://14nc6umut2.execute-api.ap-northeast-2.amazonaws.com/v1/bookings2';
 

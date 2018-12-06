@@ -3,7 +3,7 @@ import * as React from "react";
 class RegionForm extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {regions: []};
+        this.state = {regions: [], region: this.props.region};
     }
 
     componentDidMount() {
@@ -22,8 +22,11 @@ class RegionForm extends React.Component {
             <div className="form-group">
                 <label>지역</label>
                 {this.state.regions ?
-                    <select className="form-control"
-                            onChange={(ob) => this.props.searchParams.region = ob.target.value}>
+                    <select className="form-control" value={this.state.region}
+                            onChange={(ob) => {
+                                this.setState({region: ob.target.value});
+                                this.props.onChange(ob.target.value);
+                            }}>
                         {this.state.regions.map((_region, i) => {
                             return (<option key={i} value={_region.id}>{_region.name}</option>);
                         })}
