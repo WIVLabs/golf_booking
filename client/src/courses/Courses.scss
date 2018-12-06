@@ -1,0 +1,40 @@
+.booking-table-date {
+  font-size:15px;
+  //font-weight:500;
+}
+
+.booking-th-sunday-bg {
+  color: #ED5565;
+}
+
+.booking-th-saturday-bg {
+  color: #017BFF;
+}
+
+.booking-cell {
+}
+
+.booking-cell-sunday-bg {
+  background-color: #FCF4F4;
+  border-right: 1px solid #ED5565;
+  border-left: 1px solid #ED5565;
+}
+
+.booking-cell-saturday-bg {
+  background-color: #F7FAFF;
+  border-right: 1px solid #017BFF;
+  border-left: 1px solid #017BFF;
+}
+
+.site-name {
+  font-size:15px;
+  font-weight:300;
+}
+
+
+.booking-cell-time {
+  font-size:14px;
+  font-weight:300;
+  word-break: break-word;
+  font-family: monospace, monospace;
+}

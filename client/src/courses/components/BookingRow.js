@@ -2,17 +2,17 @@ import * as React from "react";
 import BookingCell from "./BookingCell";
 
 class BookingRow extends React.Component {
-    constructor(props) {
-        super(props);
+    constructor({course}) {
+        super();
         this.state = {
-            course : props.course
+            course : course
         }
     }
 
     render() {
         return (
             <tr>
-                <td>{this.state.course ? this.state.course.name: ''}</td>
+                <td className='site-name text-center'>{this.state.course ? this.state.course.name: ''}</td>
 
                 {this.state.course ?
                     this.state.course.kickoffs.map((kickoff, idx) => {
