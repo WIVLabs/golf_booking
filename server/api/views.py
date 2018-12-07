@@ -35,3 +35,17 @@ class BookingList(generics.ListCreateAPIView, generics.RetrieveDestroyAPIView):
     queryset = Booking.objects.all()
     serializer_class = BookingSerializer
     lookup_field = 'golf_course'
+
+from ddict import DotAccessDict
+
+@api_view(['GET'])
+@permission_classes((permissions.AllowAny,))
+def bookings2(request):
+    print(request.query_params.keys())
+
+    for _key in request.query_params.keys():
+        print('_key:', _key)
+
+    query = DotAccessDict(request.query_params)
+    print('query:', query)
+    return Response([{'id': _id, 'name': _name} for _id, _name in Region.choices() if _id != 'R0'])

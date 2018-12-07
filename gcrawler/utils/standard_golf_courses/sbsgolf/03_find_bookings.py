@@ -6,13 +6,18 @@ from urllib.parse import urljoin
 import re
 import time
 import requests
+import traceback
 from datetime import datetime, timedelta
 
 R = re.compile('^(.*?)\(([\d,]+)\)$')
 
 def run():
+    # is_start = False
     for i, _course in enumerate(iter_course_mapper(), start=1):
         _course = DotAccessDict(_course)
+        # if _course.pk_in_site == '66':
+        #     is_start = True
+        # if not is_start: continue
         booking_url = _course.booking_url
         print(i, booking_url)
         booking_summary = iter_booking_summary(booking_url, _course.pk_in_site)
@@ -51,20 +56,23 @@ def iter_booking_summary(url, pk_in_site):
         data_list = data.get('golfInfo', {}).get('data', {})
         if data_list:
             for bk in data_list.get('golf'):
-                # pprint(bk)
-                match = R.search(bk.book_course_nm)
-                if match:
-                    notes = match.group(1)
-                    price = int(match.group(2).replace(',', ''))
-                    kickoff_at = bk.book_tm
-                    kickoff_hour = kickoff_at.split(':', 1)[0]
-                    booking_info.append({
-                        'notes': notes,
-                        'price': price,
-                        'kickoff_hour': kickoff_hour,
-                        'kickoff_time': datetime.strptime('{} {}'.format(booking_date, kickoff_at), '%Y%m%d %H:%M'),
-                        'url': booking_url
-                    })
+                try:
+                    # pprint(bk)
+                    match = R.search(bk.book_course_nm)
+                    if match:
+                        notes = match.group(1)
+                        price = int(match.group(2).replace(',', ''))
+                        kickoff_at = bk.book_tm
+                        kickoff_hour = kickoff_at.split(':', 1)[0]
+                        booking_info.append({
+                            'notes': notes,
+                            'price': price,
+                            'kickoff_hour': kickoff_hour,
+                            'kickoff_time': datetime.strptime('{} {}'.format(booking_date, kickoff_at), '%Y%m%d %H:%M'),
+                            'url': booking_url
+                        })
+                except:
+                    traceback.print_exc()
         return booking_info
 
     _today = datetime.today()

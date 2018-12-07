@@ -8,6 +8,5 @@ urlpatterns = [
     path('golf-courses', views.GolfCourseList.as_view(), name='golf-courses'),
     path('golf-course-mapper', views.GolfCourseMapperList.as_view(), name='golf-course-mapper'),
     path('bookings', views.BookingList.as_view(), name='bookings'),
-
-
+    path('bookings2', views.bookings2, name='bookings2'),
 ]
