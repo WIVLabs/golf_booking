@@ -18,7 +18,11 @@ export default class AirDatePicker extends React.Component {
             position: 'bottom right',
             onHide: this.props.onSelect,
             minDate: new Date(),
-            multipleDates: 3,
+            todayButton: new Date(),
+            clearButton: true,
+            multipleDates: 14,
+            // range: 'true',
+            dateFormat: 'mm/dd D',
             multipleDatesSeparator: ', '
         }).data('datepicker');
 
@@ -31,6 +35,7 @@ export default class AirDatePicker extends React.Component {
     }
 
     render() {
-        return <div><input {...this.props} ref="input" type="text" className="datepicker-here form-control"/></div>;
+        return <div><input {...this.props} ref="input" type="text" className="datepicker-here form-control"
+                           style={{textOverflow: 'ellipsis'}}/></div>;
     }
 }

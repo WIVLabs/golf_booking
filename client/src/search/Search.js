@@ -5,18 +5,24 @@ import TimeRangeForm from "../components/TimeRangeForm";
 import RegionForm from "../components/RegionForm";
 import GreenFeeRangeForm from "../components/GreenFeeRangeForm";
 import CourseForm from "../components/CourseForm";
-import moment from "moment";
+import Moment from "moment";
+import {extendMoment} from 'moment-range';
 
+const moment = extendMoment(Moment);
 
 class Search extends React.Component {
 
     constructor(props) {
         super(props);
         this.clickSearch = this.clickSearch.bind(this);
+        const start = moment().format('YYYY-MM-DD');
+        const end = moment().add(2, 'weeks').format('YYYY-MM-DD');
+        const range = moment.range(start, end);
+        const twoweeks = Array.from(range.by('day'))
 
         this.state = {
             searchParams: {
-                booking_dates: [],
+                booking_dates: twoweeks.map(m => m.format('YYYY-MM-DD')),
                 time_range: {
                     from: '6',
                     to: '11'
