@@ -27,7 +27,7 @@ class Search extends React.Component {
                     from: '6',
                     to: '11'
                 },
-                region: 'R02',
+                region: 'R1',
                 course: '',
                 greenfee_range: {
                     from: '20000',
