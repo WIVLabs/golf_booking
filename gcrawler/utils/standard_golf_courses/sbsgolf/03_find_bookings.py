@@ -15,16 +15,11 @@ def run():
     url = 'http://127.0.0.1:8000/api/bookings'
 
     def _delete(golf_course):
-        uri = '{}?golf_course={}'.format(url, golf_course)
-        resp = requests.delete(url)
+        resp = requests.delete('{}?golf_course={}'.format(url, golf_course))
         print('_delete:', resp, resp.ok, resp.reason)
 
-    # is_start = False
     for i, _course in enumerate(iter_course_mapper(), start=1):
         _course = DotAccessDict(_course)
-        # if _course.id == 2:
-        #     is_start = True
-        # if not is_start: continue
         booking_url = _course.booking_url
         print(i, booking_url)
         booking_summary = iter_booking_summary(booking_url, _course.pk_in_site)
