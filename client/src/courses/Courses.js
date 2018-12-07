@@ -79,7 +79,7 @@ class Courses extends React.Component {
                                     {this.state.kickoff_dates.map(kickoff_date => {
                                             const thClassName = this.getThClassName(kickoff_date.date);
                                             return (<th className={thClassName} key={`booking-${kickoff_date.date}`}>
-                                                        {DateUtility.convert(kickoff_date.date, DateUtility.DF_DATE, 'YYYY-MM-DD(ddd)')}
+                                                        {DateUtility.convert(kickoff_date.date, DateUtility.DF_DATE, 'YYYY-MM-DD')}<br />{DateUtility.convert(kickoff_date.date, DateUtility.DF_DATE, '(ddd)')}
                                                         </th>)
                                     })}
                                 </tr>
