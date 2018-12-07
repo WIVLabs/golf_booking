@@ -15,8 +15,8 @@ class Search extends React.Component {
     constructor(props) {
         super(props);
         this.clickSearch = this.clickSearch.bind(this);
-        const start = moment().format('YYYY-MM-DD');
-        const end = moment().add(2, 'weeks').format('YYYY-MM-DD');
+        const start = moment();
+        const end = moment().add(2, 'weeks');
         const range = moment.range(start, end);
         const twoweeks = Array.from(range.by('day'))
 
