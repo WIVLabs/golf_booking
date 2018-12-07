@@ -10,11 +10,29 @@ const ObjectUtility = {
     isNotEmpty : (obj) => {
         return !ObjectUtility.isEmpty(obj);
     }
+};
+
+// List, Map등 유티리리티
+const CollectionUtility = {
+    groupBy : (list, getKeyFunc) => {
+        const map = new Map();
+        list.forEach((item) => {
+            const key = getKeyFunc(item);
+            const collection = map.get(key);
+            if (ObjectUtility.isEmpty(collection)) {
+                map.set(key, [item]);
+            }
+            else {
+                collection.push(item);
+            }
+        });
+        return map;
+    }
 }
 
 // 날짜 유틸리티
 const DateUtility = {
-    DF_DATE : "YYYYMMDD",
+    DF_DATE : "YYYYMMDD", // 날짜기본포멧
     now: () => {
         return moment({}).format('YYYY-MM-DD HH:mm');
     },
@@ -24,8 +42,7 @@ const DateUtility = {
             return '';
         }
         if (StringUtility.isEmpty(sourceFormat)) {
-            console.log('원본 포멧이 없습니다');
-            return obj;
+            sourceFormat = DateUtility.DF_DATE;
         }
         if (StringUtility.isEmpty(targetFormat)) {
             console.log('대상 포멧이 없습니다.');
@@ -58,6 +75,7 @@ const StringUtility = {
 };
 
 export {
+    CollectionUtility,
     ObjectUtility,
     DateUtility,
     StringUtility

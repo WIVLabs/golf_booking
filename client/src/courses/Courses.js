@@ -4,43 +4,44 @@ import CourseSearch from "./components/CourseSearch";
 import BookingRow from "./components/BookingRow";
 import {ObjectUtility, DateUtility} from "../components/Utility";
 import {Api} from "../components/Api";
+import Spinner from "../components/Spinner";
 
 class Courses extends React.Component {
 
     constructor(props) {
         super(props);
 
-        console.log('Courses Props', this.props);
-
         let {searchParams} = this.props.match.params;
+        console.log(searchParams);
         let paramsObj = JSON.parse(searchParams);
         console.log(paramsObj);
         this.state = {
+            hasData : false,
             bookings: [],
             searchParams: paramsObj
         }
 
         this.getBookings = this.getBookings.bind(this);
-        this.getBookings(paramsObj);
-
     }
 
     componentDidMount() {
-
+        this.getBookings();
     }
 
-    getBookings(paramsObj) {
-        console.log('여기는 Course getBookings! 전달된 검색 파라미터:', paramsObj);
-        Api.getBookings(paramsObj)
-            .then(data => {
-                let dates = [];
-
-                this.setState({
-                    hasData: ObjectUtility.isNotEmpty(data.data),
-                    courses: data.data.courses,
-                    kickoff_dates: data.data.kickoff_dates
+    getBookings() {
+        this.setState({hasData : false});
+        setTimeout(() => {
+            Api.getBookings(this.state.searchParams)
+                .then(data => {
+                    this.setState({
+                        hasData: ObjectUtility.isNotEmpty(data.data),
+                        courses: data.data.courses,
+                        kickoff_dates: data.data.kickoff_dates
+                    });
                 });
-            });
+        }, 2000);
+
+        return false;
     }
 
     getThClassName(kickoffDate) {
@@ -57,7 +58,7 @@ class Courses extends React.Component {
     }
 
     getNextWeek() {
-        alert('TODO:다음일주일 구현?');
+        alert('TODO:다음일주일검색 구현');
     }
 
     render() {
@@ -68,7 +69,7 @@ class Courses extends React.Component {
                     <div className="container-fluid">
                         <div className={'float-right align-right mb-2'}>
                             <button type="button" className="btn btn-primary" onClick={this.getNextWeek}>
-                                <i className="fa fa-golf-ball"></i> 다음일주일
+                                <i className="fa fa-golf-ball"></i> 다음일주일검색
                             </button>
                         </div>
                         <div className="table-responsive">
@@ -76,27 +77,23 @@ class Courses extends React.Component {
                                 <thead>
                                 <tr>
                                     <th className={'booking-table-date text-center'}>골프장</th>
-                                    {this.state.kickoff_dates ?
-                                        this.state.kickoff_dates.map(kickoff_date => {
+                                    {this.state.kickoff_dates.map(kickoff_date => {
                                             const thClassName = this.getThClassName(kickoff_date.date);
                                             return (<th className={thClassName} key={`booking-${kickoff_date.date}`}>
-                                                        {DateUtility.convert(kickoff_date.date, 'YYYYMMDD', 'YYYY-MM-DD(ddd)')}
+                                                        {DateUtility.convert(kickoff_date.date, DateUtility.DF_DATE, 'YYYY-MM-DD(ddd)')}
                                                         </th>)
-                                        }) : <th>날짜를 읽어오는 중입니다...</th>}
+                                    })}
                                 </tr>
                                 </thead>
                                 <tbody>
-                                {this.state.courses ?
-                                    this.state.courses.map(course => {
+                                {this.state.courses.map(course => {
                                         return <BookingRow key={`course-${course.id}`} course={course}/>
-                                    }) : <tr>
-                                        <td className="text-center">부킹 정보를 읽어오는 중입니다...</td>
-                                    </tr>}
+                                })}
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                : "정보를 조회중입니다."}
+                    : <div className={'text-center'}> <Spinner /></div>}
             </div>
         )
     };

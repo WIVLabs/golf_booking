@@ -2,6 +2,10 @@ import requests
 from bs4 import BeautifulSoup as BS
 from urllib.parse import urlparse
 from gcrawler.utils.timer import timeit
+from json import load, dump
+from ddict import DotAccessDict
+# import xmltojson
+import xmltodict
 
 
 class Downloader:
@@ -32,6 +36,40 @@ class Downloader:
                 with open(self.fname, 'w') as f:
                     f.write(text)
             return text
+
+    @property
+    @timeit
+    def json(self):
+        if self.debug:
+            with open(self.fname) as f:
+                _json = load(f)
+                return isinstance(_json, dict) and DotAccessDict(_json) or _json
+        else:
+            print('download: {}'.format(self.url))
+            resp = requests.get(self.url, headers=self.make_headers())
+            _json = resp.ok and resp.json() or {}
+            if self.fname:
+                with open(self.fname, 'w') as f:
+                    dump(_json, f)
+            return isinstance(_json, dict) and DotAccessDict(_json) or _json
+
+    @property
+    @timeit
+    def xml_to_json(self):
+        if self.debug:
+            with open(self.fname, encoding='utf8') as f:
+                text = f.read()
+                return text and DotAccessDict(xmltodict.parse(text)) or None
+        else:
+            print('download: {}'.format(self.url))
+            resp = requests.get(self.url, headers=self.make_headers())
+            text = resp.ok \
+                   and (self.encoding and str(resp.content, self.encoding, 'replace') or resp.text) \
+                   or ''
+            if self.fname:
+                with open(self.fname, 'w') as f:
+                    f.write(text)
+            return text and DotAccessDict(xmltodict.parse(text)) or None
 
     def make_headers(self):
         def get_ua():
