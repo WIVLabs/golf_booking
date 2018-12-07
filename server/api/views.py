@@ -3,9 +3,9 @@ from json import loads
 from pprint import pprint
 from ddict import DotAccessDict
 from collections import defaultdict
-from rest_framework.views import APIView
 from gcrawler.utils.date import convert_str_to_weekday
-from rest_framework import generics, permissions
+from rest_framework import generics, permissions, status
+from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.decorators import api_view, permission_classes
 from server.models.enums import Region
@@ -50,10 +50,18 @@ class GolfCourseMapperList(generics.ListCreateAPIView):
 
 class BookingList(generics.ListCreateAPIView, generics.RetrieveDestroyAPIView):
     serializer_class = BookingSerializer
+    filter_opts = ['golf_course']
 
     def get_queryset(self):
-        filtering = {_key: _value for _key, _value in self.request.query_params.items()}
+        filtering = {_key: _value for _key, _value in self.request.query_params.items() if _key in self.filter_opts}
         return Booking.objects.filter(**filtering)
+
+    def destroy(self, request, *args, **kwargs):
+        deleted_items = []
+        for _instance in self.get_queryset():
+            deleted_items.append({'id': _instance.id})
+            self.perform_destroy(_instance)
+        return Response(deleted_items, status=status.HTTP_204_NO_CONTENT)
 
 
 class Bookings(APIView):
