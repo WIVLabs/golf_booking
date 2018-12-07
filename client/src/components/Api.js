@@ -19,7 +19,7 @@ const Api = {
     getBookings: (paramsObj) => {
         const queryStringParameters = encodeURIComponent(JSON.stringify(paramsObj));
         // const url = `https://14nc6umut2.execute-api.ap-northeast-2.amazonaws.com/v1/bookings2?${queryStringParameters}`;
-        const url = `/api/bookings?${queryStringParameters}`;
+        const url = `/api/bookings2?params=${queryStringParameters}`;
 
         return fetch(url).then(response => response.json());
     }
