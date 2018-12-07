@@ -71,6 +71,7 @@ class Bookings(APIView):
                     'name': _item.site.name,
                     'icon_url': _item.site.icon_url,
                     'kickoff_time': _item.kickoff_time.strftime('%Y.%m.%d %H:%M'),
+                    'price': _item.price,
                     'booking_url': _item.url,
                     'notes': _item.notes,
                 })
