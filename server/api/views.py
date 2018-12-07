@@ -28,9 +28,17 @@ def regions(request):
 
 
 class GolfCourseList(generics.ListCreateAPIView):
-    queryset = GolfCourse.objects.filter(status='A')
     serializer_class = GolfCourseSerializer
-    lookup_field = 'region'
+
+    def get_queryset(self):
+        qp = self.request.query_params
+        filtering = {
+            'status': qp.get('status', 'A')
+        }
+        region = qp.get('region')
+        if region:
+            filtering['region'] = region
+        return GolfCourse.objects.filter(**filtering)
 
 
 class GolfCourseMapperList(generics.ListCreateAPIView):
