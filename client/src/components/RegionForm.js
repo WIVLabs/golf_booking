@@ -1,4 +1,5 @@
 import * as React from "react";
+import {Api} from "./Api";
 
 class RegionForm extends React.Component {
     constructor(props) {
@@ -7,13 +8,9 @@ class RegionForm extends React.Component {
     }
 
     componentDidMount() {
-        const url = 'https://14nc6umut2.execute-api.ap-northeast-2.amazonaws.com/v1/regions';
-
-        fetch(url)
-            .then(response => response.json())
+        Api.getAllRegions()
             .then(data => {
-                // console.log(data);
-                this.setState({regions: data.data});
+                this.setState({regions: data});
             });
     }
 

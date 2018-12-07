@@ -1,4 +1,15 @@
 const Api = {
+    // 전체 지역 조회
+    getAllRegions: () => {
+        const url = `/api/regions`;
+
+        return fetch(url).then(response => response.json());
+    },
+    getGolfCourses: () => {
+        const url = `/api/golf-courses`;
+
+        return fetch(url).then(response => response.json());
+    },
     // 예약 목록 조회
     /**
      * @param paramsObj : {
@@ -17,9 +28,8 @@ const Api = {
      * @returns {Promise<any | never>}
      */
     getBookings: (paramsObj) => {
-        const queryStringParameters = encodeURIComponent(JSON.stringify(paramsObj));
-        // const url = `https://14nc6umut2.execute-api.ap-northeast-2.amazonaws.com/v1/bookings2?${queryStringParameters}`;
-        const url = `/api/bookings2?params=${queryStringParameters}`;
+        const queryStringParameters = encodeURIComponent(JSON.stringify(paramsObj));;
+        const url = `/api/bookings2?params=${queryStringParameters}`; //
 
         return fetch(url).then(response => response.json());
     }

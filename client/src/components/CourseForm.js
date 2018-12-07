@@ -1,4 +1,5 @@
 import * as React from "react";
+import {Api} from "./Api";
 
 class CourseForm extends React.Component {
     constructor(props) {
@@ -7,13 +8,11 @@ class CourseForm extends React.Component {
     }
 
     componentDidMount() {
-        const url = 'https://14nc6umut2.execute-api.ap-northeast-2.amazonaws.com/v1/golf-courses';
 
-        fetch(url)
-            .then(response => response.json())
+        Api.getGolfCourses()
             .then(data => {
                 // console.log(data);
-                this.setState({courses: data.data});
+                this.setState({courses: data});
             });
     }
 

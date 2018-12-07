@@ -17,7 +17,7 @@ class Courses extends React.Component {
         console.log(paramsObj);
         this.state = {
             hasData : false,
-            bookings: [],
+            courses: [],
             searchParams: paramsObj
         }
 
@@ -30,16 +30,15 @@ class Courses extends React.Component {
 
     getBookings() {
         this.setState({hasData : false});
-        setTimeout(() => {
-            Api.getBookings(this.state.searchParams)
+        Api.getBookings(this.state.searchParams)
                 .then(data => {
+                    console.log(data);
                     this.setState({
-                        hasData: ObjectUtility.isNotEmpty(data.data),
-                        courses: data.data.courses,
-                        kickoff_dates: data.data.kickoff_dates
+                        hasData: ObjectUtility.isNotEmpty(data),
+                        courses: data.courses,
+                        kickoff_dates: data.kickoff_dates
                     });
                 });
-        }, 2000);
 
         return false;
     }
