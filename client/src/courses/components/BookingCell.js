@@ -28,7 +28,6 @@ class BookingCell extends React.Component {
                         <span key={`site-${idx}`} style={{paddingRight: 1 + 'px'}} >
                             <span className='booking-cell-time badge badge-warning'>
                                 {DateUtility.convert(site.kickoff_time, 'YYYY.MM.DD HH:mm', 'HH:mm')}
-                                {/*&nbsp;<a href='http://golf.sbs.co.kr' target='_blank'><img src={site.icon_url} /></a>*/}
                                 &nbsp;<a href={site.booking_url} className="badge badge-primary" target='_blank'>{site.name}</a>
                             </span>
                         </span> );

@@ -85,9 +85,11 @@ class Courses extends React.Component {
                                 </tr>
                                 </thead>
                                 <tbody>
-                                {this.state.courses.map(course => {
+                                {this.state.courses.length != 0 ?
+                                    this.state.courses.map(course => {
                                         return <BookingRow key={`course-${course.id}`} course={course}/>
-                                })}
+                                    })
+                                 : <tr><td className={'text-center'} colSpan={this.state.kickoff_dates.length + 1}>검색결과가 없습니다.</td></tr>}
                                 </tbody>
                             </table>
                         </div>
