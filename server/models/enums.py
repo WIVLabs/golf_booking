@@ -24,4 +24,5 @@ class Region(CustomEnum):
 
 
 if __name__ == '__main__':
-    print(Region.choices())
+    # print([{'id': _id, 'name': _name} for _id, _name in Region.choices() if _id != 'R0'])
+    print(getattr(Region, 'R1').value)

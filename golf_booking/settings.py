@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'webpack_loader',
     'server'
 ]
@@ -139,3 +140,10 @@ WEBPACK_LOADER = {
 FIXTURE_DIRS = [
     os.path.join(SERVER_DIR, 'models', 'fixture')
 ]
+
+# https://www.django-rest-framework.org/#example
+# REST_FRAMEWORK = {
+#     'DEFAULT_PERMISSION_CLASSES': [
+#         'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+#     ]
+# }
