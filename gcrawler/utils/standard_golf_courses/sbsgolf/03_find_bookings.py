@@ -12,20 +12,25 @@ from datetime import datetime, timedelta
 R = re.compile('^(.*?)\(([\d,]+)\)$')
 
 def run():
-    # is_start = False
+    url = 'http://127.0.0.1:8000/api/bookings'
+
+    def _delete(golf_course):
+        resp = requests.delete('{}?golf_course={}'.format(url, golf_course))
+        print('_delete:', resp, resp.ok, resp.reason)
+
     for i, _course in enumerate(iter_course_mapper(), start=1):
         _course = DotAccessDict(_course)
-        # if _course.pk_in_site == '66':
-        #     is_start = True
-        # if not is_start: continue
         booking_url = _course.booking_url
         print(i, booking_url)
         booking_summary = iter_booking_summary(booking_url, _course.pk_in_site)
 
         print('*' * 100)
         pprint(booking_summary)
+
+        _delete(_course.id)
         for _date in sorted(booking_summary.keys()):
             booking_info = booking_summary[_date]
+            print(booking_info)
             create_booking(_course.id, _date, booking_info)
 
 
@@ -48,7 +53,7 @@ def iter_booking_summary(url, pk_in_site):
     def get_booking_info(booking_date, booking_url):
         # README
         # http://bk.golf.sbs.co.kr/html/front/booking_2012/xml/golf_course_time_xml.jsp?golf_plc_no=194&book_dt=20181214&_=
-        time.sleep(randint(1, 4))
+        time.sleep(randint(1, 3))
         url = 'http://bk.golf.sbs.co.kr/html/front/booking_2012/xml/golf_course_time_xml.jsp?golf_plc_no={}&book_dt={}&_={}'.format(pk_in_site,  booking_date, int(time.time()*1000))
         data = Downloader(url, fname='booking.xml', debug=False, encoding='euc-kr').xml_to_json
 
@@ -78,7 +83,7 @@ def iter_booking_summary(url, pk_in_site):
     _today = datetime.today()
     bookings = {(_today + timedelta(days=i)).strftime('%Y%m%d'): [] for i in range(30)}
 
-    soup = Downloader(url, fname='booking_summary.html', debug=True, encoding='euc-kr').soup
+    soup = Downloader(url, fname='booking_summary.html', debug=False, encoding='euc-kr').soup
     for _tr in soup.select('div.result_calendar > table > tbody > tr'):
         for _td in _tr.select('td > div.cont'):
             print('-'*100)
@@ -94,12 +99,6 @@ def iter_booking_summary(url, pk_in_site):
 
 def create_booking(golf_course, date, info):
     url = 'http://127.0.0.1:8000/api/bookings'
-    def _delete():
-        # uri = '{}?golf_course={}&site={}&kickoff_date={}'.format(url, golf_course, 1, date)
-        uri = '{}?golf_course={}'.format(url, golf_course)
-        resp = requests.delete(url)
-        print('_delete:', resp, resp.ok, resp.reason)
-
     def _insert(_info):
         json = {
             'golf_course': golf_course,
@@ -115,7 +114,6 @@ def create_booking(golf_course, date, info):
         resp = requests.post(url, json=json)
         print('_insert:', resp)
 
-    # _delete()
     for _info in info:
         _insert(DotAccessDict(_info))
 

@@ -26,6 +26,7 @@ class GolfCourse(models.Model):
 
     class Meta:
         db_table = 'golf_course'
+        ordering = ['name']
 
 
 class GolfCourseSerializer(serializers.ModelSerializer):

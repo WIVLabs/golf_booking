@@ -3,9 +3,9 @@ from json import loads
 from pprint import pprint
 from ddict import DotAccessDict
 from collections import defaultdict
-from rest_framework.views import APIView
 from gcrawler.utils.date import convert_str_to_weekday
-from rest_framework import generics, permissions
+from rest_framework import generics, permissions, status
+from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.decorators import api_view, permission_classes
 from server.models.enums import Region
@@ -16,9 +16,12 @@ from server.models import Booking, BookingSerializer
 
 
 class SiteList(generics.ListCreateAPIView):
-    queryset = Site.objects.filter(status='A')
     serializer_class = SiteSerializer
-    lookup_field = 'status'
+    filter_opts = ['status']
+
+    def get_queryset(self):
+        filtering = {_key: _value for _key, _value in self.request.query_params.items() if _key in self.filter_opts}
+        return Site.objects.filter(**filtering)
 
 
 @api_view(['GET'])
@@ -28,20 +31,37 @@ def regions(request):
 
 
 class GolfCourseList(generics.ListCreateAPIView):
-    queryset = GolfCourse.objects.filter(status='A')
     serializer_class = GolfCourseSerializer
-    lookup_field = 'region'
+    filter_opts = ['status', 'region']
+
+    def get_queryset(self):
+        filtering = {_key: _value for _key, _value in self.request.query_params.items() if _key in self.filter_opts}
+        return GolfCourse.objects.filter(**filtering)
 
 
 class GolfCourseMapperList(generics.ListCreateAPIView):
-    queryset = GolfCourseMapper.objects.filter(status='A')
     serializer_class = GolfCourseMapperSerializer
+    filter_opts = ['status']
+
+    def get_queryset(self):
+        filtering = {_key: _value for _key, _value in self.request.query_params.items() if _key in self.filter_opts}
+        return GolfCourseMapper.objects.filter(**filtering)
 
 
 class BookingList(generics.ListCreateAPIView, generics.RetrieveDestroyAPIView):
-    queryset = Booking.objects.all()
     serializer_class = BookingSerializer
-    lookup_field = 'golf_course'
+    filter_opts = ['golf_course']
+
+    def get_queryset(self):
+        filtering = {_key: _value for _key, _value in self.request.query_params.items() if _key in self.filter_opts}
+        return Booking.objects.filter(**filtering)
+
+    def destroy(self, request, *args, **kwargs):
+        deleted_items = []
+        for _instance in self.get_queryset():
+            deleted_items.append({'id': _instance.id})
+            self.perform_destroy(_instance)
+        return Response(deleted_items, status=status.HTTP_204_NO_CONTENT)
 
 
 class Bookings(APIView):
@@ -50,9 +70,6 @@ class Bookings(APIView):
     def get(self, request):
         query = DotAccessDict(loads(request.query_params.get('params', '{}')))
         filtering = self.extract_filtering_opts(query)
-        print('-'*20)
-        print('query:', query)
-        pprint(filtering)
 
         def get_dates():
             return sorted(filtering.get('kickoff_date__in', []))
@@ -134,4 +151,9 @@ class Bookings(APIView):
         filtering.update(**parse_region())
         filtering.update(**parse_course())
         filtering.update(**parse_price())
+
+        print('-' * 20)
+        print('query:', query)
+        pprint(filtering)
+
         return filtering
