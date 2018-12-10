@@ -22,11 +22,11 @@
   position: absolute;
   display: block;
   top: 0;
-  background : none !important;
+  background: none !important;
 }
 
 .irs-line-left, .irs-line-right, .irs-bar, .irs-bar-edge, .irs-slider {
-  background : none !important;
+  background: none !important;
 }
 
 .irs-line-left {
@@ -302,7 +302,25 @@
 .i_day-picker-header {
   height: 30px
 }
+
 .e_day-picker-buttons {
-  background-color : $primary !important;
-  color : $gray-100;
+  background-color: $primary !important;
+  color: $gray-100;
+}
+
+
+/** select2 bootstrap style customize*/
+.select2-container {
+  height: 36px;
+
+}
+
+.select2-selection {
+  height: 36px !important;
+  border: 1px solid #ced4da !important;
+
+  span {
+    height: 36px !important;
+    line-height: 33px !important;
+  }
 }

@@ -12,7 +12,6 @@ class Courses extends React.Component {
         super(props);
 
         let {searchParams} = this.props.match.params;
-        console.log(searchParams);
         let paramsObj = JSON.parse(searchParams);
         console.log(paramsObj);
         this.state = {
@@ -22,10 +21,19 @@ class Courses extends React.Component {
         }
 
         this.getBookings = this.getBookings.bind(this);
+        this.changeSearchValues = this.changeSearchValues.bind(this);
     }
 
     componentDidMount() {
         this.getBookings();
+    }
+
+    changeSearchValues(_params){
+        const params = JSON.stringify(_params);
+        console.log('Search Params', JSON.stringify(_params));
+        this.props.history.push('./' + params);
+        window.location.reload();
+        return false;
     }
 
     getBookings() {
@@ -63,7 +71,7 @@ class Courses extends React.Component {
     render() {
         return (
             <div>
-                <CourseSearch searchparams={this.state.searchParams} onClick={this.getBookings}/>
+                <CourseSearch searchparams={this.state.searchParams} onClick={this.changeSearchValues}/>
                 {this.state.hasData ?
                     <div className="container-fluid">
                         <div className={'float-right align-right mb-2'}>

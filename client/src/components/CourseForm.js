@@ -1,4 +1,6 @@
 import * as React from "react";
+import Select2 from 'react-select2-wrapper';
+import 'react-select2-wrapper/css/select2.css';
 import {Api} from "./Api";
 
 class CourseForm extends React.Component {
@@ -17,18 +19,23 @@ class CourseForm extends React.Component {
     }
 
     render() {
+        const courses = this.state.courses.map(_course => {
+            return {'text': _course.name, 'id': _course.id}
+        });
         return (
             <div className="form-group">
                 <label>골프장</label>
-                <select className="form-control" value={this.state.course} onChange={(ob) => {
-                    this.setState({course: ob.target.value});
-                    this.props.onChange(ob.target.value);
-                }}>
-                    <option value="">전체</option>
-                    {this.state.courses.map((_course, i) => {
-                        return (<option key={i} value={_course.id}>{_course.name}</option>);
-                    })}
-                </select>
+                <Select2
+                    data={courses}
+                    onChange={(ob) => {
+                        this.props.onChange(ob.target.value);
+                    }}
+                    options={{
+                        placeholder: '전체',
+                        width: '100%'
+                    }}
+                    defaultValue={this.state.course}
+                />
             </div>
         );
     }
