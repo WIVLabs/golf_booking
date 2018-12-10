@@ -50,7 +50,7 @@ class GolfCourseMapperList(generics.ListCreateAPIView):
 
 class BookingList(generics.ListCreateAPIView, generics.RetrieveDestroyAPIView):
     serializer_class = BookingSerializer
-    filter_opts = ['golf_course']
+    filter_opts = ['golf_course', 'site', 'kickoff_date']
 
     def get_queryset(self):
         filtering = {_key: _value for _key, _value in self.request.query_params.items() if _key in self.filter_opts}

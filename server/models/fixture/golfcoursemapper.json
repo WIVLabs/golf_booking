@@ -1,0 +1,4524 @@
+[
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 1,
+    "fields": {
+      "golf_course": 1,
+      "site": 1,
+      "pk_in_site": "895",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=895",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=895&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.239",
+      "updated_at": "2018-12-06T23:04:13.239"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 2,
+    "fields": {
+      "golf_course": 2,
+      "site": 1,
+      "pk_in_site": "583",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=583",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=583&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.260",
+      "updated_at": "2018-12-06T23:04:13.260"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 3,
+    "fields": {
+      "golf_course": 3,
+      "site": 1,
+      "pk_in_site": "38",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=38",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=38&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.284",
+      "updated_at": "2018-12-06T23:04:13.284"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 4,
+    "fields": {
+      "golf_course": 4,
+      "site": 1,
+      "pk_in_site": "730",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=730",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=730&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.319",
+      "updated_at": "2018-12-06T23:04:13.319"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 5,
+    "fields": {
+      "golf_course": 5,
+      "site": 1,
+      "pk_in_site": "240",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=240",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=240&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.353",
+      "updated_at": "2018-12-06T23:04:13.353"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 6,
+    "fields": {
+      "golf_course": 6,
+      "site": 1,
+      "pk_in_site": "122",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=122",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=122&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.377",
+      "updated_at": "2018-12-06T23:04:13.377"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 7,
+    "fields": {
+      "golf_course": 7,
+      "site": 1,
+      "pk_in_site": "865",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=865",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=865&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.402",
+      "updated_at": "2018-12-06T23:04:13.402"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 8,
+    "fields": {
+      "golf_course": 8,
+      "site": 1,
+      "pk_in_site": "66",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=66",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=66&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.419",
+      "updated_at": "2018-12-06T23:04:13.419"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 9,
+    "fields": {
+      "golf_course": 9,
+      "site": 1,
+      "pk_in_site": "252",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=252",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=252&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.437",
+      "updated_at": "2018-12-06T23:04:13.437"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 10,
+    "fields": {
+      "golf_course": 10,
+      "site": 1,
+      "pk_in_site": "654",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=654",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=654&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.455",
+      "updated_at": "2018-12-06T23:04:13.455"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 11,
+    "fields": {
+      "golf_course": 11,
+      "site": 1,
+      "pk_in_site": "88",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=88",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=88&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.479",
+      "updated_at": "2018-12-06T23:04:13.479"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 12,
+    "fields": {
+      "golf_course": 12,
+      "site": 1,
+      "pk_in_site": "151",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=151",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=151&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.504",
+      "updated_at": "2018-12-06T23:04:13.504"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 13,
+    "fields": {
+      "golf_course": 13,
+      "site": 1,
+      "pk_in_site": "812",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=812",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=812&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.534",
+      "updated_at": "2018-12-06T23:04:13.534"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 14,
+    "fields": {
+      "golf_course": 14,
+      "site": 1,
+      "pk_in_site": "886",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=886",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=886&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.574",
+      "updated_at": "2018-12-06T23:04:13.574"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 15,
+    "fields": {
+      "golf_course": 15,
+      "site": 1,
+      "pk_in_site": "147",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=147",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=147&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.598",
+      "updated_at": "2018-12-06T23:04:13.598"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 16,
+    "fields": {
+      "golf_course": 16,
+      "site": 1,
+      "pk_in_site": "36",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=36",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=36&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.616",
+      "updated_at": "2018-12-06T23:04:13.616"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 17,
+    "fields": {
+      "golf_course": 17,
+      "site": 1,
+      "pk_in_site": "6",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=6",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=6&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.634",
+      "updated_at": "2018-12-06T23:04:13.634"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 18,
+    "fields": {
+      "golf_course": 18,
+      "site": 1,
+      "pk_in_site": "694",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=694",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=694&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.664",
+      "updated_at": "2018-12-06T23:04:13.664"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 19,
+    "fields": {
+      "golf_course": 19,
+      "site": 1,
+      "pk_in_site": "37",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=37",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=37&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.697",
+      "updated_at": "2018-12-06T23:04:13.697"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 20,
+    "fields": {
+      "golf_course": 20,
+      "site": 1,
+      "pk_in_site": "104",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=104",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=104&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.718",
+      "updated_at": "2018-12-06T23:04:13.718"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 21,
+    "fields": {
+      "golf_course": 21,
+      "site": 1,
+      "pk_in_site": "39",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=39",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=39&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.749",
+      "updated_at": "2018-12-06T23:04:13.749"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 22,
+    "fields": {
+      "golf_course": 22,
+      "site": 1,
+      "pk_in_site": "826",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=826",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=826&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.785",
+      "updated_at": "2018-12-06T23:04:13.785"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 23,
+    "fields": {
+      "golf_course": 23,
+      "site": 1,
+      "pk_in_site": "110",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=110",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=110&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.818",
+      "updated_at": "2018-12-06T23:04:13.818"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 24,
+    "fields": {
+      "golf_course": 24,
+      "site": 1,
+      "pk_in_site": "810",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=810",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=810&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.851",
+      "updated_at": "2018-12-06T23:04:13.851"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 25,
+    "fields": {
+      "golf_course": 25,
+      "site": 1,
+      "pk_in_site": "166",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=166",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=166&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.889",
+      "updated_at": "2018-12-06T23:04:13.889"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 26,
+    "fields": {
+      "golf_course": 26,
+      "site": 1,
+      "pk_in_site": "602",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=602",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=602&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.930",
+      "updated_at": "2018-12-06T23:04:13.930"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 27,
+    "fields": {
+      "golf_course": 27,
+      "site": 1,
+      "pk_in_site": "802",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=802",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=802&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.966",
+      "updated_at": "2018-12-06T23:04:13.966"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 28,
+    "fields": {
+      "golf_course": 28,
+      "site": 1,
+      "pk_in_site": "815",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=815",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=815&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.000",
+      "updated_at": "2018-12-06T23:04:14.000"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 29,
+    "fields": {
+      "golf_course": 29,
+      "site": 1,
+      "pk_in_site": "59",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=59",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=59&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.030",
+      "updated_at": "2018-12-06T23:04:14.030"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 30,
+    "fields": {
+      "golf_course": 30,
+      "site": 1,
+      "pk_in_site": "616",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=616",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=616&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.064",
+      "updated_at": "2018-12-06T23:04:14.064"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 31,
+    "fields": {
+      "golf_course": 31,
+      "site": 1,
+      "pk_in_site": "217",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=217",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=217&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.094",
+      "updated_at": "2018-12-06T23:04:14.094"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 32,
+    "fields": {
+      "golf_course": 32,
+      "site": 1,
+      "pk_in_site": "5",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=5",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=5&book_regn_dv_cd=1&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.120",
+      "updated_at": "2018-12-06T23:04:14.120"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 33,
+    "fields": {
+      "golf_course": 33,
+      "site": 1,
+      "pk_in_site": "194",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=194",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=194&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.152",
+      "updated_at": "2018-12-06T23:04:14.152"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 34,
+    "fields": {
+      "golf_course": 34,
+      "site": 1,
+      "pk_in_site": "102",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=102",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=102&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.185",
+      "updated_at": "2018-12-06T23:04:14.185"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 35,
+    "fields": {
+      "golf_course": 35,
+      "site": 1,
+      "pk_in_site": "787",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=787",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=787&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.208",
+      "updated_at": "2018-12-06T23:04:14.208"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 36,
+    "fields": {
+      "golf_course": 36,
+      "site": 1,
+      "pk_in_site": "237",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=237",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=237&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.226",
+      "updated_at": "2018-12-06T23:04:14.226"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 37,
+    "fields": {
+      "golf_course": 37,
+      "site": 1,
+      "pk_in_site": "893",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=893",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=893&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.245",
+      "updated_at": "2018-12-06T23:04:14.245"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 38,
+    "fields": {
+      "golf_course": 38,
+      "site": 1,
+      "pk_in_site": "660",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=660",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=660&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.263",
+      "updated_at": "2018-12-06T23:04:14.263"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 39,
+    "fields": {
+      "golf_course": 39,
+      "site": 1,
+      "pk_in_site": "428",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=428",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=428&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.282",
+      "updated_at": "2018-12-06T23:04:14.282"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 40,
+    "fields": {
+      "golf_course": 40,
+      "site": 1,
+      "pk_in_site": "783",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=783",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=783&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.301",
+      "updated_at": "2018-12-06T23:04:14.301"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 41,
+    "fields": {
+      "golf_course": 41,
+      "site": 1,
+      "pk_in_site": "161",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=161",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=161&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.332",
+      "updated_at": "2018-12-06T23:04:14.332"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 42,
+    "fields": {
+      "golf_course": 42,
+      "site": 1,
+      "pk_in_site": "884",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=884",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=884&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.362",
+      "updated_at": "2018-12-06T23:04:14.362"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 43,
+    "fields": {
+      "golf_course": 43,
+      "site": 1,
+      "pk_in_site": "892",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=892",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=892&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.397",
+      "updated_at": "2018-12-06T23:04:14.397"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 44,
+    "fields": {
+      "golf_course": 44,
+      "site": 1,
+      "pk_in_site": "145",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=145",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=145&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.421",
+      "updated_at": "2018-12-06T23:04:14.421"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 45,
+    "fields": {
+      "golf_course": 45,
+      "site": 1,
+      "pk_in_site": "528",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=528",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=528&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.439",
+      "updated_at": "2018-12-06T23:04:14.439"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 46,
+    "fields": {
+      "golf_course": 46,
+      "site": 1,
+      "pk_in_site": "705",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=705",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=705&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.457",
+      "updated_at": "2018-12-06T23:04:14.457"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 47,
+    "fields": {
+      "golf_course": 47,
+      "site": 1,
+      "pk_in_site": "130",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=130",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=130&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.474",
+      "updated_at": "2018-12-06T23:04:14.474"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 48,
+    "fields": {
+      "golf_course": 48,
+      "site": 1,
+      "pk_in_site": "529",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=529",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=529&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.491",
+      "updated_at": "2018-12-06T23:04:14.491"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 49,
+    "fields": {
+      "golf_course": 49,
+      "site": 1,
+      "pk_in_site": "773",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=773",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=773&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.519",
+      "updated_at": "2018-12-06T23:04:14.519"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 50,
+    "fields": {
+      "golf_course": 50,
+      "site": 1,
+      "pk_in_site": "218",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=218",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=218&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.582",
+      "updated_at": "2018-12-06T23:04:14.582"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 51,
+    "fields": {
+      "golf_course": 51,
+      "site": 1,
+      "pk_in_site": "169",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=169",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=169&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.612",
+      "updated_at": "2018-12-06T23:04:14.612"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 52,
+    "fields": {
+      "golf_course": 52,
+      "site": 1,
+      "pk_in_site": "70",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=70",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=70&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.629",
+      "updated_at": "2018-12-06T23:04:14.629"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 53,
+    "fields": {
+      "golf_course": 53,
+      "site": 1,
+      "pk_in_site": "173",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=173",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=173&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.647",
+      "updated_at": "2018-12-06T23:04:14.647"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 54,
+    "fields": {
+      "golf_course": 54,
+      "site": 1,
+      "pk_in_site": "737",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=737",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=737&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.664",
+      "updated_at": "2018-12-06T23:04:14.664"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 55,
+    "fields": {
+      "golf_course": 55,
+      "site": 1,
+      "pk_in_site": "717",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=717",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=717&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.683",
+      "updated_at": "2018-12-06T23:04:14.683"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 56,
+    "fields": {
+      "golf_course": 56,
+      "site": 1,
+      "pk_in_site": "319",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=319",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=319&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.702",
+      "updated_at": "2018-12-06T23:04:14.702"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 57,
+    "fields": {
+      "golf_course": 57,
+      "site": 1,
+      "pk_in_site": "97",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=97",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=97&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.728",
+      "updated_at": "2018-12-06T23:04:14.728"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 58,
+    "fields": {
+      "golf_course": 58,
+      "site": 1,
+      "pk_in_site": "851",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=851",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=851&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.762",
+      "updated_at": "2018-12-06T23:04:14.762"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 59,
+    "fields": {
+      "golf_course": 59,
+      "site": 1,
+      "pk_in_site": "119",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=119",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=119&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.797",
+      "updated_at": "2018-12-06T23:04:14.797"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 60,
+    "fields": {
+      "golf_course": 60,
+      "site": 1,
+      "pk_in_site": "4",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=4",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=4&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.830",
+      "updated_at": "2018-12-06T23:04:14.830"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 61,
+    "fields": {
+      "golf_course": 61,
+      "site": 1,
+      "pk_in_site": "7",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=7",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=7&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.849",
+      "updated_at": "2018-12-06T23:04:14.849"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 62,
+    "fields": {
+      "golf_course": 62,
+      "site": 1,
+      "pk_in_site": "800",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=800",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=800&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.867",
+      "updated_at": "2018-12-06T23:04:14.867"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 63,
+    "fields": {
+      "golf_course": 63,
+      "site": 1,
+      "pk_in_site": "798",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=798",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=798&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.885",
+      "updated_at": "2018-12-06T23:04:14.885"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 64,
+    "fields": {
+      "golf_course": 64,
+      "site": 1,
+      "pk_in_site": "633",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=633",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=633&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.910",
+      "updated_at": "2018-12-06T23:04:14.910"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 65,
+    "fields": {
+      "golf_course": 65,
+      "site": 1,
+      "pk_in_site": "608",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=608",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=608&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.936",
+      "updated_at": "2018-12-06T23:04:14.936"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 66,
+    "fields": {
+      "golf_course": 66,
+      "site": 1,
+      "pk_in_site": "129",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=129",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=129&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.968",
+      "updated_at": "2018-12-06T23:04:14.969"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 67,
+    "fields": {
+      "golf_course": 67,
+      "site": 1,
+      "pk_in_site": "150",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=150",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=150&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.000",
+      "updated_at": "2018-12-06T23:04:15.000"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 68,
+    "fields": {
+      "golf_course": 68,
+      "site": 1,
+      "pk_in_site": "191",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=191",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=191&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.026",
+      "updated_at": "2018-12-06T23:04:15.027"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 69,
+    "fields": {
+      "golf_course": 69,
+      "site": 1,
+      "pk_in_site": "716",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=716",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=716&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.049",
+      "updated_at": "2018-12-06T23:04:15.049"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 70,
+    "fields": {
+      "golf_course": 70,
+      "site": 1,
+      "pk_in_site": "200",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=200",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=200&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.081",
+      "updated_at": "2018-12-06T23:04:15.081"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 71,
+    "fields": {
+      "golf_course": 71,
+      "site": 1,
+      "pk_in_site": "11",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=11",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=11&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.099",
+      "updated_at": "2018-12-06T23:04:15.099"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 72,
+    "fields": {
+      "golf_course": 72,
+      "site": 1,
+      "pk_in_site": "153",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=153",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=153&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.127",
+      "updated_at": "2018-12-06T23:04:15.127"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 73,
+    "fields": {
+      "golf_course": 73,
+      "site": 1,
+      "pk_in_site": "107",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=107",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=107&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.157",
+      "updated_at": "2018-12-06T23:04:15.158"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 74,
+    "fields": {
+      "golf_course": 74,
+      "site": 1,
+      "pk_in_site": "828",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=828",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=828&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.192",
+      "updated_at": "2018-12-06T23:04:15.192"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 75,
+    "fields": {
+      "golf_course": 75,
+      "site": 1,
+      "pk_in_site": "154",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=154",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=154&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.232",
+      "updated_at": "2018-12-06T23:04:15.232"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 76,
+    "fields": {
+      "golf_course": 76,
+      "site": 1,
+      "pk_in_site": "587",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=587",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=587&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.250",
+      "updated_at": "2018-12-06T23:04:15.250"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 77,
+    "fields": {
+      "golf_course": 77,
+      "site": 1,
+      "pk_in_site": "156",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=156",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=156&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.266",
+      "updated_at": "2018-12-06T23:04:15.266"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 78,
+    "fields": {
+      "golf_course": 78,
+      "site": 1,
+      "pk_in_site": "118",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=118",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=118&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.285",
+      "updated_at": "2018-12-06T23:04:15.285"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 79,
+    "fields": {
+      "golf_course": 79,
+      "site": 1,
+      "pk_in_site": "876",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=876",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=876&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.302",
+      "updated_at": "2018-12-06T23:04:15.302"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 80,
+    "fields": {
+      "golf_course": 80,
+      "site": 1,
+      "pk_in_site": "109",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=109",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=109&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.321",
+      "updated_at": "2018-12-06T23:04:15.321"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 81,
+    "fields": {
+      "golf_course": 81,
+      "site": 1,
+      "pk_in_site": "105",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=105",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=105&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.345",
+      "updated_at": "2018-12-06T23:04:15.345"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 82,
+    "fields": {
+      "golf_course": 82,
+      "site": 1,
+      "pk_in_site": "232",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=232",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=232&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.371",
+      "updated_at": "2018-12-06T23:04:15.371"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 83,
+    "fields": {
+      "golf_course": 83,
+      "site": 1,
+      "pk_in_site": "170",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=170",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=170&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.404",
+      "updated_at": "2018-12-06T23:04:15.404"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 84,
+    "fields": {
+      "golf_course": 84,
+      "site": 1,
+      "pk_in_site": "117",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=117",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=117&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.440",
+      "updated_at": "2018-12-06T23:04:15.440"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 85,
+    "fields": {
+      "golf_course": 85,
+      "site": 1,
+      "pk_in_site": "627",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=627",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=627&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.463",
+      "updated_at": "2018-12-06T23:04:15.463"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 86,
+    "fields": {
+      "golf_course": 86,
+      "site": 1,
+      "pk_in_site": "174",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=174",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=174&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.482",
+      "updated_at": "2018-12-06T23:04:15.482"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 87,
+    "fields": {
+      "golf_course": 87,
+      "site": 1,
+      "pk_in_site": "42",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=42",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=42&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.501",
+      "updated_at": "2018-12-06T23:04:15.501"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 88,
+    "fields": {
+      "golf_course": 88,
+      "site": 1,
+      "pk_in_site": "192",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=192",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=192&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.520",
+      "updated_at": "2018-12-06T23:04:15.520"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 89,
+    "fields": {
+      "golf_course": 89,
+      "site": 1,
+      "pk_in_site": "94",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=94",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=94&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.553",
+      "updated_at": "2018-12-06T23:04:15.553"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 90,
+    "fields": {
+      "golf_course": 90,
+      "site": 1,
+      "pk_in_site": "227",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=227",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=227&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.587",
+      "updated_at": "2018-12-06T23:04:15.587"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 91,
+    "fields": {
+      "golf_course": 91,
+      "site": 1,
+      "pk_in_site": "710",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=710",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=710&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.619",
+      "updated_at": "2018-12-06T23:04:15.619"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 92,
+    "fields": {
+      "golf_course": 92,
+      "site": 1,
+      "pk_in_site": "526",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=526",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=526&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.649",
+      "updated_at": "2018-12-06T23:04:15.649"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 93,
+    "fields": {
+      "golf_course": 93,
+      "site": 1,
+      "pk_in_site": "162",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=162",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=162&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.668",
+      "updated_at": "2018-12-06T23:04:15.668"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 94,
+    "fields": {
+      "golf_course": 94,
+      "site": 1,
+      "pk_in_site": "749",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=749",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=749&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.685",
+      "updated_at": "2018-12-06T23:04:15.685"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 95,
+    "fields": {
+      "golf_course": 95,
+      "site": 1,
+      "pk_in_site": "163",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=163",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=163&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.704",
+      "updated_at": "2018-12-06T23:04:15.704"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 96,
+    "fields": {
+      "golf_course": 96,
+      "site": 1,
+      "pk_in_site": "808",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=808",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=808&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.721",
+      "updated_at": "2018-12-06T23:04:15.721"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 97,
+    "fields": {
+      "golf_course": 97,
+      "site": 1,
+      "pk_in_site": "158",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=158",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=158&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.742",
+      "updated_at": "2018-12-06T23:04:15.742"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 98,
+    "fields": {
+      "golf_course": 98,
+      "site": 1,
+      "pk_in_site": "69",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=69",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=69&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.769",
+      "updated_at": "2018-12-06T23:04:15.769"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 99,
+    "fields": {
+      "golf_course": 99,
+      "site": 1,
+      "pk_in_site": "165",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=165",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=165&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.802",
+      "updated_at": "2018-12-06T23:04:15.802"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 100,
+    "fields": {
+      "golf_course": 100,
+      "site": 1,
+      "pk_in_site": "754",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=754",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=754&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.833",
+      "updated_at": "2018-12-06T23:04:15.833"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 101,
+    "fields": {
+      "golf_course": 101,
+      "site": 1,
+      "pk_in_site": "205",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=205",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=205&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.864",
+      "updated_at": "2018-12-06T23:04:15.864"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 102,
+    "fields": {
+      "golf_course": 102,
+      "site": 1,
+      "pk_in_site": "809",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=809",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=809&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.881",
+      "updated_at": "2018-12-06T23:04:15.881"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 103,
+    "fields": {
+      "golf_course": 103,
+      "site": 1,
+      "pk_in_site": "792",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=792",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=792&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.899",
+      "updated_at": "2018-12-06T23:04:15.899"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 104,
+    "fields": {
+      "golf_course": 104,
+      "site": 1,
+      "pk_in_site": "101",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=101",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=101&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.921",
+      "updated_at": "2018-12-06T23:04:15.921"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 105,
+    "fields": {
+      "golf_course": 105,
+      "site": 1,
+      "pk_in_site": "167",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=167",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=167&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.938",
+      "updated_at": "2018-12-06T23:04:15.938"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 106,
+    "fields": {
+      "golf_course": 106,
+      "site": 1,
+      "pk_in_site": "168",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=168",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=168&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.970",
+      "updated_at": "2018-12-06T23:04:15.970"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 107,
+    "fields": {
+      "golf_course": 107,
+      "site": 1,
+      "pk_in_site": "222",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=222",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=222&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.002",
+      "updated_at": "2018-12-06T23:04:16.002"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 108,
+    "fields": {
+      "golf_course": 108,
+      "site": 1,
+      "pk_in_site": "126",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=126",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=126&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.033",
+      "updated_at": "2018-12-06T23:04:16.033"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 109,
+    "fields": {
+      "golf_course": 109,
+      "site": 1,
+      "pk_in_site": "157",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=157",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=157&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.069",
+      "updated_at": "2018-12-06T23:04:16.069"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 110,
+    "fields": {
+      "golf_course": 110,
+      "site": 1,
+      "pk_in_site": "830",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=830",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=830&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.095",
+      "updated_at": "2018-12-06T23:04:16.095"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 111,
+    "fields": {
+      "golf_course": 111,
+      "site": 1,
+      "pk_in_site": "60",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=60",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=60&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.113",
+      "updated_at": "2018-12-06T23:04:16.113"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 112,
+    "fields": {
+      "golf_course": 112,
+      "site": 1,
+      "pk_in_site": "228",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=228",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=228&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.131",
+      "updated_at": "2018-12-06T23:04:16.131"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 113,
+    "fields": {
+      "golf_course": 113,
+      "site": 1,
+      "pk_in_site": "801",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=801",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=801&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.151",
+      "updated_at": "2018-12-06T23:04:16.151"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 114,
+    "fields": {
+      "golf_course": 114,
+      "site": 1,
+      "pk_in_site": "171",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=171",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=171&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.174",
+      "updated_at": "2018-12-06T23:04:16.174"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 115,
+    "fields": {
+      "golf_course": 115,
+      "site": 1,
+      "pk_in_site": "100",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=100",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=100&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.200",
+      "updated_at": "2018-12-06T23:04:16.200"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 116,
+    "fields": {
+      "golf_course": 116,
+      "site": 1,
+      "pk_in_site": "806",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=806",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=806&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.233",
+      "updated_at": "2018-12-06T23:04:16.233"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 117,
+    "fields": {
+      "golf_course": 117,
+      "site": 1,
+      "pk_in_site": "44",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=44",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=44&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.263",
+      "updated_at": "2018-12-06T23:04:16.263"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 118,
+    "fields": {
+      "golf_course": 118,
+      "site": 1,
+      "pk_in_site": "172",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=172",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=172&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.286",
+      "updated_at": "2018-12-06T23:04:16.286"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 119,
+    "fields": {
+      "golf_course": 119,
+      "site": 1,
+      "pk_in_site": "45",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=45",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=45&book_regn_dv_cd=2&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.306",
+      "updated_at": "2018-12-06T23:04:16.306"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 120,
+    "fields": {
+      "golf_course": 120,
+      "site": 1,
+      "pk_in_site": "539",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=539",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=539&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.327",
+      "updated_at": "2018-12-06T23:04:16.327"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 121,
+    "fields": {
+      "golf_course": 121,
+      "site": 1,
+      "pk_in_site": "698",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=698",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=698&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.344",
+      "updated_at": "2018-12-06T23:04:16.344"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 122,
+    "fields": {
+      "golf_course": 122,
+      "site": 1,
+      "pk_in_site": "699",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=699",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=699&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.362",
+      "updated_at": "2018-12-06T23:04:16.362"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 123,
+    "fields": {
+      "golf_course": 123,
+      "site": 1,
+      "pk_in_site": "670",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=670",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=670&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.381",
+      "updated_at": "2018-12-06T23:04:16.381"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 124,
+    "fields": {
+      "golf_course": 124,
+      "site": 1,
+      "pk_in_site": "613",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=613",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=613&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.412",
+      "updated_at": "2018-12-06T23:04:16.412"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 125,
+    "fields": {
+      "golf_course": 125,
+      "site": 1,
+      "pk_in_site": "820",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=820",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=820&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.443",
+      "updated_at": "2018-12-06T23:04:16.443"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 126,
+    "fields": {
+      "golf_course": 126,
+      "site": 1,
+      "pk_in_site": "653",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=653",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=653&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.498",
+      "updated_at": "2018-12-06T23:04:16.498"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 127,
+    "fields": {
+      "golf_course": 127,
+      "site": 1,
+      "pk_in_site": "775",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=775",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=775&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.515",
+      "updated_at": "2018-12-06T23:04:16.515"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 128,
+    "fields": {
+      "golf_course": 128,
+      "site": 1,
+      "pk_in_site": "666",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=666",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=666&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.533",
+      "updated_at": "2018-12-06T23:04:16.533"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 129,
+    "fields": {
+      "golf_course": 129,
+      "site": 1,
+      "pk_in_site": "90",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=90",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=90&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.557",
+      "updated_at": "2018-12-06T23:04:16.557"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 130,
+    "fields": {
+      "golf_course": 130,
+      "site": 1,
+      "pk_in_site": "190",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=190",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=190&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.581",
+      "updated_at": "2018-12-06T23:04:16.581"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 131,
+    "fields": {
+      "golf_course": 131,
+      "site": 1,
+      "pk_in_site": "703",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=703",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=703&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.607",
+      "updated_at": "2018-12-06T23:04:16.607"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 132,
+    "fields": {
+      "golf_course": 132,
+      "site": 1,
+      "pk_in_site": "673",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=673",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=673&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.631",
+      "updated_at": "2018-12-06T23:04:16.631"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 133,
+    "fields": {
+      "golf_course": 133,
+      "site": 1,
+      "pk_in_site": "790",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=790",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=790&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.660",
+      "updated_at": "2018-12-06T23:04:16.660"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 134,
+    "fields": {
+      "golf_course": 134,
+      "site": 1,
+      "pk_in_site": "607",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=607",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=607&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.687",
+      "updated_at": "2018-12-06T23:04:16.687"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 135,
+    "fields": {
+      "golf_course": 135,
+      "site": 1,
+      "pk_in_site": "197",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=197",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=197&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.709",
+      "updated_at": "2018-12-06T23:04:16.709"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 136,
+    "fields": {
+      "golf_course": 136,
+      "site": 1,
+      "pk_in_site": "23",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=23",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=23&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.727",
+      "updated_at": "2018-12-06T23:04:16.728"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 137,
+    "fields": {
+      "golf_course": 137,
+      "site": 1,
+      "pk_in_site": "731",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=731",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=731&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.745",
+      "updated_at": "2018-12-06T23:04:16.745"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 138,
+    "fields": {
+      "golf_course": 138,
+      "site": 1,
+      "pk_in_site": "178",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=178",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=178&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.762",
+      "updated_at": "2018-12-06T23:04:16.762"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 139,
+    "fields": {
+      "golf_course": 139,
+      "site": 1,
+      "pk_in_site": "231",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=231",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=231&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.779",
+      "updated_at": "2018-12-06T23:04:16.779"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 140,
+    "fields": {
+      "golf_course": 140,
+      "site": 1,
+      "pk_in_site": "459",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=459",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=459&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.798",
+      "updated_at": "2018-12-06T23:04:16.798"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 141,
+    "fields": {
+      "golf_course": 141,
+      "site": 1,
+      "pk_in_site": "804",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=804",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=804&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.830",
+      "updated_at": "2018-12-06T23:04:16.830"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 142,
+    "fields": {
+      "golf_course": 142,
+      "site": 1,
+      "pk_in_site": "177",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=177",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=177&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.864",
+      "updated_at": "2018-12-06T23:04:16.864"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 143,
+    "fields": {
+      "golf_course": 143,
+      "site": 1,
+      "pk_in_site": "216",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=216",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=216&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.893",
+      "updated_at": "2018-12-06T23:04:16.893"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 144,
+    "fields": {
+      "golf_course": 144,
+      "site": 1,
+      "pk_in_site": "612",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=612",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=612&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.915",
+      "updated_at": "2018-12-06T23:04:16.915"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 145,
+    "fields": {
+      "golf_course": 145,
+      "site": 1,
+      "pk_in_site": "692",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=692",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=692&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.938",
+      "updated_at": "2018-12-06T23:04:16.938"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 146,
+    "fields": {
+      "golf_course": 146,
+      "site": 1,
+      "pk_in_site": "614",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=614",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=614&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.955",
+      "updated_at": "2018-12-06T23:04:16.955"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 147,
+    "fields": {
+      "golf_course": 147,
+      "site": 1,
+      "pk_in_site": "221",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=221",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=221&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.973",
+      "updated_at": "2018-12-06T23:04:16.973"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 148,
+    "fields": {
+      "golf_course": 148,
+      "site": 1,
+      "pk_in_site": "179",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=179",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=179&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.991",
+      "updated_at": "2018-12-06T23:04:16.991"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 149,
+    "fields": {
+      "golf_course": 149,
+      "site": 1,
+      "pk_in_site": "195",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=195",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=195&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.011",
+      "updated_at": "2018-12-06T23:04:17.011"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 150,
+    "fields": {
+      "golf_course": 150,
+      "site": 1,
+      "pk_in_site": "646",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=646",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=646&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.039",
+      "updated_at": "2018-12-06T23:04:17.039"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 151,
+    "fields": {
+      "golf_course": 151,
+      "site": 1,
+      "pk_in_site": "180",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=180",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=180&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.075",
+      "updated_at": "2018-12-06T23:04:17.075"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 152,
+    "fields": {
+      "golf_course": 152,
+      "site": 1,
+      "pk_in_site": "49",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=49",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=49&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.107",
+      "updated_at": "2018-12-06T23:04:17.107"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 153,
+    "fields": {
+      "golf_course": 153,
+      "site": 1,
+      "pk_in_site": "664",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=664",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=664&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.128",
+      "updated_at": "2018-12-06T23:04:17.128"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 154,
+    "fields": {
+      "golf_course": 154,
+      "site": 1,
+      "pk_in_site": "706",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=706",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=706&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.148",
+      "updated_at": "2018-12-06T23:04:17.148"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 155,
+    "fields": {
+      "golf_course": 155,
+      "site": 1,
+      "pk_in_site": "544",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=544",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=544&book_regn_dv_cd=4&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.166",
+      "updated_at": "2018-12-06T23:04:17.166"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 156,
+    "fields": {
+      "golf_course": 156,
+      "site": 1,
+      "pk_in_site": "729",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=729",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=729&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.183",
+      "updated_at": "2018-12-06T23:04:17.183"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 157,
+    "fields": {
+      "golf_course": 157,
+      "site": 1,
+      "pk_in_site": "20",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=20",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=20&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.200",
+      "updated_at": "2018-12-06T23:04:17.200"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 158,
+    "fields": {
+      "golf_course": 158,
+      "site": 1,
+      "pk_in_site": "862",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=862",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=862&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.219",
+      "updated_at": "2018-12-06T23:04:17.219"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 159,
+    "fields": {
+      "golf_course": 159,
+      "site": 1,
+      "pk_in_site": "752",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=752",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=752&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.253",
+      "updated_at": "2018-12-06T23:04:17.253"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 160,
+    "fields": {
+      "golf_course": 160,
+      "site": 1,
+      "pk_in_site": "671",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=671",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=671&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.290",
+      "updated_at": "2018-12-06T23:04:17.290"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 161,
+    "fields": {
+      "golf_course": 161,
+      "site": 1,
+      "pk_in_site": "645",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=645",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=645&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.321",
+      "updated_at": "2018-12-06T23:04:17.321"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 162,
+    "fields": {
+      "golf_course": 162,
+      "site": 1,
+      "pk_in_site": "829",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=829",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=829&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.352",
+      "updated_at": "2018-12-06T23:04:17.352"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 163,
+    "fields": {
+      "golf_course": 163,
+      "site": 1,
+      "pk_in_site": "193",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=193",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=193&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.373",
+      "updated_at": "2018-12-06T23:04:17.373"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 164,
+    "fields": {
+      "golf_course": 164,
+      "site": 1,
+      "pk_in_site": "71",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=71",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=71&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.392",
+      "updated_at": "2018-12-06T23:04:17.392"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 165,
+    "fields": {
+      "golf_course": 165,
+      "site": 1,
+      "pk_in_site": "536",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=536",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=536&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.421",
+      "updated_at": "2018-12-06T23:04:17.421"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 166,
+    "fields": {
+      "golf_course": 166,
+      "site": 1,
+      "pk_in_site": "647",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=647",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=647&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.461",
+      "updated_at": "2018-12-06T23:04:17.461"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 167,
+    "fields": {
+      "golf_course": 167,
+      "site": 1,
+      "pk_in_site": "196",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=196",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=196&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.498",
+      "updated_at": "2018-12-06T23:04:17.498"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 168,
+    "fields": {
+      "golf_course": 168,
+      "site": 1,
+      "pk_in_site": "649",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=649",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=649&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.541",
+      "updated_at": "2018-12-06T23:04:17.541"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 169,
+    "fields": {
+      "golf_course": 169,
+      "site": 1,
+      "pk_in_site": "533",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=533",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=533&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.578",
+      "updated_at": "2018-12-06T23:04:17.578"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 170,
+    "fields": {
+      "golf_course": 170,
+      "site": 1,
+      "pk_in_site": "847",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=847",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=847&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.609",
+      "updated_at": "2018-12-06T23:04:17.609"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 171,
+    "fields": {
+      "golf_course": 171,
+      "site": 1,
+      "pk_in_site": "720",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=720",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=720&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.649",
+      "updated_at": "2018-12-06T23:04:17.649"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 172,
+    "fields": {
+      "golf_course": 172,
+      "site": 1,
+      "pk_in_site": "843",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=843",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=843&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.697",
+      "updated_at": "2018-12-06T23:04:17.697"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 173,
+    "fields": {
+      "golf_course": 173,
+      "site": 1,
+      "pk_in_site": "225",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=225",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=225&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.740",
+      "updated_at": "2018-12-06T23:04:17.740"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 174,
+    "fields": {
+      "golf_course": 174,
+      "site": 1,
+      "pk_in_site": "665",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=665",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=665&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.759",
+      "updated_at": "2018-12-06T23:04:17.759"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 175,
+    "fields": {
+      "golf_course": 175,
+      "site": 1,
+      "pk_in_site": "697",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=697",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=697&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.778",
+      "updated_at": "2018-12-06T23:04:17.778"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 176,
+    "fields": {
+      "golf_course": 176,
+      "site": 1,
+      "pk_in_site": "811",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=811",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=811&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.796",
+      "updated_at": "2018-12-06T23:04:17.796"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 177,
+    "fields": {
+      "golf_course": 177,
+      "site": 1,
+      "pk_in_site": "111",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=111",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=111&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.816",
+      "updated_at": "2018-12-06T23:04:17.816"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 178,
+    "fields": {
+      "golf_course": 178,
+      "site": 1,
+      "pk_in_site": "708",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=708",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=708&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.846",
+      "updated_at": "2018-12-06T23:04:17.846"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 179,
+    "fields": {
+      "golf_course": 179,
+      "site": 1,
+      "pk_in_site": "894",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=894",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=894&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.893",
+      "updated_at": "2018-12-06T23:04:17.893"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 180,
+    "fields": {
+      "golf_course": 180,
+      "site": 1,
+      "pk_in_site": "584",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=584",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=584&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.932",
+      "updated_at": "2018-12-06T23:04:17.932"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 181,
+    "fields": {
+      "golf_course": 181,
+      "site": 1,
+      "pk_in_site": "711",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=711",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=711&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.958",
+      "updated_at": "2018-12-06T23:04:17.958"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 182,
+    "fields": {
+      "golf_course": 182,
+      "site": 1,
+      "pk_in_site": "176",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=176",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=176&book_regn_dv_cd=3&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.977",
+      "updated_at": "2018-12-06T23:04:17.977"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 183,
+    "fields": {
+      "golf_course": 183,
+      "site": 1,
+      "pk_in_site": "786",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=786",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=786&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.998",
+      "updated_at": "2018-12-06T23:04:17.998"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 184,
+    "fields": {
+      "golf_course": 184,
+      "site": 1,
+      "pk_in_site": "481",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=481",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=481&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.017",
+      "updated_at": "2018-12-06T23:04:18.017"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 185,
+    "fields": {
+      "golf_course": 185,
+      "site": 1,
+      "pk_in_site": "555",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=555",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=555&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.046",
+      "updated_at": "2018-12-06T23:04:18.046"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 186,
+    "fields": {
+      "golf_course": 186,
+      "site": 1,
+      "pk_in_site": "115",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=115",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=115&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.097",
+      "updated_at": "2018-12-06T23:04:18.097"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 187,
+    "fields": {
+      "golf_course": 187,
+      "site": 1,
+      "pk_in_site": "113",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=113",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=113&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.137",
+      "updated_at": "2018-12-06T23:04:18.137"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 188,
+    "fields": {
+      "golf_course": 188,
+      "site": 1,
+      "pk_in_site": "116",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=116",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=116&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.161",
+      "updated_at": "2018-12-06T23:04:18.161"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 189,
+    "fields": {
+      "golf_course": 189,
+      "site": 1,
+      "pk_in_site": "99",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=99",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=99&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.181",
+      "updated_at": "2018-12-06T23:04:18.182"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 190,
+    "fields": {
+      "golf_course": 190,
+      "site": 1,
+      "pk_in_site": "214",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=214",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=214&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.200",
+      "updated_at": "2018-12-06T23:04:18.200"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 191,
+    "fields": {
+      "golf_course": 191,
+      "site": 1,
+      "pk_in_site": "507",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=507",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=507&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.218",
+      "updated_at": "2018-12-06T23:04:18.218"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 192,
+    "fields": {
+      "golf_course": 192,
+      "site": 1,
+      "pk_in_site": "114",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=114",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=114&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.249",
+      "updated_at": "2018-12-06T23:04:18.249"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 193,
+    "fields": {
+      "golf_course": 193,
+      "site": 1,
+      "pk_in_site": "562",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=562",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=562&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.287",
+      "updated_at": "2018-12-06T23:04:18.287"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 194,
+    "fields": {
+      "golf_course": 194,
+      "site": 1,
+      "pk_in_site": "24",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=24",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=24&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.317",
+      "updated_at": "2018-12-06T23:04:18.317"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 195,
+    "fields": {
+      "golf_course": 195,
+      "site": 1,
+      "pk_in_site": "877",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=877",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=877&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.353",
+      "updated_at": "2018-12-06T23:04:18.353"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 196,
+    "fields": {
+      "golf_course": 196,
+      "site": 1,
+      "pk_in_site": "316",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=316",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=316&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.371",
+      "updated_at": "2018-12-06T23:04:18.371"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 197,
+    "fields": {
+      "golf_course": 197,
+      "site": 1,
+      "pk_in_site": "744",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=744",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=744&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.392",
+      "updated_at": "2018-12-06T23:04:18.392"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 198,
+    "fields": {
+      "golf_course": 198,
+      "site": 1,
+      "pk_in_site": "564",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=564",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=564&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.417",
+      "updated_at": "2018-12-06T23:04:18.417"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 199,
+    "fields": {
+      "golf_course": 199,
+      "site": 1,
+      "pk_in_site": "805",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=805",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=805&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.441",
+      "updated_at": "2018-12-06T23:04:18.441"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 200,
+    "fields": {
+      "golf_course": 200,
+      "site": 1,
+      "pk_in_site": "867",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=867",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=867&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.469",
+      "updated_at": "2018-12-06T23:04:18.469"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 201,
+    "fields": {
+      "golf_course": 201,
+      "site": 1,
+      "pk_in_site": "726",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=726",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=726&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.509",
+      "updated_at": "2018-12-06T23:04:18.510"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 202,
+    "fields": {
+      "golf_course": 202,
+      "site": 1,
+      "pk_in_site": "563",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=563",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=563&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.550",
+      "updated_at": "2018-12-06T23:04:18.550"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 203,
+    "fields": {
+      "golf_course": 203,
+      "site": 1,
+      "pk_in_site": "566",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=566",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=566&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.573",
+      "updated_at": "2018-12-06T23:04:18.573"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 204,
+    "fields": {
+      "golf_course": 204,
+      "site": 1,
+      "pk_in_site": "26",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=26",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=26&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.616",
+      "updated_at": "2018-12-06T23:04:18.616"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 205,
+    "fields": {
+      "golf_course": 205,
+      "site": 1,
+      "pk_in_site": "10",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=10",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=10&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.638",
+      "updated_at": "2018-12-06T23:04:18.638"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 206,
+    "fields": {
+      "golf_course": 206,
+      "site": 1,
+      "pk_in_site": "684",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=684",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=684&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.668",
+      "updated_at": "2018-12-06T23:04:18.668"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 207,
+    "fields": {
+      "golf_course": 207,
+      "site": 1,
+      "pk_in_site": "142",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=142",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=142&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.704",
+      "updated_at": "2018-12-06T23:04:18.704"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 208,
+    "fields": {
+      "golf_course": 208,
+      "site": 1,
+      "pk_in_site": "523",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=523",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=523&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.769",
+      "updated_at": "2018-12-06T23:04:18.769"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 209,
+    "fields": {
+      "golf_course": 209,
+      "site": 1,
+      "pk_in_site": "700",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=700",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=700&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.794",
+      "updated_at": "2018-12-06T23:04:18.794"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 210,
+    "fields": {
+      "golf_course": 210,
+      "site": 1,
+      "pk_in_site": "565",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=565",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=565&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.818",
+      "updated_at": "2018-12-06T23:04:18.819"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 211,
+    "fields": {
+      "golf_course": 211,
+      "site": 1,
+      "pk_in_site": "127",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=127",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=127&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.836",
+      "updated_at": "2018-12-06T23:04:18.836"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 212,
+    "fields": {
+      "golf_course": 212,
+      "site": 1,
+      "pk_in_site": "204",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=204",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=204&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.864",
+      "updated_at": "2018-12-06T23:04:18.864"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 213,
+    "fields": {
+      "golf_course": 213,
+      "site": 1,
+      "pk_in_site": "724",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=724",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=724&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.893",
+      "updated_at": "2018-12-06T23:04:18.893"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 214,
+    "fields": {
+      "golf_course": 214,
+      "site": 1,
+      "pk_in_site": "561",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=561",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=561&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.920",
+      "updated_at": "2018-12-06T23:04:18.920"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 215,
+    "fields": {
+      "golf_course": 215,
+      "site": 1,
+      "pk_in_site": "644",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=644",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=644&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.951",
+      "updated_at": "2018-12-06T23:04:18.951"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 216,
+    "fields": {
+      "golf_course": 216,
+      "site": 1,
+      "pk_in_site": "742",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=742",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=742&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.975",
+      "updated_at": "2018-12-06T23:04:18.975"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 217,
+    "fields": {
+      "golf_course": 217,
+      "site": 1,
+      "pk_in_site": "617",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=617",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=617&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.993",
+      "updated_at": "2018-12-06T23:04:18.994"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 218,
+    "fields": {
+      "golf_course": 218,
+      "site": 1,
+      "pk_in_site": "215",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=215",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=215&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.012",
+      "updated_at": "2018-12-06T23:04:19.013"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 219,
+    "fields": {
+      "golf_course": 219,
+      "site": 1,
+      "pk_in_site": "452",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=452",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=452&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.031",
+      "updated_at": "2018-12-06T23:04:19.031"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 220,
+    "fields": {
+      "golf_course": 220,
+      "site": 1,
+      "pk_in_site": "1",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=1",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=1&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.049",
+      "updated_at": "2018-12-06T23:04:19.049"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 221,
+    "fields": {
+      "golf_course": 221,
+      "site": 1,
+      "pk_in_site": "743",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=743",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=743&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.079",
+      "updated_at": "2018-12-06T23:04:19.079"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 222,
+    "fields": {
+      "golf_course": 222,
+      "site": 1,
+      "pk_in_site": "719",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=719",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=719&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.111",
+      "updated_at": "2018-12-06T23:04:19.111"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 223,
+    "fields": {
+      "golf_course": 223,
+      "site": 1,
+      "pk_in_site": "643",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=643",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=643&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.144",
+      "updated_at": "2018-12-06T23:04:19.144"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 224,
+    "fields": {
+      "golf_course": 224,
+      "site": 1,
+      "pk_in_site": "569",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=569",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=569&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.170",
+      "updated_at": "2018-12-06T23:04:19.170"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 225,
+    "fields": {
+      "golf_course": 225,
+      "site": 1,
+      "pk_in_site": "642",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=642",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=642&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.187",
+      "updated_at": "2018-12-06T23:04:19.187"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 226,
+    "fields": {
+      "golf_course": 226,
+      "site": 1,
+      "pk_in_site": "819",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=819",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=819&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.206",
+      "updated_at": "2018-12-06T23:04:19.206"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 227,
+    "fields": {
+      "golf_course": 227,
+      "site": 1,
+      "pk_in_site": "75",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=75",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=75&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.223",
+      "updated_at": "2018-12-06T23:04:19.223"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 228,
+    "fields": {
+      "golf_course": 228,
+      "site": 1,
+      "pk_in_site": "438",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=438",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=438&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.241",
+      "updated_at": "2018-12-06T23:04:19.241"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 229,
+    "fields": {
+      "golf_course": 229,
+      "site": 1,
+      "pk_in_site": "492",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=492",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=492&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.260",
+      "updated_at": "2018-12-06T23:04:19.260"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 230,
+    "fields": {
+      "golf_course": 230,
+      "site": 1,
+      "pk_in_site": "525",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=525",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=525&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.296",
+      "updated_at": "2018-12-06T23:04:19.296"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 231,
+    "fields": {
+      "golf_course": 231,
+      "site": 1,
+      "pk_in_site": "183",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=183",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=183&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.330",
+      "updated_at": "2018-12-06T23:04:19.330"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 232,
+    "fields": {
+      "golf_course": 232,
+      "site": 1,
+      "pk_in_site": "626",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=626",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=626&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.365",
+      "updated_at": "2018-12-06T23:04:19.365"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 233,
+    "fields": {
+      "golf_course": 233,
+      "site": 1,
+      "pk_in_site": "76",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=76",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=76&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.391",
+      "updated_at": "2018-12-06T23:04:19.391"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 234,
+    "fields": {
+      "golf_course": 234,
+      "site": 1,
+      "pk_in_site": "639",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=639",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=639&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.415",
+      "updated_at": "2018-12-06T23:04:19.415"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 235,
+    "fields": {
+      "golf_course": 235,
+      "site": 1,
+      "pk_in_site": "28",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=28",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=28&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.434",
+      "updated_at": "2018-12-06T23:04:19.434"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 236,
+    "fields": {
+      "golf_course": 236,
+      "site": 1,
+      "pk_in_site": "652",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=652",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=652&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.453",
+      "updated_at": "2018-12-06T23:04:19.453"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 237,
+    "fields": {
+      "golf_course": 237,
+      "site": 1,
+      "pk_in_site": "640",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=640",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=640&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.479",
+      "updated_at": "2018-12-06T23:04:19.479"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 238,
+    "fields": {
+      "golf_course": 238,
+      "site": 1,
+      "pk_in_site": "182",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=182",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=182&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.515",
+      "updated_at": "2018-12-06T23:04:19.515"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 239,
+    "fields": {
+      "golf_course": 239,
+      "site": 1,
+      "pk_in_site": "181",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=181",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=181&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.550",
+      "updated_at": "2018-12-06T23:04:19.550"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 240,
+    "fields": {
+      "golf_course": 240,
+      "site": 1,
+      "pk_in_site": "513",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=513",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=513&book_regn_dv_cd=5&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.585",
+      "updated_at": "2018-12-06T23:04:19.585"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 241,
+    "fields": {
+      "golf_course": 241,
+      "site": 1,
+      "pk_in_site": "378",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=378",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=378&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.603",
+      "updated_at": "2018-12-06T23:04:19.603"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 242,
+    "fields": {
+      "golf_course": 242,
+      "site": 1,
+      "pk_in_site": "509",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=509",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=509&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.623",
+      "updated_at": "2018-12-06T23:04:19.623"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 243,
+    "fields": {
+      "golf_course": 243,
+      "site": 1,
+      "pk_in_site": "549",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=549",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=549&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.641",
+      "updated_at": "2018-12-06T23:04:19.641"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 244,
+    "fields": {
+      "golf_course": 244,
+      "site": 1,
+      "pk_in_site": "209",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=209",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=209&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.657",
+      "updated_at": "2018-12-06T23:04:19.658"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 245,
+    "fields": {
+      "golf_course": 245,
+      "site": 1,
+      "pk_in_site": "760",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=760",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=760&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.677",
+      "updated_at": "2018-12-06T23:04:19.677"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 246,
+    "fields": {
+      "golf_course": 246,
+      "site": 1,
+      "pk_in_site": "132",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=132",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=132&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.702",
+      "updated_at": "2018-12-06T23:04:19.702"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 247,
+    "fields": {
+      "golf_course": 247,
+      "site": 1,
+      "pk_in_site": "103",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=103",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=103&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.735",
+      "updated_at": "2018-12-06T23:04:19.735"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 248,
+    "fields": {
+      "golf_course": 248,
+      "site": 1,
+      "pk_in_site": "78",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=78",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=78&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.768",
+      "updated_at": "2018-12-06T23:04:19.768"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 249,
+    "fields": {
+      "golf_course": 249,
+      "site": 1,
+      "pk_in_site": "25",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=25",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=25&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.796",
+      "updated_at": "2018-12-06T23:04:19.796"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 250,
+    "fields": {
+      "golf_course": 250,
+      "site": 1,
+      "pk_in_site": "679",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=679",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=679&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.814",
+      "updated_at": "2018-12-06T23:04:19.814"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 251,
+    "fields": {
+      "golf_course": 251,
+      "site": 1,
+      "pk_in_site": "550",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=550",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=550&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.832",
+      "updated_at": "2018-12-06T23:04:19.832"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 252,
+    "fields": {
+      "golf_course": 252,
+      "site": 1,
+      "pk_in_site": "552",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=552",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=552&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.849",
+      "updated_at": "2018-12-06T23:04:19.849"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 253,
+    "fields": {
+      "golf_course": 253,
+      "site": 1,
+      "pk_in_site": "245",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=245",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=245&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.869",
+      "updated_at": "2018-12-06T23:04:19.869"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 254,
+    "fields": {
+      "golf_course": 254,
+      "site": 1,
+      "pk_in_site": "77",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=77",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=77&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.890",
+      "updated_at": "2018-12-06T23:04:19.890"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 255,
+    "fields": {
+      "golf_course": 255,
+      "site": 1,
+      "pk_in_site": "534",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=534",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=534&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.932",
+      "updated_at": "2018-12-06T23:04:19.932"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 256,
+    "fields": {
+      "golf_course": 256,
+      "site": 1,
+      "pk_in_site": "758",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=758",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=758&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.966",
+      "updated_at": "2018-12-06T23:04:19.966"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 257,
+    "fields": {
+      "golf_course": 257,
+      "site": 1,
+      "pk_in_site": "184",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=184",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=184&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.003",
+      "updated_at": "2018-12-06T23:04:20.003"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 258,
+    "fields": {
+      "golf_course": 258,
+      "site": 1,
+      "pk_in_site": "185",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=185",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=185&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.027",
+      "updated_at": "2018-12-06T23:04:20.027"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 259,
+    "fields": {
+      "golf_course": 259,
+      "site": 1,
+      "pk_in_site": "202",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=202",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=202&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.049",
+      "updated_at": "2018-12-06T23:04:20.049"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 260,
+    "fields": {
+      "golf_course": 260,
+      "site": 1,
+      "pk_in_site": "837",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=837",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=837&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.076",
+      "updated_at": "2018-12-06T23:04:20.077"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 261,
+    "fields": {
+      "golf_course": 261,
+      "site": 1,
+      "pk_in_site": "727",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=727",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=727&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.096",
+      "updated_at": "2018-12-06T23:04:20.096"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 262,
+    "fields": {
+      "golf_course": 262,
+      "site": 1,
+      "pk_in_site": "286",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=286",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=286&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.127",
+      "updated_at": "2018-12-06T23:04:20.127"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 263,
+    "fields": {
+      "golf_course": 263,
+      "site": 1,
+      "pk_in_site": "545",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=545",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=545&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.154",
+      "updated_at": "2018-12-06T23:04:20.154"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 264,
+    "fields": {
+      "golf_course": 264,
+      "site": 1,
+      "pk_in_site": "635",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=635",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=635&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.189",
+      "updated_at": "2018-12-06T23:04:20.189"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 265,
+    "fields": {
+      "golf_course": 265,
+      "site": 1,
+      "pk_in_site": "287",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=287",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=287&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.218",
+      "updated_at": "2018-12-06T23:04:20.218"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 266,
+    "fields": {
+      "golf_course": 266,
+      "site": 1,
+      "pk_in_site": "29",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=29",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=29&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.236",
+      "updated_at": "2018-12-06T23:04:20.236"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 267,
+    "fields": {
+      "golf_course": 267,
+      "site": 1,
+      "pk_in_site": "258",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=258",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=258&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.254",
+      "updated_at": "2018-12-06T23:04:20.254"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 268,
+    "fields": {
+      "golf_course": 268,
+      "site": 1,
+      "pk_in_site": "610",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=610",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=610&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.271",
+      "updated_at": "2018-12-06T23:04:20.271"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 269,
+    "fields": {
+      "golf_course": 269,
+      "site": 1,
+      "pk_in_site": "761",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=761",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=761&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.289",
+      "updated_at": "2018-12-06T23:04:20.289"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 270,
+    "fields": {
+      "golf_course": 270,
+      "site": 1,
+      "pk_in_site": "133",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=133",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=133&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.317",
+      "updated_at": "2018-12-06T23:04:20.317"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 271,
+    "fields": {
+      "golf_course": 271,
+      "site": 1,
+      "pk_in_site": "106",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=106",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=106&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.358",
+      "updated_at": "2018-12-06T23:04:20.358"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 272,
+    "fields": {
+      "golf_course": 272,
+      "site": 1,
+      "pk_in_site": "211",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=211",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=211&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.397",
+      "updated_at": "2018-12-06T23:04:20.397"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 273,
+    "fields": {
+      "golf_course": 273,
+      "site": 1,
+      "pk_in_site": "186",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=186",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=186&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.424",
+      "updated_at": "2018-12-06T23:04:20.424"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 274,
+    "fields": {
+      "golf_course": 274,
+      "site": 1,
+      "pk_in_site": "784",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=784",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=784&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.444",
+      "updated_at": "2018-12-06T23:04:20.444"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 275,
+    "fields": {
+      "golf_course": 275,
+      "site": 1,
+      "pk_in_site": "79",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=79",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=79&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.462",
+      "updated_at": "2018-12-06T23:04:20.462"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 276,
+    "fields": {
+      "golf_course": 276,
+      "site": 1,
+      "pk_in_site": "618",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=618",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=618&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.479",
+      "updated_at": "2018-12-06T23:04:20.479"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 277,
+    "fields": {
+      "golf_course": 277,
+      "site": 1,
+      "pk_in_site": "208",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=208",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=208&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.499",
+      "updated_at": "2018-12-06T23:04:20.499"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 278,
+    "fields": {
+      "golf_course": 278,
+      "site": 1,
+      "pk_in_site": "606",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=606",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=606&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.527",
+      "updated_at": "2018-12-06T23:04:20.527"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 279,
+    "fields": {
+      "golf_course": 279,
+      "site": 1,
+      "pk_in_site": "788",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=788",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=788&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.555",
+      "updated_at": "2018-12-06T23:04:20.555"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 280,
+    "fields": {
+      "golf_course": 280,
+      "site": 1,
+      "pk_in_site": "134",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=134",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=134&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.600",
+      "updated_at": "2018-12-06T23:04:20.600"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 281,
+    "fields": {
+      "golf_course": 281,
+      "site": 1,
+      "pk_in_site": "668",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=668",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=668&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.625",
+      "updated_at": "2018-12-06T23:04:20.625"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 282,
+    "fields": {
+      "golf_course": 282,
+      "site": 1,
+      "pk_in_site": "609",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=609",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=609&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.642",
+      "updated_at": "2018-12-06T23:04:20.642"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 283,
+    "fields": {
+      "golf_course": 283,
+      "site": 1,
+      "pk_in_site": "51",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=51",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=51&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.662",
+      "updated_at": "2018-12-06T23:04:20.662"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 284,
+    "fields": {
+      "golf_course": 284,
+      "site": 1,
+      "pk_in_site": "52",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=52",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=52&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.681",
+      "updated_at": "2018-12-06T23:04:20.681"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 285,
+    "fields": {
+      "golf_course": 285,
+      "site": 1,
+      "pk_in_site": "753",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=753",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=753&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.699",
+      "updated_at": "2018-12-06T23:04:20.699"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 286,
+    "fields": {
+      "golf_course": 286,
+      "site": 1,
+      "pk_in_site": "81",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=81",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=81&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.718",
+      "updated_at": "2018-12-06T23:04:20.718"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 287,
+    "fields": {
+      "golf_course": 287,
+      "site": 1,
+      "pk_in_site": "558",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=558",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=558&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.753",
+      "updated_at": "2018-12-06T23:04:20.753"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 288,
+    "fields": {
+      "golf_course": 288,
+      "site": 1,
+      "pk_in_site": "207",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=207",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=207&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.788",
+      "updated_at": "2018-12-06T23:04:20.788"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 289,
+    "fields": {
+      "golf_course": 289,
+      "site": 1,
+      "pk_in_site": "136",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=136",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=136&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.820",
+      "updated_at": "2018-12-06T23:04:20.820"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 290,
+    "fields": {
+      "golf_course": 290,
+      "site": 1,
+      "pk_in_site": "331",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=331",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=331&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.859",
+      "updated_at": "2018-12-06T23:04:20.859"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 291,
+    "fields": {
+      "golf_course": 291,
+      "site": 1,
+      "pk_in_site": "661",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=661",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=661&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.877",
+      "updated_at": "2018-12-06T23:04:20.877"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 292,
+    "fields": {
+      "golf_course": 292,
+      "site": 1,
+      "pk_in_site": "662",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=662",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=662&book_regn_dv_cd=6&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.896",
+      "updated_at": "2018-12-06T23:04:20.896"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 293,
+    "fields": {
+      "golf_course": 293,
+      "site": 1,
+      "pk_in_site": "140",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=140",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=140&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.919",
+      "updated_at": "2018-12-06T23:04:20.919"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 294,
+    "fields": {
+      "golf_course": 294,
+      "site": 1,
+      "pk_in_site": "611",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=611",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=611&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.947",
+      "updated_at": "2018-12-06T23:04:20.947"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 295,
+    "fields": {
+      "golf_course": 295,
+      "site": 1,
+      "pk_in_site": "83",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=83",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=83&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.977",
+      "updated_at": "2018-12-06T23:04:20.977"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 296,
+    "fields": {
+      "golf_course": 296,
+      "site": 1,
+      "pk_in_site": "439",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=439",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=439&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.004",
+      "updated_at": "2018-12-06T23:04:21.004"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 297,
+    "fields": {
+      "golf_course": 297,
+      "site": 1,
+      "pk_in_site": "86",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=86",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=86&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.035",
+      "updated_at": "2018-12-06T23:04:21.035"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 298,
+    "fields": {
+      "golf_course": 298,
+      "site": 1,
+      "pk_in_site": "785",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=785",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=785&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.058",
+      "updated_at": "2018-12-06T23:04:21.058"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 299,
+    "fields": {
+      "golf_course": 299,
+      "site": 1,
+      "pk_in_site": "601",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=601",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=601&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.083",
+      "updated_at": "2018-12-06T23:04:21.083"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 300,
+    "fields": {
+      "golf_course": 300,
+      "site": 1,
+      "pk_in_site": "33",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=33",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=33&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.102",
+      "updated_at": "2018-12-06T23:04:21.102"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 301,
+    "fields": {
+      "golf_course": 301,
+      "site": 1,
+      "pk_in_site": "359",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=359",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=359&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.120",
+      "updated_at": "2018-12-06T23:04:21.120"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 302,
+    "fields": {
+      "golf_course": 302,
+      "site": 1,
+      "pk_in_site": "55",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=55",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=55&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.147",
+      "updated_at": "2018-12-06T23:04:21.147"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 303,
+    "fields": {
+      "golf_course": 303,
+      "site": 1,
+      "pk_in_site": "589",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=589",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=589&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.175",
+      "updated_at": "2018-12-06T23:04:21.175"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 304,
+    "fields": {
+      "golf_course": 304,
+      "site": 1,
+      "pk_in_site": "675",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=675",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=675&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.203",
+      "updated_at": "2018-12-06T23:04:21.203"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 305,
+    "fields": {
+      "golf_course": 305,
+      "site": 1,
+      "pk_in_site": "755",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=755",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=755&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.237",
+      "updated_at": "2018-12-06T23:04:21.237"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 306,
+    "fields": {
+      "golf_course": 306,
+      "site": 1,
+      "pk_in_site": "585",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=585",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=585&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.263",
+      "updated_at": "2018-12-06T23:04:21.263"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 307,
+    "fields": {
+      "golf_course": 307,
+      "site": 1,
+      "pk_in_site": "648",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=648",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=648&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.281",
+      "updated_at": "2018-12-06T23:04:21.281"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 308,
+    "fields": {
+      "golf_course": 308,
+      "site": 1,
+      "pk_in_site": "34",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=34",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=34&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.299",
+      "updated_at": "2018-12-06T23:04:21.299"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 309,
+    "fields": {
+      "golf_course": 309,
+      "site": 1,
+      "pk_in_site": "56",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=56",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=56&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.317",
+      "updated_at": "2018-12-06T23:04:21.317"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 310,
+    "fields": {
+      "golf_course": 310,
+      "site": 1,
+      "pk_in_site": "656",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=656",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=656&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.335",
+      "updated_at": "2018-12-06T23:04:21.335"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 311,
+    "fields": {
+      "golf_course": 311,
+      "site": 1,
+      "pk_in_site": "85",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=85",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=85&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.361",
+      "updated_at": "2018-12-06T23:04:21.361"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 312,
+    "fields": {
+      "golf_course": 312,
+      "site": 1,
+      "pk_in_site": "57",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=57",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=57&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.392",
+      "updated_at": "2018-12-06T23:04:21.392"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 313,
+    "fields": {
+      "golf_course": 313,
+      "site": 1,
+      "pk_in_site": "250",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=250",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=250&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.420",
+      "updated_at": "2018-12-06T23:04:21.420"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 314,
+    "fields": {
+      "golf_course": 314,
+      "site": 1,
+      "pk_in_site": "137",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=137",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=137&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.452",
+      "updated_at": "2018-12-06T23:04:21.452"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 315,
+    "fields": {
+      "golf_course": 315,
+      "site": 1,
+      "pk_in_site": "87",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=87",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=87&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.475",
+      "updated_at": "2018-12-06T23:04:21.475"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 316,
+    "fields": {
+      "golf_course": 316,
+      "site": 1,
+      "pk_in_site": "187",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=187",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=187&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.493",
+      "updated_at": "2018-12-06T23:04:21.493"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 317,
+    "fields": {
+      "golf_course": 317,
+      "site": 1,
+      "pk_in_site": "882",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=882",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=882&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.512",
+      "updated_at": "2018-12-06T23:04:21.512"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 318,
+    "fields": {
+      "golf_course": 318,
+      "site": 1,
+      "pk_in_site": "576",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=576",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=576&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.531",
+      "updated_at": "2018-12-06T23:04:21.531"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 319,
+    "fields": {
+      "golf_course": 319,
+      "site": 1,
+      "pk_in_site": "270",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=270",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=270&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.553",
+      "updated_at": "2018-12-06T23:04:21.553"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 320,
+    "fields": {
+      "golf_course": 320,
+      "site": 1,
+      "pk_in_site": "189",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=189",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=189&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.589",
+      "updated_at": "2018-12-06T23:04:21.589"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 321,
+    "fields": {
+      "golf_course": 321,
+      "site": 1,
+      "pk_in_site": "447",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=447",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=447&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.619",
+      "updated_at": "2018-12-06T23:04:21.619"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 322,
+    "fields": {
+      "golf_course": 322,
+      "site": 1,
+      "pk_in_site": "571",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=571",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=571&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.650",
+      "updated_at": "2018-12-06T23:04:21.650"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 323,
+    "fields": {
+      "golf_course": 323,
+      "site": 1,
+      "pk_in_site": "58",
+      "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=58",
+      "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=58&book_regn_dv_cd=7&regn_cd=#targetId",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.673",
+      "updated_at": "2018-12-06T23:04:21.673"
+    }
+  }
+]

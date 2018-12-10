@@ -1,0 +1,4524 @@
+[
+  {
+    "model": "server.golfcourse",
+    "pk": 1,
+    "fields": {
+      "name": "\uac00\ud3c9 \ubca0\ub274\uc9c0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uac00\ud3c9 \ubca0\ub274\uc9c0(\u2605\uc120\uacb0\uc81c)",
+      "address": "\uacbd\uae30 \uac00\ud3c9\uad70 \uac00\ud3c9\uc74d \uc2b9\uc548\ub9ac \uc0b0176",
+      "region": "R1",
+      "url": "http://www.venuegcc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.196",
+      "updated_at": "2018-12-06T23:04:13.197"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 2,
+    "fields": {
+      "name": "\ub0a8\uc591\uc8fc(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub0a8\uc591\uc8fcP(\u26054\uc778\ud544\uc218)",
+      "address": "\uacbd\uae30\ub3c4 \ub0a8\uc591\uc8fc\uc2dc \uc624\ub0a8\uc74d \uc624\ub0a8\ub9ac \uc0b0 171-3",
+      "region": "R1",
+      "url": "http://www.namyangjucc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.247",
+      "updated_at": "2018-12-06T23:04:13.247"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 3,
+    "fields": {
+      "name": "\ub808\uc774\ud06c\uc6b0\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub808\uc774\ud06c\uc6b0\ub4dc",
+      "address": "\uacbd\uae30\ub3c4 \uc591\uc8fc\uc2dc \ub9cc\uc1a1\ub85c 244",
+      "region": "R1",
+      "url": "http://www.royalcci.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.269",
+      "updated_at": "2018-12-06T23:04:13.269"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 4,
+    "fields": {
+      "name": "\ub9ac\uc564\ub9ac \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub9ac\uc564\ub9ac(\u2605\uc120\uacb0\uc81c)",
+      "address": "\uacbd\uae30\ub3c4 \uac00\ud3c9\uad70 \ud558\uba74 \ud558\ud310\ub9ac \uc0b0 90",
+      "region": "R1",
+      "url": "http://www.leenleecc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.301",
+      "updated_at": "2018-12-06T23:04:13.301"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 5,
+    "fields": {
+      "name": "\ubca0\uc2a4\ud2b8\ubc38\ub9ac(\uad6c. \ub370\ub2c8\uc2a4) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubca0\uc2a4\ud2b8\ubc38\ub9ac(\u2605\uc120\uacb0\uc81c)",
+      "address": "\uacbd\uae30\ub3c4 \ud30c\uc8fc\uc2dc \uad11\ud0c4\uba74 \ubd84\uc218\ub9ac 1-1",
+      "region": "R1",
+      "url": "http://www.bestvalleygc.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.335",
+      "updated_at": "2018-12-06T23:04:13.335"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 6,
+    "fields": {
+      "name": "\uc591\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc591\uc8fc",
+      "address": "\uacbd\uae30\ub3c4 \ub0a8\uc591\uc8fc\uc2dc \ud654\ub3c4\uc74d \ubd81\ud55c\uac15\ub85c 1525-52",
+      "region": "R1",
+      "url": "https://www.yangjucc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.367",
+      "updated_at": "2018-12-06T23:04:13.367"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 7,
+    "fields": {
+      "name": "\uc790\uc720\ub85c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc790\uc720\ub85c(\u2605\uc120\uacb0\uc81c)",
+      "address": "\uacbd\uae30\ub3c4 \uc5f0\ucc9c\uad70 \ubc31\ud559\uba74 \ud559\uace1\ub9ac 84",
+      "region": "R1",
+      "url": "http://www.jayurocc.com/index.asp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.387",
+      "updated_at": "2018-12-06T23:04:13.387"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 8,
+    "fields": {
+      "name": "\ud06c\ub9ac\uc2a4\ud0c8\ubc38\ub9ac  \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud06c\ub9ac\uc2a4\ud0c8\ubc38\ub9ac",
+      "address": "\uacbd\uae30\ub3c4 \uac00\ud3c9\uad70 \uc0c1\uba74 \ud56d\uc0ac\ub9ac \uc0b0 36-2",
+      "region": "R1",
+      "url": "http://www.crystalvalley.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.410",
+      "updated_at": "2018-12-06T23:04:13.410"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 9,
+    "fields": {
+      "name": "\ud30c\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud30c\uc8fc",
+      "address": "\uacbd\uae30\ub3c4 \ud30c\uc8fc\uc2dc \ubc95\uc6d0\uc74d \ud654\ud569\ub85c 306",
+      "region": "R1",
+      "url": "http://www.pajucc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.428",
+      "updated_at": "2018-12-06T23:04:13.428"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 10,
+    "fields": {
+      "name": "\ud3ec\ub808\uc2a4\ud2b8\ud790 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud3ec\ub808\uc2a4\ud2b8\ud790(\u2605\uc120\uacb0\uc81c)",
+      "address": "\uacbd\uae30\ub3c4 \ud3ec\ucc9c\uc2dc \ud654\ud604\uba74 \uba85\ub355\ub9ac \uc0b0 115\ubc88\uc9c0",
+      "region": "R1",
+      "url": "http://www.foresthill.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.446",
+      "updated_at": "2018-12-06T23:04:13.446"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 11,
+    "fields": {
+      "name": "\ud3ec\ucc9c\uc544\ub3c4\ub2c8\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud3ec\ucc9c\uc544\ub3c4\ub2c8\uc2a4",
+      "address": "\uacbd\uae30\ub3c4 \ud3ec\ucc9c\uc2dc \uc2e0\ubd81\uba74 \uace0\uc77c\ub9ac \uc0b0 59",
+      "region": "R1",
+      "url": "http://www.adoniscc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.463",
+      "updated_at": "2018-12-06T23:04:13.463"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 12,
+    "fields": {
+      "name": "\ud544\ub85c\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud544\ub85c\uc2a4(\u26054\uc778\ud544\uc218)",
+      "address": "\uacbd\uae30\ub3c4 \ud3ec\ucc9c\uc2dc \uc77c\ub3d9\uba74 \uae30\uc0b0\ub9ac \uc0b0142-1",
+      "region": "R1",
+      "url": "http://www.philosgc.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.489",
+      "updated_at": "2018-12-06T23:04:13.489"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 13,
+    "fields": {
+      "name": "\ud55c\uc591\ud30c\uc778 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud55c\uc591\ud30c\uc778",
+      "address": "\uacbd\uae30\ub3c4 \uace0\uc591\uc2dc \ub355\uc591\uad6c \uace0\uc591\ub300\ub85c 1591",
+      "region": "R1",
+      "url": "http://www.hypine.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.517",
+      "updated_at": "2018-12-06T23:04:13.517"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 14,
+    "fields": {
+      "name": "\uac00\ud3c9\ubca0\ub124\uc2a4\ud2b8 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uac00\ud3c9\ubca0\ub124\uc2a4\ud2b8",
+      "address": "\uacbd\uae30\ub3c4 \uac00\ud3c9\uad70 \uc0c1\uba74 \uc0c1\ub3d9\ub9ac \uc0b052",
+      "region": "R1",
+      "url": "http://www.golfsamsung.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.550",
+      "updated_at": "2018-12-06T23:04:13.550"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 15,
+    "fields": {
+      "name": "\uac00\ud3c9\ubca0\ub124\uc2a4\ud2b8(\uc784\ubc15) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uac00\ud3c9\ubca0\ub124\uc2a4\ud2b8(\uc784\ubc15)",
+      "address": "\uacbd\uae30\ub3c4 \uac00\ud3c9\uad70 \uc0c1\uba74 \uc0c1\ub3d9\ub9ac \uc0b052",
+      "region": "R1",
+      "url": "http://www.golfsamsung.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.589",
+      "updated_at": "2018-12-06T23:04:13.589"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 16,
+    "fields": {
+      "name": "\uad11\ub989(P) (\uad6c. \uad11\ub989\ud3ec\ub808\uc2a4\ud2b8P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uad11\ub989(P) (\uad6c. \uad11\ub989\ud3ec\ub808\uc2a4\ud2b8P)",
+      "address": "\uacbd\uae30\ub3c4 \ub0a8\uc591\uc8fc\uc2dc \uc9c4\uc811\uc74d \ud314\uc57c\ub9ac \uc0b0 1\ubc88\uc9c0",
+      "region": "R1",
+      "url": "http://www.kwangneungcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.607",
+      "updated_at": "2018-12-06T23:04:13.607"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 17,
+    "fields": {
+      "name": "\uad11\ub989(\uad6c. \uad11\ub989\ud3ec\ub808\uc2a4\ud2b8) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uad11\ub989(\uad6c. \uad11\ub989\ud3ec\ub808\uc2a4\ud2b8)",
+      "address": "\uacbd\uae30\ub3c4 \ub0a8\uc591\uc8fc\uc2dc \uc9c4\uc811\uc74d \ud314\uc57c\ub9ac \uc0b0 1\ubc88\uc9c0",
+      "region": "R1",
+      "url": "http://www.kwangneungcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.625",
+      "updated_at": "2018-12-06T23:04:13.625"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 18,
+    "fields": {
+      "name": "\ub178\uc2a4\ud31c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub178\uc2a4\ud31c",
+      "address": "\uacbd\uae30\ub3c4 \ud30c\uc8fc\uc2dc \uad11\ud0c4\uba74 \uae30\uc0b0\ub9ac 637-1",
+      "region": "R1",
+      "url": "http://www.ppgc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.648",
+      "updated_at": "2018-12-06T23:04:13.648"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 19,
+    "fields": {
+      "name": "\ub274\ucf54\ub9ac\uc544 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub274\ucf54\ub9ac\uc544",
+      "address": "\uacbd\uae30\ub3c4 \uace0\uc591\uc2dc \ub355\uc591\uad6c \uc2e0\uc6d0\ub3d9 227-12",
+      "region": "R1",
+      "url": "http://www.newkoreacc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.674",
+      "updated_at": "2018-12-06T23:04:13.674"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 20,
+    "fields": {
+      "name": "\ubabd\ubca0\ub974 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubabd\ubca0\ub974",
+      "address": "\uacbd\uae30\ub3c4 \ud3ec\ucc9c\uc2dc \uc601\ubd81\uba74 \uc0b0\uc815\ub9ac 558-1",
+      "region": "R1",
+      "url": "http://montvertcc.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.707",
+      "updated_at": "2018-12-06T23:04:13.707"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 21,
+    "fields": {
+      "name": "\uc11c\uc11c\uc6b8 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc11c\uc11c\uc6b8",
+      "address": "",
+      "region": "R1",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.733",
+      "updated_at": "2018-12-06T23:04:13.733"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 22,
+    "fields": {
+      "name": "\uc2a4\ub9c8\ud2b8KU \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2a4\ub9c8\ud2b8KU",
+      "address": "\uacbd\uae30\ub3c4 \ud30c\uc8fc\uc2dc \ubc95\uc6d0\uc74d \ubcf4\uad11\ub85c 1616",
+      "region": "R1",
+      "url": "http://kugolf.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.765",
+      "updated_at": "2018-12-06T23:04:13.765"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 23,
+    "fields": {
+      "name": "\uc36c\ud790 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc36c\ud790",
+      "address": "\uacbd\uae30\ub3c4 \uac00\ud3c9\uad70 \ud558\uba74 \ud558\ud310\ub9ac \uc0b0 162-1",
+      "region": "R1",
+      "url": "http://www.sunhillgolf.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.800",
+      "updated_at": "2018-12-06T23:04:13.800"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 24,
+    "fields": {
+      "name": "\uc591\uc8fc(\uc784\ubc15\uc138\uc77c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc591\uc8fc(\uc784\ubc15\uc138\uc77c)",
+      "address": "\uacbd\uae30\ub3c4 \ub0a8\uc591\uc8fc\uc2dc \ud654\ub3c4\uc74d \uae08\ub0a8\ub9ac 300",
+      "region": "R1",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.835",
+      "updated_at": "2018-12-06T23:04:13.835"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 25,
+    "fields": {
+      "name": "\uc77c\ub3d9\ub808\uc774\ud06c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc77c\ub3d9\ub808\uc774\ud06c",
+      "address": "\uacbd\uae30\ub3c4 \ud3ec\ucc9c\uc2dc \uc77c\ub3d9\uba74 \uc720\ub3d9\ub9ac 21-2",
+      "region": "R1",
+      "url": "http://www.ildonglakes.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.865",
+      "updated_at": "2018-12-06T23:04:13.865"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 26,
+    "fields": {
+      "name": "\uc77c\ub3d9\ub808\uc774\ud06cP(\ub77d\uac00\ub4e0) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc77c\ub3d9\ub808\uc774\ud06cP(\ub77d\uac00\ub4e0)",
+      "address": "\uacbd\uae30\ub3c4 \ud3ec\ucc9c\uc2dc \uc77c\ub3d9\uba74 \uc720\ub3d9\ub9ac 21-2",
+      "region": "R1",
+      "url": "http://www.rockgarden.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.906",
+      "updated_at": "2018-12-06T23:04:13.906"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 27,
+    "fields": {
+      "name": "\ucc38\ubc38\ub9ac \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ucc38\ubc38\ub9ac",
+      "address": "\uacbd\uae30\ub3c4 \ud3ec\ucc9c\uc2dc \uc124\uc6b4\ub3d9 \uc0b038\ubc88\uc9c0",
+      "region": "R1",
+      "url": "http://charmvalley.cc/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.948",
+      "updated_at": "2018-12-06T23:04:13.948"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 28,
+    "fields": {
+      "name": "\ud0c0\uc774\uac70 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud0c0\uc774\uac70",
+      "address": "\uacbd\uae30\ub3c4 \ud30c\uc8fc\uc2dc \ubc95\uc6d0\uc74d \uc6c5\ub2f4\ub9ac 105-3",
+      "region": "R1",
+      "url": "http://www.tigercc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:13.984",
+      "updated_at": "2018-12-06T23:04:13.984"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 29,
+    "fields": {
+      "name": "\ud3ec\ucc9c\uc544\ub3c4\ub2c8\uc2a4(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud3ec\ucc9c\uc544\ub3c4\ub2c8\uc2a4(P)",
+      "address": "\uacbd\uae30 \ud3ec\ucc9c\uc2dc \uc2e0\ubd81\uba74 \uace0\uc77c\ub9ac \uc0b0 59",
+      "region": "R1",
+      "url": "http://www.adoniscc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.014",
+      "updated_at": "2018-12-06T23:04:14.014"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 30,
+    "fields": {
+      "name": "\ud3ec\ucc9c\ud790\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud3ec\ucc9c\ud790\uc2a4",
+      "address": "\ud3ec\ucc9c\uc2dc \uad70\ub0b4\uba74 \uc0c1\uc131\ubd81\ub9ac 34\ubc88\uc9c0",
+      "region": "R1",
+      "url": "http://www.fortunehills.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.041",
+      "updated_at": "2018-12-06T23:04:14.041"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 31,
+    "fields": {
+      "name": "\ud504\ub9ac\uc2a4\ud2f4\ubc38\ub9ac(\uac00\ud3c9) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud504\ub9ac\uc2a4\ud2f4\ubc38\ub9ac(\uac00\ud3c9)",
+      "address": "\uacbd\uae30\ub3c4 \uac00\ud3c9\uad70 \uc124\uc545\uba74 \uc774\ucc9c\ub9ac \uc0b0 2-12",
+      "region": "R1",
+      "url": "http://www.pristinevalley.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.074",
+      "updated_at": "2018-12-06T23:04:14.074"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 32,
+    "fields": {
+      "name": "\ud55c\uc591 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud55c\uc591",
+      "address": "\uacbd\uae30\ub3c4 \uace0\uc591\uc2dc \ub355\uc591\uad6c \uc6d0\ub2f9\ub3d9 198-114",
+      "region": "R1",
+      "url": "http://www.hycc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.103",
+      "updated_at": "2018-12-06T23:04:14.103"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 33,
+    "fields": {
+      "name": "\ub9c8\uc5d0\uc2a4\ud2b8\ub85c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub9c8\uc5d0\uc2a4\ud2b8\ub85c",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \uc591\uc131\uba74 \ub178\uace1\ub9ac 123",
+      "region": "R2",
+      "url": "http://www.maestrocc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.136",
+      "updated_at": "2018-12-06T23:04:14.136"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 34,
+    "fields": {
+      "name": "\ube14\ub8e8\uc6d0 \uc6a9\uc778 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ube14\ub8e8\uc6d0 \uc6a9\uc778",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \uc6d0\uc0bc\uba74 \ubaa9\uc2e0\ub9ac 356-10",
+      "region": "R2",
+      "url": "http://www.blueone.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.167",
+      "updated_at": "2018-12-06T23:04:14.167"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 35,
+    "fields": {
+      "name": "\ube14\ub8e8\uc6d0\uc6a9\uc778(\u2605\uc120\uacb0\uc81c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ube14\ub8e8\uc6d0\uc6a9\uc778(\u2605\uc120\uacb0\uc81c)",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \uc6d0\uc0bc\uba74 \ubcf4\uac1c\uc6d0\uc0bc\ub85c 1534",
+      "region": "R2",
+      "url": "http://www.blueone.com/index_yongin.jsp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.199",
+      "updated_at": "2018-12-06T23:04:14.199"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 36,
+    "fields": {
+      "name": "\ube44\uc5d0\uc774\ube44\uc2a4\ud0c0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ube44\uc5d0\uc774\ube44\uc2a4\ud0c0",
+      "address": "\uacbd\uae30\ub3c4 \uc774\ucc9c\uc2dc \ubaa8\uac00\uba74 \uc5b4\ub18d\ub9ac 386-1",
+      "region": "R2",
+      "url": "http://www.bavista.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.216",
+      "updated_at": "2018-12-06T23:04:14.216"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 37,
+    "fields": {
+      "name": "\ube44\uc5d0\uc774\ube44\uc2a4\ud0c0(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ube44\uc5d0\uc774\ube44\uc2a4\ud0c0(P)",
+      "address": "\uacbd\uae30\ub3c4 \uc774\ucc9c\uc2dc \ubaa8\uac00\uba74 \uc5b4\ub18d\ub85c 272",
+      "region": "R2",
+      "url": "http://www.bavista.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.235",
+      "updated_at": "2018-12-06T23:04:14.235"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 38,
+    "fields": {
+      "name": "\uc0ac\uc6b0\uc2a4\uc2a4\ud504\ub9c1\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc0ac\uc6b0\uc2a4\uc2a4\ud504\ub9c1\uc2a4",
+      "address": "\uacbd\uae30\ub3c4 \uc774\ucc9c\uc2dc \ubaa8\uac00\uba74 \uc18c\uace0\ub9ac 633",
+      "region": "R2",
+      "url": "http://www.sscc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.253",
+      "updated_at": "2018-12-06T23:04:14.253"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 39,
+    "fields": {
+      "name": "\uc18c\ud53c\uc544\uadf8\ub9b0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc18c\ud53c\uc544\uadf8\ub9b0",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uad70 \uc810\ub3d9\uba74 \ud604\uc218\ub9ac \uc0b0 13",
+      "region": "R2",
+      "url": "http://www.sophiagreen.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.273",
+      "updated_at": "2018-12-06T23:04:14.273"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 40,
+    "fields": {
+      "name": "\uc194\ud2b8\ubca0\uc774 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc194\ud2b8\ubca0\uc774",
+      "address": "\uacbd\uae30\ub3c4 \uc2dc\ud765\uc2dc \uc7a5\uace1\ub3d9 724-2",
+      "region": "R2",
+      "url": "http://www.saltbay.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.291",
+      "updated_at": "2018-12-06T23:04:14.291"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 41,
+    "fields": {
+      "name": "\uc2e0\ub77c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2e0\ub77c",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uad70 \ubd81\ub0b4\uba74 \ub355\uc0b0\ub9ac \uc0b0 3-1",
+      "region": "R2",
+      "url": "http://www.shillacc.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.316",
+      "updated_at": "2018-12-06T23:04:14.316"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 42,
+    "fields": {
+      "name": "\uc2e0\ub77c(\uc784\ubc15) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2e0\ub77c(\uc784\ubc15)",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uad70 \ubd81\ub0b4\uba74 \ub355\uc0b0\ub9ac \uc0b0 3-1",
+      "region": "R2",
+      "url": "http://www.shillacc.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.346",
+      "updated_at": "2018-12-06T23:04:14.346"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 43,
+    "fields": {
+      "name": "\uc544\ub374\ud790 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc544\ub374\ud790",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \uc591\uc131\uba74 \uc57d\uc0b0\uae38 67-16",
+      "region": "R2",
+      "url": "http://www.ardenhillresort.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.374",
+      "updated_at": "2018-12-06T23:04:14.374"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 44,
+    "fields": {
+      "name": "\uc591\uc9c0\ud30c\uc778 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc591\uc9c0\ud30c\uc778",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \uc591\uc9c0\uba74 \ub0a8\uace1\ub9ac 34-1",
+      "region": "R2",
+      "url": "http://www.pineresort.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.411",
+      "updated_at": "2018-12-06T23:04:14.411"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 45,
+    "fields": {
+      "name": "\uc5d0\ub374\ube14\ub8e8 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc5d0\ub374\ube14\ub8e8",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \uc8fd\uc0b0\uba74 \uc7a5\ub2a5\ub9ac",
+      "region": "R2",
+      "url": "http://www.edenblue.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.430",
+      "updated_at": "2018-12-06T23:04:14.430"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 46,
+    "fields": {
+      "name": "\uc5ec\uc8fc\uc36c\ubc38\ub9ac\u2605 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc5ec\uc8fc\uc36c\ubc38\ub9ac\u2605",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uad70 \uac15\ucc9c\uba74 \ubd80\ud3c9\ub9ac 418-1",
+      "region": "R2",
+      "url": "http://www.yeojusunvalley.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.447",
+      "updated_at": "2018-12-06T23:04:14.447"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 47,
+    "fields": {
+      "name": "\uc6a9\uc778 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc6a9\uc778",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \ubc31\uc554\uba74 \uc11d\ucc9c\ub9ac 747-1",
+      "region": "R2",
+      "url": "http://www.yongincc.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.465",
+      "updated_at": "2018-12-06T23:04:14.465"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 48,
+    "fields": {
+      "name": "\uc708\uccb4\uc2a4\ud2b8(\uc784\ubc15\uc138\uc77c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc708\uccb4\uc2a4\ud2b8(\uc784\ubc15\uc138\uc77c)",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \uc11c\uc6b4\uba74 \uc624\ucd0c\ub9ac 173-4",
+      "region": "R2",
+      "url": "http://www.winchest.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.482",
+      "updated_at": "2018-12-06T23:04:14.482"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 49,
+    "fields": {
+      "name": "\uc708\uccb4\uc2a4\ud2b8\uace8\ud504\ud074\ub7fd \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc708\uccb4\uc2a4\ud2b8\uace8\ud504\ud074\ub7fd",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \uc11c\uc6b4\uba74 \uc624\ucd0c\ub9ac 173-4",
+      "region": "R2",
+      "url": "http://www.winchest.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.504",
+      "updated_at": "2018-12-06T23:04:14.504"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 50,
+    "fields": {
+      "name": "\uc778\ucc9c\uadf8\ub79c\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc778\ucc9c\uadf8\ub79c\ub4dc",
+      "address": "\uc778\ucc9c\uad11\uc5ed\uc2dc \uc11c\uad6c \uc6d0\ucc3d\ub3d9 380\ubc88\uc9c0",
+      "region": "R2",
+      "url": "http://www.incheongrand.cc/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.564",
+      "updated_at": "2018-12-06T23:04:14.564"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 51,
+    "fields": {
+      "name": "\uc9c0\uc0b0P \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc9c0\uc0b0P(\u2605\uc120\uacb0\uc81c)",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \uc6d0\uc0bc\uba74 \ub9f9\ub9ac \uc0b029-8",
+      "region": "R2",
+      "url": "https://www.jisangolf.com/html/03_course/course_02.asp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.597",
+      "updated_at": "2018-12-06T23:04:14.597"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 52,
+    "fields": {
+      "name": "\ud30c\uc778\ud06c\ub9ac\ud06c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud30c\uc778\ud06c\ub9ac\ud06c",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \uc591\uc131\uba74 \uc548\uc131\ub9de\ucda4\ub300\ub85c 2417-13",
+      "region": "R2",
+      "url": "http://www.pinecreek.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.619",
+      "updated_at": "2018-12-06T23:04:14.619"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 53,
+    "fields": {
+      "name": "\ud55c\uc6d0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud55c\uc6d0",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \ub0a8\uc0ac\uba74 \ubd81\ub9ac 859-1",
+      "region": "R2",
+      "url": "http://www.hanwoncc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.638",
+      "updated_at": "2018-12-06T23:04:14.638"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 54,
+    "fields": {
+      "name": "\ud55c\uc6d0(\uc784\ubc15\uc138\uc77c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud55c\uc6d0(\uc784\ubc15\uc138\uc77c)",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \ub0a8\uc0ac\uba74 \ubd81\ub9ac 859-1",
+      "region": "R2",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.656",
+      "updated_at": "2018-12-06T23:04:14.656"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 55,
+    "fields": {
+      "name": "\ud574\uc194\ub9ac\uc544 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud574\uc194\ub9ac\uc544",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \uc774\ub3d9\uba74 \uc11c\ub9ac \uc0b027-1",
+      "region": "R2",
+      "url": "http://www.haesoliacc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.674",
+      "updated_at": "2018-12-06T23:04:14.674"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 56,
+    "fields": {
+      "name": "360\ub3c4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "360\ub3c4",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uad70 \uac15\ucc9c\uba74 \ubd80\ud3c9\ub9ac \uc0b0 59-3",
+      "region": "R2",
+      "url": "http://www.360cc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.692",
+      "updated_at": "2018-12-06T23:04:14.692"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 57,
+    "fields": {
+      "name": "88 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "88",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \uae30\ud765\uad6c \uccad\ub355\ub3d9 80-2",
+      "region": "R2",
+      "url": "http://www.88countryclub.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.712",
+      "updated_at": "2018-12-06T23:04:14.712"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 58,
+    "fields": {
+      "name": "88(\uc784\ubc15) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "88(\uc784\ubc15)",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \uae30\ud765\uad6c \uccad\ub355\ub3d9 80-2",
+      "region": "R2",
+      "url": "http://www.88countryclub.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.737",
+      "updated_at": "2018-12-06T23:04:14.737"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 59,
+    "fields": {
+      "name": "SG\ub355\ud3c9(\uad6c \ub355\ud3c9\ud790\ubdf0) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "SG\ub355\ud3c9(\uad6c \ub355\ud3c9\ud790\ubdf0)",
+      "address": "\uacbd\uae30\ub3c4 \uc774\ucc9c\uc2dc \ud638\ubc95\uba74 \ub9e4\uace1\ub9ac 704-2",
+      "region": "R2",
+      "url": "http://www.dpcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.778",
+      "updated_at": "2018-12-06T23:04:14.778"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 60,
+    "fields": {
+      "name": "\uac15\ub0a8300 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uac15\ub0a8300",
+      "address": "\uacbd\uae30\ub3c4 \uad11\uc8fc\uc2dc \ubaa9\ub3d9 \uc0b0 497-6",
+      "region": "R2",
+      "url": "http://www.kn300.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.815",
+      "updated_at": "2018-12-06T23:04:14.815"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 61,
+    "fields": {
+      "name": "\uace8\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uace8\ub4dc",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \uae30\ud765\uad6c \uace0\ub9e4\ub3d9",
+      "region": "R2",
+      "url": "http://www.gakorea.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.839",
+      "updated_at": "2018-12-06T23:04:14.839"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 62,
+    "fields": {
+      "name": "\uace8\ub4dc(\uc784\ubc15\uc138\uc77c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uace8\ub4dc(\uc784\ubc15\uc138\uc77c)",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \uae30\ud765\uad6c \uace0\ub9e4\ub3d9 5-48",
+      "region": "R2",
+      "url": "http://www.gakorea.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.858",
+      "updated_at": "2018-12-06T23:04:14.858"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 63,
+    "fields": {
+      "name": "\uace8\ud504\uc874\uce74\uc6b4\ud2f0\uc548\uc131H \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uace8\ud504\uc874\uce74\uc6b4\ud2f0\uc548\uc131H",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \ubcf4\uac1c\uba74 \ubd81\uac00\ud604\ub9ac \uace8\ud504\uc874\uce74\uc6b4\ud2f0\uc548\uc131H",
+      "region": "R2",
+      "url": "http://www.golfzoncounty.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.875",
+      "updated_at": "2018-12-06T23:04:14.875"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 64,
+    "fields": {
+      "name": "\uace8\ud504\uc874\uce74\uc6b4\ud2f0\uc548\uc131Q \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uace8\ud504\uc874\uce74\uc6b4\ud2f0\uc548\uc131Q",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \uc8fd\uc0b0\uba74 \uc7a5\uacc4\ub9ac 711",
+      "region": "R2",
+      "url": "http://www.golfzoncounty.com/ansung_q/main?T=2",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.899",
+      "updated_at": "2018-12-06T23:04:14.899"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 65,
+    "fields": {
+      "name": "\uace8\ud504\uc874\uce74\uc6b4\ud2f0\uc548\uc131W \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uace8\ud504\uc874\uce74\uc6b4\ud2f0\uc548\uc131W",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \uc591\uc131\uba74 \ub3d9\ud5a5\ub9ac 25-1",
+      "region": "R2",
+      "url": "http://www.golfzoncounty.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.920",
+      "updated_at": "2018-12-06T23:04:14.920"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 66,
+    "fields": {
+      "name": "\uadf8\ub9b0\ud790 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uadf8\ub9b0\ud790",
+      "address": "\uacbd\uae30\ub3c4 \uad11\uc8fc\uc2dc \uace4\uc9c0\uc554\uc74d \uc774\uc120\ub9ac 208-2",
+      "region": "R2",
+      "url": "http://www.shinan.co.kr/Gp-Golf/greenhill_cc/clubintro/clubintro.asp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.952",
+      "updated_at": "2018-12-06T23:04:14.952"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 67,
+    "fields": {
+      "name": "\uae00\ub80c\ub85c\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uae00\ub80c\ub85c\uc2a4",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \ud3ec\uace1\uc74d \uc804\ub300\ub9ac 310",
+      "region": "R2",
+      "url": "http://www.golfsamsung.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:14.983",
+      "updated_at": "2018-12-06T23:04:14.983"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 68,
+    "fields": {
+      "name": "\uae08\uac15 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uae08\uac15",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uc2dc \uac00\ub0a8\uc74d \uc5ec\uc8fc\ub0a8\ub85c 541 KCC\uc5ec\uc8fc\uacf5\uc7a5",
+      "region": "R2",
+      "url": "http://www.kccgolf.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.014",
+      "updated_at": "2018-12-06T23:04:15.014"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 69,
+    "fields": {
+      "name": "\uae08\uac15(\uc784\ubc15) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uae08\uac15(\uc784\ubc15)",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uc2dc \uac00\ub0a8\uc74d \ubcf8\ub450\ub9ac 1-2",
+      "region": "R2",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.036",
+      "updated_at": "2018-12-06T23:04:15.036"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 70,
+    "fields": {
+      "name": "\uae30\ud765 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uae30\ud765",
+      "address": "\uacbd\uae30\ub3c4 \ud654\uc131\uc2dc \ub3d9\ud0c4\uba74 \uc2e0\ub9ac \uc0b046-1",
+      "region": "R2",
+      "url": "http://www.ghcc.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.067",
+      "updated_at": "2018-12-06T23:04:15.067"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 71,
+    "fields": {
+      "name": "\uae40\ud3ec\uc2dc\uc0ac\uc774\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uae40\ud3ec\uc2dc\uc0ac\uc774\ub4dc",
+      "address": "\uacbd\uae30\ub3c4 \uae40\ud3ec\uc2dc \uc6d4\uacf6\uba74 \ud3ec\ub0b4\ub9ac 220-6",
+      "region": "R2",
+      "url": "http://www.gimpocc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.090",
+      "updated_at": "2018-12-06T23:04:15.090"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 72,
+    "fields": {
+      "name": "\ub0a8\uc11c\uc6b8 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub0a8\uc11c\uc6b8",
+      "address": "\uacbd\uae30\ub3c4 \uc131\ub0a8\uc2dc \ubd84\ub2f9\uad6c \ubc31\ud604\ub3d9 511-25",
+      "region": "R2",
+      "url": "http://www.nscc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.110",
+      "updated_at": "2018-12-06T23:04:15.110"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 73,
+    "fields": {
+      "name": "\ub274\uc11c\uc6b8 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub274\uc11c\uc6b8",
+      "address": "\uacbd\uae30\ub3c4 \uad11\uc8fc\uc2dc \uc0bc\ub3d9 1",
+      "region": "R2",
+      "url": "http://www.newseoulgolf.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.137",
+      "updated_at": "2018-12-06T23:04:15.137"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 74,
+    "fields": {
+      "name": "\ub274\uc11c\uc6b8(\uc784\ubc15\uc138\uc77c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub274\uc11c\uc6b8(\uc784\ubc15\uc138\uc77c)",
+      "address": "\uacbd\uae30\ub3c4 \uad11\uc8fc\uc2dc \uc0bc\ub3d9 1",
+      "region": "R2",
+      "url": "http://www.newseoulgolf.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.173",
+      "updated_at": "2018-12-06T23:04:15.173"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 75,
+    "fields": {
+      "name": "\ub274\uc2a4\ud504\ub9c1\ube4c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub274\uc2a4\ud504\ub9c1\ube4c",
+      "address": "\uacbd\uae30\ub3c4 \uc774\ucc9c\uc2dc \ubaa8\uac00\uba74 \ub450\ubbf8\ub9ac \uc0b0 76",
+      "region": "R2",
+      "url": "http://www.newspringvillecc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.214",
+      "updated_at": "2018-12-06T23:04:15.214"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 76,
+    "fields": {
+      "name": "\ub354\ubc18(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub354\ubc18(P)",
+      "address": "\uacbd\uae30\ub3c4 \uc774\ucc9c\uc2dc \ub300\uc6d4\uba74 \ub3c4\ub9ac\ub9ac 66",
+      "region": "R2",
+      "url": "http://www.theban.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.240",
+      "updated_at": "2018-12-06T23:04:15.240"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 77,
+    "fields": {
+      "name": "\ub77c\ube44\ub3cc(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub77c\ube44\ub3cc(P)",
+      "address": "\uacbd\uae30\ub3c4 \ud654\uc131\uc2dc \uc815\ub0a8\uba74 \ubcf4\ud1b5\ub9ac 141-39",
+      "region": "R2",
+      "url": "http://www.laviedor.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.257",
+      "updated_at": "2018-12-06T23:04:15.258"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 78,
+    "fields": {
+      "name": "\ub808\uc774\ud06c\uc0ac\uc774\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub808\uc774\ud06c\uc0ac\uc774\ub4dc",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \ubaa8\ud604\uba74 \ub2a5\uc6d0\ub9ac \uc0b0 5-12",
+      "region": "R2",
+      "url": "http://www.lakesidecc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.276",
+      "updated_at": "2018-12-06T23:04:15.276"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 79,
+    "fields": {
+      "name": "\ub808\uc774\ud06c\uc0ac\uc774\ub4dc(\uc784\ubc15\uc138\uc77c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub808\uc774\ud06c\uc0ac\uc774\ub4dc(\uc784\ubc15\uc138\uc77c)",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \ubaa8\ud604\uba74 \ub2a5\uc6d0\ub9ac \uc0b0 5-12",
+      "region": "R2",
+      "url": "http://www.lakesidecc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.293",
+      "updated_at": "2018-12-06T23:04:15.293"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 80,
+    "fields": {
+      "name": "\ub9ac\ubca0\ub77c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub9ac\ubca0\ub77c",
+      "address": "\uacbd\uae30\ub3c4 \ud654\uc131\uc2dc \ub3d9\ud0c4\uba74 \ubaa9\ub9ac 53\ubc88\uc9c0 \uc678 3\ud544\uc9c0",
+      "region": "R2",
+      "url": "http://www.shinan.co.kr/Gp-Golf/libera_cc/clubintro/clubintro.asp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.311",
+      "updated_at": "2018-12-06T23:04:15.311"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 81,
+    "fields": {
+      "name": "\ubc1c\ub9ac\uc624\uc2a4(\uad6c \ubc1c\uc548) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubc1c\ub9ac\uc624\uc2a4(\uad6c \ubc1c\uc548)",
+      "address": "\uacbd\uae30\ub3c4 \ud654\uc131\uc2dc \ud314\ud0c4\uba74 \ud574\ucc3d\ub9ac 256-5",
+      "region": "R2",
+      "url": "http://www.baliosgc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.330",
+      "updated_at": "2018-12-06T23:04:15.330"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 82,
+    "fields": {
+      "name": "\ube14\ub8e8\uc6d0 \uc6a9\uc778(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ube14\ub8e8\uc6d0 \uc6a9\uc778(P)",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \uc6d0\uc0bc\uba74 \uc8fd\ub2a5\ub9ac \uc0b0 38",
+      "region": "R2",
+      "url": "http://www.blueone.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.356",
+      "updated_at": "2018-12-06T23:04:15.356"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 83,
+    "fields": {
+      "name": "\ube14\ub8e8\ud5e4\ub7f0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ube14\ub8e8\ud5e4\ub7f0",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uad70 \ub300\uc2e0\uba74 \uc0c1\uad6c\ub9ac 83-4",
+      "region": "R2",
+      "url": "http://www.blueheron.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.387",
+      "updated_at": "2018-12-06T23:04:15.387"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 84,
+    "fields": {
+      "name": "\ube45\ud1a0\ub9ac\uc544(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ube45\ud1a0\ub9ac\uc544(P)",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uad70 \uac00\ub0a8\uba74 \uc1a1\ub9bc\ub9ac 214",
+      "region": "R2",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.421",
+      "updated_at": "2018-12-06T23:04:15.421"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 85,
+    "fields": {
+      "name": "\uc138\ub77c\uc9c0\uc624 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc138\ub77c\uc9c0\uc624",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uc2dc \uc624\uae08\ub3d9 422-3",
+      "region": "R2",
+      "url": "http://www.ceragiocc.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.453",
+      "updated_at": "2018-12-06T23:04:15.453"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 86,
+    "fields": {
+      "name": "\uc194\ubaa8\ub85c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc194\ubaa8\ub85c",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uad70 \uac00\ub0a8\uba74 \uc591\uadc0\ub9ac \uc0b0 69",
+      "region": "R2",
+      "url": "http://www.solmoro.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.472",
+      "updated_at": "2018-12-06T23:04:15.472"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 87,
+    "fields": {
+      "name": "\uc218\uc6d0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc218\uc6d0",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \uae30\ud765\uad6c \uad6c\uac08\ub3d9 313",
+      "region": "R2",
+      "url": "http://www.suwoncc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.491",
+      "updated_at": "2018-12-06T23:04:15.491"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 88,
+    "fields": {
+      "name": "\uc2a4\uce74\uc774\ubc38\ub9ac \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2a4\uce74\uc774\ubc38\ub9ac",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uad70 \ubd81\ub0b4\uba74 \uc6b4\ucd0c\ub9ac \uc0b040",
+      "region": "R2",
+      "url": "http://www.skyvalley.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.511",
+      "updated_at": "2018-12-06T23:04:15.511"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 89,
+    "fields": {
+      "name": "\uc2e0\uc548 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2e0\uc548",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \uace0\uc0bc\uba74 \uac00\uc720\ub9ac 787-15",
+      "region": "R2",
+      "url": "http://www.shinan.co.kr/Gp-Golf/shinan_cc/clubintro/clubintro.asp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.529",
+      "updated_at": "2018-12-06T23:04:15.529"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 90,
+    "fields": {
+      "name": "\uc2e0\uc548(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2e0\uc548(P)",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \uace0\uc0bc\uba74 \uac00\uc720\ub9ac 787-15",
+      "region": "R2",
+      "url": "http://www.shinan.co.kr/Gp-Golf/shinan_cc/clubintro/clubintro.asp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.571",
+      "updated_at": "2018-12-06T23:04:15.571"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 91,
+    "fields": {
+      "name": "\uc368\ub2dd\ud3ec\uc778\ud2b8 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc368\ub2dd\ud3ec\uc778\ud2b8",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \ubc31\uc554\uba74 \uace0\uc548\ub9ac 633-4",
+      "region": "R2",
+      "url": "http://www.sunningpoint.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.603",
+      "updated_at": "2018-12-06T23:04:15.603"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 92,
+    "fields": {
+      "name": "\uc544\ub9ac\uc9c0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc544\ub9ac\uc9c0",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uad70 \uac00\ub0a8\uba74 \uc548\uae08\ub9ac \uc0b0103",
+      "region": "R2",
+      "url": "http://www.ariji.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.635",
+      "updated_at": "2018-12-06T23:04:15.635"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 93,
+    "fields": {
+      "name": "\uc544\uc2dc\uc544\ub098 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc544\uc2dc\uc544\ub098",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \uc591\uc9c0\uba74 \ub300\ub300\ub9ac \uc0b0 281-1",
+      "region": "R2",
+      "url": "http://www.asianacc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.658",
+      "updated_at": "2018-12-06T23:04:15.658"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 94,
+    "fields": {
+      "name": "\uc544\uc77c\ub79c\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc544\uc77c\ub79c\ub4dc",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc0b0\uc2dc \ub2e8\uc6d0\uad6c \ub300\ubd80\ub0a8\ub3d9 1111",
+      "region": "R2",
+      "url": "http://www.islandresort.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.676",
+      "updated_at": "2018-12-06T23:04:15.676"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 95,
+    "fields": {
+      "name": "\uc548\uc131 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc548\uc131",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \uc8fd\uc0b0\uba74 \uc7a5\uacc4\ub9ac 736-4",
+      "region": "R2",
+      "url": "http://www.ansungcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.693",
+      "updated_at": "2018-12-06T23:04:15.693"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 96,
+    "fields": {
+      "name": "\uc548\uc131(\uc784\ubc15\uc138\uc77c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc548\uc131(\uc784\ubc15\uc138\uc77c)",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \uc8fd\uc0b0\uba74 \uc7a5\uacc4\ub9ac 736-4",
+      "region": "R2",
+      "url": "http://www.ansungcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.712",
+      "updated_at": "2018-12-06T23:04:15.712"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 97,
+    "fields": {
+      "name": "\uc548\uc131\ubca0\ub124\uc2a4\ud2b8 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc548\uc131\ubca0\ub124\uc2a4\ud2b8",
+      "address": "\uacbd\uae30\ub3c4 \uc548\uc131\uc2dc \uae08\uad11\uba74 \uc0bc\ud765\ub9ac \uc0b01",
+      "region": "R2",
+      "url": "http://www.golfsamsung.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.730",
+      "updated_at": "2018-12-06T23:04:15.730"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 98,
+    "fields": {
+      "name": "\uc591\ud3c9TPC \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc591\ud3c9TPC",
+      "address": "\uacbd\uae30\ub3c4 \uc591\ud3c9\uad70 \uc9c0\ud3c9\uba74 \ub300\ud3c9\ub9ac \uc0b0112",
+      "region": "R2",
+      "url": "http://www.tpcgolf.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.751",
+      "updated_at": "2018-12-06T23:04:15.752"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 99,
+    "fields": {
+      "name": "\uc5ec\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc5ec\uc8fc",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uc2dc \uc6d4\ud3c9\ub85c 78",
+      "region": "R2",
+      "url": "http://www.yeojoocc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.785",
+      "updated_at": "2018-12-06T23:04:15.785"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 100,
+    "fields": {
+      "name": "\uc624\ub80c\uc9c0\ub4c4\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc624\ub80c\uc9c0\ub4c4\uc2a4",
+      "address": "\uc778\ucc9c\uad11\uc5ed\uc2dc \uc5f0\uc218\uad6c \uc1a1\ub3c4\ub3d9 347\ubc88\uc9c0",
+      "region": "R2",
+      "url": "https://www.orangedunes.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.817",
+      "updated_at": "2018-12-06T23:04:15.817"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 101,
+    "fields": {
+      "name": "\uc740\ud654\uc0bc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc740\ud654\uc0bc",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \ub0a8\ub3d9 \uc0b0 118-1",
+      "region": "R2",
+      "url": "http://www.ehscc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.847",
+      "updated_at": "2018-12-06T23:04:15.847"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 102,
+    "fields": {
+      "name": "\uc740\ud654\uc0bc(\uc784\ubc15\uc138\uc77c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc740\ud654\uc0bc(\uc784\ubc15\uc138\uc77c)",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \ub0a8\ub3d9 \uc0b0 118-1",
+      "region": "R2",
+      "url": "http://www.ehscc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.872",
+      "updated_at": "2018-12-06T23:04:15.872"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 103,
+    "fields": {
+      "name": "\uc774\ucc9c\ub9c8\uc774\ub2e4\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc774\ucc9c\ub9c8\uc774\ub2e4\uc2a4",
+      "address": "\uacbd\uae30\ub3c4 \uc774\ucc9c\uc2dc \ub300\uc6d4\uba74 \uad70\ub7c9\ub9ac 271-44",
+      "region": "R2",
+      "url": "http://icmidas.com/home.asp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.890",
+      "updated_at": "2018-12-06T23:04:15.890"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 104,
+    "fields": {
+      "name": "\uc774\ud3ec \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc774\ud3ec",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uad70 \uae08\uc0ac\uba74 \uc7a5\ud765\ub9ac \uc0b0 1",
+      "region": "R2",
+      "url": "http://www.ipo-cc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.912",
+      "updated_at": "2018-12-06T23:04:15.912"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 105,
+    "fields": {
+      "name": "\uc790\uc720 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc790\uc720",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uad70 \uac00\ub0a8\uba74 \uc0bc\uad70\ub9ac \uc0b0 44",
+      "region": "R2",
+      "url": "http://www.jayucc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.929",
+      "updated_at": "2018-12-06T23:04:15.929"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 106,
+    "fields": {
+      "name": "\uc911\ubd80 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc911\ubd80",
+      "address": "\uacbd\uae30\ub3c4 \uad11\uc8fc\uc2dc \uc2e4\ucd0c\uc74d \uace4\uc9c0\uc554\ub9ac \uc0b0 28-1",
+      "region": "R2",
+      "url": "http://www.akdjbcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.956",
+      "updated_at": "2018-12-06T23:04:15.956"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 107,
+    "fields": {
+      "name": "\uce90\uc2ac\ub809\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uce90\uc2ac\ub809\uc2a4",
+      "address": "\uacbd\uae30\ub3c4 \ud558\ub0a8\uc2dc \uac10\uc774\ub3d9 260-1",
+      "region": "R2",
+      "url": "http://www.castlexgc.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:15.983",
+      "updated_at": "2018-12-06T23:04:15.983"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 108,
+    "fields": {
+      "name": "\uce90\uc2ac\ub809\uc2a4(9\ud640) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uce90\uc2ac\ub809\uc2a4(9\ud640)",
+      "address": "\uacbd\uae30\ub3c4 \ud558\ub0a8\uc2dc \uac10\uc774\ub3d9 260-1",
+      "region": "R2",
+      "url": "http://www.castlexgc.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.017",
+      "updated_at": "2018-12-06T23:04:16.017"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 109,
+    "fields": {
+      "name": "\uce90\uc2ac\ud30c\uc778 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uce90\uc2ac\ud30c\uc778",
+      "address": "\uacbd\uae30 \uc5ec\uc8fc\uad70 \uac15\ucc9c\uba74 \ubd80\ud3c9\ub85c 580",
+      "region": "R2",
+      "url": "http://castlepine.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.049",
+      "updated_at": "2018-12-06T23:04:16.049"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 110,
+    "fields": {
+      "name": "\uce90\uc2ac\ud30c\uc778(\uc784\ubc15\uc138\uc77c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uce90\uc2ac\ud30c\uc778(\uc784\ubc15\uc138\uc77c)",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uad70 \uac15\ucc9c\uba74 \ubd80\ud3c9\ub9ac \uc0b0 47-1",
+      "region": "R2",
+      "url": "http://castlepine.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.083",
+      "updated_at": "2018-12-06T23:04:16.083"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 111,
+    "fields": {
+      "name": "\ucf54\ub9ac\uc544 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ucf54\ub9ac\uc544",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \uc774\ub3d9\uba74 \uc11c\ub9ac 772-1",
+      "region": "R2",
+      "url": "http://www.gakorea.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.103",
+      "updated_at": "2018-12-06T23:04:16.103"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 112,
+    "fields": {
+      "name": "\ucf54\ub9ac\uc544(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ucf54\ub9ac\uc544(P)",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \uae30\ud765\uad6c \uace0\ub9e4\ub3d9 279-13",
+      "region": "R2",
+      "url": "http://www.gakorea.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.121",
+      "updated_at": "2018-12-06T23:04:16.121"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 113,
+    "fields": {
+      "name": "\ucf54\ub9ac\uc544(\uc784\ubc15\uc138\uc77c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ucf54\ub9ac\uc544(\uc784\ubc15\uc138\uc77c)",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \uc774\ub3d9\uba74",
+      "region": "R2",
+      "url": "http://www.gakorea.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.139",
+      "updated_at": "2018-12-06T23:04:16.139"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 114,
+    "fields": {
+      "name": "\ud0dc\uad11 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud0dc\uad11",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \uae30\ud765\uad6c \uc601\ub355\ub3d9 258-2",
+      "region": "R2",
+      "url": "https://www.taekwangcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.160",
+      "updated_at": "2018-12-06T23:04:16.160"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 115,
+    "fields": {
+      "name": "\ud0dc\uad11(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud0dc\uad11(P)",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \uae30\ud765\uad6c \uc601\ub355\ub3d9 258-2",
+      "region": "R2",
+      "url": "http://www.taekwangcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.185",
+      "updated_at": "2018-12-06T23:04:16.185"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 116,
+    "fields": {
+      "name": "\ud398\ub7fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud398\ub7fc",
+      "address": "\uacbd\uae30\ub3c4 \uc5ec\uc8fc\uc2dc \uc810\ub3d9\uba74 \uc810\ub3d9\ub85c 181",
+      "region": "R2",
+      "url": "http://www.ferrumclub.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.215",
+      "updated_at": "2018-12-06T23:04:16.215"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 117,
+    "fields": {
+      "name": "\ud50c\ub77c\uc790 \uc6a9\uc778 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud50c\ub77c\uc790 \uc6a9\uc778",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \ucc98\uc778\uad6c \ub0a8\uc0ac\uba74 \ubd09\ubb34\ub9ac 257-1",
+      "region": "R2",
+      "url": "http://www.plazacc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.247",
+      "updated_at": "2018-12-06T23:04:16.247"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 118,
+    "fields": {
+      "name": "\ud55c\uc131 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud55c\uc131",
+      "address": "\uacbd\uae30\ub3c4 \uc6a9\uc778\uc2dc \uae30\ud765\uad6c \ubcf4\uc815\ub3d9 \uc0b0 32-1",
+      "region": "R2",
+      "url": "http://www.hansung-cc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.273",
+      "updated_at": "2018-12-06T23:04:16.273"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 119,
+    "fields": {
+      "name": "\ud654\uc131\uc0c1\ub85d \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud654\uc131\uc0c1\ub85d",
+      "address": "\uacbd\uae30\ub3c4 \ud654\uc131\uc2dc \ub3d9\ud0c4\uba74 \uc911\ub9ac \uc0b0170",
+      "region": "R2",
+      "url": "http://www.hssangnokgc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.295",
+      "updated_at": "2018-12-06T23:04:16.295"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 120,
+    "fields": {
+      "name": "\ub300\uc601\ubca0\uc774\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub300\uc601\ubca0\uc774\uc2a4",
+      "address": "\ucda9\ubd81 \ucda9\uc8fc\uc2dc \uc774\ub958\uba74 \uc7a5\uc131\ub9ac \uc0b0 7\ubc88\uc9c0",
+      "region": "R3",
+      "url": "http://www.basecc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.316",
+      "updated_at": "2018-12-06T23:04:16.316"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 121,
+    "fields": {
+      "name": "\ub300\uc601\ud790\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub300\uc601\ud790\uc2a4",
+      "address": "\ucda9\uccad\ubd81\ub3c4 \ucda9\uc8fc\uc2dc \uc774\ub958\uba74 \ub9cc\uc815\ub9ac \uc0b038",
+      "region": "R3",
+      "url": "http://daeyoungcc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.335",
+      "updated_at": "2018-12-06T23:04:16.335"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 122,
+    "fields": {
+      "name": "\ub85c\uc584\ud3ec\ub808 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub85c\uc584\ud3ec\ub808 (4\uc778 \ud544\uc218)",
+      "address": "\ucda9\uccad\ubd81\ub3c4 \ucda9\uc8fc\uc2dc \uc2e0\ub2c8\uba74 \ub300\ud654\ub9ac 182",
+      "region": "R3",
+      "url": "http://www.royalforet.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.353",
+      "updated_at": "2018-12-06T23:04:16.353"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 123,
+    "fields": {
+      "name": "\ub9c8\ub860\ub274\ub370\uc774 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub9c8\ub860\ub274\ub370\uc774",
+      "address": "\ucda9\uccad\ub0a8\ub3c4 \ucc9c\uc548\uc2dc \ub3d9\ub0a8\uad6c \ubd81\uba74 \ub0a9\uc548\ub9ac 278-14",
+      "region": "R3",
+      "url": "http://www.maronnewday.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.370",
+      "updated_at": "2018-12-06T23:04:16.370"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 124,
+    "fields": {
+      "name": "\uc11c\uc0b0\uc218 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc11c\uc0b0\uc218",
+      "address": "\ucda9\ub0a8 \uc11c\uc0b0\uc2dc \ub300\uc0b0\uc74d \ud654\uace1\ub9ac 51-50",
+      "region": "R3",
+      "url": "http://seosansoo.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.396",
+      "updated_at": "2018-12-06T23:04:16.396"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 125,
+    "fields": {
+      "name": "\uc138\uc77c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc138\uc77c",
+      "address": "\ucda9\ubd81 \ucda9\uc8fc\uc2dc \uc2e0\ub2c8\uba74 \ubb38\ub77d\ub9ac \uc0b0 29-18\ubc88\uc9c0",
+      "region": "R3",
+      "url": "http://www.seilcc.co.kr/club/intro.asp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.428",
+      "updated_at": "2018-12-06T23:04:16.428"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 126,
+    "fields": {
+      "name": "\uc774\ube10\ub370\uc77c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc774\ube10\ub370\uc77c",
+      "address": "\ucda9\ubd81 \uccad\uc6d0\uad70 \ubbf8\uc6d0\uba74 \ub300\uc2e0\ub9ac \uc0b070\ubc88\uc9c0",
+      "region": "R3",
+      "url": "http://www.evendale.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.483",
+      "updated_at": "2018-12-06T23:04:16.483"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 127,
+    "fields": {
+      "name": "\uc784\ud398\ub9ac\uc5bc\ub808\uc774\ud06c(\ucd94\ucc9c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc784\ud398\ub9ac\uc5bc\ub808\uc774\ud06c(\ucd94\ucc9c)",
+      "address": "\ucda9\ubd81 \ucda9\uc8fc\uc2dc \uae08\uac00\uba74 \uc6d4\uc0c1\ub9ac \uc0b0 95-1",
+      "region": "R3",
+      "url": "http://www.ilcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.506",
+      "updated_at": "2018-12-06T23:04:16.506"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 128,
+    "fields": {
+      "name": "\uc820\uc2a4\ud544\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc820\uc2a4\ud544\ub4dc (4\uc778 \uace8\ud504\uc7a5\ud68c\uc6d0 \uac00\uc785 \ud544\uc218)",
+      "address": "\ucda9\ubd81 \uc74c\uc131\uad70 \uc0bc\uc131\uba74 \uc6a9\ub300\ub9ac 499",
+      "region": "R3",
+      "url": "http://www.zensfield.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.523",
+      "updated_at": "2018-12-06T23:04:16.523"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 129,
+    "fields": {
+      "name": "\uc911\uc6d0P \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc911\uc6d0P",
+      "address": "\ucda9\ubd81 \ucda9\uc8fc\uc2dc \uc0b0\ucc99\uba74 \uc601\ub355\ub9ac \uc0b02-14",
+      "region": "R3",
+      "url": "http://www.joongwongolf.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.541",
+      "updated_at": "2018-12-06T23:04:16.541"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 130,
+    "fields": {
+      "name": "\ucc9c\ub8e1 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ucc9c\ub8e1",
+      "address": "\ucda9\ubd81 \uc9c4\ucc9c\uad70 \uc774\uc6d4\uba74 \uc2e0\uacc4\ub9ac \uc0b0 78-1",
+      "region": "R3",
+      "url": "http://www.crcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.569",
+      "updated_at": "2018-12-06T23:04:16.569"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 131,
+    "fields": {
+      "name": "\ud0b9\uc2a4\ub370\uc77c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud0b9\uc2a4\ub370\uc77c",
+      "address": "\ucda9\uccad\ubd81\ub3c4 \ucda9\uc8fc\uc2dc \uc8fc\ub355\uc74d \ud654\uace1\ub9ac \uc0b0 32-42",
+      "region": "R3",
+      "url": "http://www.kingsdale.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.596",
+      "updated_at": "2018-12-06T23:04:16.596"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 132,
+    "fields": {
+      "name": "\ud30c\ub098\uc2dc\uc544(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud30c\ub098\uc2dc\uc544",
+      "address": "\ucda9\ub0a8 \ub2f9\uc9c4\uad70 \uc2e0\ud3c9\uba74 \ub3c4\uc131\ub9ac 460-29",
+      "region": "R3",
+      "url": "http://www.panaceagc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.616",
+      "updated_at": "2018-12-06T23:04:16.616"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 133,
+    "fields": {
+      "name": "\ud604\ub300\ub354\ub9c1\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud604\ub300\ub354\ub9c1\uc2a4",
+      "address": "\ucda9\uccad\ub0a8\ub3c4 \ud0dc\uc548\uad70 \ud0dc\uc548\uc74d \ubc18\uace1\ub9ac 1151-5",
+      "region": "R3",
+      "url": "http://www.thelinkscc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.645",
+      "updated_at": "2018-12-06T23:04:16.645"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 134,
+    "fields": {
+      "name": "\ud790\ub370\uc2a4\ud558\uc784 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud790\ub370\uc2a4\ud558\uc784",
+      "address": "\ucda9\uccad\ubd81\ub3c4 \uc81c\ucc9c\uc2dc \ucc9c\ub0a8\ub3d9 282-1",
+      "region": "R3",
+      "url": "http://www.hildesheimcc.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.670",
+      "updated_at": "2018-12-06T23:04:16.670"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 135,
+    "fields": {
+      "name": "\uadf8\ub79c\ub4dc(\uccad\uc8fc) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uadf8\ub79c\ub4dc(\uccad\uc8fc)",
+      "address": "\ucda9\ubd81 \uccad\uc6d0\uad70 \uc624\ucc3d\uc74d \ud654\uc0b0\ub9ac 40-1",
+      "region": "R3",
+      "url": "http://www.grandgolf.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.700",
+      "updated_at": "2018-12-06T23:04:16.700"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 136,
+    "fields": {
+      "name": "\ub300\ud638\ub2e8\uc591(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub300\ud638\ub2e8\uc591(P)",
+      "address": "\ucda9\ubd81 \ub2e8\uc591\uad70 \ub9e4\ud3ec\uc74d \uace0\uc591\ub9ac 300-1",
+      "region": "R3",
+      "url": "http://www.daehocc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.718",
+      "updated_at": "2018-12-06T23:04:16.718"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 137,
+    "fields": {
+      "name": "\ub3d9\ucd0c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub3d9\ucd0c",
+      "address": "\ucda9\uccad\ubd81\ub3c4 \ucda9\uc8fc\uc2dc \ub178\uc740\uba74 \uac10\ub178\ub85c 1327",
+      "region": "R3",
+      "url": "http://www.dongchongc.co.kr/main.asp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.735",
+      "updated_at": "2018-12-06T23:04:16.736"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 138,
+    "fields": {
+      "name": "\ub5bc\uc81c\ubca0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub5bc\uc81c\ubca0",
+      "address": "\ucda9\ubd81 \uccad\uc6d0\uad70 \uc625\uc0b0\uba74 \ud658\ud76c\ub9ac \uc0b0 102",
+      "region": "R3",
+      "url": "http://www.tgvcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.753",
+      "updated_at": "2018-12-06T23:04:16.753"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 139,
+    "fields": {
+      "name": "\ub5bc\uc81c\ubca0(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub5bc\uc81c\ubca0(P)",
+      "address": "\ucda9\ubd81 \uccad\uc6d0\uad70 \uc625\uc0b0\uba74 \ud658\ud76c\ub9ac \uc0b0 102",
+      "region": "R3",
+      "url": "http://www.tgvcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.770",
+      "updated_at": "2018-12-06T23:04:16.770"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 140,
+    "fields": {
+      "name": "\ubc84\ub4dc\uc6b0\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubc84\ub4dc\uc6b0\ub4dc",
+      "address": "\ucda9\uccad\ub0a8\ub3c4 \ucc9c\uc548\uc2dc \ub3d9\ub0a8\uad6c \ubcd1\ucc9c\uba74 \ub9e4\uc131\ub9ac \uc0b027-24",
+      "region": "R3",
+      "url": "http://www.birdwood.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.787",
+      "updated_at": "2018-12-06T23:04:16.788"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 141,
+    "fields": {
+      "name": "\uc13c\ud14c\ub9ac\uc6c0(\uc784\ubc15\uc138\uc77c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc13c\ud14c\ub9ac\uc6c0(\uc784\ubc15\uc138\uc77c)",
+      "address": "\ucda9\uccad\ubd81\ub3c4 \ucda9\uc8fc\uc2dc \ub178\uc740\uba74 \uc2e0\ud6a8\ub9ac 627-3",
+      "region": "R3",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.813",
+      "updated_at": "2018-12-06T23:04:16.813"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 142,
+    "fields": {
+      "name": "\uc2dc\uadf8\ub108\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2dc\uadf8\ub108\uc2a4",
+      "address": "\ucda9\ubd81 \ucda9\uc8fc\uc2dc \uc559\uc131\uba74 \uc911\uc804\ub9ac \uc0b011-1",
+      "region": "R3",
+      "url": "http://www.cygnuscc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.848",
+      "updated_at": "2018-12-06T23:04:16.848"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 143,
+    "fields": {
+      "name": "\uc2e4\ud06c\ub9ac\ubc84 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2e4\ud06c\ub9ac\ubc84",
+      "address": "\ucda9\ubd81 \uccad\uc6d0\uad70 \ub0a8\uc774\uba74 \uc0b0\ub9c9\ub9ac \uc0b0 102",
+      "region": "R3",
+      "url": "http://www.silkrivercc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.878",
+      "updated_at": "2018-12-06T23:04:16.878"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 144,
+    "fields": {
+      "name": "\uc544\ub984\ub2e4\uc6b4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc544\ub984\ub2e4\uc6b4",
+      "address": "\ucda9\uccad\ub0a8\ub3c4 \uc544\uc0b0\uc2dc \uc601\uc778\uba74 \uc2e0\ud604\ub9ac \uc0b033",
+      "region": "R3",
+      "url": "http://www.arumdaunresort.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.906",
+      "updated_at": "2018-12-06T23:04:16.906"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 145,
+    "fields": {
+      "name": "\uc544\ub9ac\uc194 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc544\ub9ac\uc194",
+      "address": "\ucda9\uccad\ubd81\ub3c4 \ubcf4\uc740\uad70 \ud0c4\ubd80\uba74 \uc0c1\uc7a5\ub9ac \uc0b030\ubc88\uc9c0",
+      "region": "R3",
+      "url": "http://www.arisolcc.net/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.928",
+      "updated_at": "2018-12-06T23:04:16.928"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 146,
+    "fields": {
+      "name": "\uc544\ud2b8\ubc38\ub9ac \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc544\ud2b8\ubc38\ub9ac",
+      "address": "\ucda9\uccad\ubd81\ub3c4 \uc9c4\ucc9c\uad70 \uc9c4\ucc9c\uc74d \uc9c0\uc554\ub9ac \uc0b019-15",
+      "region": "R3",
+      "url": "http://www.artvalleycc.net",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.946",
+      "updated_at": "2018-12-06T23:04:16.946"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 147,
+    "fields": {
+      "name": "\uc5d0\ub518\ubc84\ub7ec \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc5d0\ub518\ubc84\ub7ec",
+      "address": "\ucda9\ub0a8 \uae08\uc0b0\uad70 \uc9c4\uc0b0\uba74 \ud589\uc815\ub9ac 473-5",
+      "region": "R3",
+      "url": "http://www.edinburgh.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.963",
+      "updated_at": "2018-12-06T23:04:16.963"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 148,
+    "fields": {
+      "name": "\uc5d0\uba38\uc2a8\uace8\ud504\ud074\ub7fd(\ucda9\ubd81\uc9c4\ucc9c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc5d0\uba38\uc2a8\uace8\ud504\ud074\ub7fd(\ucda9\ubd81\uc9c4\ucc9c)",
+      "address": "\ucda9\ubd81 \uc9c4\ucc9c\uad70 \ubc31\uace1\uba74 \uc131\ub300\ub9ac \uc0b0 103-1",
+      "region": "R3",
+      "url": "http://www.emersongolfclub.co.kr/main/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.982",
+      "updated_at": "2018-12-06T23:04:16.982"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 149,
+    "fields": {
+      "name": "\uc784\ud398\ub9ac\uc5bc\ub808\uc774\ud06c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc784\ud398\ub9ac\uc5bc\ub808\uc774\ud06c",
+      "address": "\ucda9\ubd81 \ucda9\uc8fc\uc2dc \uae08\uac00\uba74 \uc6d4\uc0c1\ub9ac \uc0b0 95-1",
+      "region": "R3",
+      "url": "http://www.ilcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:16.999",
+      "updated_at": "2018-12-06T23:04:16.999"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 150,
+    "fields": {
+      "name": "\uc9c4\uc591\ubc38\ub9ac \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc9c4\uc591\ubc38\ub9ac",
+      "address": "\ucda9\uccad\ubd81\ub3c4 \uc74c\uc131\uad70 \uc0bc\uc131\uba74 \uc591\ub355\ub9ac \uc0b0 131",
+      "region": "R3",
+      "url": "http://www.chinyangvalley.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.022",
+      "updated_at": "2018-12-06T23:04:17.022"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 151,
+    "fields": {
+      "name": "\ucc9c\ub8e1(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ucc9c\ub8e1P (4\uc778\ud544\uc218)",
+      "address": "\ucda9\ubd81 \uc9c4\ucc9c\uad70 \uc774\uc6d4\uba74 \uc2e0\uacc4\ub9ac \uc0b0 78-1",
+      "region": "R3",
+      "url": "http://www.crcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.058",
+      "updated_at": "2018-12-06T23:04:17.058"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 152,
+    "fields": {
+      "name": "\ucc9c\uc548\uc0c1\ub85d(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ucc9c\uc548\uc0c1\ub85d(P)",
+      "address": "\ucda9\uccad\ub0a8\ub3c4 \ucc9c\uc548\uc2dc \ub3d9\ub0a8\uad6c \uc218\uc2e0\uba74 \uc18d\ucc3d\ub9ac 1",
+      "region": "R3",
+      "url": "http://www.sangnokresort.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.090",
+      "updated_at": "2018-12-06T23:04:17.091"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 153,
+    "fields": {
+      "name": "\ud06c\ub9ac\uc2a4\ud0c8\uce74\uc6b4\ud2f0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud06c\ub9ac\uc2a4\ud0c8\uce74\uc6b4\ud2f0",
+      "address": "\ucda9\ubd81 \uc9c4\ucc9c\uad70 \ubb38\ubc31\uba74 \ud3c9\uc0b0\ub9ac 531\ubc88\uc9c0",
+      "region": "R3",
+      "url": "http://www.crystalcounty.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.119",
+      "updated_at": "2018-12-06T23:04:17.119"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 154,
+    "fields": {
+      "name": "\ud06c\ub9ac\uc2a4\ud0c8\uce74\uc6b4\ud2f0(\uc784\ubc15\uc138\uc77c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud06c\ub9ac\uc2a4\ud0c8\uce74\uc6b4\ud2f0(\uc784\ubc15\uc138\uc77c)",
+      "address": "\ucda9\ubd81 \uc9c4\ucc9c\uad70 \ubb38\ubc31\uba74 \ud3c9\uc0b0\ub9ac 531\ubc88\uc9c0",
+      "region": "R3",
+      "url": "http://www.crystalcounty.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.138",
+      "updated_at": "2018-12-06T23:04:17.138"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 155,
+    "fields": {
+      "name": "\ud788\ub4e0\ubc38\ub9ac \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud788\ub4e0\ubc38\ub9ac",
+      "address": "\ucda9\ubd81 \uc9c4\ucc9c\uad70 \ubc31\uace1\uba74 \uac08\uc6d4\ub9ac \uc0b0 29-1",
+      "region": "R3",
+      "url": "http://www.hiddenvalley.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.157",
+      "updated_at": "2018-12-06T23:04:17.157"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 156,
+    "fields": {
+      "name": "\ub354\ud50c\ub808\uc774\uc5b4\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub354\ud50c\ub808\uc774\uc5b4\uc2a4",
+      "address": "\uac15\uc6d0\ub3c4 \ucd98\ucc9c\uc2dc \ub3d9\uc0b0\uba74 \uad70\uc790\ub9ac 224\ubc88\uc9c0",
+      "region": "R4",
+      "url": "http://www.playersgc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.174",
+      "updated_at": "2018-12-06T23:04:17.174"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 157,
+    "fields": {
+      "name": "\ub77c\ub370\ub098 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub77c\ub370\ub098",
+      "address": "\uac15\uc6d0\ub3c4 \ucd98\ucc9c\uc2dc \uc2e0\ub3d9\uba74 \uc815\uc871\ub9ac 1007-1",
+      "region": "R4",
+      "url": "http://www.ladenaresort.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.191",
+      "updated_at": "2018-12-06T23:04:17.191"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 158,
+    "fields": {
+      "name": "\ub77c\ube44\uc5d0\ubca8 \ub4c4\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub77c\ube44\uc5d0\ubca8 \ub4c4\uc2a4",
+      "address": "\uac15\uc6d0\ub3c4 \ucd98\ucc9c\uc2dc \ub3d9\uc0b0\uba74 \uc870\uc591\ub9ac \uc0b0 172",
+      "region": "R4",
+      "url": "https://www.lavieestbellegolfnresort.com/dunescourse/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.209",
+      "updated_at": "2018-12-06T23:04:17.209"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 159,
+    "fields": {
+      "name": "\ub85c\ub4dc\ud790\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub85c\ub4dc\ud790\uc2a4",
+      "address": "\uac15\uc6d0\ub3c4 \ucd98\ucc9c\uc2dc \uad70\uc790\ub9ac \uc0b0245\ubc88\uc9c0",
+      "region": "R4",
+      "url": "http://www.lordhills.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.236",
+      "updated_at": "2018-12-06T23:04:17.236"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 160,
+    "fields": {
+      "name": "\ubca8\ub77c\uc2a4\ud1a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubca8\ub77c\uc2a4\ud1a4",
+      "address": "\uac15\uc6d0\ub3c4 \ud6a1\uc131\uad70 \uc11c\uc6d0\uba74 \uc625\uacc4\ub9ac \uc0b0 247",
+      "region": "R4",
+      "url": "http://www.bellastonecc.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.273",
+      "updated_at": "2018-12-06T23:04:17.273"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 161,
+    "fields": {
+      "name": "\ube44\ucf58\ud790\uc2a4(\uad6c \ud64d\ucc9c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ube44\ucf58\ud790\uc2a4(\uad6c \ud64d\ucc9c)",
+      "address": "\uac15\uc6d0\ub3c4 \ud64d\ucc9c\uad70 \ud64d\ucc9c\uc74d \uc7a5\uc804\ud3c9\ub9ac 722-2",
+      "region": "R4",
+      "url": "http://www.hc-cc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.300",
+      "updated_at": "2018-12-06T23:04:17.300"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 162,
+    "fields": {
+      "name": "\uc0e4\uc778\ub370\uc77c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc0e4\uc778\ub370\uc77c",
+      "address": "\uac15\uc6d0\ub3c4 \ud64d\ucc9c\uad70 \uc11c\uba74 \ub3d9\ub9c9\ub9ac \uc0b077\ubc88\uc9c0",
+      "region": "R4",
+      "url": "http://www.shinedale.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.336",
+      "updated_at": "2018-12-06T23:04:17.336"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 163,
+    "fields": {
+      "name": "\uc13c\ucd94\ub9ac21 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc13c\ucd94\ub9ac21",
+      "address": "\uac15\uc6d0\ub3c4 \uc6d0\uc8fc\uc2dc \ubb38\ub9c9\uc74d \uad81\ucd0c\ub9ac \uc0b0 47-5",
+      "region": "R4",
+      "url": "http://www.century21cc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.363",
+      "updated_at": "2018-12-06T23:04:17.363"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 164,
+    "fields": {
+      "name": "\uc13c\ucd94\ub9ac21(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc13c\ucd94\ub9ac21(P)",
+      "address": "\uac15\uc6d0\ub3c4 \uc6d0\uc8fc\uc2dc \ubb38\ub9c9\uc74d \uad81\ucd0c\ub9ac \uc0b047-5",
+      "region": "R4",
+      "url": "http://www.century21cc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.381",
+      "updated_at": "2018-12-06T23:04:17.381"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 165,
+    "fields": {
+      "name": "\uc54c\ud39c\uc2dc\uc544 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc54c\ud39c\uc2dc\uc544",
+      "address": "\uac15\uc6d0\ub3c4 \ud3c9\ucc3d\uad70 \ub300\uad00\ub839\uba74 \uc6a9\uc0b0\ub9ac 225-3",
+      "region": "R4",
+      "url": "http://www.alpensiaresort.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.402",
+      "updated_at": "2018-12-06T23:04:17.402"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 166,
+    "fields": {
+      "name": "\uc54c\ud39c\uc2dc\uc544700(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc54c\ud39c\uc2dc\uc544700(P)",
+      "address": "\uac15\uc6d0\ub3c4 \ud3c9\ucc3d\uad70 \ub300\uad00\ub839\uba74 \uc6a9\uc0b0\ub9ac 225-3",
+      "region": "R4",
+      "url": "http://www.alpensiaresort.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.443",
+      "updated_at": "2018-12-06T23:04:17.443"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 167,
+    "fields": {
+      "name": "\uc624\ud06c\ud06c\ub9ad(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc624\ud06c\ud06c\ub9ad(P)",
+      "address": "\uac15\uc6d0\ub3c4 \uc6d0\uc8fc\uc2dc \uc9c0\uc815\uba74 \uc6d4\uc1a1\ub9ac 1016",
+      "region": "R4",
+      "url": "http://www.oakvalley.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.479",
+      "updated_at": "2018-12-06T23:04:17.479"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 168,
+    "fields": {
+      "name": "\uc625\uc2a4\ud544\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc625\uc2a4\ud544\ub4dc",
+      "address": "\uac15\uc6d0\ub3c4 \ud6a1\uc131\uad70 \uc11c\uc6d0\uba74 \uc720\ud604\ub9ac \uc0b061",
+      "region": "R4",
+      "url": "http://www.oxfield.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.515",
+      "updated_at": "2018-12-06T23:04:17.515"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 169,
+    "fields": {
+      "name": "\uc6f0\ub9ac\ud790\ub9ac \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc6f0\ub9ac\ud790\ub9ac",
+      "address": "\uac15\uc6d0\ub3c4 \ud6a1\uc131\uad70 \ub454\ub0b4\uba74 \uc6b0\uc6a9\ub9ac \uc0b0166",
+      "region": "R4",
+      "url": "http://www.wellihillipark.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.555",
+      "updated_at": "2018-12-06T23:04:17.555"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 170,
+    "fields": {
+      "name": "\ud074\ub7fd\ubaa8\uc6b0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud074\ub7fd\ubaa8\uc6b0",
+      "address": "\uac15\uc6d0\ub3c4 \ud64d\ucc9c\uad70 \uc11c\uba74 \uc7a5\ub77d\ub3d9\uae38 111",
+      "region": "R4",
+      "url": "http://www.clubmow.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.595",
+      "updated_at": "2018-12-06T23:04:17.596"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 171,
+    "fields": {
+      "name": "\ud30c\uac00\ub2c8\uce74 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud30c\uac00\ub2c8\uce74(4\uc778\ud544\uc218)",
+      "address": "\uac15\uc6d0\ub3c4 \ucd98\ucc9c\uc2dc \ub0a8\uba74 \uc18c\uc8fc\uace0\uac1c\ub85c 145-2",
+      "region": "R4",
+      "url": "http://paganicacc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.623",
+      "updated_at": "2018-12-06T23:04:17.623"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 172,
+    "fields": {
+      "name": "\ud30c\ud06c\ubc38\ub9ac \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud30c\ud06c\ubc38\ub9ac",
+      "address": "\uac15\uc6d0\ub3c4 \uc6d0\uc8fc\uc2dc \uc18c\ucd08\uba74 \ubc14\uc6b0\uc2e4\uae38 281",
+      "region": "R4",
+      "url": "https://www.parkvalley.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.677",
+      "updated_at": "2018-12-06T23:04:17.677"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 173,
+    "fields": {
+      "name": "\ud55c\ud0c4\uac15 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud55c\ud0c4\uac15",
+      "address": "\uac15\uc6d0\ub3c4 \ucca0\uc6d0\uad70 \uac08\ub9d0\uc74d \uad70\ud0c4\ub9ac 1137",
+      "region": "R4",
+      "url": "http://www.hantancc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.717",
+      "updated_at": "2018-12-06T23:04:17.717"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 174,
+    "fields": {
+      "name": "\ud790\ub4dc\ub85c\uc0ac\uc774 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud790\ub4dc\ub85c\uc0ac\uc774",
+      "address": "\uac15\uc6d0\ub3c4 \ud64d\ucc9c\uad70 \ub0a8\uba74 \ud654\uc804\ub9ac 1288",
+      "region": "R4",
+      "url": "http://www.hilldeloci.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.750",
+      "updated_at": "2018-12-06T23:04:17.750"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 175,
+    "fields": {
+      "name": "\ub0a8\ucd98\ucc9c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub0a8\ucd98\ucc9c (\uace8\ud504\uc7a5 \uc778\ud130\ub137 \ud68c\uc6d0 \uac00\uc785 \ud544\uc218)",
+      "address": "\uac15\uc6d0\ub3c4 \ucd98\ucc9c\uc2dc \uc2e0\ub3d9\uba74 \ud608\ub3d9\ub9ac \uc0b0 266\ubc88\uc9c0",
+      "region": "R4",
+      "url": "http://www.namchuncheon.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.768",
+      "updated_at": "2018-12-06T23:04:17.768"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 176,
+    "fields": {
+      "name": "\ub77c\ube44\uc5d0\ubca8 \uc62c\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub77c\ube44\uc5d0\ubca8 \uc62c\ub4dc",
+      "address": "\uac15\uc6d0\ub3c4 \ucd98\ucc9c\uc2dc \ub3d9\uc0b0\uba74 \uc870\uc591\ub9ac \uc0b0199",
+      "region": "R4",
+      "url": "http://www.lavieestbellegolfnresort.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.786",
+      "updated_at": "2018-12-06T23:04:17.786"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 177,
+    "fields": {
+      "name": "\uc124\uc545\uc36c\ubc38\ub9ac \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc124\uc545\uc36c\ubc38\ub9ac",
+      "address": "\uac15\uc6d0\ub3c4 \uace0\uc131\uad70 \uc8fd\uc655\uba74 \uc0bc\ud3ec\ub9ac \uc0b0 134",
+      "region": "R4",
+      "url": "http://www.soraksunvalley.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.805",
+      "updated_at": "2018-12-06T23:04:17.805"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 178,
+    "fields": {
+      "name": "\uc2a4\ud504\ub9c1\ubca0\uc77c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2a4\ud504\ub9c1\ubca0\uc77c",
+      "address": "\uac15\uc6d0\ub3c4 \ucd98\ucc9c\uc2dc \ub3d9\uba74 \uae08\ubca0\uc774\uae38 93-27",
+      "region": "R4",
+      "url": "https://www.springvale.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.826",
+      "updated_at": "2018-12-06T23:04:17.826"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 179,
+    "fields": {
+      "name": "\uc2a4\ud504\ub9c1\ubca0\uc77c(\ucd94\ucc9c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2a4\ud504\ub9c1\ubca0\uc77c(\ucd94\ucc9c)",
+      "address": "",
+      "region": "R4",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.866",
+      "updated_at": "2018-12-06T23:04:17.866"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 180,
+    "fields": {
+      "name": "\uc54c\ud504\uc2a4\ub300\uc601(\uad6c \uccad\uc6b0) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc54c\ud504\uc2a4\ub300\uc601(\uad6c \uccad\uc6b0)",
+      "address": "\uac15\uc6d0\ub3c4 \ud6a1\uc131\uad70 \uc6b0\ucc9c\uba74 \ud55c\uc6b0\ub85c 1295",
+      "region": "R4",
+      "url": "http://cwgc.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.911",
+      "updated_at": "2018-12-06T23:04:17.911"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 181,
+    "fields": {
+      "name": "\uc624\ub108\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc624\ub108\uc2a4",
+      "address": "\uac15\uc6d0\ub3c4 \ucd98\ucc9c\uc2dc \ub0a8\uc0b0\uba74 \uc218\ub3d9\ub9ac \uc0b030\ubc88\uc9c0",
+      "region": "R4",
+      "url": "http://www.ownersgc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.947",
+      "updated_at": "2018-12-06T23:04:17.947"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 182,
+    "fields": {
+      "name": "\ud718\ub2c9\uc2a4 (\uad6c. \ud718\ub2c9\uc2a4\ud30c\ud06c) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud718\ub2c9\uc2a4 (\uad6c. \ud718\ub2c9\uc2a4\ud30c\ud06c)",
+      "address": "\uac15\uc6d0\ub3c4 \ud3c9\ucc3d\uad70 \ubd09\ud3c9\uba74 \uba74\uc628\ub9ac 1095",
+      "region": "R4",
+      "url": "http://www.pp.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.966",
+      "updated_at": "2018-12-06T23:04:17.966"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 183,
+    "fields": {
+      "name": "JNJ \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "JNJ",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \uc7a5\ud765\uad70 \uc7a5\ud3c9\uba74 \uc81c\uc0b0\uae30\ub3d9\ub85c 326",
+      "region": "R5",
+      "url": "http://www.jnjgolfresort.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:17.986",
+      "updated_at": "2018-12-06T23:04:17.986"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 184,
+    "fields": {
+      "name": "OK(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "OK(P)",
+      "address": "\uc804\ubd81 \uc644\uc8fc\uad70 \uc18c\uc591\uba74 \ud654\uc2ec\ub9ac \uc0b080",
+      "region": "R5",
+      "url": "http://www.okcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.007",
+      "updated_at": "2018-12-06T23:04:18.007"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 185,
+    "fields": {
+      "name": "\uac70\uba85 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uac70\uba85",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \uad11\uc591\uc2dc \uac00\uc57c\ub85c 223(\ub9c8\ub3d9)",
+      "region": "R5",
+      "url": "http://www.gygc.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.026",
+      "updated_at": "2018-12-06T23:04:18.026"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 186,
+    "fields": {
+      "name": "\uace0\ucc3d \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uace0\ucc3d",
+      "address": "\uc804\ubd81 \uace0\ucc3d\uad70 \uc2ec\uc6d0\uba74 \uace0\uc804\ub9ac 1916",
+      "region": "R5",
+      "url": "http://www.gochangcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.077",
+      "updated_at": "2018-12-06T23:04:18.077"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 187,
+    "fields": {
+      "name": "\uace8\ub4dc\ub808\uc774\ud06c  \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uace8\ub4dc\ub808\uc774\ud06c",
+      "address": "\uc804\ub0a8 \ub098\uc8fc\uc2dc \ub0a8\ud3c9\uc74d \uc6b0\uc0b0\ub9ac 2356-4\ubc88\uc9c0",
+      "region": "R5",
+      "url": "http://www.goldlake.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.117",
+      "updated_at": "2018-12-06T23:04:18.117"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 188,
+    "fields": {
+      "name": "\uace8\ub4dc\ub808\uc774\ud06c(P 18\ud640) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uace8\ub4dc\ub808\uc774\ud06c(P 18\ud640)",
+      "address": "\uc804\ub0a8 \ub098\uc8fc\uc2dc \ub0a8\ud3c9\uc74d \uc6b0\uc0b0\ub9ac 2356-4\ubc88\uc9c0",
+      "region": "R5",
+      "url": "http://www.goldlake.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.146",
+      "updated_at": "2018-12-06T23:04:18.146"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 189,
+    "fields": {
+      "name": "\uace8\ud504\uc874\uce74\uc6b4\ud2f0\uc120\uc6b4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uace8\ud504\uc874\uce74\uc6b4\ud2f0\uc120\uc6b4",
+      "address": "\uc804\ubd81 \uace0\ucc3d\uad70 \uc544\uc0b0\uba74 \uc6b4\uace1\ub85c 418",
+      "region": "R5",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.170",
+      "updated_at": "2018-12-06T23:04:18.170"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 190,
+    "fields": {
+      "name": "\uad11\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uad11\uc8fc",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \uace1\uc131\uad70 \uc625\uacfc\uba74 \uc785\uba74\ub85c 455",
+      "region": "R5",
+      "url": "http://kjcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.190",
+      "updated_at": "2018-12-06T23:04:18.190"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 191,
+    "fields": {
+      "name": "\uad70\uc0b0(Lake,Reed) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uad70\uc0b0(Lake,Reed)",
+      "address": "\uc804\ub77c\ubd81\ub3c4 \uad70\uc0b0\uc2dc \uc625\uc11c\uba74 \ub0a8\uad70\uc0b0\ub85c 1685\ubc88\uc9c0",
+      "region": "R5",
+      "url": "http://www.gunsancc.net",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.208",
+      "updated_at": "2018-12-06T23:04:18.208"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 192,
+    "fields": {
+      "name": "\uad70\uc0b0(P 63\ud640) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uad70\uc0b0(P 63\ud640)",
+      "address": "\uc804\ub77c\ubd81\ub3c4 \uad70\uc0b0\uc2dc \uc625\uc11c\uba74 \ub0a8\uad70\uc0b0\ub85c 1685\ubc88\uc9c0",
+      "region": "R5",
+      "url": "http://www.gunsancc.net/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.228",
+      "updated_at": "2018-12-06T23:04:18.228"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 193,
+    "fields": {
+      "name": "\uae40\uc81c\uc2a4\ud3ec\ud790(P 9\ud640) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uae40\uc81c\uc2a4\ud3ec\ud790(P 9\ud640)",
+      "address": "\uc804\ubd81",
+      "region": "R5",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.266",
+      "updated_at": "2018-12-06T23:04:18.266"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 194,
+    "fields": {
+      "name": "\ub098\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub098\uc8fc",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \ub098\uc8fc\uc2dc \uacf5\uc0b0\uba74 \uc0c1\ubc29\ub9ac 7",
+      "region": "R5",
+      "url": "http://www.najucc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.304",
+      "updated_at": "2018-12-06T23:04:18.305"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 195,
+    "fields": {
+      "name": "\ub098\uc8fc\ubd80\uc601 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub098\uc8fc\ubd80\uc601",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \ub098\uc8fc\uc2dc \ube5b\uac00\ub78c\ub3d9 8-171",
+      "region": "R5",
+      "url": "http://www.njbooyoungcc.co.kr/index.asp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.335",
+      "updated_at": "2018-12-06T23:04:18.335"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 196,
+    "fields": {
+      "name": "\ub098\uc8fc\ud790\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub098\uc8fc\ud790\uc2a4",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \ub098\uc8fc\uc2dc \uc138\uc9c0\uba74 \uc131\uc0b0\ub9ac 820",
+      "region": "R5",
+      "url": "http://www.najuhills.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.361",
+      "updated_at": "2018-12-06T23:04:18.361"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 197,
+    "fields": {
+      "name": "\ub0a8\uc6d0\uc0c1\ub85d \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub0a8\uc6d0\uc0c1\ub85d",
+      "address": "\uc804\ub77c\ubd81\ub3c4 \ub0a8\uc6d0\uc2dc \ub300\uc0b0\uba74 \ub300\uace1\ub9ac \uc0b0106",
+      "region": "R5",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.380",
+      "updated_at": "2018-12-06T23:04:18.380"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 198,
+    "fields": {
+      "name": "\ub2f4\uc591\ub2e4\uc774\ub108\uc2a4\ud2f0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub2f4\uc591\ub2e4\uc774\ub108\uc2a4\ud2f0",
+      "address": "\uc804\ub0a8 \ub2f4\uc591\uad70 \ub2f4\uc591\uc74d \ud559\ub3d9\ub9ac \uc0b079",
+      "region": "R5",
+      "url": "http://dy.dynastycc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.403",
+      "updated_at": "2018-12-06T23:04:18.403"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 199,
+    "fields": {
+      "name": "\ub3d9\uc804\uc8fc\uc368\ubbf8\ud2b8 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub3d9\uc804\uc8fc\uc368\ubbf8\ud2b8",
+      "address": "\uc804\ub77c\ubd81\ub3c4 \uc9c4\uc548\uad70 \ubd80\uadc0\uba74 \ubd09\uc554\ub9ac \uc0b080-1",
+      "region": "R5",
+      "url": "http://www.summitcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.426",
+      "updated_at": "2018-12-06T23:04:18.426"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 200,
+    "fields": {
+      "name": "\ub4dc\ub798\uace4\ub808\uc774\ud06c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub4dc\ub798\uace4\ub808\uc774\ud06c",
+      "address": "\uc804\ub77c\ubd81\ub3c4 \ub0a8\uc6d0\uc2dc \ub300\uc0b0\uba74 \uc625\uc728\ub9ac \uc0b0142-1",
+      "region": "R5",
+      "url": "http://www.dragonlake.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.450",
+      "updated_at": "2018-12-06T23:04:18.450"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 201,
+    "fields": {
+      "name": "\ub514\uc624\uc158 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub514\uc624\uc158",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \uc5ec\uc218\uc2dc \ud654\uc591\uba74 \uc548\ud3ec\ub9ac 638-1",
+      "region": "R5",
+      "url": "http://www.theoceanresort.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.485",
+      "updated_at": "2018-12-06T23:04:18.486"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 202,
+    "fields": {
+      "name": "\ub808\uc774\ud06c\ud790\uc2a4\uc21c\ucc9c(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub808\uc774\ud06c\ud790\uc2a4\uc21c\ucc9c(P)",
+      "address": "\uc804\ub0a8 \uc21c\ucc9c\uc2dc \uc8fc\uc554\uba74 \ud589\uc815\ub9ac 1\ubc88\uc9c0",
+      "region": "R5",
+      "url": "http://lakehills.co.kr/network/cc_suncheon/suncheon_main.html",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.537",
+      "updated_at": "2018-12-06T23:04:18.537"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 203,
+    "fields": {
+      "name": "\ubb34\ub4f1\uc0b0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubb34\ub4f1\uc0b0",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \ud654\uc21c\uad70 \ud654\uc21c\uc74d \uc11c\ud0dc\ub9ac 722",
+      "region": "R5",
+      "url": "http://www.mudeungsancc.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.562",
+      "updated_at": "2018-12-06T23:04:18.562"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 204,
+    "fields": {
+      "name": "\ubb34\uc548(P 54\ud640) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubb34\uc548(P 54\ud640)",
+      "address": "\uc804\ub0a8 \ubb34\uc548\uad70 \uccad\uacc4\uba74 \ub3c4\ub300\ub9ac 818-1",
+      "region": "R5",
+      "url": "http://muangc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.587",
+      "updated_at": "2018-12-06T23:04:18.587"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 205,
+    "fields": {
+      "name": "\ubb34\uc8fc\ub355\uc720\uc0b0(\uad6c \ubb34\uc8fc) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubb34\uc8fc\ub355\uc720\uc0b0(\uad6c \ubb34\uc8fc)",
+      "address": "\uc804\ubd81 \ubb34\uc8fc\uad70 \uc124\ucc9c\uba74 \ub9cc\uc120\ub85c 185",
+      "region": "R5",
+      "url": "http://www.mdysresort.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.627",
+      "updated_at": "2018-12-06T23:04:18.627"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 206,
+    "fields": {
+      "name": "\ubb34\uc8fc\uc548\uc131 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubb34\uc8fc\uc548\uc131",
+      "address": "\uc804\ub77c\ubd81\ub3c4 \ubb34\uc8fc\uad70 \uc548\uc131\uba74 \uacf5\uc9c4\ub9ac 788-2\ubc88\uc9c0",
+      "region": "R5",
+      "url": "http://www.mujuanseongcc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.648",
+      "updated_at": "2018-12-06T23:04:18.648"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 207,
+    "fields": {
+      "name": "\ubc31\uc591\uc6b0\ub9ac \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubc31\uc591\uc6b0\ub9ac",
+      "address": "\uc804\ub0a8 \uc7a5\uc131\uad70 \ubd81\uc774\uba74 \uc0ac\uac70\ub9ac 123-1",
+      "region": "R5",
+      "url": "http://www.woori-cc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.689",
+      "updated_at": "2018-12-06T23:04:18.689"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 208,
+    "fields": {
+      "name": "\ubca0\uc5b4\ub9ac\ubc84 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubca0\uc5b4\ub9ac\ubc84",
+      "address": "\uc804\ubd81 \uc775\uc0b0\uc2dc \uc6c5\ud3ec\uba74 \uc1a1\ucc9c\ub9ac 151",
+      "region": "R5",
+      "url": "http://www.bearriver.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.751",
+      "updated_at": "2018-12-06T23:04:18.751"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 209,
+    "fields": {
+      "name": "\ubca0\uc5b4\ub9ac\ubc84(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubca0\uc5b4\ub9ac\ubc84(P)",
+      "address": "\uc804\ubd81 \uc775\uc0b0\uc2dc \uc6c5\ud3ec\uba74 \uc6c5\ud3ec\ub9ac 162",
+      "region": "R5",
+      "url": "http://www.bearriver.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.779",
+      "updated_at": "2018-12-06T23:04:18.779"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 210,
+    "fields": {
+      "name": "\ubcf4\uc131 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubcf4\uc131",
+      "address": "\uc804\ub0a8 \ubcf4\uc131\uad70 \uc870\uc131\uba74 \ub300\uace1\ub9ac \uc0b0 49\ubc88\uc9c0",
+      "region": "R5",
+      "url": "http://www.bosungcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.803",
+      "updated_at": "2018-12-06T23:04:18.803"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 211,
+    "fields": {
+      "name": "\ube5b\uace0\uc744 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ube5b\uace0\uc744",
+      "address": "\uad11\uc8fc\uad11\uc5ed\uc2dc \ub0a8\uad6c \ud6a8\uc6b0\ub85c 153",
+      "region": "R5",
+      "url": "http://www.bitgoeulcc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.826",
+      "updated_at": "2018-12-06T23:04:18.826"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 212,
+    "fields": {
+      "name": "\uc0c1\ub5bc\ud790\uc775\uc0b0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc0c1\ub5bc\ud790\uc775\uc0b0",
+      "address": "\uc804\ubd81 \uc775\uc0b0\uc2dc \ub355\uae30\ub3d9 \uc0b0 760-15",
+      "region": "R5",
+      "url": "http://www.santehill.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.845",
+      "updated_at": "2018-12-06T23:04:18.845"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 213,
+    "fields": {
+      "name": "\uc11d\uc815\ud790 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc11d\uc815\ud790",
+      "address": "\uc804\ub77c\ubd81\ub3c4 \uace0\ucc3d\uad70 \uace0\ucc3d\uc74d \uc11d\uc815\ub9ac 733",
+      "region": "R5",
+      "url": "http://www.wellparkcc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.878",
+      "updated_at": "2018-12-06T23:04:18.878"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 214,
+    "fields": {
+      "name": "\uc21c\ucc3d(P 9\ud640) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc21c\ucc3d(P 9\ud640)",
+      "address": "\uc804\ubd81 \uc21c\ucc3d\uad70 \uc21c\ucc3d\uc74d",
+      "region": "R5",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.905",
+      "updated_at": "2018-12-06T23:04:18.905"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 215,
+    "fields": {
+      "name": "\uc21c\ucc3dcc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc21c\ucc3dcc",
+      "address": "\uc804\ub77c\ubd81\ub3c4 \uc21c\ucc3d\uad70 \uc21c\ucc3d\uc74d \uc21c\ud654\ub9ac \uc0b010-1",
+      "region": "R5",
+      "url": "http://sunchangcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.935",
+      "updated_at": "2018-12-06T23:04:18.935"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 216,
+    "fields": {
+      "name": "\uc21c\ucc9c \ubd80\uc601 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc21c\ucc9c \ubd80\uc601",
+      "address": "",
+      "region": "R5",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.965",
+      "updated_at": "2018-12-06T23:04:18.965"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 217,
+    "fields": {
+      "name": "\uc2a4\ud30c\ud790\uc2a4(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2a4\ud30c\ud790\uc2a4(P)",
+      "address": "\uc804\ubd81 \uae40\uc81c\uc2dc \ud765\uc0ac\ub3d9 \uc0b0 87-1\ubc88\uc9c0",
+      "region": "R5",
+      "url": "http://www.spahillscc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:18.983",
+      "updated_at": "2018-12-06T23:04:18.984"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 218,
+    "fields": {
+      "name": "\uc2b9\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2b9\uc8fc",
+      "address": "\uc804\ub0a8 \uc21c\ucc9c\uc2dc \uc0c1\uc0ac\uba74 \uc624\uace1\ub9ac \uc0b0 177",
+      "region": "R5",
+      "url": "http://www.sjcc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.003",
+      "updated_at": "2018-12-06T23:04:19.003"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 219,
+    "fields": {
+      "name": "\uc544\ub124\uc2a4\ube4c(P 18\ud640) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc544\ub124\uc2a4\ube4c(P 18\ud640)",
+      "address": "\uc804\ubd81 \uae40\uc81c\uc2dc \ud669\uc0b0\uba74 \ubd09\uc6d4\ub9ac 10-14",
+      "region": "R5",
+      "url": "http://www.anesville.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.021",
+      "updated_at": "2018-12-06T23:04:19.021"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 220,
+    "fields": {
+      "name": "\uc544\ud06c\ub85c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc544\ud06c\ub85c",
+      "address": "\uc804\ub0a8 \uc601\uc554\uad70 \uae08\uc815\uba74 \uc138\ub958\ub9ac 533-1",
+      "region": "R5",
+      "url": "http://www.acrogolf.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.039",
+      "updated_at": "2018-12-06T23:04:19.039"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 221,
+    "fields": {
+      "name": "\uc5b4\ub4f1\uc0b0\ucee8\ud2b8\ub9ac\ud074\ub7fd \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc5b4\ub4f1\uc0b0\ucee8\ud2b8\ub9ac\ud074\ub7fd",
+      "address": "",
+      "region": "R5",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.062",
+      "updated_at": "2018-12-06T23:04:19.062"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 222,
+    "fields": {
+      "name": "\uc5ec\uc218\uacbd\ub3c4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc5ec\uc218\uacbd\ub3c4",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \uc5ec\uc218\uc2dc \uacbd\ud638\ub3d9 438-1",
+      "region": "R5",
+      "url": "http://www.yeosucc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.095",
+      "updated_at": "2018-12-06T23:04:19.095"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 223,
+    "fields": {
+      "name": "\uc5ec\uc218\uc2dc\ud2f0\ud30c\ud06c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc5ec\uc218\uc2dc\ud2f0\ud30c\ud06c",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \uc5ec\uc218\uc2dc \ub454\ub355\ub3d9 471-71",
+      "region": "R5",
+      "url": "http://www.citypark.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.126",
+      "updated_at": "2018-12-06T23:04:19.127"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 224,
+    "fields": {
+      "name": "\uc601\uad11 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc601\uad11",
+      "address": "\uc804\ub0a8 \uc601\uad11\uad70 \ubc31\uc218\uc74d \ud574\uc548\ub85c 1362-70",
+      "region": "R5",
+      "url": "http://www.ygcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.159",
+      "updated_at": "2018-12-06T23:04:19.160"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 225,
+    "fields": {
+      "name": "\uc625\uacfc\uae30\uc548 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc625\uacfc\uae30\uc548",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \uace1\uc131\uad70 \uc625\uacfc\uba74 \uc18c\ub8e1\ub9ac 427-2",
+      "region": "R5",
+      "url": "http://www.okgwakiancc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.178",
+      "updated_at": "2018-12-06T23:04:19.178"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 226,
+    "fields": {
+      "name": "\uc7a5\uc218 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc7a5\uc218",
+      "address": "\uc804\ub77c\ubd81\ub3c4 \uc7a5\uc218\uad70 \uacc4\ub0a8\uba74 \uad81\uc591\ub9ac 955",
+      "region": "R5",
+      "url": "http://www.jangsugolf.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.196",
+      "updated_at": "2018-12-06T23:04:19.196"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 227,
+    "fields": {
+      "name": "\uc804\uc8fc\uc0f9\uadf8\ub9b4\ub77c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc804\uc8fc\uc0f9\uadf8\ub9b4\ub77c",
+      "address": "\uc804\ubd81 \uc784\uc2e4\uad70 \uc2e0\ub355\uba74 \uc9c0\uc7a5\ub9ac \uc0b0 7\ubc88\uc9c0",
+      "region": "R5",
+      "url": "http://www.jcci.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.213",
+      "updated_at": "2018-12-06T23:04:19.213"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 228,
+    "fields": {
+      "name": "\uc804\uc8fc\uc6d4\ub4dc\ucef5(P 9\ud640) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc804\uc8fc\uc6d4\ub4dc\ucef5(P 9\ud640)",
+      "address": "\uc804\ubd81 \uc804\uc8fc\uc2dc \ub355\uc9c4\uad6c \uc7a5\ub3d9 531-1",
+      "region": "R5",
+      "url": "http://www.worldcupcc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.231",
+      "updated_at": "2018-12-06T23:04:19.231"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 229,
+    "fields": {
+      "name": "\uc870\uc544\ubc38\ub9ac(P 9\ud640) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc870\uc544\ubc38\ub9ac(P 9\ud640)",
+      "address": "\uc804\ub0a8 \ud654\uc21c\uad70 \ub3c4\uace1\uba74 \ub300\uace1\ub9ac \uc0b055-3",
+      "region": "R5",
+      "url": "http://www.joavalleycc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.250",
+      "updated_at": "2018-12-06T23:04:19.250"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 230,
+    "fields": {
+      "name": "\ucc3d\ud3c9(P 9\ud640) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ucc3d\ud3c9(P 9\ud640)",
+      "address": "\uc804\ub0a8 \ub2f4\uc591\uad70 \ucc3d\ud3c9\uba74 \uc624\uac15\ub9ac 27-2",
+      "region": "R5",
+      "url": "http://www.cppc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.278",
+      "updated_at": "2018-12-06T23:04:19.278"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 231,
+    "fields": {
+      "name": "\ud0dc\uc778 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud0dc\uc778",
+      "address": "\uc804\ubd81 \uc815\uc74d\uc2dc \ud0dc\uc778\uba74 \uc99d\uc0b0\ub9ac \uc0b0 3\ubc88\uc9c0",
+      "region": "R5",
+      "url": "http://www.taeincc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.312",
+      "updated_at": "2018-12-06T23:04:19.313"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 232,
+    "fields": {
+      "name": "\ud30c\uc778\ube44\uce58 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud30c\uc778\ube44\uce58",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \ud574\ub0a8\uad70 \ud654\uc6d0\uba74 \uc8fc\uad11\ub9ac \uc0b019",
+      "region": "R5",
+      "url": "http://www.pinebeachcc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.346",
+      "updated_at": "2018-12-06T23:04:19.346"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 233,
+    "fields": {
+      "name": "\ud30c\uc778\ud790\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud30c\uc778\ud790\uc2a4",
+      "address": "\uc804\ub0a8 \uc21c\ucc9c\uc2dc \uc8fc\uc554\uba74 \ubb38\uae38\ub9ac \uc0b0 20-2",
+      "region": "R5",
+      "url": "http://www.pinehills.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.380",
+      "updated_at": "2018-12-06T23:04:19.380"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 234,
+    "fields": {
+      "name": "\ud478\ub978\uc194 GC \uc7a5\uc131 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud478\ub978\uc194 GC \uc7a5\uc131",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \uc7a5\uc131\uad70 \ub3d9\ud654\uba74 \ub0a8\uc0b0\ub9ac 985-4",
+      "region": "R5",
+      "url": "http://www.purunsolgc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.400",
+      "updated_at": "2018-12-06T23:04:19.400"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 235,
+    "fields": {
+      "name": "\ud568\ud3c9\uc5d8\ub9ac\uccb4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud568\ud3c9\uc5d8\ub9ac\uccb4",
+      "address": "\uc804\ub0a8 \ud568\ud3c9\uad70 \ud559\uad50\uba74 \uc11c\ub2f9\ub9e4\uae38 242",
+      "region": "R5",
+      "url": "http://hpelichecc.co.kr/index.php",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.423",
+      "updated_at": "2018-12-06T23:04:19.423"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 236,
+    "fields": {
+      "name": "\ud568\ud3c9\ucc9c\uc9c0(P9) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud568\ud3c9\ucc9c\uc9c0(P9)",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \ud568\ud3c9\uad70 \ud568\ud3c9\uc74d \uc218\ud638\ub9ac 55\ubc88\uc9c0",
+      "region": "R5",
+      "url": "http://www.hpnabicc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.444",
+      "updated_at": "2018-12-06T23:04:19.444"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 237,
+    "fields": {
+      "name": "\ud574\ud53c\ub2c8\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud574\ud53c\ub2c8\uc2a4",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \ub098\uc8fc\uc2dc \ub2e4\ub3c4\uba74 \ud48d\uc0b0\ub9ac 255-1",
+      "region": "R5",
+      "url": "http://www.happinesscc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.462",
+      "updated_at": "2018-12-06T23:04:19.462"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 238,
+    "fields": {
+      "name": "\ud654\uc21c(\uad6c)\ud074\ub7fd900 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud654\uc21c(\uad6c)\ud074\ub7fd900",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \ud654\uc21c\uad70 \ub3c4\uace1\uba74 \uc30d\uc625\ub9ac \uc0b015-1",
+      "region": "R5",
+      "url": "http://www.club900.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.496",
+      "updated_at": "2018-12-06T23:04:19.496"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 239,
+    "fields": {
+      "name": "\ud654\uc21c\uc5d8\ub9ac\uccb4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud654\uc21c\uc5d8\ub9ac\uccb4",
+      "address": "\uc804\ub77c\ub0a8\ub3c4 \ud654\uc21c\uad70 \ucd98\uc591\uba74 \uc7a5\uace1\uae38 55",
+      "region": "R5",
+      "url": "http://www.elichecc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.530",
+      "updated_at": "2018-12-06T23:04:19.530"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 240,
+    "fields": {
+      "name": "\ud790\uc0ac\uc774\ub4dc(P 9\ud640) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud790\uc0ac\uc774\ub4dc(P 9\ud640)",
+      "address": "\uc804\ub0a8 \uc21c\ucc9c\uc2dc \ubcc4\ub7c9\uba74 \uc8fd\uc0b0\ub9ac \uc0b0 15",
+      "region": "R5",
+      "url": "http://www.hillsidecc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.570",
+      "updated_at": "2018-12-06T23:04:19.570"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 241,
+    "fields": {
+      "name": "\ube14\ub8e8\uc6d0 \ub514\uc544\ub108\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ube14\ub8e8\uc6d0 \ub514\uc544\ub108\uc2a4",
+      "address": "\uacbd\uc0c1\ubd81\ub3c4 \uacbd\uc8fc\uc2dc \ucc9c\uad70\ub3d9 \uc0b031",
+      "region": "R6",
+      "url": "http://www.blueone.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.593",
+      "updated_at": "2018-12-06T23:04:19.593"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 242,
+    "fields": {
+      "name": "\ube14\ub8e8\uc6d0 \uc0c1\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ube14\ub8e8\uc6d0 \uc0c1\uc8fc",
+      "address": "\uacbd\uc0c1\ubd81\ub3c4 \uc0c1\uc8fc\uc2dc \ubaa8\uc11c\uba74 \uc0bc\ud3ec\ub9ac 462-8",
+      "region": "R6",
+      "url": "http://www.blueone.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.613",
+      "updated_at": "2018-12-06T23:04:19.613"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 243,
+    "fields": {
+      "name": "\uac00\uc0b0(P 9\ud640) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uac00\uc0b0(P 9\ud640)",
+      "address": "\uacbd\ubd81 \uce60\uace1\uad70 \uac00\uc0b0\uba74",
+      "region": "R6",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.631",
+      "updated_at": "2018-12-06T23:04:19.631"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 244,
+    "fields": {
+      "name": "\uac00\uc57c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uac00\uc57c",
+      "address": "\uacbd\ub0a8 \uae40\ud574\uc2dc \uc0bc\ubc29\ub3d9 \uc0b0 1\ubc88\uc9c0",
+      "region": "R6",
+      "url": "http://www.gayacc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.648",
+      "updated_at": "2018-12-06T23:04:19.648"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 245,
+    "fields": {
+      "name": "\uac70\uc81c\ubdf0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uac70\uc81c\ubdf0",
+      "address": "\uacbd\uc0c1\ub0a8\ub3c4 \uac70\uc81c\uc2dc \uc0ac\ub4f1\uba74 \uc0ac\uace1\ub9ac \uc0b0 87\ubc88\uc9c0",
+      "region": "R6",
+      "url": "http://www.geojeview.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.666",
+      "updated_at": "2018-12-06T23:04:19.666"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 246,
+    "fields": {
+      "name": "\uacbd\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uacbd\uc8fc",
+      "address": "\uacbd\ubd81 \uacbd\uc8fc\uc2dc \ubd81\uad70\ub3d9 375-1",
+      "region": "R6",
+      "url": "http://www.kyongjugolf.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.692",
+      "updated_at": "2018-12-06T23:04:19.692"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 247,
+    "fields": {
+      "name": "\uacbd\uc8fc\uc2e0\ub77c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uacbd\uc8fc\uc2e0\ub77c",
+      "address": "\uacbd\ubd81 \uacbd\uc8fc\uc2dc \uc2e0\ud3c9\ub3d9 \uc0b0 5",
+      "region": "R6",
+      "url": "http://www.sillacc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.719",
+      "updated_at": "2018-12-06T23:04:19.719"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 248,
+    "fields": {
+      "name": "\uace8\ub4dc\uadf8\ub9b0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uace8\ub4dc\uadf8\ub9b0",
+      "address": "\uc6b8\uc0b0\uad11\uc5ed\uc2dc \uc6b8\uc8fc\uad70 \uc0bc\ub0a8\uba74 \ubc29\uae30\ub9ac \uc0b082",
+      "region": "R6",
+      "url": "http://www.goldgreen.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.751",
+      "updated_at": "2018-12-06T23:04:19.751"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 249,
+    "fields": {
+      "name": "\uad6c\ub2c8(\uad6c \uaf43\ub2f4) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uad6c\ub2c8(\uad6c \uaf43\ub2f4)",
+      "address": "\uacbd\uc0c1\ubd81\ub3c4 \uad70\uc704\uad70 \uad70\uc704\uc74d \ub3c4\uad70\ub85c 2450",
+      "region": "R6",
+      "url": "http://www.ccotdamcc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.782",
+      "updated_at": "2018-12-06T23:04:19.782"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 250,
+    "fields": {
+      "name": "\uad6c\ubbf8 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uad6c\ubbf8",
+      "address": "\uacbd\uc0c1\ubd81\ub3c4 \uad6c\ubbf8\uc2dc \uc7a5\ucc9c\uba74 \uc0c1\ub9bc\ub9ac \uc0b081-3",
+      "region": "R6",
+      "url": "http://www.gumicc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.805",
+      "updated_at": "2018-12-06T23:04:19.805"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 251,
+    "fields": {
+      "name": "\uad70\uc704\uc624\ud3a0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uad70\uc704\uc624\ud3a0",
+      "address": "\uacbd\uc0c1\ubd81\ub3c4 \uad70\uc704\uad70 \uc0b0\uc131\uba74 \uc6b4\uc0b0\ub9ac \uc0b0151\ubc88\uc9c0",
+      "region": "R6",
+      "url": "http://www.ophelgc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.822",
+      "updated_at": "2018-12-06T23:04:19.822"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 252,
+    "fields": {
+      "name": "\uadf8\ub808\uc774\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uadf8\ub808\uc774\uc2a4",
+      "address": "\uacbd\ubd81 \uccad\ub3c4\uad70 \uc774\uc11c\uba74 \uac01\uacc4\ub9ac \uc0b0 6-2",
+      "region": "R6",
+      "url": "http://www.grace-cc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.840",
+      "updated_at": "2018-12-06T23:04:19.840"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 253,
+    "fields": {
+      "name": "\ub0a8\uc548\ub3d9 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub0a8\uc548\ub3d9",
+      "address": "\uacbd\ubd81 \uc548\ub3d9\uc2dc \uc77c\uc9c1\uba74 \uad6d\uace1\ub9ac 88-2\ubc88\uc9c0",
+      "region": "R6",
+      "url": "http://www.namandongcc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.858",
+      "updated_at": "2018-12-06T23:04:19.858"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 254,
+    "fields": {
+      "name": "\ub0c9\ucc9c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub0c9\ucc9c",
+      "address": "\ub300\uad6c\uad11\uc5ed\uc2dc \ub2ec\uc131\uad70 \uac00\ucc3d\uba74 \uac00\ucc3d\ub85c 1037-9",
+      "region": "R6",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.878",
+      "updated_at": "2018-12-06T23:04:19.878"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 255,
+    "fields": {
+      "name": "\ub274\uc2a4\ud504\ub9c1\ube4c\u2161(\ubc31\ud654\uc0b0) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub274\uc2a4\ud504\ub9c1\ube4c\u2161(\ubc31\ud654\uc0b0)",
+      "address": "\uacbd\ubd81 \uc0c1\uc8fc\uc2dc \ubaa8\uc11c\uba74 \ud638\uc74c\ub9ac \uc0b0 127",
+      "region": "R6",
+      "url": "http://www.newspring.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.914",
+      "updated_at": "2018-12-06T23:04:19.914"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 256,
+    "fields": {
+      "name": "\ub2e4\uc774\uc544\ubaac\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub2e4\uc774\uc544\ubaac\ub4dc",
+      "address": "\uacbd\uc0c1\ub0a8\ub3c4 \uc591\uc0b0\uc2dc \uc0c1\ubd81\uba74 \uc0c1\uc0bc\ub9ac \uc0b0 15\ubc88\uc9c0",
+      "region": "R6",
+      "url": "https://www.diamondcc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.948",
+      "updated_at": "2018-12-06T23:04:19.948"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 257,
+    "fields": {
+      "name": "\ub300\uad6c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub300\uad6c",
+      "address": "\uacbd\ubd81 \uacbd\uc0b0\uc2dc \uc9c4\ub7c9\uc74d \uc120\ud654\ub9ac 67-2",
+      "region": "R6",
+      "url": "http://www.daegucc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:19.985",
+      "updated_at": "2018-12-06T23:04:19.985"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 258,
+    "fields": {
+      "name": "\ub3d9\ub798\ubca0\ub124\uc2a4\ud2b8 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub3d9\ub798\ubca0\ub124\uc2a4\ud2b8",
+      "address": "\ubd80\uc0b0\uad11\uc5ed\uc2dc \uae08\uc815\uad6c \uc120\ub3d9 \uc0b0128",
+      "region": "R6",
+      "url": "http://www.golfsamsung.com/index.jsp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.018",
+      "updated_at": "2018-12-06T23:04:20.018"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 259,
+    "fields": {
+      "name": "\ub3d9\ubd80\uc0b0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub3d9\ubd80\uc0b0",
+      "address": "\uacbd\ub0a8 \uc591\uc0b0\uc2dc \ub9e4\uace1\ub3d9 131",
+      "region": "R6",
+      "url": "http://www.dongpusancc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.037",
+      "updated_at": "2018-12-06T23:04:20.037"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 260,
+    "fields": {
+      "name": "\ub3d9\uc6d0\ub85c\uc584 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub3d9\uc6d0\ub85c\uc584",
+      "address": "\uacbd\uc0c1\ub0a8\ub3c4 \ud1b5\uc601\uc2dc \uc0b0\uc591\uc74d \uc601\uc6b4\ub9ac \uc0b0184-5",
+      "region": "R6",
+      "url": "http://www.dongwonresort.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.061",
+      "updated_at": "2018-12-06T23:04:20.061"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 261,
+    "fields": {
+      "name": "\ub4dc\ube44\uce58 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub4dc\ube44\uce58",
+      "address": "\uacbd\ub0a8 \uac70\uc81c\uc2dc \uc7a5\ubaa9\uba74 \uac70\uc81c\ubd81\ub85c 1573",
+      "region": "R6",
+      "url": "https://www.debeach.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.085",
+      "updated_at": "2018-12-06T23:04:20.085"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 262,
+    "fields": {
+      "name": "\ub808\uc774\ud06c\ud790\uc2a4 \uacbd\ub0a8 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub808\uc774\ud06c\ud790\uc2a4 \uacbd\ub0a8",
+      "address": "\uacbd\ub0a8 \ud568\uc548\uad70 \uce60\uc6d0\uba74 \uc6b4\uace1\ub9ac \uc0b0 108",
+      "region": "R6",
+      "url": "http://www.lakehills.co.kr/network/golf_haman/index.html",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.113",
+      "updated_at": "2018-12-06T23:04:20.113"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 263,
+    "fields": {
+      "name": "\ub86f\ub370\uc2a4\uce74\uc774\ud790\uae40\ud574 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub86f\ub370\uc2a4\uce74\uc774\ud790\uae40\ud574",
+      "address": "\uacbd\ub0a8 \uae40\ud574\uc2dc \uc9c4\ub840\uba74 \uc1a1\ud604\ub9ac \uc0b0 100",
+      "region": "R6",
+      "url": "http://www.skyhill.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.141",
+      "updated_at": "2018-12-06T23:04:20.141"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 264,
+    "fields": {
+      "name": "\ub86f\ub370\uc2a4\uce74\uc774\ud790\uc131\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub86f\ub370\uc2a4\uce74\uc774\ud790\uc131\uc8fc",
+      "address": "\uacbd\uc0c1\ubd81\ub3c4 \uc131\uc8fc\uad70 \ucd08\uc804\uba74 \uc18c\uc131\ub9ac \uc0b049-1",
+      "region": "R6",
+      "url": "http://www.skyhill.co.kr/Seongju",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.169",
+      "updated_at": "2018-12-06T23:04:20.169"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 265,
+    "fields": {
+      "name": "\ub9ac\ub354\uc2a4(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub9ac\ub354\uc2a4(P)",
+      "address": "\uacbd\ub0a8 \ubc00\uc591\uc2dc \ud65c\uc131\ub3d9 \uc0b0 33\ubc88\uc9c0",
+      "region": "R6",
+      "url": "http://www.leaderscc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.202",
+      "updated_at": "2018-12-06T23:04:20.202"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 266,
+    "fields": {
+      "name": "\ub9c8\uc6b0\ub098\uc624\uc158 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub9c8\uc6b0\ub098\uc624\uc158",
+      "address": "\uacbd\ubd81 \uacbd\uc8fc\uc2dc \uc591\ub0a8\uba74 \uc2e0\ub300\ub9ac \uc0b0 140-1",
+      "region": "R6",
+      "url": "http://www.mauna.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.226",
+      "updated_at": "2018-12-06T23:04:20.226"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 267,
+    "fields": {
+      "name": "\ubb38\uacbd \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubb38\uacbd",
+      "address": "\uacbd\ubd81 \ubb38\uacbd\uc2dc \ub9c8\uc131\uba74 \uc678\uc5b4\ub9ac \uc0b0 1-1\ubc88\uc9c0",
+      "region": "R6",
+      "url": "http://www.mgle.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.244",
+      "updated_at": "2018-12-06T23:04:20.244"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 268,
+    "fields": {
+      "name": "\ubca0\ub124\uce58\uc544 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubca0\ub124\uce58\uc544",
+      "address": "\uacbd\ubd81 \uae40\ucc9c\uc2dc \uad6c\uc131\uba74 \uc1a1\uc8fd\ub9ac 611-2",
+      "region": "R6",
+      "url": "http://www.veneziacc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.262",
+      "updated_at": "2018-12-06T23:04:20.262"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 269,
+    "fields": {
+      "name": "\ubca0\uc774\uc0ac\uc774\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubca0\uc774\uc0ac\uc774\ub4dc",
+      "address": "\ubd80\uc0b0 \uae30\uc7a5\uad70 \uc77c\uad11\uba74 \uc774\ucc9c\ub9ac \uc0b032",
+      "region": "R6",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.279",
+      "updated_at": "2018-12-06T23:04:20.279"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 270,
+    "fields": {
+      "name": "\ubcf4\ub77c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubcf4\ub77c",
+      "address": "\uc6b8\uc0b0\uad11\uc5ed\uc2dc \uc6b8\uc8fc\uad70 \uc0bc\ub3d9\uba74 \uae08\uace1\ub9ac \uc0b0 183-6",
+      "region": "R6",
+      "url": "http://www.boracc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.298",
+      "updated_at": "2018-12-06T23:04:20.298"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 271,
+    "fields": {
+      "name": "\ubcf4\ubb38 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubcf4\ubb38",
+      "address": "\uacbd\ubd81 \uacbd\uc8fc\uc2dc \ubd81\uad70\ub3d9 5-4\ubc88\uc9c0",
+      "region": "R6",
+      "url": "http://golf.ktd.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.334",
+      "updated_at": "2018-12-06T23:04:20.334"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 272,
+    "fields": {
+      "name": "\ubd80\uace1 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubd80\uace1",
+      "address": "\uacbd\ub0a8 \ucc3d\ub155\uad70 \ubd80\uace1\uba74 \uac70\ubb38\ub9ac 263",
+      "region": "R6",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.373",
+      "updated_at": "2018-12-06T23:04:20.373"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 273,
+    "fields": {
+      "name": "\ubd80\uc0b0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubd80\uc0b0",
+      "address": "\ubd80\uc0b0\uad11\uc5ed\uc2dc \uae08\uc815\uad6c \ub178\ud3ec\ub3d9 368",
+      "region": "R6",
+      "url": "http://www.bscc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.414",
+      "updated_at": "2018-12-06T23:04:20.414"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 274,
+    "fields": {
+      "name": "\uc0ac\ucc9c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc0ac\ucc9c",
+      "address": "\uacbd\uc0c1\ub0a8\ub3c4 \uc0ac\ucc9c\uc2dc \uc11c\ud3ec\uba74 \ub2e4\ud3c9\ub9ac \uc0b0 16-1",
+      "region": "R6",
+      "url": "http://www.4000cc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.433",
+      "updated_at": "2018-12-06T23:04:20.433"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 275,
+    "fields": {
+      "name": "\uc11c\ub77c\ubc8c  \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc11c\ub77c\ubc8c",
+      "address": "\uacbd\ubd81 \uacbd\uc8fc\uc2dc \uc678\ub3d9\uc74d \uc11d\uacc4\ub9ac \uc0b0 1\ubc88\uc9c0",
+      "region": "R6",
+      "url": "http://www.seorabolgc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.453",
+      "updated_at": "2018-12-06T23:04:20.453"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 276,
+    "fields": {
+      "name": "\uc120\ub9ac\uce58 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc120\ub9ac\uce58",
+      "address": "\uacbd\ubd81 \uacbd\uc8fc\uc2dc \uc548\uac15\uc74d \uac80\ub2e8\ub9ac 67",
+      "region": "R6",
+      "url": "http://www.sunrichgc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.470",
+      "updated_at": "2018-12-06T23:04:20.470"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 277,
+    "fields": {
+      "name": "\uc120\uc0b0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc120\uc0b0",
+      "address": "\uacbd\ubd81 \uad6c\ubbf8\uc2dc \uc0b0\ub3d9\uba74 \uc778\ub355\ub9ac \uc0b0 39-1",
+      "region": "R6",
+      "url": "http://www.sunsancc.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.488",
+      "updated_at": "2018-12-06T23:04:20.488"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 278,
+    "fields": {
+      "name": "\uc138\ube10\ubc38\ub9ac \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc138\ube10\ubc38\ub9ac",
+      "address": "\uacbd\ubd81 \uce60\uace1\uad70 \uc65c\uad00\uc74d\ubd09\uacc4\ub9ac17\ubc88\uc9c0",
+      "region": "R6",
+      "url": "http://www.sevenvalley.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.509",
+      "updated_at": "2018-12-06T23:04:20.509"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 279,
+    "fields": {
+      "name": "\uc2a4\uce74\uc774\ubdf0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2a4\uce74\uc774\ubdf0",
+      "address": "\uacbd\uc0c1\ub0a8\ub3c4 \ud568\uc591\uad70 \uc11c\uc0c1\uba74 \ub300\ub0a8\ub9ac 492-24",
+      "region": "R6",
+      "url": "http://www.skyviewcc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.540",
+      "updated_at": "2018-12-06T23:04:20.540"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 280,
+    "fields": {
+      "name": "\uc544\uc2dc\uc544\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc544\uc2dc\uc544\ub4dc",
+      "address": "\ubd80\uc0b0\uad11\uc5ed\uc2dc \uae30\uc7a5\uad70 \uc77c\uad11\uba74 \uc774\ucc9c\ub9ac 34",
+      "region": "R6",
+      "url": "http://www.asiadcc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.582",
+      "updated_at": "2018-12-06T23:04:20.582"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 281,
+    "fields": {
+      "name": "\uc548\uac15\ub808\uc804\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc548\uac15\ub808\uc804\ub4dc",
+      "address": "\uacbd\uc0c1\ubd81\ub3c4 \uacbd\uc8fc\uc2dc \uc548\uac15\uc74d \uc625\uc0b0\ub9ac 949",
+      "region": "R6",
+      "url": "http://www.legendgolf.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.615",
+      "updated_at": "2018-12-06T23:04:20.615"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 282,
+    "fields": {
+      "name": "\uc591\uc0b0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc591\uc0b0",
+      "address": "\uacbd\uc0c1\ub0a8\ub3c4 \uc591\uc0b0\uc2dc \uc0c1\ubd81\uba74 \uc18c\uc11d\ub9ac \uc0b09-18",
+      "region": "R6",
+      "url": "http://yangsancc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.633",
+      "updated_at": "2018-12-06T23:04:20.633"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 283,
+    "fields": {
+      "name": "\uc5d0\ub374\ubc38\ub9ac  \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc5d0\ub374\ubc38\ub9ac",
+      "address": "\uacbd\ub0a8 \uc591\uc0b0\uc2dc \uc5b4\uace1\ub3d9 \uc0b0 489-1",
+      "region": "R6",
+      "url": "http://golf.edenvalley.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.651",
+      "updated_at": "2018-12-06T23:04:20.651"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 284,
+    "fields": {
+      "name": "\uc5d0\uc774\uc6d0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc5d0\uc774\uc6d0",
+      "address": "\uacbd\ub0a8 \uc591\uc0b0\uc2dc \ub9e4\uace1\ub3d9 \uc0b0 1\ubc88\uc9c0",
+      "region": "R6",
+      "url": "http://www.aonecc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.671",
+      "updated_at": "2018-12-06T23:04:20.671"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 285,
+    "fields": {
+      "name": "\uc601\ucc9c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc601\ucc9c",
+      "address": "\uacbd\uc0c1\ubd81\ub3c4 \uc601\ucc9c\uc2dc \uc784\uace0\uba74 \ud6a8\ub9ac \uc0b084",
+      "region": "R6",
+      "url": "http://www.yeongcheoncc.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.690",
+      "updated_at": "2018-12-06T23:04:20.690"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 286,
+    "fields": {
+      "name": "\uc624\uc158\ud790\uc2a4\ud3ec\ud56d \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc624\uc158\ud790\uc2a4\ud3ec\ud56d",
+      "address": "\uacbd\ubd81 \ud3ec\ud56d\uc2dc \ubd81\uad6c \uc1a1\ub77c\uba74 \ub300\uc804\ub9ac \uc0b0 208",
+      "region": "R6",
+      "url": "http://oceanhills.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.707",
+      "updated_at": "2018-12-06T23:04:20.707"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 287,
+    "fields": {
+      "name": "\uc778\ud130\ubd88\uace0\uacbd\uc0b0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc778\ud130\ubd88\uace0\uacbd\uc0b0",
+      "address": "\uacbd\ubd81 \uacbd\uc0b0\uc2dc \ud3c9\uc0b0\ub3d9 542-16",
+      "region": "R6",
+      "url": "http://www.interburgocc.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.735",
+      "updated_at": "2018-12-06T23:04:20.735"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 288,
+    "fields": {
+      "name": "\uc9c4\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc9c4\uc8fc",
+      "address": "\uacbd\ub0a8 \uc9c4\uc8fc\uc2dc \uc9c4\uc131\uba74 \uc0c1\ucd0c\ub9ac \uc0b0 1\ubc88\uc9c0",
+      "region": "R6",
+      "url": "http://www.chinjucc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.769",
+      "updated_at": "2018-12-06T23:04:20.769"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 289,
+    "fields": {
+      "name": "\ud314\uacf5 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud314\uacf5",
+      "address": "\ub300\uad6c\uad11\uc5ed\uc2dc \ub3d9\uad6c \ub3c4\ud559\ub3d9 1",
+      "region": "R6",
+      "url": "http://www.palgong-cc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.805",
+      "updated_at": "2018-12-06T23:04:20.805"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 290,
+    "fields": {
+      "name": "\ud55c\ub9e5(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud55c\ub9e5(P)",
+      "address": "\uacbd\ubd81 \uc608\ucc9c\uad70 \ud638\uba85\uba74 \ud669\uc9c0\ub9ac 73-19\ubc88\uc9c0",
+      "region": "R6",
+      "url": "http://www.hmcn.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.848",
+      "updated_at": "2018-12-06T23:04:20.848"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 291,
+    "fields": {
+      "name": "\ud790\ub9c8\ub8e8 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud790\ub9c8\ub8e8",
+      "address": "\uacbd\ub0a8 \ucc3d\ub155\uad70 \uc7a5\ub9c8\uba74 \ucd08\uace1\ub9ac \uc0b0 288",
+      "region": "R6",
+      "url": "http://www.hillmaru.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.868",
+      "updated_at": "2018-12-06T23:04:20.868"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 292,
+    "fields": {
+      "name": "\ud790\ub9c8\ub8e8(P) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud790\ub9c8\ub8e8(P)",
+      "address": "\uacbd\ub0a8 \ucc3d\ub155\uad70 \uc7a5\ub9c8\uba74 \ucd08\uace1\ub9ac \uc0b0228",
+      "region": "R6",
+      "url": "http://www.hillmaru.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.886",
+      "updated_at": "2018-12-06T23:04:20.886"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 293,
+    "fields": {
+      "name": "\ub098\uc778\ube0c\ub9bf\uc9c0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub098\uc778\ube0c\ub9bf\uc9c0",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \uc548\ub355\uba74 \uad11\ud3c9\ub85c 34-156",
+      "region": "R7",
+      "url": "http://www.ninebridge.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.910",
+      "updated_at": "2018-12-06T23:04:20.910"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 294,
+    "fields": {
+      "name": "\ub354\ud074\ub798\uc2dd \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub354\ud074\ub798\uc2dd",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \ub0a8\uc6d0\uc74d \uc218\ub9dd\ub9ac \uc0b0 191",
+      "region": "R7",
+      "url": "http://www.theclassicresort.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.931",
+      "updated_at": "2018-12-06T23:04:20.931"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 295,
+    "fields": {
+      "name": "\ub77c\uc628  \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub77c\uc628",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \ud55c\uacbd\uba74 \uc6a9\uae08\ub85c 998",
+      "region": "R7",
+      "url": "http://www.raon.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.960",
+      "updated_at": "2018-12-06T23:04:20.960"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 296,
+    "fields": {
+      "name": "\ub77c\ud5e8\ub290  \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub77c\ud5e8\ub290",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \ubd09\uac1c\ub3d9 237-5",
+      "region": "R7",
+      "url": "http://www.lareine.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:20.990",
+      "updated_at": "2018-12-06T23:04:20.990"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 297,
+    "fields": {
+      "name": "\ub808\uc774\ud06c\ud790\uc2a4 \uc81c\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub808\uc774\ud06c\ud790\uc2a4 \uc81c\uc8fc",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \uc0b0\ub85d\ub0a8\ub85c 1391",
+      "region": "R7",
+      "url": "http://lakehills.co.kr/network/cc_jeju/jeju_main.html",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.018",
+      "updated_at": "2018-12-06T23:04:21.018"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 298,
+    "fields": {
+      "name": "\ub86f\ub370\uc2a4\uce74\uc774\ud790\uc81c\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ub86f\ub370\uc2a4\uce74\uc774\ud790\uc81c\uc8fc",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \uc0c1\uc608\ub85c 530",
+      "region": "R7",
+      "url": "http://www.skyhill.co.kr/html/main/main.jsp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.048",
+      "updated_at": "2018-12-06T23:04:21.048"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 299,
+    "fields": {
+      "name": "\ubd80\uc601(\uc81c\uc8fc) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ubd80\uc601(\uc81c\uc8fc)",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \ub0a8\uc6d0\uc74d \ub0a8\uc870\ub85c 960",
+      "region": "R7",
+      "url": "http://www.booyoungcc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.072",
+      "updated_at": "2018-12-06T23:04:21.073"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 300,
+    "fields": {
+      "name": "\ube14\ub799\uc2a4\ud1a4(\uc81c\uc8fc)  \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ube14\ub799\uc2a4\ud1a4(\uc81c\uc8fc)",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \ud55c\ub9bc\uc74d \ud55c\ucc3d\ub85c 925-122",
+      "region": "R7",
+      "url": "http://www.blackstonegolf.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.092",
+      "updated_at": "2018-12-06T23:04:21.092"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 301,
+    "fields": {
+      "name": "\uc0ac\uc774\ud504\ub7ec\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc0ac\uc774\ud504\ub7ec\uc2a4",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \ud45c\uc120\uba74 \ubc88\uc601\ub85c 2300",
+      "region": "R7",
+      "url": "http://www.cypress.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.110",
+      "updated_at": "2018-12-06T23:04:21.110"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 302,
+    "fields": {
+      "name": "\uc0e4\uc778\ube4c\ud30c\ud06c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc0e4\uc778\ube4c\ud30c\ud06c",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \ud45c\uc120\uba74 \uac00\uc2dc\ub9ac 205",
+      "region": "R7",
+      "url": "http://www.shineville.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.129",
+      "updated_at": "2018-12-06T23:04:21.129"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 303,
+    "fields": {
+      "name": "\uc138\uc778\ud2b8\ud3ec \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc138\uc778\ud2b8\ud3ec",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \uad6c\uc88c\uc74d \uc120\uc720\ub85c 445-55",
+      "region": "R7",
+      "url": "https://www.stfour.com/index.asp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.159",
+      "updated_at": "2018-12-06T23:04:21.159"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 304,
+    "fields": {
+      "name": "\uc2a4\ud504\ub9c1\ub370\uc77c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc2a4\ud504\ub9c1\ub370\uc77c",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \ub0a8\uc6d0\uc74d \uc11c\uc131\ub85c459\ubc88\uc9c0",
+      "region": "R7",
+      "url": "http://www.springdale.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.187",
+      "updated_at": "2018-12-06T23:04:21.187"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 305,
+    "fields": {
+      "name": "\uc544\ub374\ud790 \uc81c\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc544\ub374\ud790 \uc81c\uc8fc",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \ud55c\ub9bc\uc74d \ud654\uc804\uae38 82",
+      "region": "R7",
+      "url": "http://www.ardenhillresort.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.223",
+      "updated_at": "2018-12-06T23:04:21.223"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 306,
+    "fields": {
+      "name": "\uc5d0\ubc84\ub9ac\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc5d0\ubc84\ub9ac\uc2a4",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \ud3c9\ud654\ub85c 1693-75",
+      "region": "R7",
+      "url": "http://www.shinan.co.kr/Gp-Golf/everis_cc/clubintro/clubintro.asp",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.253",
+      "updated_at": "2018-12-06T23:04:21.253"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 307,
+    "fields": {
+      "name": "\uc5d0\ucf54\ub79c\ub4dc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc5d0\ucf54\ub79c\ub4dc",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \uc870\ucc9c\uc74d \ubc88\uc601\ub85c 1278-169",
+      "region": "R7",
+      "url": "http://www.ecolandjeju.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.271",
+      "updated_at": "2018-12-06T23:04:21.271"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 308,
+    "fields": {
+      "name": "\uc5d8\ub9ac\uc2dc\uc548 \uc81c\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc5d8\ub9ac\uc2dc\uc548 \uc81c\uc8fc",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \ud3c9\ud654\ub85c 1738-116",
+      "region": "R7",
+      "url": "http://www.elysian.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.289",
+      "updated_at": "2018-12-06T23:04:21.289"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 309,
+    "fields": {
+      "name": "\uc624\ub77c \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc624\ub77c",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \uc624\ub77c \ub0a8\ub85c 130-16",
+      "region": "R7",
+      "url": "http://www.oracc.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.307",
+      "updated_at": "2018-12-06T23:04:21.307"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 310,
+    "fields": {
+      "name": "\uc6b0\ub9ac\ub4e4(\uc81c\uc8fc) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc6b0\ub9ac\ub4e4(\uc81c\uc8fc)",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \uc0c1\ud6a8\ub3d9 1580\ubc88\uc9c0",
+      "region": "R7",
+      "url": "http://wooridulresort.com/Golf/golf_main.php",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.325",
+      "updated_at": "2018-12-06T23:04:21.325"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 311,
+    "fields": {
+      "name": "\uc81c\uc8fcCC \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc81c\uc8fcCC",
+      "address": "\uc81c\uc8fc\ub3c4 \uc81c\uc8fc\uc2dc 516\ub85c 2695(\uc601\ud3c9\ub3d9)",
+      "region": "R7",
+      "url": "http://www.chejucc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.345",
+      "updated_at": "2018-12-06T23:04:21.345"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 312,
+    "fields": {
+      "name": "\uc81c\uc8fc\ud790 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc81c\uc8fc\ud790",
+      "address": "\uc81c\uc8fc\ub3c4 \uc81c\uc8fc\uc2dc 516\ub85c 2596-117",
+      "region": "R7",
+      "url": "",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.373",
+      "updated_at": "2018-12-06T23:04:21.373"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 313,
+    "fields": {
+      "name": "\uc81c\ud53c\ub85c\uc2a4(\uc81c\uc8fc)  \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc81c\ud53c\ub85c\uc2a4(\uc81c\uc8fc)",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \uc870\ucc9c\uc74d \ubc88\uc601\ub85c 1040-70",
+      "region": "R7",
+      "url": "http://www.zephyrosgc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.404",
+      "updated_at": "2018-12-06T23:04:21.404"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 314,
+    "fields": {
+      "name": "\uc911\ubb38 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uc911\ubb38",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \uc0c9\ub2ec\ub3d9 2101",
+      "region": "R7",
+      "url": "http://jungmungolf.visitkorea.or.kr/j_golf/kor/gr_main.jsp#",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.435",
+      "updated_at": "2018-12-06T23:04:21.435"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 315,
+    "fields": {
+      "name": "\uce90\uc2ac\ub809\uc2a4\uc81c\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\uce90\uc2ac\ub809\uc2a4\uc81c\uc8fc",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \uc548\ub355\uba74 \ud3c9\ud654\ub85c 1241",
+      "region": "R7",
+      "url": "http://www.castlexjeju.co.kr",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.465",
+      "updated_at": "2018-12-06T23:04:21.465"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 316,
+    "fields": {
+      "name": "\ud06c\ub77c\uc6b4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud06c\ub77c\uc6b4",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \uc870\ucc9c\uc74d \ubd81\ucd0c\ub9ac \uc0b065",
+      "region": "R7",
+      "url": "http://www.jejucrowncc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.483",
+      "updated_at": "2018-12-06T23:04:21.483"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 317,
+    "fields": {
+      "name": "\ud0c0\ubbf8\uc6b0\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud0c0\ubbf8\uc6b0\uc2a4",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \uc560\uc6d4\uc74d \ud654\uc804\uae38 201",
+      "region": "R7",
+      "url": "http://www.tameusgv.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.502",
+      "updated_at": "2018-12-06T23:04:21.502"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 318,
+    "fields": {
+      "name": "\ud14c\ub514\ubc38\ub9ac \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud14c\ub514\ubc38\ub9ac",
+      "address": "\uc81c\uc8fc\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \uc548\ub355\uba74 \ud55c\ucc3d\ub85c 365",
+      "region": "R7",
+      "url": "http://www.teddyvalley.com",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.521",
+      "updated_at": "2018-12-06T23:04:21.521"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 319,
+    "fields": {
+      "name": "\ud50c\ub77c\uc790CC \uc81c\uc8fc \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud50c\ub77c\uc790CC \uc81c\uc8fc",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \ud68c\ucc9c\ub3d9 3-16",
+      "region": "R7",
+      "url": "http://www.plazacc.co.kr/irsweb/golf2/main.aspx",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.539",
+      "updated_at": "2018-12-06T23:04:21.539"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 320,
+    "fields": {
+      "name": "\ud540\ud06c\uc2a4 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud540\ud06c\uc2a4",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \uc548\ub355\uba74 \uc0b0\ub85d\ub0a8\ub85c 863",
+      "region": "R7",
+      "url": "http://www.pinxgc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.572",
+      "updated_at": "2018-12-06T23:04:21.572"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 321,
+    "fields": {
+      "name": "\ud540\ud06c\uc2a4(p 9\ud640) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud540\ud06c\uc2a4(p 9\ud640)",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \uc548\ub355\uba74 \uc0c1\ucc9c\ub9ac \uc0b062-3",
+      "region": "R7",
+      "url": "http://www.pinxgc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.602",
+      "updated_at": "2018-12-06T23:04:21.602"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 322,
+    "fields": {
+      "name": "\ud55c\ub77c\uc0b0 \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud55c\ub77c\uc0b0",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc81c\uc8fc\uc2dc \uc120\ub3cc\ubaa9\ub3d9\uae38 56-46",
+      "region": "R7",
+      "url": "http://hallasancc.co.kr/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.634",
+      "updated_at": "2018-12-06T23:04:21.634"
+    }
+  },
+  {
+    "model": "server.golfcourse",
+    "pk": 323,
+    "fields": {
+      "name": "\ud574\ube44\uce58(\uc81c\uc8fc) \ucee8\ud2b8\ub9ac \ud074\ub7fd",
+      "disp_name": "\ud574\ube44\uce58(\uc81c\uc8fc)",
+      "address": "\uc81c\uc8fc\ud2b9\ubcc4\uc790\uce58\ub3c4 \uc11c\uadc0\ud3ec\uc2dc \ub0a8\uc6d0\uc74d \uc6d0\ub2d8\ub85c 399\ubc88\uae38 319",
+      "region": "R7",
+      "url": "http://www.haevichi.com/",
+      "status": "A",
+      "created_at": "2018-12-06T23:04:21.663",
+      "updated_at": "2018-12-06T23:04:21.663"
+    }
+  }
+]
