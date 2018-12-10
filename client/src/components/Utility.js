@@ -71,6 +71,9 @@ const StringUtility = {
     },
     isEmpty : (obj) => {
         return obj === undefined || obj == null || obj.length < 1;
+    },
+    withComma : (str) => {
+        return str.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
 };
 
