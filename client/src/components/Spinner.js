@@ -1,6 +1,6 @@
 import React from 'react';
 import { css } from 'react-emotion';
-import { HashLoader } from 'react-spinners';
+import { HashLoader, PacmanLoader } from 'react-spinners';
 
 const override = css`
     display: block;
@@ -18,12 +18,19 @@ class Spinner extends React.Component {
   render() {
     return (
       <div className='sweet-loading'>
-          <HashLoader
-              loading={this.state.loading}
+          <PacmanLoader
+              text={'로딩중'}
               className={override}
               color={'#007bff'}
-              size={50}
+              size={25}
+              margin={2}
           />
+          {/*<HashLoader*/}
+              {/*loading={this.state.loading}*/}
+              {/*className={override}*/}
+              {/*color={'#007bff'}*/}
+              {/*size={50}*/}
+          {/*/>*/}
       </div>
     )
   }

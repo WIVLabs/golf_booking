@@ -28,12 +28,20 @@ class BookingCell extends React.Component {
             if (sites.length > 0) {
                 const firstSite = sites[0];
                 // sites.forEach(site => {
-                    html.push((<span key={`site-${++idx}`}>{firstSite.hour}시대 &nbsp;
-                        <span className='booking-cell-time'>
+                html.push((<span key={`hour-${++idx}`}>{firstSite.hour}시 &nbsp;
+                    {
+                        (<span key={`site-${++idx}`} className='booking-cell-time'>
                                  <a href={firstSite.booking_url} target='_blank'>{firstSite.name}</a>
-                            &nbsp;{sites.length}건, {StringUtility.withComma(firstSite.price)}원
-                             </span>
-                            </span>))
+                                &nbsp;{sites.length}팀, {StringUtility.withComma(firstSite.price)}원
+                             </span>)
+                        // sites.map( (site, i) => {
+                        //     return (<span key={`site-${++i}`} className='booking-cell-time'>
+                        //          <a href={firstSite.booking_url} target='_blank'>{firstSite.name}</a>
+                        //         &nbsp;{sites.length}팀, {StringUtility.withComma(firstSite.price)}원
+                        //      </span>)
+                        // })
+                    }
+                        </span>))
                 // });
             }
             html.push((<br key={`br-${++idx}`} />));
