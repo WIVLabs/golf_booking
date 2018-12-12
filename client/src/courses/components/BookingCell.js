@@ -29,11 +29,12 @@ class BookingCell extends React.Component {
             mockSite.id = 2;
             mockSite.name = 'TES골프';
             kickoff.push(mockSite);
+            // mock 객체 여기까지.
 
-            html.push(<span key={`hour-${++idx}`}>{hour}시 </span>);
+            html.push(<span key={`hour-${++idx}`} className='booking-cell-time-hour'>{hour}시 </span>);
             const kickoffBySiteMap = CollectionUtility.groupBy(kickoff, site => site.id);
             let first = true;
-            kickoffBySiteMap.forEach(value => {
+            kickoffBySiteMap.forEach(sites => {
                 let spanClassName = 'booking-cell-time';
                 if (first == true) {
                     first =  false;
@@ -42,13 +43,21 @@ class BookingCell extends React.Component {
                 else {
                     spanClassName += ' booking-cell-time-next';
                 }
+                let notes = [];
+                sites.forEach(site => {
+                    if (notes.includes(site.notes)) return;
 
-                if (value.length > 0) {
-                    const firstSite = value[0];
-                    html.push(<span key={`site-${++idx}`} className={spanClassName} >
-                                         <a href={firstSite.booking_url} target='_blank'>{firstSite.name}</a>
-                                        &nbsp;{value.length}팀, {StringUtility.withComma(firstSite.price)}원
-                                     </span>);
+                    notes.push(site.notes);
+                });
+
+                if (sites.length > 0) {
+                    const firstSite = sites[0];
+                    html.push(
+                        <span key={`site-${++idx}`} className={spanClassName} >
+                            <a href={firstSite.booking_url} target='_blank'>{firstSite.name}</a>
+                            &nbsp;{sites.length}팀, {StringUtility.withComma(firstSite.price)}원, {notes.join(', ')}
+                        </span>
+                    );
                 }
                 html.push(<br key={`br-${++idx}`} />);
             });
