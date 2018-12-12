@@ -13,38 +13,46 @@ class BookingCell extends React.Component {
 
     render() {
         // 시간생성
-        this.state.kickoff.sites.map((site, idx) => {
+        this.state.kickoff.sites.map(site => {
             let hour = DateUtility.convert(site.kickoff_time, 'YYYY.MM.DD HH:mm', 'HH');
             site['hour'] = hour;
         });
 
         const kickoffsByHour = CollectionUtility.groupBy(this.state.kickoff.sites, site => site.hour);
-
+        console.log(kickoffsByHour);
         let html = [];
         let idx = 0;
-        kickoffsByHour.forEach(kickoff => {
+        kickoffsByHour.forEach((kickoff, hour) => {
+            // mock 객체
+            let mockSite = new Object();
+            Object.assign(mockSite, kickoff[0]);
+            mockSite.id = 2;
+            mockSite.name = 'TES골프';
+            kickoff.push(mockSite);
+
+            html.push(<span key={`hour-${++idx}`}>{hour}시 </span>);
             const kickoffBySiteMap = CollectionUtility.groupBy(kickoff, site => site.id);
-            const sites = Array.from(kickoffBySiteMap.values())[0];
-            if (sites.length > 0) {
-                const firstSite = sites[0];
-                // sites.forEach(site => {
-                html.push((<span key={`hour-${++idx}`}>{firstSite.hour}시 &nbsp;
-                    {
-                        (<span key={`site-${++idx}`} className='booking-cell-time'>
-                                 <a href={firstSite.booking_url} target='_blank'>{firstSite.name}</a>
-                                &nbsp;{sites.length}팀, {StringUtility.withComma(firstSite.price)}원
-                             </span>)
-                        // sites.map( (site, i) => {
-                        //     return (<span key={`site-${++i}`} className='booking-cell-time'>
-                        //          <a href={firstSite.booking_url} target='_blank'>{firstSite.name}</a>
-                        //         &nbsp;{sites.length}팀, {StringUtility.withComma(firstSite.price)}원
-                        //      </span>)
-                        // })
-                    }
-                        </span>))
-                // });
-            }
-            html.push((<br key={`br-${++idx}`} />));
+            let first = true;
+            kickoffBySiteMap.forEach(value => {
+                let spanClassName = 'booking-cell-time';
+                if (first == true) {
+                    first =  false;
+                    spanClassName += ' booking-cell-time-first';
+                }
+                else {
+                    spanClassName += ' booking-cell-time-next';
+                }
+
+                if (value.length > 0) {
+                    const firstSite = value[0];
+                    html.push(<span key={`site-${++idx}`} className={spanClassName} >
+                                         <a href={firstSite.booking_url} target='_blank'>{firstSite.name}</a>
+                                        &nbsp;{value.length}팀, {StringUtility.withComma(firstSite.price)}원
+                                     </span>);
+                }
+                html.push(<br key={`br-${++idx}`} />);
+            });
+            html.push(<hr className='booking-cell-time-line' key={`br-${++idx}`} />);
         });
 
 

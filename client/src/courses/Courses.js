@@ -41,7 +41,6 @@ class Courses extends React.Component {
         this.setState({hasData : false});
         Api.getBookings(this.state.searchParams)
                 .then(data => {
-                    console.log(data);
                     this.setState({
                         hasData: ObjectUtility.isNotEmpty(data),
                         courses: data.courses,

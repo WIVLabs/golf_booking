@@ -32,11 +32,18 @@
   font-weight:300;
 }
 
-
 .booking-cell-time {
   font-size:14px;
   font-weight:300;
-  //word-break: break-word;
-  //font-family: monospace, monospace;
   margin-bottom: 1px;
+}
+
+.booking-cell-time-next {
+  margin-left: 36px;
+}
+
+.booking-cell-time-line {
+  height: 3px;
+  margin: 0px;
+  border: 0px;
 }
