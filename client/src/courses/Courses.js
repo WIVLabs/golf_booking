@@ -22,6 +22,7 @@ class Courses extends React.Component {
 
         this.getBookings = this.getBookings.bind(this);
         this.changeSearchValues = this.changeSearchValues.bind(this);
+        this.goPrev = this.goPrev.bind(this);
     }
 
     componentDidMount() {
@@ -64,6 +65,11 @@ class Courses extends React.Component {
         return `booking-table-date text-center ${backgroundClass}`;
     }
 
+    goPrev() {
+        this.props.history.push('/');
+        return false;
+    }
+
     getNextWeek() {
         alert('TODO:다음일주일검색 구현');
     }
@@ -73,7 +79,7 @@ class Courses extends React.Component {
             <div>
                 <CourseSearch searchparams={this.state.searchParams} onClick={this.changeSearchValues}/>
                 <div className='ml-3'>
-                    <button type='button' className="btn btn-outline-dark">
+                    <button type='button' className="btn btn-outline-dark" onClick={this.goPrev}>
                         <i className="fa fa-arrow-left"></i> 첫페이지로
                     </button>
                 </div>
