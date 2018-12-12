@@ -72,6 +72,12 @@ class Courses extends React.Component {
         return (
             <div>
                 <CourseSearch searchparams={this.state.searchParams} onClick={this.changeSearchValues}/>
+                <div className='ml-3'>
+                    <button type='button' className="btn btn-outline-dark">
+                        <i className="fa fa-arrow-left"></i> 첫페이지로
+                    </button>
+                </div>
+
                 {this.state.hasData ?
                     <div className="container-fluid">
                         <div className={'float-right align-right mb-2'}>
