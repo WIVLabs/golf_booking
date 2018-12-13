@@ -19,7 +19,6 @@ class BookingCell extends React.Component {
         });
 
         const kickoffsByHour = CollectionUtility.groupBy(this.state.kickoff.sites, site => site.hour);
-        console.log(kickoffsByHour);
         let html = [];
         let idx = 0;
         kickoffsByHour.forEach((kickoff, hour) => {
@@ -31,6 +30,7 @@ class BookingCell extends React.Component {
             kickoff.push(mockSite);
             // mock 객체 여기까지.
 
+
             html.push(<span key={`hour-${++idx}`} className='booking-cell-time-hour'>{hour}시 </span>);
             const kickoffBySiteMap = CollectionUtility.groupBy(kickoff, site => site.id);
             let first = true;
@@ -38,10 +38,9 @@ class BookingCell extends React.Component {
                 let spanClassName = 'booking-cell-time';
                 if (first == true) {
                     first =  false;
-                    spanClassName += ' booking-cell-time-first';
                 }
                 else {
-                    spanClassName += ' booking-cell-time-next';
+                    html.push(<span key={`site-${++idx}`} className='booking-cell-time-hour'></span>);
                 }
                 let notes = [];
                 sites.forEach(site => {
@@ -54,12 +53,13 @@ class BookingCell extends React.Component {
                     const firstSite = sites[0];
                     html.push(
                         <span key={`site-${++idx}`} className={spanClassName} >
-                            <a href={firstSite.booking_url} target='_blank'>{firstSite.name}</a>
-                            &nbsp;{sites.length}팀, {StringUtility.withComma(firstSite.price)}원, {notes.join(', ')}
+                            <a href={firstSite.booking_url} target='_blank' className='booking-cell-time-site-name'>{firstSite.name}</a>
+                            <span className='booking-cell-time-enable-count'>{sites.length}팀</span><span className='booking-cell-time-fee'>{StringUtility.withComma(firstSite.price)}원</span> <span className='booking-cell-time-notes'>{notes.join(', ')}</span>
                         </span>
                     );
                 }
                 html.push(<br key={`br-${++idx}`} />);
+                let ul = React.createElement('ul', {}, '');
             });
             html.push(<hr className='booking-cell-time-line' key={`br-${++idx}`} />);
         });

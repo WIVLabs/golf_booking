@@ -13,6 +13,7 @@
 }
 
 .booking-cell {
+  font-size: 15px;
 }
 
 .booking-cell-sunday-bg {
@@ -29,6 +30,29 @@
 
 .booking-cell-time-hour {
   font-family: monospace;
+  display: inline-block;
+  width: 38px;
+}
+
+.booking-cell-time-site-name {
+  display: inline-block;
+  text-align: right;
+  width: 55px;
+}
+.booking-cell-time-enable-count {
+  display: inline-block;
+  text-align: right;
+  width: 28px;
+}
+.booking-cell-time-fee {
+  display: inline-block;
+  text-align: right;
+  width: 70px;
+}
+.booking-cell-time-notes {
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 2px;
 }
 
 .site-name {
@@ -40,10 +64,6 @@
   font-size:14px;
   font-weight:300;
   margin-bottom: 1px;
-}
-
-.booking-cell-time-next {
-  margin-left: 36px;
 }
 
 .booking-cell-time-line {
