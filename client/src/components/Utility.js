@@ -27,6 +27,12 @@ const CollectionUtility = {
             }
         });
         return map;
+    },
+    isEmpty: (obj) => {
+        if (ObjectUtility.isEmpty(obj)) return true;
+        if (obj.length < 1) return true;
+
+        return false;
     }
 }
 
