@@ -105,12 +105,13 @@ class Bookings(APIView):
 
         courses = []
         bookings = get_bookings()
-        for (_name, _id, _address) in sorted(bookings.keys()):
+        for _bk in sorted(bookings.keys()):
+            (_name, _id, _address) = _bk
             courses.append({
                 'id': _id,
                 'name': _name,
                 'address': ' '.join(_address.split(' ', 3)[:2]),
-                'kickoffs': get_kickoffs(dates, bookings[(_name, _id)])
+                'kickoffs': get_kickoffs(dates, bookings[_bk])
             })
 
         return Response({
