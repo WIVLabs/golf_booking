@@ -15,10 +15,10 @@ class Search extends React.Component {
     constructor(props) {
         super(props);
         this.clickSearch = this.clickSearch.bind(this);
-        const start = moment();
-        const end = moment().add(2, 'weeks');
+        const start = moment().add(1, 'days');
+        const end = moment().add(8, 'days');
         const range = moment.range(start, end);
-        const twoweeks = Array.from(range.by('day'))
+        const twoweeks = Array.from(range.by('day'));
 
         this.state = {
             searchParams: {

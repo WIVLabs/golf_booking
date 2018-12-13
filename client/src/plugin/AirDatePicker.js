@@ -18,9 +18,7 @@ export default class AirDatePicker extends React.Component {
             position: 'bottom right',
             onHide: this.props.onSelect,
             minDate: new Date(),
-            clearButton: true,
-            multipleDates: 14,
-            // range: 'true',
+            multipleDates: 7,
             dateFormat: 'mm/dd D',
             multipleDatesSeparator: ', '
         }).data('datepicker');
