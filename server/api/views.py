@@ -77,7 +77,7 @@ class Bookings(APIView):
         def get_bookings():
             bookings = defaultdict(list)
             for _booking in Booking.objects.filter(**filtering):
-                bookings[(_booking.golf_course.name, _booking.golf_course.id)].append(_booking)
+                bookings[(_booking.golf_course.disp_name, _booking.golf_course.id, _booking.golf_course.address)].append(_booking)
             return bookings
 
         def get_kickoffs(dates, bookings):
@@ -105,10 +105,11 @@ class Bookings(APIView):
 
         courses = []
         bookings = get_bookings()
-        for (_name, _id) in sorted(bookings.keys()):
+        for (_name, _id, _address) in sorted(bookings.keys()):
             courses.append({
                 'id': _id,
                 'name': _name,
+                'address': ' '.join(_address.split(' ', 3)[:2]),
                 'kickoffs': get_kickoffs(dates, bookings[(_name, _id)])
             })
 
