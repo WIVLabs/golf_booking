@@ -1,7 +1,7 @@
 import * as React from "react";
 import Select2 from 'react-select2-wrapper';
 import 'react-select2-wrapper/css/select2.css';
-import {Api} from "./Api";
+import Api from "./Api";
 
 class CourseForm extends React.Component {
     constructor(props) {

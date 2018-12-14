@@ -9,31 +9,40 @@ const override = css`
 
 // http://www.davidhu.io/react-spinners/
 class Spinner extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      loading: props.loading
+    constructor(props) {
+        super(props);
+        this.state = {
+          loading: props.loading
+        }
     }
-  }
-  render() {
-    return (
-      <div className='sweet-loading'>
-          {/*<PacmanLoader*/}
-              {/*text={'로딩중'}*/}
-              {/*className={override}*/}
-              {/*color={'#007bff'}*/}
-              {/*size={25}*/}
-              {/*margin={2}*/}
-          {/*/>*/}
-          <HashLoader
-              loading={this.state.loading}
-              className={override}
-              color={'#007bff'}
-              size={50}
-          />
-      </div>
-    )
-  }
+
+    componentWillReceiveProps({loading}) {
+        this.setState({
+            loading: loading
+        });
+
+        this.forceUpdate();
+    }
+
+    render() {
+        return (
+            <div className='sweet-loading'>
+              {/*<PacmanLoader*/}
+                  {/*text={'로딩중'}*/}
+                  {/*className={override}*/}
+                  {/*color={'#007bff'}*/}
+                  {/*size={25}*/}
+                  {/*margin={2}*/}
+              {/*/>*/}
+              <HashLoader
+                  loading={this.state.loading}
+                  className={override}
+                  color={'#007bff'}
+                  size={50}
+              />
+            </div>
+        )
+    }
 }
 
 export default Spinner;

@@ -1,5 +1,5 @@
 import * as React from "react";
-import {Api} from "./Api";
+import Api from "./Api";
 
 class RegionForm extends React.Component {
     constructor(props) {

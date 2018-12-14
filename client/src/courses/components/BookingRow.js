@@ -10,6 +10,12 @@ class BookingRow extends React.Component {
         }
     }
 
+    componentWillReceiveProps({visibleKickoffDates}) {
+        this.setState({
+            visibleKickoffDates: visibleKickoffDates
+        });
+    }
+
     render() {
         return (
             <tr>

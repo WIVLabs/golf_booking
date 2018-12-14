@@ -11,6 +11,12 @@ class BookingCell extends React.Component {
         }
     }
 
+    componentWillReceiveProps({kickoff}) {
+        this.setState({
+            kickoff: kickoff
+        });
+    }
+
     render() {
         // 시간생성
         this.state.kickoff.sites.map(site => {
