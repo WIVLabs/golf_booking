@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import {DateUtility, CollectionUtility, StringUtility} from "../../components/Utility";
 
 class BookingCell extends React.Component {
@@ -15,6 +15,35 @@ class BookingCell extends React.Component {
         this.setState({
             kickoff: kickoff
         });
+    }
+
+    getPriceElement(sites) {
+        if (CollectionUtility.isEmpty(sites)) return '';
+
+        let found = false;
+        let smallPrice = sites[0].price;
+        sites.forEach(_site => {
+            if (_site.price != smallPrice) {
+                found = true;
+
+                if (smallPrice > _site.price) {
+                    smallPrice = _site.price;
+                }
+            }
+        });
+        let sign = '~';
+        if (!found) {
+            sign = (
+                <Fragment>
+                    <span style={{paddingRight: 8 +'px'}}></span>
+                </Fragment>
+            )
+        }
+
+        return (
+            <Fragment>
+                {StringUtility.withComma(smallPrice)}<span className="text-muted">원{sign}</span>
+            </Fragment>);
     }
 
     render() {
@@ -57,12 +86,12 @@ class BookingCell extends React.Component {
 
                 if (_sites.length > 0) {
                     const firstSite = _sites[0];
+                    const feeTag = this.getPriceElement(_sites);
                     html.push(
                         <span key={`site-${++idx}`} className={spanClassName} >
                             <a href={firstSite.booking_url} target='_blank' className='booking-cell-time-site-name'>{firstSite.name}</a>
                             <span className='booking-cell-time-enable-count'>{_sites.length}<span className="text-muted">팀</span></span>
-                            <span className='booking-cell-time-fee'>
-                                {StringUtility.withComma(firstSite.price)}<span className="text-muted">원</span></span>
+                            <span className='booking-cell-time-fee'>{feeTag}</span>
                             <span className='booking-cell-time-notes'>{notes.join(', ')}</span>
                         </span>
                     );
