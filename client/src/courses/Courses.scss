@@ -1,7 +1,12 @@
+.booking-table-name {
+  font-size:15px;
+  font-weight:300;
+  width: 150px;
+}
+
 .booking-table-date {
   font-size:15px;
-  //font-weight:500;
-  min-width: 130px;
+  font-weight:300;
 }
 
 .booking-th-sunday-bg {
@@ -31,33 +36,49 @@
 .booking-cell-time-hour {
   font-family: monospace;
   display: inline-block;
-  width: 38px;
+  width: 30px;
+  font-size: 18px;
+  font-weight: 900;
 }
 
 .booking-cell-time-site-name {
   display: inline-block;
   text-align: right;
-  width: 55px;
+  width: 60px;
 }
 .booking-cell-time-enable-count {
   display: inline-block;
   text-align: right;
-  width: 28px;
+  width: 32px;
+  vertical-align: middle;
+  font-size: 12px;
 }
 .booking-cell-time-fee {
   display: inline-block;
   text-align: right;
   width: 70px;
+  vertical-align: middle;
+  font-size: 12px;
 }
 .booking-cell-time-notes {
   font-size: 12px;
   vertical-align: middle;
-  margin-left: 2px;
+  margin-left: 5px;
+  font-style: italic;
 }
 
 .site-name {
   font-size:15px;
-  font-weight:300;
+  font-weight:500;
+}
+
+
+.site-address {
+  font-size:12px;
+  font-weight:100;
+  display: block;
+  font-style: italic;
+  margin-top: 5px;
 }
 
 .booking-cell-time {

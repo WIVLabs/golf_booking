@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 import {DateUtility, CollectionUtility, StringUtility} from "../../components/Utility";
 
 class BookingCell extends React.Component {
@@ -11,6 +11,41 @@ class BookingCell extends React.Component {
         }
     }
 
+    componentWillReceiveProps({kickoff}) {
+        this.setState({
+            kickoff: kickoff
+        });
+    }
+
+    getPriceElement(sites) {
+        if (CollectionUtility.isEmpty(sites)) return '';
+
+        let found = false;
+        let smallPrice = sites[0].price;
+        sites.forEach(_site => {
+            if (_site.price != smallPrice) {
+                found = true;
+
+                if (smallPrice > _site.price) {
+                    smallPrice = _site.price;
+                }
+            }
+        });
+        let sign = '~';
+        if (!found) {
+            sign = (
+                <Fragment>
+                    <span style={{paddingRight: 8 +'px'}}></span>
+                </Fragment>
+            )
+        }
+
+        return (
+            <Fragment>
+                {StringUtility.withComma(smallPrice)}<span className="text-muted">원{sign}</span>
+            </Fragment>);
+    }
+
     render() {
         // 시간생성
         this.state.kickoff.sites.map(site => {
@@ -21,20 +56,20 @@ class BookingCell extends React.Component {
         const kickoffsByHour = CollectionUtility.groupBy(this.state.kickoff.sites, site => site.hour);
         let html = [];
         let idx = 0;
-        kickoffsByHour.forEach((kickoff, hour) => {
+        kickoffsByHour.forEach((_kickoffs, hour) => {
             // mock 객체
             let mockSite = new Object();
-            Object.assign(mockSite, kickoff[0]);
+            Object.assign(mockSite, _kickoffs[0]);
             mockSite.id = 2;
-            mockSite.name = 'TES골프';
-            kickoff.push(mockSite);
+            mockSite.name = 'TEST골프';
+            _kickoffs.push(mockSite);
             // mock 객체 여기까지.
 
 
-            html.push(<span key={`hour-${++idx}`} className='booking-cell-time-hour'>{hour}시 </span>);
-            const kickoffBySiteMap = CollectionUtility.groupBy(kickoff, site => site.id);
+            html.push(<span key={`hour-${++idx}`} className='booking-cell-time-hour'>{hour}</span>);
+            const kickoffBySiteMap = CollectionUtility.groupBy(_kickoffs, _site => _site.id);
             let first = true;
-            kickoffBySiteMap.forEach(sites => {
+            kickoffBySiteMap.forEach(_sites => {
                 let spanClassName = 'booking-cell-time';
                 if (first == true) {
                     first =  false;
@@ -43,18 +78,21 @@ class BookingCell extends React.Component {
                     html.push(<span key={`site-${++idx}`} className='booking-cell-time-hour'></span>);
                 }
                 let notes = [];
-                sites.forEach(site => {
-                    if (notes.includes(site.notes)) return;
+                _sites.forEach(_site => {
+                    if (notes.includes(_site.notes)) return;
 
-                    notes.push(site.notes);
+                    notes.push(_site.notes);
                 });
 
-                if (sites.length > 0) {
-                    const firstSite = sites[0];
+                if (_sites.length > 0) {
+                    const firstSite = _sites[0];
+                    const feeTag = this.getPriceElement(_sites);
                     html.push(
                         <span key={`site-${++idx}`} className={spanClassName} >
                             <a href={firstSite.booking_url} target='_blank' className='booking-cell-time-site-name'>{firstSite.name}</a>
-                            <span className='booking-cell-time-enable-count'>{sites.length}팀</span><span className='booking-cell-time-fee'>{StringUtility.withComma(firstSite.price)}원</span> <span className='booking-cell-time-notes'>{notes.join(', ')}</span>
+                            <span className='booking-cell-time-enable-count'>{_sites.length}<span className="text-muted">팀</span></span>
+                            <span className='booking-cell-time-fee'>{feeTag}</span>
+                            <span className='booking-cell-time-notes'>{notes.join(', ')}</span>
                         </span>
                     );
                 }

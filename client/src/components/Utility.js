@@ -12,7 +12,7 @@ const ObjectUtility = {
     }
 };
 
-// List, Map등 유티리리티
+// List, Map등 유틸리티
 const CollectionUtility = {
     groupBy : (list, getKeyFunc) => {
         const map = new Map();
@@ -27,6 +27,26 @@ const CollectionUtility = {
             }
         });
         return map;
+    },
+    isEmpty: (obj) => {
+        if (ObjectUtility.isEmpty(obj)) return true;
+        if (obj.length < 1) return true;
+
+        return false;
+    },
+    length: (obj) => {
+        if (ObjectUtility.isEmpty(obj)) return 0;
+
+        return obj.length;
+    },
+    concat: (obj1, obj2) => {
+        if (CollectionUtility.isEmpty(obj1)) {
+            obj1 = [];
+        }
+        if (CollectionUtility.isEmpty(obj2)) {
+            obj2 = [];
+        }
+        return obj1.concat(obj2);
     }
 }
 

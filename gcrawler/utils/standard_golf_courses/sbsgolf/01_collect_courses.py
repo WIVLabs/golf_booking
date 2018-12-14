@@ -66,8 +66,8 @@ def get_course_info(golf_plc_no, debug=False):
 if __name__ == '__main__':
     debug = False
     keys = [
-        (1, 'R1'),
-        (2, 'R2'),
+        (2, 'R1'),
+        (1, 'R2'),
         (4, 'R3'),
         (3, 'R4'),
         (5, 'R5'),

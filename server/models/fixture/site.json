@@ -1,3 +1,14 @@
-BASE_DIR: /Users/jj/Documents/PycharmProjects/golf_booking
-STATICFILES_DIRS: ('/Users/jj/Documents/PycharmProjects/golf_booking/client/dist', '/Users/jj/Documents/PycharmProjects/golf_booking/client/src/assets')
-[{"model": "server.site", "pk": 1, "fields": {"name": "SBS\uace8\ud504", "url": "http://bk.golf.sbs.co.kr", "icon_url": "http://bk.golf.sbs.co.kr/favicon.ico", "status": "A", "created_at": "2018-12-06T14:43:30.872", "updated_at": "2018-12-06T14:43:30.872"}}]
+[
+  {
+    "model": "server.site",
+    "pk": 1,
+    "fields": {
+      "name": "SBS\uace8\ud504",
+      "url": "http://bk.golf.sbs.co.kr",
+      "icon_url": "http://bk.golf.sbs.co.kr/favicon.ico",
+      "status": "A",
+      "created_at": "2018-12-06T14:43:30.872",
+      "updated_at": "2018-12-06T14:43:30.872"
+    }
+  }
+]
