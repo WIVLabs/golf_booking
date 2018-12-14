@@ -5,17 +5,34 @@ import {Api} from "./Api";
 
 class CourseForm extends React.Component {
     constructor(props) {
+        console.log('코스 constructor')
         super(props);
-        this.state = {courses: [], course: this.props.course};
+        this.changeCourse = this.changeCourse.bind(this);
+        this.state = {courses: []};
     }
 
     componentDidMount() {
-
-        Api.getGolfCourses()
+        console.log('코스 렌더링 componentDidMount')
+        Api.getGolfCourses(this.props.region)
             .then(data => {
                 // console.log(data);
                 this.setState({courses: data});
             });
+    }
+
+    componentWillReceiveProps(nextProps) {
+        console.log('componentWillReceiveProps', nextProps)
+        if (nextProps.region) {
+            this.setState({courses: []});
+            Api.getGolfCourses(nextProps.region)
+                .then(data => {
+                    this.setState({courses: data});
+                });
+        }
+    }
+
+    changeCourse(ob){
+        this.props.onChange(ob.target.value);
     }
 
     render() {
@@ -27,14 +44,12 @@ class CourseForm extends React.Component {
                 <label>골프장</label>
                 <Select2
                     data={courses}
-                    onChange={(ob) => {
-                        this.props.onChange(ob.target.value);
-                    }}
+                    onChange={this.changeCourse}
                     options={{
                         placeholder: '전체',
                         width: '100%'
                     }}
-                    defaultValue={this.state.course}
+                    defaultValue={this.props.course}
                 />
             </div>
         );

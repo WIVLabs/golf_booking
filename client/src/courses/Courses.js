@@ -15,7 +15,7 @@ class Courses extends React.Component {
         let paramsObj = JSON.parse(searchParams);
         console.log(paramsObj);
         this.state = {
-            hasData : false,
+            hasData: false,
             courses: [],
             searchParams: paramsObj
         }
@@ -29,7 +29,7 @@ class Courses extends React.Component {
         this.getBookings();
     }
 
-    changeSearchValues(_params){
+    changeSearchValues(_params) {
         const params = JSON.stringify(_params);
         console.log('Search Params', JSON.stringify(_params));
         this.props.history.push('./' + params);
@@ -38,15 +38,15 @@ class Courses extends React.Component {
     }
 
     getBookings() {
-        this.setState({hasData : false});
+        this.setState({hasData: false});
         Api.getBookings(this.state.searchParams)
-                .then(data => {
-                    this.setState({
-                        hasData: ObjectUtility.isNotEmpty(data),
-                        courses: data.courses,
-                        kickoff_dates: data.kickoff_dates
-                    });
+            .then(data => {
+                this.setState({
+                    hasData: ObjectUtility.isNotEmpty(data),
+                    courses: data.courses,
+                    kickoff_dates: data.kickoff_dates
                 });
+            });
 
         return false;
     }
@@ -56,8 +56,7 @@ class Courses extends React.Component {
         const weekdayCode = DateUtility.getWeekdayCode(kickoffDate, DateUtility.DF_DATE);
         if (DateUtility.isSunday(weekdayCode)) {
             backgroundClass = 'booking-th-sunday-bg';
-        }
-        else if(DateUtility.isSaturday(weekdayCode)) {
+        } else if (DateUtility.isSaturday(weekdayCode)) {
             backgroundClass = 'booking-th-saturday-bg';
         }
 
@@ -76,7 +75,12 @@ class Courses extends React.Component {
     render() {
         return (
             <div>
-                <CourseSearch searchparams={this.state.searchParams} onClick={this.changeSearchValues}/>
+                <CourseSearch booking_dates={this.state.searchParams.booking_dates}
+                              time_range={this.state.searchParams.time_range}
+                              region={this.state.searchParams.region}
+                              course={this.state.searchParams.course}
+                              greenfee_range={this.state.searchParams.greenfee_range}
+                              onClick={this.changeSearchValues}/>
                 <div className='ml-3'>
                     <button type='button' className="btn btn-outline-dark" onClick={this.goPrev}>
                         <i className="fa fa-arrow-left"></i> 첫페이지로
@@ -96,10 +100,10 @@ class Courses extends React.Component {
                                 <tr>
                                     <th className={'booking-table-date text-center'}>골프장</th>
                                     {this.state.kickoff_dates.map(kickoff_date => {
-                                            const thClassName = this.getThClassName(kickoff_date.date);
-                                            return (<th className={thClassName} key={`booking-${kickoff_date.date}`}>
-                                                        {DateUtility.convert(kickoff_date.date, DateUtility.DF_DATE, 'YYYY-MM-DD(ddd)')}
-                                                        </th>)
+                                        const thClassName = this.getThClassName(kickoff_date.date);
+                                        return (<th className={thClassName} key={`booking-${kickoff_date.date}`}>
+                                            {DateUtility.convert(kickoff_date.date, DateUtility.DF_DATE, 'YYYY-MM-DD(ddd)')}
+                                        </th>)
                                     })}
                                 </tr>
                                 </thead>
@@ -108,15 +112,23 @@ class Courses extends React.Component {
                                     this.state.courses.map(course => {
                                         return <BookingRow key={`course-${course.id}`} course={course}/>
                                     })
-                                 : <tr><td className={'text-center'} colSpan={this.state.kickoff_dates.length + 1}>검색결과가 없습니다.</td></tr>}
+                                    : <tr>
+                                        <td className={'text-center'}
+                                            colSpan={this.state.kickoff_dates.length + 1}>검색결과가 없습니다.
+                                        </td>
+                                    </tr>}
                                 </tbody>
                             </table>
                         </div>
                     </div>
-                    : <div className={'text-center'}> <Spinner /></div>}
+                    : <div className={'text-center'}><Spinner/></div>}
             </div>
         )
     };
+}
+
+Courses.defaultProps = {
+    searchParams: {}
 }
 
 export default Courses;

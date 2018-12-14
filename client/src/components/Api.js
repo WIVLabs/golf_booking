@@ -5,9 +5,9 @@ const Api = {
 
         return fetch(url).then(response => response.json());
     },
-    getGolfCourses: () => {
-        const url = `/api/golf-courses`;
-
+    getGolfCourses: (region) => {
+        const url = region ? `/api/golf-courses?region=${region}` : '/api/golf-courses';
+        console.log('getGolfCourses', url, region);
         return fetch(url).then(response => response.json());
     },
     // 예약 목록 조회
@@ -28,7 +28,7 @@ const Api = {
      * @returns {Promise<any | never>}
      */
     getBookings: (paramsObj) => {
-        const queryStringParameters = encodeURIComponent(JSON.stringify(paramsObj));;
+        const queryStringParameters = encodeURIComponent(JSON.stringify(paramsObj));
         const url = `/api/bookings2?params=${queryStringParameters}`; //
 
         return fetch(url).then(response => response.json());

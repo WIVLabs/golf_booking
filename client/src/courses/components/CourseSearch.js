@@ -4,21 +4,21 @@ import GreenFeeRangeForm from "../../components/GreenFeeRangeForm";
 import TimeRangeForm from "../../components/TimeRangeForm";
 import RegionForm from "../../components/RegionForm";
 import CourseForm from "../../components/CourseForm";
-import moment from "moment";
+import Moment from "moment";
+import {extendMoment} from 'moment-range';
+const moment = extendMoment(Moment);
 
 class CourseSearch extends React.Component {
 
     constructor(props) {
         super(props);
-        this.clickSearch = this.clickSearch.bind(this);
         this.state = {
-            searchParams: this.props.searchparams
+            booking_dates: this.props.booking_dates,
+            time_range: this.props.time_range,
+            region: this.props.region,
+            course: this.props.region,
+            greenfee_range: this.props.greenfee_range
         };
-    }
-
-    clickSearch() {
-        console.log('Search Params', this.state.searchParams);
-        this.props.onClick(this.state.searchParams);
     }
 
     render() {
@@ -26,27 +26,33 @@ class CourseSearch extends React.Component {
             <div className="border rounded border-info m-5 bg-light">
                 <form style={{width: 800 + 'px'}} className="m-auto">
                     <div className="form-row">
-                        <div className="col p-3"><MultiDateForm bookingdates={this.state.searchParams.booking_dates}
-                                                                onChange={(_bookingDates) => this.state.searchParams.booking_dates = _bookingDates.map(_d => moment(_d).format('YYYY-MM-DD'))}/>
+                        <div className="col p-3">
+                            <MultiDateForm bookingdates={this.props.booking_dates}
+                                           onChange={(_bookingDates) => this.state.booking_dates = _bookingDates.map(_d => moment(_d).format('YYYY-MM-DD'))}/>
                         </div>
-                        <div className="col p-3"><TimeRangeForm timerange={this.state.searchParams.time_range}
-                                                                onChange={(_timeRange) => this.state.searchParams.time_range = _timeRange}/>
+                        <div className="col p-3">
+                            <TimeRangeForm timerange={this.props.time_range}
+                                           onChange={(_timeRange) => this.state.time_range = _timeRange}/>
                         </div>
                     </div>
                     <div className="form-row">
-                        <div className="col p-3"><RegionForm region={this.state.searchParams.region}
-                                                             onChange={(_region) => this.state.searchParams.region = _region}/>
+                        <div className="col p-3">
+                            <RegionForm region={this.props.region}
+                                        onChange={(_region) => this.setState({region: _region})}/>
                         </div>
-                        <div className="col p-3"><CourseForm course={this.state.searchParams.course}
-                                                             onChange={(_course) => this.state.searchParams.course = _course}/>
+                        <div className="col p-3">
+                            <CourseForm course={this.props.course}
+                                        region={this.state.region}
+                                        onChange={(_course) => this.state.course = _course}/>
                         </div>
-                        <div className="col p-3"><GreenFeeRangeForm
-                            greenfeerange={this.state.searchParams.greenfee_range}
-                            onChange={(_range) => this.state.searchParams.greenfee_range = _range}/>
+                        <div className="col p-3">
+                            <GreenFeeRangeForm greenfeerange={this.props.greenfee_range}
+                                               onChange={(_range) => this.state.greenfee_range = _range}/>
                         </div>
                     </div>
                     <div className="form-row mb-3">
-                        <a className="btn btn-primary ml-auto" onClick={this.clickSearch}>
+                        <a className="btn btn-primary ml-auto"
+                           onClick={() => this.props.onClick(this.state)}>
                             <i className="fa fa-golf-ball"></i> 검색
                         </a>
                     </div>
@@ -55,5 +61,21 @@ class CourseSearch extends React.Component {
         )
     }
 }
+
+const range = moment.range(moment().add(1, 'days'), moment().add(7, 'days'));
+const twoWeeks = Array.from(range.by('day'));
+CourseSearch.defaultProps = {
+    booking_dates: twoWeeks.map(m => m.format('YYYY-MM-DD')),
+    time_range: {
+        from: '6',
+        to: '11'
+    },
+    region: '',
+    course: '',
+    greenfee_range: {
+        from: '20000',
+        to: '110000'
+    }
+};
 
 export default CourseSearch;

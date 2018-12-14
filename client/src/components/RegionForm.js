@@ -15,6 +15,10 @@ class RegionForm extends React.Component {
     }
 
     render() {
+        let _options = [(<option key='00' value="">전체</option>)];
+        this.state.regions.map((_region, i) => {
+                            _options.push(<option key={i} value={_region.id}>{_region.name}</option>)});
+
         return (
             <div className="form-group">
                 <label>지역</label>
@@ -24,9 +28,7 @@ class RegionForm extends React.Component {
                                 this.setState({region: ob.target.value});
                                 this.props.onChange(ob.target.value);
                             }}>
-                        {this.state.regions.map((_region, i) => {
-                            return (<option key={i} value={_region.id}>{_region.name}</option>);
-                        })}
+                        {_options}
                     </select>
                     : <span>Loading...</span>
                 }
