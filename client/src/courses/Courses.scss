@@ -36,7 +36,6 @@
 .booking-cell-time-hour {
   font-family: monospace;
   display: inline-block;
-  width: 30px;
   font-size: 18px;
   font-weight: 900;
 }
@@ -51,7 +50,7 @@
   text-align: right;
   width: 32px;
   vertical-align: middle;
-  font-size: 12px;
+  font-size: 14px;
 }
 .booking-cell-time-fee {
   display: inline-block;
@@ -72,7 +71,6 @@
   font-weight:500;
 }
 
-
 .site-address {
   font-size:12px;
   font-weight:100;
@@ -85,10 +83,11 @@
   font-size:14px;
   font-weight:300;
   margin-bottom: 1px;
+
+  list-style: none outside none;
 }
 
-.booking-cell-time-line {
-  height: 3px;
-  margin: 0px;
-  border: 0px;
+.booking-cell-time-site {
+  padding-left: 0px;
+  margin : -17px 1px 0px 30px;
 }
