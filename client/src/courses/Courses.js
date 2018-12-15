@@ -94,19 +94,19 @@ class Courses extends React.Component {
         const beforeDatesLength = CollectionUtility.length(beforeKickoffDates);
         if (beforeDatesLength > viewDateCount) {
             const startIndex = beforeDatesLength - viewDateCount;
-            nextKickoffDates = CollectionUtility.concat(this.state.visibleKickoffDates, nextKickoffDates);
+            nextKickoffDates = [...this.state.visibleKickoffDates, ...nextKickoffDates];
             visibleKickoffDates = beforeKickoffDates.slice(startIndex, beforeDatesLength);
             beforeKickoffDates = beforeKickoffDates.slice(0, startIndex);
         }
         else if (beforeDatesLength === viewDateCount) {
-            nextKickoffDates = CollectionUtility.concat(this.state.visibleKickoffDates, nextKickoffDates);
+            nextKickoffDates = [...this.state.visibleKickoffDates, ...nextKickoffDates];
             visibleKickoffDates = beforeKickoffDates.slice(0, this.state.viewDateCount);
             beforeKickoffDates = [];
         }
         else if (beforeDatesLength < viewDateCount) {
-            let enableKickoffDates = CollectionUtility.concat(beforeKickoffDates.slice(0, beforeDatesLength), visibleKickoffDates);
+            let enableKickoffDates = [...beforeKickoffDates.slice(0, beforeDatesLength), ...visibleKickoffDates];
             const enableLength = enableKickoffDates.length;
-            nextKickoffDates = CollectionUtility.concat(enableKickoffDates.slice(viewDateCount, enableLength), nextKickoffDates);
+            nextKickoffDates = [...enableKickoffDates.slice(viewDateCount, enableLength), ...nextKickoffDates];
             visibleKickoffDates = enableKickoffDates.slice(0, viewDateCount);
             beforeKickoffDates = [];
         }
@@ -124,20 +124,20 @@ class Courses extends React.Component {
 
         const nextDatesLength = CollectionUtility.length(nextKickoffDates);
         if (nextDatesLength > viewDateCount) {
-            beforeKickoffDates = CollectionUtility.concat(beforeKickoffDates, this.state.visibleKickoffDates);
+            beforeKickoffDates = [...beforeKickoffDates, ...this.state.visibleKickoffDates];
             visibleKickoffDates = nextKickoffDates.slice(0, this.state.viewDateCount);
             nextKickoffDates = nextKickoffDates.slice(this.state.viewDateCount, nextDatesLength);
         }
         else if (nextDatesLength === viewDateCount) {
-            beforeKickoffDates = CollectionUtility.concat(beforeKickoffDates, this.state.visibleKickoffDates);
+            beforeKickoffDates = [...beforeKickoffDates, ...this.state.visibleKickoffDates];
             visibleKickoffDates = nextKickoffDates.slice(0, this.state.viewDateCount);
             nextKickoffDates = [];
         }
         else if (nextDatesLength < viewDateCount) {
-            let enableKickoffDates = CollectionUtility.concat(visibleKickoffDates, nextKickoffDates.slice(0, nextDatesLength));
+            let enableKickoffDates = [...visibleKickoffDates, ...nextKickoffDates.slice(0, nextDatesLength)];
             const enableLength = enableKickoffDates.length;
-            beforeKickoffDates = CollectionUtility.concat(beforeKickoffDates, enableKickoffDates.slice(0, enableLength - viewDateCount));
-            visibleKickoffDates = CollectionUtility.concat(visibleKickoffDates.slice(enableLength - viewDateCount, enableLength + 1), nextKickoffDates);
+            beforeKickoffDates = [...beforeKickoffDates, ...enableKickoffDates.slice(0, enableLength - viewDateCount)];
+            visibleKickoffDates = [...visibleKickoffDates.slice(enableLength - viewDateCount, enableLength + 1), ...nextKickoffDates];
             nextKickoffDates = [];
         }
 

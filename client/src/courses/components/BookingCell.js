@@ -5,7 +5,7 @@ import BookingCellHour from "./BookingCellHour";
 class BookingCell extends React.Component {
 
     constructor(props) {
-        super();
+        super(props);
 
         // 시간생성
         props.kickoff.sites.map(site => {

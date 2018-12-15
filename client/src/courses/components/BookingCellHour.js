@@ -41,7 +41,7 @@ class BookingCellHour extends Component {
                         const siteBookings = this.state.kickoffs.get(_site_id);
 
                         let notes = Array.from(CollectionUtility.groupBy(siteBookings, _booking => _booking.notes).keys());
-                        const firstBooking = siteBookings[0];
+                        const [firstBooking] = siteBookings;
                         return (
                             <li key={`site-${this.state.hour}-${_site_id}`} className='booking-cell-time' >
                                 <a href={firstBooking.booking_url} target='_blank' className='booking-cell-time-site-name'>{firstBooking.name}</a>

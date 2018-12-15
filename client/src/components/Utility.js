@@ -1,7 +1,5 @@
 import moment from 'moment';
 
-moment.locale('ko');
-
 // 객체 유틸리티
 const ObjectUtility = {
     isEmpty : (obj) => {
@@ -38,17 +36,11 @@ const CollectionUtility = {
         if (ObjectUtility.isEmpty(obj)) return 0;
 
         return obj.length;
-    },
-    concat: (obj1, obj2) => {
-        if (CollectionUtility.isEmpty(obj1)) {
-            obj1 = [];
-        }
-        if (CollectionUtility.isEmpty(obj2)) {
-            obj2 = [];
-        }
-        return obj1.concat(obj2);
     }
 }
+
+
+moment.locale('ko');
 
 // 날짜 유틸리티
 const DateUtility = {
