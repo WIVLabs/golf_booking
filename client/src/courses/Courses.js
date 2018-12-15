@@ -35,7 +35,7 @@ class Courses extends React.Component {
         this.drawNextBookings = this.drawNextBookings.bind(this);
         this.drawBeforeBookings = this.drawBeforeBookings.bind(this);
         this.initVisibleDate = this.initVisibleDate.bind(this);
-        this.measureAndRedrewTable = this.measureAndRedrewTable.bind(this);
+        this.measureTableWidthAndRedrew = this.measureTableWidthAndRedrew.bind(this);
     }
 
     componentDidMount() {
@@ -84,7 +84,7 @@ class Courses extends React.Component {
             kickoff_dates: totalKickoffDates,
             visibleKickoffDates : visibleDates,
             nextKickoffDates: nextKickoffDates
-        }, this.measureAndRedrewTable);
+        }, this.measureTableWidthAndRedrew);
     }
 
     drawBeforeBookings(){
@@ -98,7 +98,7 @@ class Courses extends React.Component {
             visibleKickoffDates = beforeKickoffDates.slice(startIndex, beforeDatesLength);
             beforeKickoffDates = beforeKickoffDates.slice(0, startIndex);
         }
-        else if (beforeDatesLength == viewDateCount) {
+        else if (beforeDatesLength === viewDateCount) {
             nextKickoffDates = CollectionUtility.concat(this.state.visibleKickoffDates, nextKickoffDates);
             visibleKickoffDates = beforeKickoffDates.slice(0, this.state.viewDateCount);
             beforeKickoffDates = [];
@@ -115,7 +115,7 @@ class Courses extends React.Component {
             beforeKickoffDates: beforeKickoffDates,
             visibleKickoffDates : visibleKickoffDates,
             nextKickoffDates : nextKickoffDates
-        }, this.measureAndRedrewTable);
+        }, this.measureTableWidthAndRedrew);
     }
 
     drawNextBookings(){
@@ -128,7 +128,7 @@ class Courses extends React.Component {
             visibleKickoffDates = nextKickoffDates.slice(0, this.state.viewDateCount);
             nextKickoffDates = nextKickoffDates.slice(this.state.viewDateCount, nextDatesLength);
         }
-        else if (nextDatesLength == viewDateCount) {
+        else if (nextDatesLength === viewDateCount) {
             beforeKickoffDates = CollectionUtility.concat(beforeKickoffDates, this.state.visibleKickoffDates);
             visibleKickoffDates = nextKickoffDates.slice(0, this.state.viewDateCount);
             nextKickoffDates = [];
@@ -145,18 +145,17 @@ class Courses extends React.Component {
             beforeKickoffDates: beforeKickoffDates,
             visibleKickoffDates : visibleKickoffDates,
             nextKickoffDates : nextKickoffDates
-        }, this.measureAndRedrewTable);
+        }, this.measureTableWidthAndRedrew);
     };
 
     // 테이블의 날짜를 재 계산하여 정렬한다.
-    measureAndRedrewTable() {
+    measureTableWidthAndRedrew() {
 
         let thsLength = this.tableElement.current.offsetWidth - this.tablePlaceName.current.offsetWidth;
         const thLength = thsLength / (this.state.visibleKickoffDates.length < this.state.viewDateCount ? this.state.visibleKickoffDates.length : this.state.viewDateCount);
 
         let nextThElement = this.tablePlaceName.current.nextSibling;
         while(nextThElement) {
-            console.log(nextThElement);
             nextThElement.style.minWidth = thLength;
 
             nextThElement = nextThElement.nextSibling;
@@ -178,6 +177,9 @@ class Courses extends React.Component {
     getButtonTitle(buttonDates) {
         let title, startDate, endDate = '';
         switch (CollectionUtility.length(buttonDates)) {
+            case 0:
+                title = '';
+                break;
             case 1:
                 title = DateUtility.convert(buttonDates[0], DateUtility.DF_DATE, 'MM/DD(ddd)');
                 break;
@@ -233,8 +235,7 @@ class Courses extends React.Component {
                                 <tr>
                                     <th className={'booking-table-name text-center'} ref={this.tablePlaceName}>골프장</th>
                                     {this.state.visibleKickoffDates.map(_kickoff_date => {
-                                            const thClassName = this.getThClassName(_kickoff_date);
-                                            return <th className={thClassName} key={`booking-${_kickoff_date}`}>
+                                            return <th className={this.getThClassName(_kickoff_date)} key={`booking-${_kickoff_date}`}>
                                                         {DateUtility.convert(_kickoff_date, DateUtility.DF_DATE, 'YYYY-MM-DD(ddd)')}
                                                    </th>
                                     })}

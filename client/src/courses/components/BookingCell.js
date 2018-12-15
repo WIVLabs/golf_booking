@@ -6,8 +6,31 @@ class BookingCell extends React.Component {
     constructor(props) {
         super(props);
 
+        // 시간생성
+        props.kickoff.sites.map(site => {
+            let hour = DateUtility.convert(site.kickoff_time, 'YYYY.MM.DD HH:mm', 'HH');
+            site['hour'] = hour;
+        });
+
+        // 시간대별로 그룹핑
+        const kickoffsByHour = CollectionUtility.groupBy(props.kickoff.sites, site => site.hour);
+
+        // site.id로 그룹핑
+        kickoffsByHour.forEach((_kickoffs, key, thisMap) => {
+            // TODO TEST-MOCK 객체
+            let mockSite = new Object();
+            Object.assign(mockSite, _kickoffs[0]);
+            mockSite.id = 2;
+            mockSite.name = 'TEST골프';
+            _kickoffs.push(mockSite);
+            // TODO TEST-MOCK 객체 여기까지.
+
+            _kickoffs = CollectionUtility.groupBy(_kickoffs, _site => _site.id);
+            thisMap.set(key, _kickoffs);
+        });
+
         this.state = {
-            kickoff : this.props.kickoff
+            kickoffsByHour : kickoffsByHour
         }
     }
 
@@ -23,85 +46,51 @@ class BookingCell extends React.Component {
         let found = false;
         let smallPrice = sites[0].price;
         sites.forEach(_site => {
-            if (_site.price != smallPrice) {
-                found = true;
+            if (_site.price == smallPrice) return;
 
-                if (smallPrice > _site.price) {
-                    smallPrice = _site.price;
-                }
+            found = true;
+
+            if (smallPrice > _site.price) {
+                smallPrice = _site.price;
             }
         });
-        let sign = '~';
-        if (!found) {
-            sign = (
-                <Fragment>
-                    <span style={{paddingRight: 8 +'px'}}></span>
-                </Fragment>
-            )
-        }
 
-        return (
-            <Fragment>
-                {StringUtility.withComma(smallPrice)}<span className="text-muted">원{sign}</span>
-            </Fragment>);
+        if (found)
+            return (<Fragment>{StringUtility.withComma(smallPrice)}<span className="text-muted">원~</span></Fragment>);
+        else
+            return (<Fragment>{StringUtility.withComma(smallPrice)}<span className="text-muted">원<span style={{paddingRight: 8 +'px'}}></span></span></Fragment>);
     }
 
     render() {
-        // 시간생성
-        this.state.kickoff.sites.map(site => {
-            let hour = DateUtility.convert(site.kickoff_time, 'YYYY.MM.DD HH:mm', 'HH');
-            site['hour'] = hour;
-        });
-
-        const kickoffsByHour = CollectionUtility.groupBy(this.state.kickoff.sites, site => site.hour);
         let html = [];
-        let idx = 0;
-        kickoffsByHour.forEach((_kickoffs, hour) => {
-            // mock 객체
-            let mockSite = new Object();
-            Object.assign(mockSite, _kickoffs[0]);
-            mockSite.id = 2;
-            mockSite.name = 'TEST골프';
-            _kickoffs.push(mockSite);
-            // mock 객체 여기까지.
-
-
-            html.push(<span key={`hour-${++idx}`} className='booking-cell-time-hour'>{hour}</span>);
-            const kickoffBySiteMap = CollectionUtility.groupBy(_kickoffs, _site => _site.id);
+        this.state.kickoffsByHour.forEach((_kickoffs, hour) => {
             let first = true;
-            kickoffBySiteMap.forEach(_sites => {
-                let spanClassName = 'booking-cell-time';
-                if (first == true) {
-                    first =  false;
+            _kickoffs.forEach((_sites, _site_id) => {
+                if (first === true) {
+                    first = false;
+                    html.push(<span key={`hour-${hour}-${_site_id}`} className='booking-cell-time-hour'>{hour}</span>);
                 }
                 else {
-                    html.push(<span key={`site-${++idx}`} className='booking-cell-time-hour'></span>);
+                    html.push(<span key={`hour-${hour}-${_site_id}`} className='booking-cell-time-hour'> </span>);
                 }
-                let notes = [];
-                _sites.forEach(_site => {
-                    if (notes.includes(_site.notes)) return;
 
-                    notes.push(_site.notes);
-                });
-
+                let notes = Array.from(CollectionUtility.groupBy(_sites, _site => _site.notes).keys());
                 if (_sites.length > 0) {
                     const firstSite = _sites[0];
-                    const feeTag = this.getPriceElement(_sites);
+                    // SBS골프 1팀 80,000원2라운드(18홀)
                     html.push(
-                        <span key={`site-${++idx}`} className={spanClassName} >
-                            <a href={firstSite.booking_url} target='_blank' className='booking-cell-time-site-name'>{firstSite.name}</a>
-                            <span className='booking-cell-time-enable-count'>{_sites.length}<span className="text-muted">팀</span></span>
-                            <span className='booking-cell-time-fee'>{feeTag}</span>
-                            <span className='booking-cell-time-notes'>{notes.join(', ')}</span>
-                        </span>
+                            <span key={`site-${hour}-${_site_id}`} className='booking-cell-time' >
+                                <a href={firstSite.booking_url} target='_blank' className='booking-cell-time-site-name'>{firstSite.name}</a>
+                                <span className='booking-cell-time-enable-count'>{_sites.length}<span className="text-muted">팀</span></span>
+                                <span className='booking-cell-time-fee'>{this.getPriceElement(_sites)}</span>
+                                <span className='booking-cell-time-notes'>{notes.join(', ')}</span>
+                            </span>
                     );
                 }
-                html.push(<br key={`br-${++idx}`} />);
-                let ul = React.createElement('ul', {}, '');
+                html.push(<br key={`br-${hour}-${_site_id}`} />);
             });
-            html.push(<hr className='booking-cell-time-line' key={`br-${++idx}`} />);
+            html.push(<hr className='booking-cell-time-line' key={`br-${hour}`} />);
         });
-
 
         return (
             <td className={'booking-cell'}>

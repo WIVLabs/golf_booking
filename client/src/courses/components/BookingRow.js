@@ -28,7 +28,7 @@ class BookingRow extends React.Component {
                     this.state.course.kickoffs
                         .filter(_kickoff => this.state.visibleKickoffDates.includes(_kickoff.kickoff_date))
                         .map((_kickoff, idx) => {
-                            return <BookingCell key={idx} kickoff={_kickoff}/>
+                            return <BookingCell key={_kickoff.kickoff_date} kickoff={_kickoff}/>
                          })
                     : ''
                 }
