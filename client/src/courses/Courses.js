@@ -76,7 +76,7 @@ class Courses extends React.Component {
             nextKickoffDates = totalKickoffDates.slice(this.state.viewDateCount, totalKickoffDates.length).map(kickoff => kickoff.date);
         }
         else {
-            visibleDates = this.state.kickoff_dates.map(kickoff => kickoff.date);
+            visibleDates = totalKickoffDates.map(kickoff => kickoff.date);
         }
 
         this.setState({
