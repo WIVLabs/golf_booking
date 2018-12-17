@@ -212,46 +212,50 @@ class Courses extends React.Component {
                         <i className="fa fa-arrow-left"></i> 첫페이지로
                     </button>
                 </div>
-
-                {this.state.visibleKickoffDates.length > 0 ?
-                    <div className="container-fluid">
-                        {this.state.beforeKickoffDates.length > 0 ?
-                            <div className={'float-left mb-2'}>
-                                <button type='button' className="btn btn-secondary" onClick={this.drawBeforeBookings}>
-                                    <i className="fa fa-arrow-left"></i>&nbsp;{this.getButtonTitle(this.state.beforeKickoffDates)}
-                                </button>
+                {this.state.loadBookings ?
+                    <div className={'text-center'}> <Spinner loading={this.state.loadBookings}/></div>
+                    : <div>
+                        {this.state.visibleKickoffDates.length > 0 ?
+                        <div className="container-fluid">
+                            {this.state.beforeKickoffDates.length > 0 ?
+                                <div className={'float-left mb-2'}>
+                                    <button type='button' className="btn btn-secondary" onClick={this.drawBeforeBookings}>
+                                        <i className="fa fa-arrow-left"></i>&nbsp;{this.getButtonTitle(this.state.beforeKickoffDates)}
+                                    </button>
+                                </div>
+                                : '' }
+                            {this.state.nextKickoffDates.length > 0 ?
+                                <div className={'float-right align-right mb-2'}>
+                                    <button type='button' className="btn btn-secondary" onClick={this.drawNextBookings}>
+                                        {this.getButtonTitle(this.state.nextKickoffDates)}&nbsp;<i className="fa fa-arrow-right"></i>
+                                    </button>
+                                </div>
+                                : ''}
+                            <div className="table-responsive">
+                                <table ref={this.tableElement} className="table table-striped table-bordered table-hover">
+                                    <thead>
+                                    <tr>
+                                        <th className={'booking-table-name text-center'} ref={this.tablePlaceName}>골프장</th>
+                                        {this.state.visibleKickoffDates.map(_kickoff_date => {
+                                                return <th className={this.getThClassName(_kickoff_date)} key={`booking-${_kickoff_date}`}>
+                                                            {DateUtility.convert(_kickoff_date, DateUtility.DF_DATE, 'YYYY-MM-DD(ddd)')}
+                                                       </th>
+                                        })}
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    {this.state.courses.length != 0 && this.state.visibleKickoffDates.length !=0 ?
+                                        this.state.courses.map(course => {
+                                            return <BookingRow key={`course-${course.id}`} course={course} visibleKickoffDates={this.state.visibleKickoffDates} />
+                                        })
+                                     : <tr><td className={'text-center'} colSpan={this.state.kickoff_dates.length + 1}>검색결과가 없습니다.</td></tr>}
+                                    </tbody>
+                                </table>
                             </div>
-                            : '' }
-                        {this.state.nextKickoffDates.length > 0 ?
-                            <div className={'float-right align-right mb-2'}>
-                                <button type='button' className="btn btn-secondary" onClick={this.drawNextBookings}>
-                                    {this.getButtonTitle(this.state.nextKickoffDates)}&nbsp;<i className="fa fa-arrow-right"></i>
-                                </button>
-                            </div>
-                            : ''}
-                        <div className="table-responsive">
-                            <table ref={this.tableElement} className="table table-striped table-bordered table-hover">
-                                <thead>
-                                <tr>
-                                    <th className={'booking-table-name text-center'} ref={this.tablePlaceName}>골프장</th>
-                                    {this.state.visibleKickoffDates.map(_kickoff_date => {
-                                            return <th className={this.getThClassName(_kickoff_date)} key={`booking-${_kickoff_date}`}>
-                                                        {DateUtility.convert(_kickoff_date, DateUtility.DF_DATE, 'YYYY-MM-DD(ddd)')}
-                                                   </th>
-                                    })}
-                                </tr>
-                                </thead>
-                                <tbody>
-                                {this.state.courses.length != 0 && this.state.visibleKickoffDates.length !=0 ?
-                                    this.state.courses.map(course => {
-                                        return <BookingRow key={`course-${course.id}`} course={course} visibleKickoffDates={this.state.visibleKickoffDates} />
-                                    })
-                                 : <tr><td className={'text-center'} colSpan={this.state.kickoff_dates.length + 1}>검색결과가 없습니다.</td></tr>}
-                                </tbody>
-                            </table>
                         </div>
+                        : ''}
                     </div>
-                    : <div className={'text-center'}> <Spinner loading={this.state.loadBookings}/></div>}
+                    }
             </div>
         )
     };
