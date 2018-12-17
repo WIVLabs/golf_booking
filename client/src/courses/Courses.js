@@ -2,7 +2,7 @@ import React from "react";
 import './Courses.scss';
 import CourseSearch from "./components/CourseSearch";
 import BookingRow from "./components/BookingRow";
-import {DateUtility, CollectionUtility} from "../components/Utility";
+import {DateUtility, CollectionUtility, ObjectUtility} from "../components/Utility";
 import Spinner from "../components/Spinner";
 import Api from "../components/Api";
 
@@ -22,12 +22,16 @@ class Courses extends React.Component {
             viewDateCount: 3,
             visibleKickoffDates: [],
             nextKickoffDates: [],
-            beforeKickoffDates: []
+            beforeKickoffDates: [],
+
+            golfCourseNameWidth:0,
+            dateWidth:0
         }
 
         this.tableElement = React.createRef();
         this.tablePlaceName = React.createRef();
         this.tableDate = React.createRef();
+        this.tableHeader = React.createRef();
 
         this.getBookings = this.getBookings.bind(this);
         this.changeSearchValues = this.changeSearchValues.bind(this);
@@ -36,10 +40,30 @@ class Courses extends React.Component {
         this.drawBeforeBookings = this.drawBeforeBookings.bind(this);
         this.initVisibleDate = this.initVisibleDate.bind(this);
         this.measureTableWidthAndRedrew = this.measureTableWidthAndRedrew.bind(this);
+        this.handleScroll = this.handleScroll.bind(this);
     }
 
     componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
         this.getBookings();
+    }
+
+    handleScroll() {
+        if (ObjectUtility.isEmpty(this.tableElement.current)) return;
+
+        let hidePosition = this.tableElement.current.offsetTop;
+        if (event.srcElement.body.scrollTop > hidePosition) {
+            if (!this.tableHeader.current.classList.contains('fixed-head')) {
+                this.tableHeader.current.classList.add("fixed-head");
+                this.measureTableWidthAndRedrew();
+            }
+        }
+        else if (this.tableHeader.current.offsetTop < hidePosition) {
+            if (this.tableHeader.current.classList.contains('fixed-head')) {
+                this.tableHeader.current.classList.remove("fixed-head");
+                this.measureTableWidthAndRedrew();
+            }
+        }
     }
 
     changeSearchValues(_params){
@@ -150,7 +174,6 @@ class Courses extends React.Component {
 
     // 테이블의 날짜를 재 계산하여 정렬한다.
     measureTableWidthAndRedrew() {
-
         let thsLength = this.tableElement.current.offsetWidth - this.tablePlaceName.current.offsetWidth;
         const thLength = thsLength / (this.state.visibleKickoffDates.length < this.state.viewDateCount ? this.state.visibleKickoffDates.length : this.state.viewDateCount);
 
@@ -160,6 +183,10 @@ class Courses extends React.Component {
 
             nextThElement = nextThElement.nextSibling;
         }
+
+        this.setState({golfCourseNameWidth : this.tablePlaceName.current.offsetWidth, dateWidth:thLength});
+        this.forceUpdate();
+        console.log(['courses.js', this.state]);
     }
 
     getThClassName(kickoffDate) {
@@ -234,7 +261,7 @@ class Courses extends React.Component {
                             <div className="table-responsive">
                                 <table ref={this.tableElement} className="table table-striped table-bordered table-hover">
                                     <thead>
-                                    <tr>
+                                    <tr ref={this.tableHeader}>
                                         <th className={'booking-table-name text-center'} ref={this.tablePlaceName}>골프장</th>
                                         {this.state.visibleKickoffDates.map(_kickoff_date => {
                                                 return <th className={this.getThClassName(_kickoff_date)} key={`booking-${_kickoff_date}`}>
@@ -246,7 +273,7 @@ class Courses extends React.Component {
                                     <tbody>
                                     {this.state.courses.length != 0 && this.state.visibleKickoffDates.length !=0 ?
                                         this.state.courses.map(course => {
-                                            return <BookingRow key={`course-${course.id}`} course={course} visibleKickoffDates={this.state.visibleKickoffDates} />
+                                            return <BookingRow key={`course-${course.id}`} golfCourseNameWidth={this.state.golfCourseNameWidth} dateWidth={this.state.dateWidth} course={course} visibleKickoffDates={this.state.visibleKickoffDates} />
                                         })
                                      : <tr><td className={'text-center'} colSpan={this.state.kickoff_dates.length + 1}>검색결과가 없습니다.</td></tr>}
                                     </tbody>

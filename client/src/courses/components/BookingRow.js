@@ -6,20 +6,24 @@ class BookingRow extends React.Component {
         super(props);
         this.state = {
             course : props.course,
-            visibleKickoffDates : props.visibleKickoffDates
+            visibleKickoffDates : props.visibleKickoffDates,
+            golfCourseNameWidth : props.golfCourseNameWidth,
+            dateWidth : props.dateWidth
         }
     }
 
-    componentWillReceiveProps({visibleKickoffDates}) {
+    componentWillReceiveProps({visibleKickoffDates, golfCourseNameWidth, dateWidth}) {
         this.setState({
-            visibleKickoffDates: visibleKickoffDates
+            visibleKickoffDates: visibleKickoffDates,
+            golfCourseNameWidth : golfCourseNameWidth,
+            dateWidth : dateWidth
         });
     }
 
     render() {
         return (
             <tr>
-                <td className='text-center'>
+                <td className='text-center' style={{width:this.state.golfCourseNameWidth}}>
                     <span className='site-name'>{this.state.course.name}</span>
                     <span className='site-address text-muted'>{this.state.course.address}</span>
                 </td>
@@ -28,7 +32,7 @@ class BookingRow extends React.Component {
                     this.state.course.kickoffs
                         .filter(_kickoff => this.state.visibleKickoffDates.includes(_kickoff.kickoff_date))
                         .map((_kickoff, idx) => {
-                            return <BookingCell key={_kickoff.kickoff_date} kickoff={_kickoff}/>
+                            return <BookingCell key={_kickoff.kickoff_date} dateWidth={this.state.dateWidth} kickoff={_kickoff}/>
                          })
                     : ''
                 }

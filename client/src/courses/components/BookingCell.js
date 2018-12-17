@@ -4,17 +4,17 @@ import BookingCellHour from "./BookingCellHour";
 
 class BookingCell extends React.Component {
 
-    constructor(props) {
-        super(props);
+    constructor({kickoff, dateWidth}) {
+        super();
 
         // 시간생성
-        props.kickoff.sites.map(site => {
+        kickoff.sites.map(site => {
             let hour = DateUtility.convert(site.kickoff_time, 'YYYY.MM.DD HH:mm', 'HH');
             site['hour'] = hour;
         });
 
         // 시간대별로 그룹핑
-        const kickoffsByHour = CollectionUtility.groupBy(props.kickoff.sites, site => site.hour);
+        const kickoffsByHour = CollectionUtility.groupBy(kickoff.sites, site => site.hour);
 
         // site.id로 그룹핑
         kickoffsByHour.forEach((_kickoffs, key, thisMap) => {
@@ -31,20 +31,22 @@ class BookingCell extends React.Component {
         });
 
         this.state = {
-            kickoffsByHour : kickoffsByHour
+            kickoffsByHour : kickoffsByHour,
+            dateWidth : dateWidth
         }
     }
 
-    componentWillReceiveProps({kickoff}) {
+    componentWillReceiveProps({kickoff, dateWidth}) {
 
         this.setState({
-            kickoff: kickoff
+            kickoff: kickoff,
+            dateWidth : dateWidth
         });
     }
 
     render() {
         return (
-            <td className='booking-cell'>
+            <td className='booking-cell' style={{minWidth:this.state.dateWidth}}>
             {
                 this.state.kickoffsByHour ?
                     Array.from(this.state.kickoffsByHour.keys()).map(hour => {
