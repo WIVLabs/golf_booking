@@ -15,20 +15,21 @@ class BookingCellHour extends Component {
         if (CollectionUtility.isEmpty(sites)) return '';
 
         let foundOtherPrice = false;
-        let smallPrice = sites[0].price;
+        let highPrice = sites[0].price;
         sites.forEach(_site => {
-            if (_site.price == smallPrice) return;
+            if (_site.price == highPrice) return;
 
             foundOtherPrice = true;
-            if (smallPrice > _site.price) {
-                smallPrice = _site.price;
+            if (highPrice < _site.price) {
+                highPrice = _site.price;
             }
         });
 
+        let symbol = '';
         if (foundOtherPrice)
-            return (<Fragment>{StringUtility.withComma(smallPrice)}<span className="text-muted">원~</span></Fragment>);
-        else
-            return (<Fragment>{StringUtility.withComma(smallPrice)}<span className="text-muted">원<span style={{paddingRight: 8 +'px'}}></span></span></Fragment>);
+            symbol = '~';
+
+        return (<Fragment>{symbol}{StringUtility.withComma(highPrice)}<span className="text-muted">원</span></Fragment>);
     }
 
     render() {
