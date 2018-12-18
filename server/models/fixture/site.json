@@ -10,5 +10,17 @@
       "created_at": "2018-12-06T14:43:30.872",
       "updated_at": "2018-12-06T14:43:30.872"
     }
+  },
+  {
+    "model": "server.site",
+    "pk": 2,
+    "fields": {
+      "name": "X\uace8\ud504",
+      "url": "https://www.xgolf.com/",
+      "icon_url": "https://www.xgolf.com/favicon.ico",
+      "status": "A",
+      "created_at": "2018-12-17T16:39:46.569",
+      "updated_at": "2018-12-17T16:39:46.569"
+    }
   }
 ]

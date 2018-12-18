@@ -387,8 +387,8 @@
       "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=815",
       "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=815&book_regn_dv_cd=1&regn_cd=#targetId",
       "status": "A",
-      "created_at": "2018-12-06T23:04:14.000",
-      "updated_at": "2018-12-06T23:04:14.000"
+      "created_at": "2018-12-06T23:04:14",
+      "updated_at": "2018-12-06T23:04:14"
     }
   },
   {
@@ -933,8 +933,8 @@
       "info_url": "http://golf.sbs.co.kr/html/front/golfinfo/place2/detail_view_popup.jsp?golf_plc_no=150",
       "booking_url": "http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no=150&book_regn_dv_cd=2&regn_cd=#targetId",
       "status": "A",
-      "created_at": "2018-12-06T23:04:15.000",
-      "updated_at": "2018-12-06T23:04:15.000"
+      "created_at": "2018-12-06T23:04:15",
+      "updated_at": "2018-12-06T23:04:15"
     }
   },
   {
@@ -4519,6 +4519,566 @@
       "status": "A",
       "created_at": "2018-12-06T23:04:21.673",
       "updated_at": "2018-12-06T23:04:21.673"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 364,
+    "fields": {
+      "golf_course": 412,
+      "site": 2,
+      "pk_in_site": "162",
+      "info_url": "http://www.lakaisandpine.co.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=162",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.546",
+      "updated_at": "2018-12-17T16:47:08.546"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 365,
+    "fields": {
+      "golf_course": 413,
+      "site": 2,
+      "pk_in_site": "205",
+      "info_url": "https://www.tyleisure.co.kr/03_pinevalley/main_sub.jsp",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=205",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.562",
+      "updated_at": "2018-12-17T16:47:08.562"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 366,
+    "fields": {
+      "golf_course": 414,
+      "site": 2,
+      "pk_in_site": "369",
+      "info_url": "http://www.plazacc.co.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=369",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.579",
+      "updated_at": "2018-12-17T16:47:08.579"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 367,
+    "fields": {
+      "golf_course": 415,
+      "site": 2,
+      "pk_in_site": "185",
+      "info_url": "http://www.gogoldenbeach.co.kr",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=185",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.597",
+      "updated_at": "2018-12-17T16:47:08.597"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 368,
+    "fields": {
+      "golf_course": 416,
+      "site": 2,
+      "pk_in_site": "500",
+      "info_url": "http://www.hanyangcc.com/Default.aspx",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=500",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.614",
+      "updated_at": "2018-12-17T16:47:08.614"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 369,
+    "fields": {
+      "golf_course": 417,
+      "site": 2,
+      "pk_in_site": "257",
+      "info_url": "http://www.asecovalley.com/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=257",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.630",
+      "updated_at": "2018-12-17T16:47:08.630"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 370,
+    "fields": {
+      "golf_course": 418,
+      "site": 2,
+      "pk_in_site": "119",
+      "info_url": "http://www.lakehills.co.kr/g_as/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=119",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.649",
+      "updated_at": "2018-12-17T16:47:08.649"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 371,
+    "fields": {
+      "golf_course": 419,
+      "site": 2,
+      "pk_in_site": "1024",
+      "info_url": "http://www.koreapublic.co.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=1024",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.665",
+      "updated_at": "2018-12-17T16:47:08.665"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 372,
+    "fields": {
+      "golf_course": 420,
+      "site": 2,
+      "pk_in_site": "125",
+      "info_url": "http://www.seowongolf.co.kr",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=125",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.683",
+      "updated_at": "2018-12-17T16:47:08.683"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 373,
+    "fields": {
+      "golf_course": 421,
+      "site": 2,
+      "pk_in_site": "997",
+      "info_url": "http://www.purunsolgc.co.kr/pochun/main.asp",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=997",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.700",
+      "updated_at": "2018-12-17T16:47:08.700"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 374,
+    "fields": {
+      "golf_course": 422,
+      "site": 2,
+      "pk_in_site": "812",
+      "info_url": "http://www.foresthill.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=812",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.722",
+      "updated_at": "2018-12-17T16:47:08.722"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 375,
+    "fields": {
+      "golf_course": 423,
+      "site": 2,
+      "pk_in_site": "849",
+      "info_url": "http://www.linknine.co.kr/#3",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=849",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.756",
+      "updated_at": "2018-12-17T16:47:08.756"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 376,
+    "fields": {
+      "golf_course": 424,
+      "site": 2,
+      "pk_in_site": "418",
+      "info_url": "https://www.hwaseonggc.com/index1.asp",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=418",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.783",
+      "updated_at": "2018-12-17T16:47:08.783"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 377,
+    "fields": {
+      "golf_course": 425,
+      "site": 2,
+      "pk_in_site": "390",
+      "info_url": "http://www.baliosgc.com/index.asp",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=390",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.810",
+      "updated_at": "2018-12-17T16:47:08.810"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 378,
+    "fields": {
+      "golf_course": 426,
+      "site": 2,
+      "pk_in_site": "193",
+      "info_url": "https://www.geojeview.co.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=193",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.831",
+      "updated_at": "2018-12-17T16:47:08.831"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 379,
+    "fields": {
+      "golf_course": 427,
+      "site": 2,
+      "pk_in_site": "652",
+      "info_url": "http://www.debeach.co.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=652",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.851",
+      "updated_at": "2018-12-17T16:47:08.851"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 380,
+    "fields": {
+      "golf_course": 428,
+      "site": 2,
+      "pk_in_site": "1018",
+      "info_url": "http://www.debeach.co.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=1018",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.868",
+      "updated_at": "2018-12-17T16:47:08.868"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 381,
+    "fields": {
+      "golf_course": 429,
+      "site": 2,
+      "pk_in_site": "653",
+      "info_url": "http://www.nobelcc.co.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=653",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.886",
+      "updated_at": "2018-12-17T16:47:08.886"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 382,
+    "fields": {
+      "golf_course": 430,
+      "site": 2,
+      "pk_in_site": "699",
+      "info_url": "http://www.skyhill.co.kr/Gimhae",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=699",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.904",
+      "updated_at": "2018-12-17T16:47:08.905"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 383,
+    "fields": {
+      "golf_course": 431,
+      "site": 2,
+      "pk_in_site": "697",
+      "info_url": "http://www.tongdocc.co.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=697",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.921",
+      "updated_at": "2018-12-17T16:47:08.921"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 384,
+    "fields": {
+      "golf_course": 432,
+      "site": 2,
+      "pk_in_site": "647",
+      "info_url": "http://www.ywcc.co.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=647",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.943",
+      "updated_at": "2018-12-17T16:47:08.943"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 385,
+    "fields": {
+      "golf_course": 433,
+      "site": 2,
+      "pk_in_site": "402",
+      "info_url": "http://www.dongwonresort.co.kr",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=402",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.962",
+      "updated_at": "2018-12-17T16:47:08.962"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 386,
+    "fields": {
+      "golf_course": 434,
+      "site": 2,
+      "pk_in_site": "665",
+      "info_url": "http://www.seorabolgc.com",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=665",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:08.987",
+      "updated_at": "2018-12-17T16:47:08.987"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 387,
+    "fields": {
+      "golf_course": 435,
+      "site": 2,
+      "pk_in_site": "493",
+      "info_url": "https://applevalley.co.kr",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=493",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.014",
+      "updated_at": "2018-12-17T16:47:09.014"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 388,
+    "fields": {
+      "golf_course": 436,
+      "site": 2,
+      "pk_in_site": "795",
+      "info_url": "http://hugreen.gtc.co.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=795",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.042",
+      "updated_at": "2018-12-17T16:47:09.042"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 389,
+    "fields": {
+      "golf_course": 437,
+      "site": 2,
+      "pk_in_site": "469",
+      "info_url": "http://goeuncc.com",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=469",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.060",
+      "updated_at": "2018-12-17T16:47:09.060"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 390,
+    "fields": {
+      "golf_course": 438,
+      "site": 2,
+      "pk_in_site": "273",
+      "info_url": "http://www.msclub.co.kr/main/main.asp",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=273",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.077",
+      "updated_at": "2018-12-17T16:47:09.077"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 391,
+    "fields": {
+      "golf_course": 439,
+      "site": 2,
+      "pk_in_site": "751",
+      "info_url": "http://www.paragio.co.kr",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=751",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.094",
+      "updated_at": "2018-12-17T16:47:09.094"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 392,
+    "fields": {
+      "golf_course": 440,
+      "site": 2,
+      "pk_in_site": "859",
+      "info_url": "https://www.dongwongolf.co.kr/index.asp",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=859",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.111",
+      "updated_at": "2018-12-17T16:47:09.111"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 393,
+    "fields": {
+      "golf_course": 441,
+      "site": 2,
+      "pk_in_site": "774",
+      "info_url": "http://www.muancleanvalley.com/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=774",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.129",
+      "updated_at": "2018-12-17T16:47:09.129"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 394,
+    "fields": {
+      "golf_course": 442,
+      "site": 2,
+      "pk_in_site": "215",
+      "info_url": "http://www.jangsugolf.com",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=215",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.162",
+      "updated_at": "2018-12-17T16:47:09.162"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 395,
+    "fields": {
+      "golf_course": 443,
+      "site": 2,
+      "pk_in_site": "373",
+      "info_url": "https://www.princessgc.co.kr/index1.asp",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=373",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.197",
+      "updated_at": "2018-12-17T16:47:09.197"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 396,
+    "fields": {
+      "golf_course": 444,
+      "site": 2,
+      "pk_in_site": "279",
+      "info_url": "http://www.sngolfresort.co.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=279",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.227",
+      "updated_at": "2018-12-17T16:47:09.227"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 397,
+    "fields": {
+      "golf_course": 445,
+      "site": 2,
+      "pk_in_site": "333",
+      "info_url": "http://www.skyhill.co.kr",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=333",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.250",
+      "updated_at": "2018-12-17T16:47:09.250"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 398,
+    "fields": {
+      "golf_course": 446,
+      "site": 2,
+      "pk_in_site": "444",
+      "info_url": "http://www.baekjecc.com",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=444",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.322",
+      "updated_at": "2018-12-17T16:47:09.322"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 399,
+    "fields": {
+      "golf_course": 447,
+      "site": 2,
+      "pk_in_site": "839",
+      "info_url": "http://www.clubd.co.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=839",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.346",
+      "updated_at": "2018-12-17T16:47:09.346"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 400,
+    "fields": {
+      "golf_course": 448,
+      "site": 2,
+      "pk_in_site": "143",
+      "info_url": "http://www.koscacc.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=143",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.375",
+      "updated_at": "2018-12-17T16:47:09.375"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 401,
+    "fields": {
+      "golf_course": 449,
+      "site": 2,
+      "pk_in_site": "685",
+      "info_url": "https://www.royalforet.com/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=685",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.438",
+      "updated_at": "2018-12-17T16:47:09.438"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 402,
+    "fields": {
+      "golf_course": 450,
+      "site": 2,
+      "pk_in_site": "343",
+      "info_url": "https://www.curokyunggicc.com/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=343",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.471",
+      "updated_at": "2018-12-17T16:47:09.471"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 403,
+    "fields": {
+      "golf_course": 451,
+      "site": 2,
+      "pk_in_site": "127",
+      "info_url": "https://www.bearportcc.co.kr/",
+      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=127",
+      "status": "A",
+      "created_at": "2018-12-17T16:47:09.490",
+      "updated_at": "2018-12-17T16:47:09.490"
     }
   }
 ]

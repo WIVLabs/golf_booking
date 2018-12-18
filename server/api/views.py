@@ -41,7 +41,7 @@ class GolfCourseList(generics.ListCreateAPIView):
 
 class GolfCourseMapperList(generics.ListCreateAPIView):
     serializer_class = GolfCourseMapperSerializer
-    filter_opts = ['status']
+    filter_opts = ['status', 'site']
 
     def get_queryset(self):
         filtering = {_key: _value for _key, _value in self.request.query_params.items() if _key in self.filter_opts}

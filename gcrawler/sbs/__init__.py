@@ -2,10 +2,7 @@ import re
 import time
 import requests
 import traceback
-from pprint import pprint
 from random import randint
-from ddict import DotAccessDict
-from urllib.parse import urljoin
 from datetime import datetime, timedelta
 from gcrawler.utils.downloader import Downloader
 
@@ -114,7 +111,7 @@ def test():
 
 
 if __name__ == '__main__':
-    url = 'http://127.0.0.1:8000/api/golf-course-mapper'
+    url = 'http://127.0.0.1:8000/api/golf-course-mapper?site=1'
     items = Downloader(url).json
     if items:
         for i, _item in enumerate(items, start=1):

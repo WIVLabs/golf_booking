@@ -15,7 +15,7 @@ class GolfCourse(models.Model):
     url = models.URLField(blank=True, default='')
     status = models.CharField(max_length=1,
                               choices=Status.choices(),
-                              default=Status.A.value,
+                              default='A',
                               db_index=True)
 
     created_at = models.DateTimeField(auto_now_add=True)
@@ -43,7 +43,7 @@ class GolfCourseMapper(models.Model):
     booking_url = models.URLField(blank=True, default='')
     status = models.CharField(max_length=1,
                               choices=Status.choices(),
-                              default=Status.A.value,
+                              default='A',
                               db_index=True)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
