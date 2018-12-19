@@ -31,7 +31,7 @@ class CourseForm extends React.Component {
         }
     }
 
-    changeCourse(ob){
+    changeCourse(ob) {
         this.props.onChange(ob.target.value);
     }
 
@@ -40,17 +40,24 @@ class CourseForm extends React.Component {
             return {'text': _course.name, 'id': _course.id}
         });
         return (
-            <div className="form-group">
-                <label>골프장</label>
-                <Select2
-                    data={courses}
-                    onChange={this.changeCourse}
-                    options={{
-                        placeholder: '전체',
-                        width: '100%'
-                    }}
-                    defaultValue={this.props.course}
-                />
+            <div className="form-group row">
+                <label className="search-title col-form-label">
+                    {this.props.hastitle === "true" ?
+                        <span><i className="fa fa-golf-ball"></i> 골프장</span> :
+                        <i className="fa fa-golf-ball fa-2x"></i>
+                    }
+                </label>
+                <div className="col">
+                    <Select2
+                        data={courses}
+                        onChange={this.changeCourse}
+                        options={{
+                            placeholder: '골프장 전체',
+                            width: '100%'
+                        }}
+                        defaultValue={this.props.course}
+                    />
+                </div>
             </div>
         );
     }

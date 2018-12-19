@@ -12,8 +12,14 @@ class GreenFeeRangeForm extends React.Component {
 
     render() {
         return (
-            <div className="form-group">
-                <label>그린피</label>
+            <div className="form-group row">
+                <label className="col-form-label search-title">
+             {this.props.hastitle === "true" ?
+                    <span><i className="fa fa-dollar-sign"></i> 그린피</span> :
+                    <i className="fa fa-dollar-sign fa-2x"></i>
+                }
+                </label>
+                <div className="col">
                 <IonSlider options={{
                     type: 'double',
                     min: '10000',
@@ -24,10 +30,10 @@ class GreenFeeRangeForm extends React.Component {
                     postfix: '원',
                     prettifySeparator: ',',
                     skin: 'round',
-                    grid: 'true',
                     onChange: (ob) => this.props.onChange({from: ob.from, to: ob.to})
                 }}
                 />
+                </div>
             </div>
         );
     }
