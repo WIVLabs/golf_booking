@@ -23,6 +23,8 @@ class GreenFeeRangeForm extends React.Component {
                     step: '10000',
                     postfix: '원',
                     prettifySeparator: ',',
+                    skin: 'round',
+                    grid: 'true',
                     onChange: (ob) => this.props.onChange({from: ob.from, to: ob.to})
                 }}
                 />

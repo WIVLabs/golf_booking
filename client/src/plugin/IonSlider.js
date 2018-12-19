@@ -1,8 +1,6 @@
 import React from 'react';
 import 'script-loader!ion-rangeslider/js/ion.rangeSlider.min.js';
-import '../../node_modules/ion-rangeslider/css/normalize.css';
-import '../../node_modules/ion-rangeslider/css/ion.rangeSlider.skinFlat.css';
-
+import '../../node_modules/ion-rangeslider/css/ion.rangeSlider.min.css';
 
 export default class IonSlider extends React.Component {
     componentDidMount() {

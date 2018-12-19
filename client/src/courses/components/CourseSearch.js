@@ -4,6 +4,7 @@ import GreenFeeRangeForm from "../../components/GreenFeeRangeForm";
 import TimeRangeForm from "../../components/TimeRangeForm";
 import RegionForm from "../../components/RegionForm";
 import CourseForm from "../../components/CourseForm";
+import './CourseSearch.scss';
 import Moment from "moment";
 import {extendMoment} from 'moment-range';
 const moment = extendMoment(Moment);
@@ -23,41 +24,47 @@ class CourseSearch extends React.Component {
 
     render() {
         return (
-            <div className="border rounded border-info m-5 bg-light">
-                <form style={{width: 800 + 'px'}} className="m-auto">
-                    <div className="form-row">
-                        <div className="col p-3">
-                            <MultiDateForm bookingdates={this.props.booking_dates}
-                                           onChange={(_bookingDates) => this.state.booking_dates = _bookingDates.map(_d => moment(_d).format('YYYY-MM-DD'))}/>
+            <header className="search-head text-light">
+                <div className="wrap-head">
+                    위브랩 골프
+                </div>
+                <div className="info-route open-detail">
+                    <form className="ml-auto mr-auto mt-5 search-form">
+                        <div className="form-row">
+                            <div className="col p-3">
+                                <MultiDateForm bookingdates={this.props.booking_dates}
+                                               onChange={(_bookingDates) => this.state.booking_dates = _bookingDates.map(_d => moment(_d).format('YYYY-MM-DD'))}/>
+                            </div>
+                            <div className="col p-3">
+                                <TimeRangeForm timerange={this.props.time_range}
+                                               onChange={(_timeRange) => this.state.time_range = _timeRange}/>
+                            </div>
                         </div>
-                        <div className="col p-3">
-                            <TimeRangeForm timerange={this.props.time_range}
-                                           onChange={(_timeRange) => this.state.time_range = _timeRange}/>
+                        <div className="form-row">
+                            <div className="col p-3">
+                                <RegionForm region={this.props.region}
+                                            onChange={(_region) => this.setState({region: _region})}/>
+                            </div>
+                            <div className="col p-3">
+                                <CourseForm course={this.props.course}
+                                            region={this.state.region}
+                                            onChange={(_course) => this.state.course = _course}/>
+                            </div>
+                            <div className="col p-3">
+                                <GreenFeeRangeForm greenfeerange={this.props.greenfee_range}
+                                                   onChange={(_range) => this.state.greenfee_range = _range}/>
+                            </div>
                         </div>
-                    </div>
-                    <div className="form-row">
-                        <div className="col p-3">
-                            <RegionForm region={this.props.region}
-                                        onChange={(_region) => this.setState({region: _region})}/>
+                        <div className="form-row mb-3">
+                            <a className="btn btn-primary ml-auto search-btn"
+                               onClick={() => this.props.onClick(this.state)}>
+                                <i className="fa fa-golf-ball"></i> 검색
+                            </a>
                         </div>
-                        <div className="col p-3">
-                            <CourseForm course={this.props.course}
-                                        region={this.state.region}
-                                        onChange={(_course) => this.state.course = _course}/>
-                        </div>
-                        <div className="col p-3">
-                            <GreenFeeRangeForm greenfeerange={this.props.greenfee_range}
-                                               onChange={(_range) => this.state.greenfee_range = _range}/>
-                        </div>
-                    </div>
-                    <div className="form-row mb-3">
-                        <a className="btn btn-primary ml-auto"
-                           onClick={() => this.props.onClick(this.state)}>
-                            <i className="fa fa-golf-ball"></i> 검색
-                        </a>
-                    </div>
-                </form>
-            </div>
+                    </form>
+                </div>
+                <div></div>
+            </header>
         )
     }
 }

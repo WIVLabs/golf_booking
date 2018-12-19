@@ -21,6 +21,7 @@ class TimeRangeForm extends React.Component {
                     from: this.state.from,
                     to: this.state.to,
                     postfix: '시',
+                    skin: 'round',
                     onChange: (range) => this.props.onChange({from: range.from, to: range.to})
                 }}/>
             </div>
