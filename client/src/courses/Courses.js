@@ -227,7 +227,7 @@ class Courses extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="main-layout">
                 <CourseSearch booking_dates={this.state.searchParams.booking_dates}
                               time_range={this.state.searchParams.time_range}
                               region={this.state.searchParams.region}

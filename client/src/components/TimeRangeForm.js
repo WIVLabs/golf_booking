@@ -13,13 +13,12 @@ class TimeRangeForm extends React.Component {
     render() {
         return (
             <div className="form-group row">
-                <label className="col-form-label search-title">
-                    {this.props.hastitle === "true" ?
-                        <span><i className="fa fa-clock"></i> 시간대</span> :
-                        <i className="fa fa-clock fa-2x"></i>
-                    }
-                </label>
-                <div className="col-sm-10">
+                {this.props.hastitle === "true" ?
+                    <label className="col-form-label search-title">
+                        <i className="fa fa-clock"></i> 시간대
+                    </label> : ''
+                }
+                <div className="col">
                     <IonSlider {...this.props} options={{
                         type: 'double',
                         min: '4',
