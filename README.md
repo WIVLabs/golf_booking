@@ -14,9 +14,14 @@ django react 기술 기반 프로젝트
 4. yarn run watch OR npm run watch
 
 ## SERVER - DJANGO
-1. cd PROJECT
-2. pip install -r requirements.txt
-3. Open another Termianl
-4. python manage.py runserver 
+```
+cd PROJECT;
+pip install -r requirements.txt;
+python manage.py runserver;
+``` 
+이때, mysqlclient가 설치가 안될때 (참고: https://github.com/PyMySQL/mysqlclient-python/issues/new)
+```
+LDFLAGS=-L/usr/local/opt/openssl/lib pip install mysqlclient;
+```
 
 Development Environment DONE

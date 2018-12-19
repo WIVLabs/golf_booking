@@ -4523,562 +4523,2760 @@
   },
   {
     "model": "server.golfcoursemapper",
+    "pk": 324,
+    "fields": {
+      "golf_course": 2,
+      "site": 2,
+      "pk_in_site": "367",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=367",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=367",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.552",
+      "updated_at": "2018-12-19T16:14:16.552"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 325,
+    "fields": {
+      "golf_course": 3,
+      "site": 2,
+      "pk_in_site": "113",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=113",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=113",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.562",
+      "updated_at": "2018-12-19T16:14:16.562"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 326,
+    "fields": {
+      "golf_course": 6,
+      "site": 2,
+      "pk_in_site": "310",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=310",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=310",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.577",
+      "updated_at": "2018-12-19T16:14:16.577"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 327,
+    "fields": {
+      "golf_course": 7,
+      "site": 2,
+      "pk_in_site": "297",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=297",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=297",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.591",
+      "updated_at": "2018-12-19T16:14:16.591"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 328,
+    "fields": {
+      "golf_course": 8,
+      "site": 2,
+      "pk_in_site": "953",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=953",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=953",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.601",
+      "updated_at": "2018-12-19T16:14:16.601"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 329,
+    "fields": {
+      "golf_course": 9,
+      "site": 2,
+      "pk_in_site": "967",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=967",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=967",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.612",
+      "updated_at": "2018-12-19T16:14:16.612"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 330,
+    "fields": {
+      "golf_course": 10,
+      "site": 2,
+      "pk_in_site": "809",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=809",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=809",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.624",
+      "updated_at": "2018-12-19T16:14:16.624"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 331,
+    "fields": {
+      "golf_course": 11,
+      "site": 2,
+      "pk_in_site": "445",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=445",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=445",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.633",
+      "updated_at": "2018-12-19T16:14:16.633"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 332,
+    "fields": {
+      "golf_course": 12,
+      "site": 2,
+      "pk_in_site": "114",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=114",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=114",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.642",
+      "updated_at": "2018-12-19T16:14:16.642"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 333,
+    "fields": {
+      "golf_course": 13,
+      "site": 2,
+      "pk_in_site": "738",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=738",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=738",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.653",
+      "updated_at": "2018-12-19T16:14:16.653"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 334,
+    "fields": {
+      "golf_course": 17,
+      "site": 2,
+      "pk_in_site": "801",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=801",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=801",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.662",
+      "updated_at": "2018-12-19T16:14:16.662"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 335,
+    "fields": {
+      "golf_course": 19,
+      "site": 2,
+      "pk_in_site": "349",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=349",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=349",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.674",
+      "updated_at": "2018-12-19T16:14:16.674"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 336,
+    "fields": {
+      "golf_course": 20,
+      "site": 2,
+      "pk_in_site": "311",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=311",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=311",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.683",
+      "updated_at": "2018-12-19T16:14:16.683"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 337,
+    "fields": {
+      "golf_course": 21,
+      "site": 2,
+      "pk_in_site": "365",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=365",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=365",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.692",
+      "updated_at": "2018-12-19T16:14:16.692"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 338,
+    "fields": {
+      "golf_course": 22,
+      "site": 2,
+      "pk_in_site": "814",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=814",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=814",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.701",
+      "updated_at": "2018-12-19T16:14:16.701"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 339,
+    "fields": {
+      "golf_course": 23,
+      "site": 2,
+      "pk_in_site": "112",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=112",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=112",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.710",
+      "updated_at": "2018-12-19T16:14:16.710"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 340,
+    "fields": {
+      "golf_course": 26,
+      "site": 2,
+      "pk_in_site": "745",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=745",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=745",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.720",
+      "updated_at": "2018-12-19T16:14:16.720"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 341,
+    "fields": {
+      "golf_course": 28,
+      "site": 2,
+      "pk_in_site": "878",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=878",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=878",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.728",
+      "updated_at": "2018-12-19T16:14:16.728"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 342,
+    "fields": {
+      "golf_course": 29,
+      "site": 2,
+      "pk_in_site": "446",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=446",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=446",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.738",
+      "updated_at": "2018-12-19T16:14:16.738"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 343,
+    "fields": {
+      "golf_course": 30,
+      "site": 2,
+      "pk_in_site": "599",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=599",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=599",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.748",
+      "updated_at": "2018-12-19T16:14:16.748"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 344,
+    "fields": {
+      "golf_course": 31,
+      "site": 2,
+      "pk_in_site": "805",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=805",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=805",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.758",
+      "updated_at": "2018-12-19T16:14:16.758"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 345,
+    "fields": {
+      "golf_course": 33,
+      "site": 2,
+      "pk_in_site": "985",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=985",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=985",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.779",
+      "updated_at": "2018-12-19T16:14:16.779"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 346,
+    "fields": {
+      "golf_course": 34,
+      "site": 2,
+      "pk_in_site": "122",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=122",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=122",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.800",
+      "updated_at": "2018-12-19T16:14:16.800"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 347,
+    "fields": {
+      "golf_course": 36,
+      "site": 2,
+      "pk_in_site": "981",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=981",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=981",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.815",
+      "updated_at": "2018-12-19T16:14:16.815"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 348,
+    "fields": {
+      "golf_course": 37,
+      "site": 2,
+      "pk_in_site": "982",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=982",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=982",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.833",
+      "updated_at": "2018-12-19T16:14:16.833"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 349,
+    "fields": {
+      "golf_course": 38,
+      "site": 2,
+      "pk_in_site": "396",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=396",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=396",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.848",
+      "updated_at": "2018-12-19T16:14:16.848"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 350,
+    "fields": {
+      "golf_course": 39,
+      "site": 2,
+      "pk_in_site": "435",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=435",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=435",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.868",
+      "updated_at": "2018-12-19T16:14:16.868"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 351,
+    "fields": {
+      "golf_course": 40,
+      "site": 2,
+      "pk_in_site": "480",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=480",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=480",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.886",
+      "updated_at": "2018-12-19T16:14:16.886"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 352,
+    "fields": {
+      "golf_course": 41,
+      "site": 2,
+      "pk_in_site": "108",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=108",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=108",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.902",
+      "updated_at": "2018-12-19T16:14:16.902"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 353,
+    "fields": {
+      "golf_course": 43,
+      "site": 2,
+      "pk_in_site": "747",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=747",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=747",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.916",
+      "updated_at": "2018-12-19T16:14:16.916"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 354,
+    "fields": {
+      "golf_course": 45,
+      "site": 2,
+      "pk_in_site": "968",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=968",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=968",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.930",
+      "updated_at": "2018-12-19T16:14:16.930"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 355,
+    "fields": {
+      "golf_course": 46,
+      "site": 2,
+      "pk_in_site": "939",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=939",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=939",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.956",
+      "updated_at": "2018-12-19T16:14:16.956"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 356,
+    "fields": {
+      "golf_course": 47,
+      "site": 2,
+      "pk_in_site": "340",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=340",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=340",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.971",
+      "updated_at": "2018-12-19T16:14:16.971"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 357,
+    "fields": {
+      "golf_course": 50,
+      "site": 2,
+      "pk_in_site": "104",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=104",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=104",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:16.988",
+      "updated_at": "2018-12-19T16:14:16.988"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 358,
+    "fields": {
+      "golf_course": 52,
+      "site": 2,
+      "pk_in_site": "998",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=998",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=998",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.004",
+      "updated_at": "2018-12-19T16:14:17.004"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 359,
+    "fields": {
+      "golf_course": 53,
+      "site": 2,
+      "pk_in_site": "115",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=115",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=115",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.022",
+      "updated_at": "2018-12-19T16:14:17.022"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 360,
+    "fields": {
+      "golf_course": 55,
+      "site": 2,
+      "pk_in_site": "141",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=141",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=141",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.044",
+      "updated_at": "2018-12-19T16:14:17.044"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 361,
+    "fields": {
+      "golf_course": 56,
+      "site": 2,
+      "pk_in_site": "116",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=116",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=116",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.062",
+      "updated_at": "2018-12-19T16:14:17.062"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 362,
+    "fields": {
+      "golf_course": 57,
+      "site": 2,
+      "pk_in_site": "324",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=324",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=324",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.078",
+      "updated_at": "2018-12-19T16:14:17.078"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 363,
+    "fields": {
+      "golf_course": 60,
+      "site": 2,
+      "pk_in_site": "132",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=132",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=132",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.098",
+      "updated_at": "2018-12-19T16:14:17.098"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
     "pk": 364,
     "fields": {
-      "golf_course": 412,
+      "golf_course": 61,
       "site": 2,
-      "pk_in_site": "162",
-      "info_url": "http://www.lakaisandpine.co.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=162",
+      "pk_in_site": "429",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=429",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=429",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.546",
-      "updated_at": "2018-12-17T16:47:08.546"
+      "created_at": "2018-12-19T16:14:17.114",
+      "updated_at": "2018-12-19T16:14:17.114"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 365,
     "fields": {
-      "golf_course": 413,
+      "golf_course": 63,
       "site": 2,
-      "pk_in_site": "205",
-      "info_url": "https://www.tyleisure.co.kr/03_pinevalley/main_sub.jsp",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=205",
+      "pk_in_site": "233",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=233",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=233",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.562",
-      "updated_at": "2018-12-17T16:47:08.562"
+      "created_at": "2018-12-19T16:14:17.131",
+      "updated_at": "2018-12-19T16:14:17.131"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 366,
     "fields": {
-      "golf_course": 414,
+      "golf_course": 64,
       "site": 2,
-      "pk_in_site": "369",
-      "info_url": "http://www.plazacc.co.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=369",
+      "pk_in_site": "163",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=163",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=163",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.579",
-      "updated_at": "2018-12-17T16:47:08.579"
+      "created_at": "2018-12-19T16:14:17.148",
+      "updated_at": "2018-12-19T16:14:17.148"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 367,
     "fields": {
-      "golf_course": 415,
+      "golf_course": 67,
       "site": 2,
-      "pk_in_site": "185",
-      "info_url": "http://www.gogoldenbeach.co.kr",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=185",
+      "pk_in_site": "326",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=326",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=326",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.597",
-      "updated_at": "2018-12-17T16:47:08.597"
+      "created_at": "2018-12-19T16:14:17.167",
+      "updated_at": "2018-12-19T16:14:17.167"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 368,
     "fields": {
-      "golf_course": 416,
+      "golf_course": 68,
       "site": 2,
-      "pk_in_site": "500",
-      "info_url": "http://www.hanyangcc.com/Default.aspx",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=500",
+      "pk_in_site": "105",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=105",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=105",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.614",
-      "updated_at": "2018-12-17T16:47:08.614"
+      "created_at": "2018-12-19T16:14:17.197",
+      "updated_at": "2018-12-19T16:14:17.197"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 369,
     "fields": {
-      "golf_course": 417,
+      "golf_course": 70,
       "site": 2,
-      "pk_in_site": "257",
-      "info_url": "http://www.asecovalley.com/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=257",
+      "pk_in_site": "312",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=312",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=312",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.630",
-      "updated_at": "2018-12-17T16:47:08.630"
+      "created_at": "2018-12-19T16:14:17.219",
+      "updated_at": "2018-12-19T16:14:17.219"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 370,
     "fields": {
-      "golf_course": 418,
+      "golf_course": 71,
       "site": 2,
-      "pk_in_site": "119",
-      "info_url": "http://www.lakehills.co.kr/g_as/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=119",
+      "pk_in_site": "802",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=802",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=802",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.649",
-      "updated_at": "2018-12-17T16:47:08.649"
+      "created_at": "2018-12-19T16:14:17.243",
+      "updated_at": "2018-12-19T16:14:17.244"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 371,
     "fields": {
-      "golf_course": 419,
+      "golf_course": 72,
       "site": 2,
-      "pk_in_site": "1024",
-      "info_url": "http://www.koreapublic.co.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=1024",
+      "pk_in_site": "130",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=130",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=130",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.665",
-      "updated_at": "2018-12-17T16:47:08.665"
+      "created_at": "2018-12-19T16:14:17.263",
+      "updated_at": "2018-12-19T16:14:17.263"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 372,
     "fields": {
-      "golf_course": 420,
+      "golf_course": 74,
       "site": 2,
-      "pk_in_site": "125",
-      "info_url": "http://www.seowongolf.co.kr",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=125",
+      "pk_in_site": "106",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=106",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=106",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.683",
-      "updated_at": "2018-12-17T16:47:08.683"
+      "created_at": "2018-12-19T16:14:17.280",
+      "updated_at": "2018-12-19T16:14:17.280"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 373,
     "fields": {
-      "golf_course": 421,
+      "golf_course": 75,
       "site": 2,
-      "pk_in_site": "997",
-      "info_url": "http://www.purunsolgc.co.kr/pochun/main.asp",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=997",
+      "pk_in_site": "109",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=109",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=109",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.700",
-      "updated_at": "2018-12-17T16:47:08.700"
+      "created_at": "2018-12-19T16:14:17.291",
+      "updated_at": "2018-12-19T16:14:17.291"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 374,
     "fields": {
-      "golf_course": 422,
+      "golf_course": 78,
       "site": 2,
-      "pk_in_site": "812",
-      "info_url": "http://www.foresthill.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=812",
+      "pk_in_site": "990",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=990",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=990",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.722",
-      "updated_at": "2018-12-17T16:47:08.722"
+      "created_at": "2018-12-19T16:14:17.301",
+      "updated_at": "2018-12-19T16:14:17.301"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 375,
     "fields": {
-      "golf_course": 423,
+      "golf_course": 82,
       "site": 2,
-      "pk_in_site": "849",
-      "info_url": "http://www.linknine.co.kr/#3",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=849",
+      "pk_in_site": "123",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=123",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=123",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.756",
-      "updated_at": "2018-12-17T16:47:08.756"
+      "created_at": "2018-12-19T16:14:17.310",
+      "updated_at": "2018-12-19T16:14:17.310"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 376,
     "fields": {
-      "golf_course": 424,
+      "golf_course": 83,
       "site": 2,
-      "pk_in_site": "418",
-      "info_url": "https://www.hwaseonggc.com/index1.asp",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=418",
+      "pk_in_site": "101",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=101",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=101",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.783",
-      "updated_at": "2018-12-17T16:47:08.783"
+      "created_at": "2018-12-19T16:14:17.322",
+      "updated_at": "2018-12-19T16:14:17.322"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 377,
     "fields": {
-      "golf_course": 425,
+      "golf_course": 85,
       "site": 2,
-      "pk_in_site": "390",
-      "info_url": "http://www.baliosgc.com/index.asp",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=390",
+      "pk_in_site": "980",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=980",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=980",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.810",
-      "updated_at": "2018-12-17T16:47:08.810"
+      "created_at": "2018-12-19T16:14:17.331",
+      "updated_at": "2018-12-19T16:14:17.331"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 378,
     "fields": {
-      "golf_course": 426,
+      "golf_course": 86,
       "site": 2,
-      "pk_in_site": "193",
-      "info_url": "https://www.geojeview.co.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=193",
+      "pk_in_site": "440",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=440",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=440",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.831",
-      "updated_at": "2018-12-17T16:47:08.831"
+      "created_at": "2018-12-19T16:14:17.340",
+      "updated_at": "2018-12-19T16:14:17.340"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 379,
     "fields": {
-      "golf_course": 427,
+      "golf_course": 87,
       "site": 2,
-      "pk_in_site": "652",
-      "info_url": "http://www.debeach.co.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=652",
+      "pk_in_site": "455",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=455",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=455",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.851",
-      "updated_at": "2018-12-17T16:47:08.851"
+      "created_at": "2018-12-19T16:14:17.349",
+      "updated_at": "2018-12-19T16:14:17.349"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 380,
     "fields": {
-      "golf_course": 428,
+      "golf_course": 88,
       "site": 2,
-      "pk_in_site": "1018",
-      "info_url": "http://www.debeach.co.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=1018",
+      "pk_in_site": "107",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=107",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=107",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.868",
-      "updated_at": "2018-12-17T16:47:08.868"
+      "created_at": "2018-12-19T16:14:17.361",
+      "updated_at": "2018-12-19T16:14:17.361"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 381,
     "fields": {
-      "golf_course": 429,
+      "golf_course": 89,
       "site": 2,
-      "pk_in_site": "653",
-      "info_url": "http://www.nobelcc.co.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=653",
+      "pk_in_site": "456",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=456",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=456",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.886",
-      "updated_at": "2018-12-17T16:47:08.886"
+      "created_at": "2018-12-19T16:14:17.376",
+      "updated_at": "2018-12-19T16:14:17.376"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 382,
     "fields": {
-      "golf_course": 430,
+      "golf_course": 90,
       "site": 2,
-      "pk_in_site": "699",
-      "info_url": "http://www.skyhill.co.kr/Gimhae",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=699",
+      "pk_in_site": "111",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=111",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=111",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.904",
-      "updated_at": "2018-12-17T16:47:08.905"
+      "created_at": "2018-12-19T16:14:17.396",
+      "updated_at": "2018-12-19T16:14:17.396"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 383,
     "fields": {
-      "golf_course": 431,
+      "golf_course": 91,
       "site": 2,
-      "pk_in_site": "697",
-      "info_url": "http://www.tongdocc.co.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=697",
+      "pk_in_site": "140",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=140",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=140",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.921",
-      "updated_at": "2018-12-17T16:47:08.921"
+      "created_at": "2018-12-19T16:14:17.414",
+      "updated_at": "2018-12-19T16:14:17.414"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 384,
     "fields": {
-      "golf_course": 432,
+      "golf_course": 92,
       "site": 2,
-      "pk_in_site": "647",
-      "info_url": "http://www.ywcc.co.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=647",
+      "pk_in_site": "366",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=366",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=366",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.943",
-      "updated_at": "2018-12-17T16:47:08.943"
+      "created_at": "2018-12-19T16:14:17.434",
+      "updated_at": "2018-12-19T16:14:17.434"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 385,
     "fields": {
-      "golf_course": 433,
+      "golf_course": 93,
       "site": 2,
-      "pk_in_site": "402",
-      "info_url": "http://www.dongwonresort.co.kr",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=402",
+      "pk_in_site": "464",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=464",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=464",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.962",
-      "updated_at": "2018-12-17T16:47:08.962"
+      "created_at": "2018-12-19T16:14:17.455",
+      "updated_at": "2018-12-19T16:14:17.455"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 386,
     "fields": {
-      "golf_course": 434,
+      "golf_course": 94,
       "site": 2,
-      "pk_in_site": "665",
-      "info_url": "http://www.seorabolgc.com",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=665",
+      "pk_in_site": "222",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=222",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=222",
       "status": "A",
-      "created_at": "2018-12-17T16:47:08.987",
-      "updated_at": "2018-12-17T16:47:08.987"
+      "created_at": "2018-12-19T16:14:17.480",
+      "updated_at": "2018-12-19T16:14:17.480"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 387,
     "fields": {
-      "golf_course": 435,
+      "golf_course": 95,
       "site": 2,
-      "pk_in_site": "493",
-      "info_url": "https://applevalley.co.kr",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=493",
+      "pk_in_site": "603",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=603",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=603",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.014",
-      "updated_at": "2018-12-17T16:47:09.014"
+      "created_at": "2018-12-19T16:14:17.501",
+      "updated_at": "2018-12-19T16:14:17.501"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 388,
     "fields": {
-      "golf_course": 436,
+      "golf_course": 97,
       "site": 2,
-      "pk_in_site": "795",
-      "info_url": "http://hugreen.gtc.co.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=795",
+      "pk_in_site": "133",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=133",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=133",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.042",
-      "updated_at": "2018-12-17T16:47:09.042"
+      "created_at": "2018-12-19T16:14:17.518",
+      "updated_at": "2018-12-19T16:14:17.518"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 389,
     "fields": {
-      "golf_course": 437,
+      "golf_course": 98,
       "site": 2,
-      "pk_in_site": "469",
-      "info_url": "http://goeuncc.com",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=469",
+      "pk_in_site": "118",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=118",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=118",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.060",
-      "updated_at": "2018-12-17T16:47:09.060"
+      "created_at": "2018-12-19T16:14:17.531",
+      "updated_at": "2018-12-19T16:14:17.531"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 390,
     "fields": {
-      "golf_course": 438,
+      "golf_course": 99,
       "site": 2,
-      "pk_in_site": "273",
-      "info_url": "http://www.msclub.co.kr/main/main.asp",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=273",
+      "pk_in_site": "128",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=128",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=128",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.077",
-      "updated_at": "2018-12-17T16:47:09.077"
+      "created_at": "2018-12-19T16:14:17.540",
+      "updated_at": "2018-12-19T16:14:17.540"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 391,
     "fields": {
-      "golf_course": 439,
+      "golf_course": 100,
       "site": 2,
-      "pk_in_site": "751",
-      "info_url": "http://www.paragio.co.kr",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=751",
+      "pk_in_site": "178",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=178",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=178",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.094",
-      "updated_at": "2018-12-17T16:47:09.094"
+      "created_at": "2018-12-19T16:14:17.550",
+      "updated_at": "2018-12-19T16:14:17.550"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 392,
     "fields": {
-      "golf_course": 440,
+      "golf_course": 104,
       "site": 2,
-      "pk_in_site": "859",
-      "info_url": "https://www.dongwongolf.co.kr/index.asp",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=859",
+      "pk_in_site": "330",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=330",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=330",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.111",
-      "updated_at": "2018-12-17T16:47:09.111"
+      "created_at": "2018-12-19T16:14:17.559",
+      "updated_at": "2018-12-19T16:14:17.559"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 393,
     "fields": {
-      "golf_course": 441,
+      "golf_course": 105,
       "site": 2,
-      "pk_in_site": "774",
-      "info_url": "http://www.muancleanvalley.com/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=774",
+      "pk_in_site": "318",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=318",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=318",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.129",
-      "updated_at": "2018-12-17T16:47:09.129"
+      "created_at": "2018-12-19T16:14:17.569",
+      "updated_at": "2018-12-19T16:14:17.569"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 394,
     "fields": {
-      "golf_course": 442,
+      "golf_course": 107,
       "site": 2,
-      "pk_in_site": "215",
-      "info_url": "http://www.jangsugolf.com",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=215",
+      "pk_in_site": "314",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=314",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=314",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.162",
-      "updated_at": "2018-12-17T16:47:09.162"
+      "created_at": "2018-12-19T16:14:17.579",
+      "updated_at": "2018-12-19T16:14:17.579"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 395,
     "fields": {
-      "golf_course": 443,
+      "golf_course": 109,
       "site": 2,
-      "pk_in_site": "373",
-      "info_url": "https://www.princessgc.co.kr/index1.asp",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=373",
+      "pk_in_site": "124",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=124",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=124",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.197",
-      "updated_at": "2018-12-17T16:47:09.197"
+      "created_at": "2018-12-19T16:14:17.596",
+      "updated_at": "2018-12-19T16:14:17.596"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 396,
     "fields": {
-      "golf_course": 444,
+      "golf_course": 111,
       "site": 2,
-      "pk_in_site": "279",
-      "info_url": "http://www.sngolfresort.co.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=279",
+      "pk_in_site": "210",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=210",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=210",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.227",
-      "updated_at": "2018-12-17T16:47:09.227"
+      "created_at": "2018-12-19T16:14:17.613",
+      "updated_at": "2018-12-19T16:14:17.613"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 397,
     "fields": {
-      "golf_course": 445,
+      "golf_course": 114,
       "site": 2,
-      "pk_in_site": "333",
-      "info_url": "http://www.skyhill.co.kr",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=333",
+      "pk_in_site": "136",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=136",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=136",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.250",
-      "updated_at": "2018-12-17T16:47:09.250"
+      "created_at": "2018-12-19T16:14:17.630",
+      "updated_at": "2018-12-19T16:14:17.630"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 398,
     "fields": {
-      "golf_course": 446,
+      "golf_course": 116,
       "site": 2,
-      "pk_in_site": "444",
-      "info_url": "http://www.baekjecc.com",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=444",
+      "pk_in_site": "876",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=876",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=876",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.322",
-      "updated_at": "2018-12-17T16:47:09.322"
+      "created_at": "2018-12-19T16:14:17.647",
+      "updated_at": "2018-12-19T16:14:17.647"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 399,
     "fields": {
-      "golf_course": 447,
+      "golf_course": 117,
       "site": 2,
-      "pk_in_site": "839",
-      "info_url": "http://www.clubd.co.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=839",
+      "pk_in_site": "386",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=386",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=386",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.346",
-      "updated_at": "2018-12-17T16:47:09.346"
+      "created_at": "2018-12-19T16:14:17.662",
+      "updated_at": "2018-12-19T16:14:17.662"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 400,
     "fields": {
-      "golf_course": 448,
+      "golf_course": 118,
       "site": 2,
-      "pk_in_site": "143",
-      "info_url": "http://www.koscacc.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=143",
+      "pk_in_site": "338",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=338",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=338",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.375",
-      "updated_at": "2018-12-17T16:47:09.375"
+      "created_at": "2018-12-19T16:14:17.679",
+      "updated_at": "2018-12-19T16:14:17.679"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 401,
     "fields": {
-      "golf_course": 449,
+      "golf_course": 119,
       "site": 2,
-      "pk_in_site": "685",
-      "info_url": "https://www.royalforet.com/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=685",
+      "pk_in_site": "419",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=419",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=419",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.438",
-      "updated_at": "2018-12-17T16:47:09.438"
+      "created_at": "2018-12-19T16:14:17.693",
+      "updated_at": "2018-12-19T16:14:17.693"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 402,
     "fields": {
-      "golf_course": 450,
+      "golf_course": 120,
       "site": 2,
-      "pk_in_site": "343",
-      "info_url": "https://www.curokyunggicc.com/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=343",
+      "pk_in_site": "194",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=194",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=194",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.471",
-      "updated_at": "2018-12-17T16:47:09.471"
+      "created_at": "2018-12-19T16:14:17.703",
+      "updated_at": "2018-12-19T16:14:17.703"
     }
   },
   {
     "model": "server.golfcoursemapper",
     "pk": 403,
     "fields": {
-      "golf_course": 451,
+      "golf_course": 121,
+      "site": 2,
+      "pk_in_site": "951",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=951",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=951",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.712",
+      "updated_at": "2018-12-19T16:14:17.712"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 404,
+    "fields": {
+      "golf_course": 124,
+      "site": 2,
+      "pk_in_site": "405",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=405",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=405",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.721",
+      "updated_at": "2018-12-19T16:14:17.721"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 405,
+    "fields": {
+      "golf_course": 126,
+      "site": 2,
+      "pk_in_site": "503",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=503",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=503",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.729",
+      "updated_at": "2018-12-19T16:14:17.729"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 406,
+    "fields": {
+      "golf_course": 128,
+      "site": 2,
+      "pk_in_site": "504",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=504",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=504",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.738",
+      "updated_at": "2018-12-19T16:14:17.738"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 407,
+    "fields": {
+      "golf_course": 129,
+      "site": 2,
+      "pk_in_site": "315",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=315",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=315",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.748",
+      "updated_at": "2018-12-19T16:14:17.748"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 408,
+    "fields": {
+      "golf_course": 130,
+      "site": 2,
+      "pk_in_site": "309",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=309",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=309",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.757",
+      "updated_at": "2018-12-19T16:14:17.757"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 409,
+    "fields": {
+      "golf_course": 131,
+      "site": 2,
+      "pk_in_site": "102",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=102",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=102",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.767",
+      "updated_at": "2018-12-19T16:14:17.767"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 410,
+    "fields": {
+      "golf_course": 132,
+      "site": 2,
+      "pk_in_site": "698",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=698",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=698",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.776",
+      "updated_at": "2018-12-19T16:14:17.776"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 411,
+    "fields": {
+      "golf_course": 133,
+      "site": 2,
+      "pk_in_site": "873",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=873",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=873",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.785",
+      "updated_at": "2018-12-19T16:14:17.786"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 412,
+    "fields": {
+      "golf_course": 135,
+      "site": 2,
+      "pk_in_site": "301",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=301",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=301",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.801",
+      "updated_at": "2018-12-19T16:14:17.801"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 413,
+    "fields": {
+      "golf_course": 136,
+      "site": 2,
+      "pk_in_site": "317",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=317",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=317",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.818",
+      "updated_at": "2018-12-19T16:14:17.818"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 414,
+    "fields": {
+      "golf_course": 137,
+      "site": 2,
+      "pk_in_site": "924",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=924",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=924",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.833",
+      "updated_at": "2018-12-19T16:14:17.833"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 415,
+    "fields": {
+      "golf_course": 139,
+      "site": 2,
+      "pk_in_site": "306",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=306",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=306",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.848",
+      "updated_at": "2018-12-19T16:14:17.848"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 416,
+    "fields": {
+      "golf_course": 140,
+      "site": 2,
+      "pk_in_site": "679",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=679",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=679",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.865",
+      "updated_at": "2018-12-19T16:14:17.865"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 417,
+    "fields": {
+      "golf_course": 141,
+      "site": 2,
+      "pk_in_site": "810",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=810",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=810",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.882",
+      "updated_at": "2018-12-19T16:14:17.882"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 418,
+    "fields": {
+      "golf_course": 142,
+      "site": 2,
+      "pk_in_site": "305",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=305",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=305",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.898",
+      "updated_at": "2018-12-19T16:14:17.898"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 419,
+    "fields": {
+      "golf_course": 143,
+      "site": 2,
+      "pk_in_site": "463",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=463",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=463",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.907",
+      "updated_at": "2018-12-19T16:14:17.907"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 420,
+    "fields": {
+      "golf_course": 145,
+      "site": 2,
+      "pk_in_site": "142",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=142",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=142",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.916",
+      "updated_at": "2018-12-19T16:14:17.916"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 421,
+    "fields": {
+      "golf_course": 146,
+      "site": 2,
+      "pk_in_site": "139",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=139",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=139",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.926",
+      "updated_at": "2018-12-19T16:14:17.926"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 422,
+    "fields": {
+      "golf_course": 148,
+      "site": 2,
+      "pk_in_site": "145",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=145",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=145",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.935",
+      "updated_at": "2018-12-19T16:14:17.935"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 423,
+    "fields": {
+      "golf_course": 149,
+      "site": 2,
+      "pk_in_site": "304",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=304",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=304",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.944",
+      "updated_at": "2018-12-19T16:14:17.944"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 424,
+    "fields": {
+      "golf_course": 150,
+      "site": 2,
+      "pk_in_site": "150",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=150",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=150",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.954",
+      "updated_at": "2018-12-19T16:14:17.954"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 425,
+    "fields": {
+      "golf_course": 151,
+      "site": 2,
+      "pk_in_site": "303",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=303",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=303",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.964",
+      "updated_at": "2018-12-19T16:14:17.964"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 426,
+    "fields": {
+      "golf_course": 152,
+      "site": 2,
+      "pk_in_site": "675",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=675",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=675",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.973",
+      "updated_at": "2018-12-19T16:14:17.973"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 427,
+    "fields": {
+      "golf_course": 153,
+      "site": 2,
+      "pk_in_site": "475",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=475",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=475",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.982",
+      "updated_at": "2018-12-19T16:14:17.982"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 428,
+    "fields": {
+      "golf_course": 155,
+      "site": 2,
+      "pk_in_site": "389",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=389",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=389",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:17.991",
+      "updated_at": "2018-12-19T16:14:17.991"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 429,
+    "fields": {
+      "golf_course": 157,
+      "site": 2,
+      "pk_in_site": "473",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=473",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=473",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.002",
+      "updated_at": "2018-12-19T16:14:18.002"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 430,
+    "fields": {
+      "golf_course": 160,
+      "site": 2,
+      "pk_in_site": "206",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=206",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=206",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.015",
+      "updated_at": "2018-12-19T16:14:18.015"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 431,
+    "fields": {
+      "golf_course": 161,
+      "site": 2,
+      "pk_in_site": "462",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=462",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=462",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.026",
+      "updated_at": "2018-12-19T16:14:18.026"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 432,
+    "fields": {
+      "golf_course": 162,
+      "site": 2,
+      "pk_in_site": "895",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=895",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=895",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.041",
+      "updated_at": "2018-12-19T16:14:18.041"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 433,
+    "fields": {
+      "golf_course": 163,
+      "site": 2,
+      "pk_in_site": "203",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=203",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=203",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.059",
+      "updated_at": "2018-12-19T16:14:18.059"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 434,
+    "fields": {
+      "golf_course": 164,
+      "site": 2,
+      "pk_in_site": "329",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=329",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=329",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.074",
+      "updated_at": "2018-12-19T16:14:18.074"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 435,
+    "fields": {
+      "golf_course": 167,
+      "site": 2,
+      "pk_in_site": "201",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=201",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=201",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.087",
+      "updated_at": "2018-12-19T16:14:18.088"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 436,
+    "fields": {
+      "golf_course": 170,
+      "site": 2,
+      "pk_in_site": "881",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=881",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=881",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.101",
+      "updated_at": "2018-12-19T16:14:18.101"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 437,
+    "fields": {
+      "golf_course": 171,
+      "site": 2,
+      "pk_in_site": "721",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=721",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=721",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.114",
+      "updated_at": "2018-12-19T16:14:18.114"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 438,
+    "fields": {
+      "golf_course": 172,
+      "site": 2,
+      "pk_in_site": "202",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=202",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=202",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.126",
+      "updated_at": "2018-12-19T16:14:18.126"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 439,
+    "fields": {
+      "golf_course": 174,
+      "site": 2,
+      "pk_in_site": "690",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=690",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=690",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.135",
+      "updated_at": "2018-12-19T16:14:18.135"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 440,
+    "fields": {
+      "golf_course": 177,
+      "site": 2,
+      "pk_in_site": "399",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=399",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=399",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.144",
+      "updated_at": "2018-12-19T16:14:18.144"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 441,
+    "fields": {
+      "golf_course": 178,
+      "site": 2,
+      "pk_in_site": "956",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=956",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=956",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.153",
+      "updated_at": "2018-12-19T16:14:18.153"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 442,
+    "fields": {
+      "golf_course": 180,
+      "site": 2,
+      "pk_in_site": "414",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=414",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=414",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.162",
+      "updated_at": "2018-12-19T16:14:18.162"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 443,
+    "fields": {
+      "golf_course": 181,
+      "site": 2,
+      "pk_in_site": "936",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=936",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=936",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.172",
+      "updated_at": "2018-12-19T16:14:18.172"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 444,
+    "fields": {
+      "golf_course": 183,
+      "site": 2,
+      "pk_in_site": "899",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=899",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=899",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.181",
+      "updated_at": "2018-12-19T16:14:18.181"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 445,
+    "fields": {
+      "golf_course": 186,
+      "site": 2,
+      "pk_in_site": "376",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=376",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=376",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.190",
+      "updated_at": "2018-12-19T16:14:18.190"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 446,
+    "fields": {
+      "golf_course": 187,
+      "site": 2,
+      "pk_in_site": "337",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=337",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=337",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.199",
+      "updated_at": "2018-12-19T16:14:18.199"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 447,
+    "fields": {
+      "golf_course": 188,
+      "site": 2,
+      "pk_in_site": "352",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=352",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=352",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.212",
+      "updated_at": "2018-12-19T16:14:18.212"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 448,
+    "fields": {
+      "golf_course": 192,
+      "site": 2,
+      "pk_in_site": "635",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=635",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=635",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.232",
+      "updated_at": "2018-12-19T16:14:18.232"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 449,
+    "fields": {
+      "golf_course": 200,
+      "site": 2,
+      "pk_in_site": "165",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=165",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=165",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.250",
+      "updated_at": "2018-12-19T16:14:18.250"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 450,
+    "fields": {
+      "golf_course": 206,
+      "site": 2,
+      "pk_in_site": "811",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=811",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=811",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.272",
+      "updated_at": "2018-12-19T16:14:18.272"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 451,
+    "fields": {
+      "golf_course": 210,
+      "site": 2,
+      "pk_in_site": "394",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=394",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=394",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.302",
+      "updated_at": "2018-12-19T16:14:18.302"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 452,
+    "fields": {
+      "golf_course": 213,
+      "site": 2,
+      "pk_in_site": "152",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=152",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=152",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.322",
+      "updated_at": "2018-12-19T16:14:18.322"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 453,
+    "fields": {
+      "golf_course": 218,
+      "site": 2,
+      "pk_in_site": "327",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=327",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=327",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.338",
+      "updated_at": "2018-12-19T16:14:18.338"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 454,
+    "fields": {
+      "golf_course": 224,
+      "site": 2,
+      "pk_in_site": "423",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=423",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=423",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.353",
+      "updated_at": "2018-12-19T16:14:18.353"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 455,
+    "fields": {
+      "golf_course": 233,
+      "site": 2,
+      "pk_in_site": "357",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=357",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=357",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.373",
+      "updated_at": "2018-12-19T16:14:18.373"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 456,
+    "fields": {
+      "golf_course": 234,
+      "site": 2,
+      "pk_in_site": "842",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=842",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=842",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.393",
+      "updated_at": "2018-12-19T16:14:18.393"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 457,
+    "fields": {
+      "golf_course": 237,
+      "site": 2,
+      "pk_in_site": "161",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=161",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=161",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.410",
+      "updated_at": "2018-12-19T16:14:18.410"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 458,
+    "fields": {
+      "golf_course": 241,
+      "site": 2,
+      "pk_in_site": "170",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=170",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=170",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.428",
+      "updated_at": "2018-12-19T16:14:18.428"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 459,
+    "fields": {
+      "golf_course": 242,
+      "site": 2,
+      "pk_in_site": "508",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=508",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=508",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.447",
+      "updated_at": "2018-12-19T16:14:18.447"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 460,
+    "fields": {
+      "golf_course": 246,
+      "site": 2,
+      "pk_in_site": "169",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=169",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=169",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.466",
+      "updated_at": "2018-12-19T16:14:18.466"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 461,
+    "fields": {
+      "golf_course": 249,
+      "site": 2,
+      "pk_in_site": "931",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=931",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=931",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.484",
+      "updated_at": "2018-12-19T16:14:18.484"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 462,
+    "fields": {
+      "golf_course": 255,
+      "site": 2,
+      "pk_in_site": "397",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=397",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=397",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.502",
+      "updated_at": "2018-12-19T16:14:18.502"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 463,
+    "fields": {
+      "golf_course": 257,
+      "site": 2,
+      "pk_in_site": "668",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=668",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=668",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.520",
+      "updated_at": "2018-12-19T16:14:18.520"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 464,
+    "fields": {
+      "golf_course": 260,
+      "site": 2,
+      "pk_in_site": "786",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=786",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=786",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.537",
+      "updated_at": "2018-12-19T16:14:18.537"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 465,
+    "fields": {
+      "golf_course": 265,
+      "site": 2,
+      "pk_in_site": "865",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=865",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=865",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.547",
+      "updated_at": "2018-12-19T16:14:18.547"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 466,
+    "fields": {
+      "golf_course": 267,
+      "site": 2,
+      "pk_in_site": "957",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=957",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=957",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.556",
+      "updated_at": "2018-12-19T16:14:18.556"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 467,
+    "fields": {
+      "golf_course": 270,
+      "site": 2,
+      "pk_in_site": "642",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=642",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=642",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.565",
+      "updated_at": "2018-12-19T16:14:18.565"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 468,
+    "fields": {
+      "golf_course": 271,
+      "site": 2,
+      "pk_in_site": "168",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=168",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=168",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.576",
+      "updated_at": "2018-12-19T16:14:18.576"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 469,
+    "fields": {
+      "golf_course": 272,
+      "site": 2,
+      "pk_in_site": "651",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=651",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=651",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.585",
+      "updated_at": "2018-12-19T16:14:18.585"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 470,
+    "fields": {
+      "golf_course": 274,
+      "site": 2,
+      "pk_in_site": "898",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=898",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=898",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.595",
+      "updated_at": "2018-12-19T16:14:18.595"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 471,
+    "fields": {
+      "golf_course": 275,
+      "site": 2,
+      "pk_in_site": "171",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=171",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=171",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.604",
+      "updated_at": "2018-12-19T16:14:18.604"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 472,
+    "fields": {
+      "golf_course": 278,
+      "site": 2,
+      "pk_in_site": "893",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=893",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=893",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.615",
+      "updated_at": "2018-12-19T16:14:18.615"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 473,
+    "fields": {
+      "golf_course": 279,
+      "site": 2,
+      "pk_in_site": "890",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=890",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=890",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.630",
+      "updated_at": "2018-12-19T16:14:18.630"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 474,
+    "fields": {
+      "golf_course": 282,
+      "site": 2,
+      "pk_in_site": "650",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=650",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=650",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.647",
+      "updated_at": "2018-12-19T16:14:18.647"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 475,
+    "fields": {
+      "golf_course": 283,
+      "site": 2,
+      "pk_in_site": "649",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=649",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=649",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.666",
+      "updated_at": "2018-12-19T16:14:18.666"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 476,
+    "fields": {
+      "golf_course": 284,
+      "site": 2,
+      "pk_in_site": "648",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=648",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=648",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.684",
+      "updated_at": "2018-12-19T16:14:18.684"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 477,
+    "fields": {
+      "golf_course": 290,
+      "site": 2,
+      "pk_in_site": "254",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=254",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=254",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.704",
+      "updated_at": "2018-12-19T16:14:18.704"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 478,
+    "fields": {
+      "golf_course": 291,
+      "site": 2,
+      "pk_in_site": "497",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=497",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=497",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.722",
+      "updated_at": "2018-12-19T16:14:18.722"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 479,
+    "fields": {
+      "golf_course": 292,
+      "site": 2,
+      "pk_in_site": "212",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=212",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=212",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.736",
+      "updated_at": "2018-12-19T16:14:18.736"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 480,
+    "fields": {
+      "golf_course": 324,
+      "site": 2,
+      "pk_in_site": "162",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=162",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=162",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.753",
+      "updated_at": "2018-12-19T16:14:18.753"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 481,
+    "fields": {
+      "golf_course": 325,
+      "site": 2,
+      "pk_in_site": "205",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=205",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=205",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.769",
+      "updated_at": "2018-12-19T16:14:18.769"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 482,
+    "fields": {
+      "golf_course": 326,
+      "site": 2,
+      "pk_in_site": "369",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=369",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=369",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.787",
+      "updated_at": "2018-12-19T16:14:18.787"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 483,
+    "fields": {
+      "golf_course": 327,
+      "site": 2,
+      "pk_in_site": "185",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=185",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=185",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.804",
+      "updated_at": "2018-12-19T16:14:18.804"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 484,
+    "fields": {
+      "golf_course": 328,
+      "site": 2,
+      "pk_in_site": "500",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=500",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=500",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.823",
+      "updated_at": "2018-12-19T16:14:18.823"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 485,
+    "fields": {
+      "golf_course": 329,
+      "site": 2,
+      "pk_in_site": "257",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=257",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=257",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.854",
+      "updated_at": "2018-12-19T16:14:18.854"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 486,
+    "fields": {
+      "golf_course": 330,
+      "site": 2,
+      "pk_in_site": "119",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=119",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=119",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.882",
+      "updated_at": "2018-12-19T16:14:18.882"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 487,
+    "fields": {
+      "golf_course": 331,
+      "site": 2,
+      "pk_in_site": "1024",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=1024",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=1024",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.913",
+      "updated_at": "2018-12-19T16:14:18.913"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 488,
+    "fields": {
+      "golf_course": 332,
+      "site": 2,
+      "pk_in_site": "125",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=125",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=125",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.941",
+      "updated_at": "2018-12-19T16:14:18.941"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 489,
+    "fields": {
+      "golf_course": 333,
+      "site": 2,
+      "pk_in_site": "997",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=997",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=997",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.960",
+      "updated_at": "2018-12-19T16:14:18.960"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 490,
+    "fields": {
+      "golf_course": 334,
+      "site": 2,
+      "pk_in_site": "812",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=812",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=812",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:18.979",
+      "updated_at": "2018-12-19T16:14:18.979"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 491,
+    "fields": {
+      "golf_course": 335,
+      "site": 2,
+      "pk_in_site": "849",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=849",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=849",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.010",
+      "updated_at": "2018-12-19T16:14:19.010"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 492,
+    "fields": {
+      "golf_course": 336,
+      "site": 2,
+      "pk_in_site": "418",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=418",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=418",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.028",
+      "updated_at": "2018-12-19T16:14:19.028"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 493,
+    "fields": {
+      "golf_course": 337,
+      "site": 2,
+      "pk_in_site": "390",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=390",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=390",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.056",
+      "updated_at": "2018-12-19T16:14:19.056"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 494,
+    "fields": {
+      "golf_course": 338,
+      "site": 2,
+      "pk_in_site": "193",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=193",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=193",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.087",
+      "updated_at": "2018-12-19T16:14:19.087"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 495,
+    "fields": {
+      "golf_course": 339,
+      "site": 2,
+      "pk_in_site": "652",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=652",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=652",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.119",
+      "updated_at": "2018-12-19T16:14:19.119"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 496,
+    "fields": {
+      "golf_course": 340,
+      "site": 2,
+      "pk_in_site": "1018",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=1018",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=1018",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.148",
+      "updated_at": "2018-12-19T16:14:19.148"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 497,
+    "fields": {
+      "golf_course": 341,
+      "site": 2,
+      "pk_in_site": "653",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=653",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=653",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.164",
+      "updated_at": "2018-12-19T16:14:19.164"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 498,
+    "fields": {
+      "golf_course": 342,
+      "site": 2,
+      "pk_in_site": "699",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=699",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=699",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.181",
+      "updated_at": "2018-12-19T16:14:19.181"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 499,
+    "fields": {
+      "golf_course": 343,
+      "site": 2,
+      "pk_in_site": "697",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=697",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=697",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.198",
+      "updated_at": "2018-12-19T16:14:19.198"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 500,
+    "fields": {
+      "golf_course": 344,
+      "site": 2,
+      "pk_in_site": "647",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=647",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=647",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.215",
+      "updated_at": "2018-12-19T16:14:19.215"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 501,
+    "fields": {
+      "golf_course": 345,
+      "site": 2,
+      "pk_in_site": "402",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=402",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=402",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.247",
+      "updated_at": "2018-12-19T16:14:19.248"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 502,
+    "fields": {
+      "golf_course": 346,
+      "site": 2,
+      "pk_in_site": "665",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=665",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=665",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.280",
+      "updated_at": "2018-12-19T16:14:19.280"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 503,
+    "fields": {
+      "golf_course": 347,
+      "site": 2,
+      "pk_in_site": "493",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=493",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=493",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.308",
+      "updated_at": "2018-12-19T16:14:19.308"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 504,
+    "fields": {
+      "golf_course": 348,
+      "site": 2,
+      "pk_in_site": "795",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=795",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=795",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.340",
+      "updated_at": "2018-12-19T16:14:19.340"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 505,
+    "fields": {
+      "golf_course": 349,
+      "site": 2,
+      "pk_in_site": "469",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=469",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=469",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.360",
+      "updated_at": "2018-12-19T16:14:19.360"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 506,
+    "fields": {
+      "golf_course": 350,
+      "site": 2,
+      "pk_in_site": "273",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=273",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=273",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.383",
+      "updated_at": "2018-12-19T16:14:19.383"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 507,
+    "fields": {
+      "golf_course": 351,
+      "site": 2,
+      "pk_in_site": "751",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=751",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=751",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.407",
+      "updated_at": "2018-12-19T16:14:19.407"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 508,
+    "fields": {
+      "golf_course": 352,
+      "site": 2,
+      "pk_in_site": "859",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=859",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=859",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.427",
+      "updated_at": "2018-12-19T16:14:19.427"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 509,
+    "fields": {
+      "golf_course": 353,
+      "site": 2,
+      "pk_in_site": "774",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=774",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=774",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.452",
+      "updated_at": "2018-12-19T16:14:19.452"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 510,
+    "fields": {
+      "golf_course": 354,
+      "site": 2,
+      "pk_in_site": "215",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=215",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=215",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.482",
+      "updated_at": "2018-12-19T16:14:19.482"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 511,
+    "fields": {
+      "golf_course": 355,
+      "site": 2,
+      "pk_in_site": "373",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=373",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=373",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.516",
+      "updated_at": "2018-12-19T16:14:19.516"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 512,
+    "fields": {
+      "golf_course": 356,
+      "site": 2,
+      "pk_in_site": "279",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=279",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=279",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.544",
+      "updated_at": "2018-12-19T16:14:19.544"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 513,
+    "fields": {
+      "golf_course": 357,
+      "site": 2,
+      "pk_in_site": "333",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=333",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=333",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.564",
+      "updated_at": "2018-12-19T16:14:19.564"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 514,
+    "fields": {
+      "golf_course": 358,
+      "site": 2,
+      "pk_in_site": "444",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=444",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=444",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.581",
+      "updated_at": "2018-12-19T16:14:19.581"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 515,
+    "fields": {
+      "golf_course": 359,
+      "site": 2,
+      "pk_in_site": "839",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=839",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=839",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.598",
+      "updated_at": "2018-12-19T16:14:19.598"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 516,
+    "fields": {
+      "golf_course": 360,
+      "site": 2,
+      "pk_in_site": "143",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=143",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=143",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.614",
+      "updated_at": "2018-12-19T16:14:19.614"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 517,
+    "fields": {
+      "golf_course": 361,
+      "site": 2,
+      "pk_in_site": "685",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=685",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=685",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.632",
+      "updated_at": "2018-12-19T16:14:19.632"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 518,
+    "fields": {
+      "golf_course": 362,
+      "site": 2,
+      "pk_in_site": "343",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=343",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=343",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.660",
+      "updated_at": "2018-12-19T16:14:19.660"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 519,
+    "fields": {
+      "golf_course": 363,
       "site": 2,
       "pk_in_site": "127",
-      "info_url": "https://www.bearportcc.co.kr/",
-      "booking_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=127",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=127",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=127",
       "status": "A",
-      "created_at": "2018-12-17T16:47:09.490",
-      "updated_at": "2018-12-17T16:47:09.490"
+      "created_at": "2018-12-19T16:14:19.689",
+      "updated_at": "2018-12-19T16:14:19.689"
+    }
+  },
+  {
+    "model": "server.golfcoursemapper",
+    "pk": 520,
+    "fields": {
+      "golf_course": 364,
+      "site": 2,
+      "pk_in_site": "383",
+      "info_url": "https://www.xgolf.com/club_info/club_info.asp?club_code=383",
+      "booking_url": "https://www.xgolf.com/booking/booking_calendar.asp?club_code=383",
+      "status": "A",
+      "created_at": "2018-12-19T16:14:19.715",
+      "updated_at": "2018-12-19T16:14:19.715"
     }
   }
 ]
