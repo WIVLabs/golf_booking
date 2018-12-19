@@ -7,7 +7,7 @@ from .golf_course import GolfCourse
 class Booking(models.Model):
     golf_course = models.ForeignKey(GolfCourse, on_delete=models.CASCADE)
     site = models.ForeignKey(Site, on_delete=models.CASCADE)
-    kickoff_date = models.CharField(max_length=8, blank=False)
+    kickoff_date = models.CharField(max_length=8, blank=False, db_index=True)
     kickoff_hour = models.CharField(max_length=2, blank=False)
     kickoff_time = models.DateTimeField(blank=False)
     price = models.IntegerField(default=-1)
@@ -19,7 +19,7 @@ class Booking(models.Model):
 
     class Meta:
         db_table = 'booking'
-        unique_together = (('golf_course', 'site', 'kickoff_time'),)
+        unique_together = (('golf_course', 'site', 'kickoff_time', 'notes'),)
         index_together = [['golf_course', 'kickoff_date'], ]
 
 
