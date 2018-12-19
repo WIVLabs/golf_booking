@@ -74,12 +74,12 @@ class Crawler:
 
     def insert_bk_info(self, bk_info):
         resp = requests.post(self.API_URL, json=bk_info)
-        return resp.ok and resp.content or resp.reason
+        return resp.ok and resp.content or '{}\n{}'.format(resp.reason, resp.content)
 
     def delete_bk_info(self, bk_date):
         url = '{}?golf_course={}&site={}&kickoff_date={}'.format(self.API_URL, self.course_id, self.site_id, bk_date)
         resp = requests.delete(url)
-        return resp.ok and resp.content or resp.reason
+        return resp.ok and resp.content or '{}\n{}'.format(resp.reason, resp.content)
 
     def get_monthly_url(self):
         return 'http://bk.golf.sbs.co.kr/html/front/booking_2015/mapSearch/regionMapSearchList.jsp?golf_plc_no={}&book_regn_dv_cd=1&regn_cd=#targetId'.format(self.pk_in_site)
