@@ -15,9 +15,13 @@ django react 기술 기반 프로젝트
 
 ## SERVER - DJANGO
 ```
-cd PROJECT
-pip install -r requirements.txt
-python manage.py runserver
+cd PROJECT;
+pip install -r requirements.txt;
+python manage.py runserver;
 ``` 
+이때, mysqlclient가 설치가 안될때 (참고: https://github.com/PyMySQL/mysqlclient-python/issues/new)
+```
+LDFLAGS=-L/usr/local/opt/openssl/lib pip install mysqlclient;
+```
 
 Development Environment DONE
