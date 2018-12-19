@@ -18,14 +18,6 @@ class BookingCell extends React.Component {
 
         // site.id로 그룹핑
         kickoffsByHour.forEach((_kickoffs, key, thisMap) => {
-            // TODO TEST-MOCK 객체
-            let mockSite = new Object();
-            Object.assign(mockSite, _kickoffs[0]);
-            mockSite.id = 2;
-            mockSite.name = 'TEST골프';
-            _kickoffs.push(mockSite);
-            // TODO TEST-MOCK 객체 여기까지.
-
             _kickoffs = CollectionUtility.groupBy(_kickoffs, _site => _site.id);
             thisMap.set(key, _kickoffs);
         });
