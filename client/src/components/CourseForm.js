@@ -15,7 +15,6 @@ class CourseForm extends React.Component {
         console.log('코스 렌더링 componentDidMount')
         Api.getGolfCourses(this.props.region)
             .then(data => {
-                // console.log(data);
                 this.setState({courses: data});
             });
     }
@@ -53,7 +52,8 @@ class CourseForm extends React.Component {
                         onChange={this.changeCourse}
                         options={{
                             placeholder: '골프장 전체',
-                            width: '100%'
+                            width: '100%',
+                            allowClear: true
                         }}
                         defaultValue={this.props.course}
                     />
