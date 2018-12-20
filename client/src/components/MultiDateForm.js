@@ -14,12 +14,11 @@ class MultiDateForm extends React.Component {
     render() {
         return (
             <div className="form-group row">
-                <label className="col-form-label search-title">
-                    {this.props.hastitle === "true" ?
-                        <span><i className="fa fa-calendar"></i> 일자</span> :
-                        <i className="fa fa-calendar fa-2x"></i>
-                    }
-                </label>
+                {this.props.hastitle === "true" ?
+                    <label className="col-form-label search-title">
+                        <i className="fa fa-calendar"></i> 일자
+                    </label> : ''
+                }
                 <div className="col">
                     <AirDatePicker bookingdates={this.state.bookingDates}
                                    onSelect={(dp, ani) => ani ? this.props.onChange(dp.selectedDates) : null}/>

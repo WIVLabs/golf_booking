@@ -15,7 +15,7 @@ export default class AirDatePicker extends React.Component {
         this.$el = $(this.refs.input);
         const $dl = this.$el.datepicker({
             language: 'kr',
-            position: 'bottom right',
+            position: 'bottom left',
             onHide: this.props.onSelect,
             minDate: new Date(),
             multipleDates: 7,

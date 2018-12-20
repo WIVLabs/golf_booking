@@ -1,12 +1,16 @@
+.main-layout {
+  min-width: 1280px;
+}
+
 .booking-table-name {
-  font-size:15px;
-  font-weight:300;
+  font-size: 15px;
+  font-weight: 300;
   width: 150px;
 }
 
 .booking-table-date {
-  font-size:15px;
-  font-weight:300;
+  font-size: 15px;
+  font-weight: 300;
 }
 
 .booking-th-sunday-bg {
@@ -45,6 +49,7 @@
   text-align: right;
   width: 60px;
 }
+
 .booking-cell-time-enable-count {
   display: inline-block;
   text-align: right;
@@ -52,6 +57,7 @@
   vertical-align: middle;
   font-size: 14px;
 }
+
 .booking-cell-time-fee {
   display: inline-block;
   text-align: right;
@@ -59,6 +65,7 @@
   vertical-align: middle;
   font-size: 12px;
 }
+
 .booking-cell-time-notes {
   font-size: 12px;
   vertical-align: middle;
@@ -67,21 +74,21 @@
 }
 
 .site-name {
-  font-size:15px;
-  font-weight:500;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .site-address {
-  font-size:12px;
-  font-weight:100;
+  font-size: 12px;
+  font-weight: 100;
   display: block;
   font-style: italic;
   margin-top: 5px;
 }
 
 .booking-cell-time {
-  font-size:14px;
-  font-weight:300;
+  font-size: 14px;
+  font-weight: 300;
   margin-bottom: 1px;
 
   list-style: none outside none;
@@ -89,13 +96,13 @@
 
 .booking-cell-time-site {
   padding-left: 0px;
-  margin : -17px 1px 0px 30px;
+  margin: -17px 1px 0px 30px;
 }
 
 .fixed-head {
   position: fixed;
   top: 0;
-  z-index:1030;
+  z-index: 1030;
   background-color: #FFFFFF;
 }
 
