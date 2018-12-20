@@ -30,7 +30,7 @@ class CourseSearch extends React.Component {
         return (
             <header className="search-head text-light mb-3">
                 <div className="wrap-head">
-                    <img src="/assets/image/logo.png" className="logo"/>
+                    <a href="/"><img src="/assets/image/logo.png" className="logo"/></a>
                     <div className="head-top">
                         {this.state.region_name} > {this.state.course_name || '골프장 전체'}
                     </div>
