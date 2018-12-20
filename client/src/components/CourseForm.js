@@ -51,7 +51,7 @@ class CourseForm extends React.Component {
                         data={courses}
                         onChange={this.changeCourse}
                         options={{
-                            placeholder: '골프장 전체',
+                            placeholder: '모든 골프장',
                             width: '100%',
                             allowClear: true
                         }}
