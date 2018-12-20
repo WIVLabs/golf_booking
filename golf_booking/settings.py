@@ -24,13 +24,25 @@ print('BASE_DIR:', BASE_DIR)
 SECRET_KEY = 'jdm5@m&=renq_4m!ag0apvnaj+@xkjk*kcouq93i(pq)p9p8$9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+from socket import gethostname, gethostbyname
+try:
+    HOSTNAME = gethostname()
+    HOSTBYNAME = gethostbyname(HOSTNAME)
+except:
+    HOSTNAME = HOSTBYNAME = 'localhost'
+
+
+# SECURITY WARNING: don't run with debug turned on in production!
+IS_SERVER = HOSTNAME.startswith('ip-')
+# DEBUG = not IS_SERVER
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    '127.0.0.1', 'localhost', HOSTNAME, HOSTBYNAME,
+    '.ad1shot.com', '.amazonaws.com'
+]
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -135,10 +147,16 @@ STATIC_URL = '/assets/'
 CLIENT_DIR = os.path.join(BASE_DIR, 'client')
 SERVER_DIR = os.path.join(BASE_DIR, 'server')
 
-STATICFILES_DIRS = (
-    os.path.join(CLIENT_DIR, 'dist'),
-    os.path.join(CLIENT_DIR, 'src/assets'),
-)
+
+if IS_SERVER:
+    STATICFILES_DIRS = (
+       os.path.join(BASE_DIR, 'dep_static'),
+    )
+else:
+    STATICFILES_DIRS = (
+        os.path.join(CLIENT_DIR, 'dist'),
+        os.path.join(CLIENT_DIR, 'src/assets'),
+    )
 print('STATICFILES_DIRS:', STATICFILES_DIRS)
 
 WEBPACK_LOADER = {
