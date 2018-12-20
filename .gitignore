@@ -142,7 +142,7 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
+#dist/  # by.jj 20181220
 downloads/
 eggs/
 .eggs/
