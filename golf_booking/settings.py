@@ -148,15 +148,10 @@ CLIENT_DIR = os.path.join(BASE_DIR, 'client')
 SERVER_DIR = os.path.join(BASE_DIR, 'server')
 
 
-if IS_SERVER:
-    STATICFILES_DIRS = (
-       os.path.join(BASE_DIR, 'dep_static'),
-    )
-else:
-    STATICFILES_DIRS = (
-        os.path.join(CLIENT_DIR, 'dist'),
-        os.path.join(CLIENT_DIR, 'src/assets'),
-    )
+STATICFILES_DIRS = (
+    os.path.join(CLIENT_DIR, 'dist'),
+    os.path.join(CLIENT_DIR, 'src/assets'),
+)
 print('STATICFILES_DIRS:', STATICFILES_DIRS)
 
 WEBPACK_LOADER = {
