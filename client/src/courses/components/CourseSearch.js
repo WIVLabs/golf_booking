@@ -37,7 +37,7 @@ class CourseSearch extends React.Component {
                     {this.state.collapse ?
                         <div className="head-bottom">
                             {this.state.booking_dates.map(_d => moment(_d).format('MM.DD(dd)')).join(',')} / {this.state.time_range.from}~{this.state.time_range.to}시
-                            / {this.state.greenfee_range.from}~{this.state.greenfee_range.to}원
+                            / {Number(this.state.greenfee_range.from).toLocaleString()}~{Number(this.state.greenfee_range.to).toLocaleString()}원
                         </div> : ''
                     }
                 </div>
