@@ -24,13 +24,25 @@ print('BASE_DIR:', BASE_DIR)
 SECRET_KEY = 'jdm5@m&=renq_4m!ag0apvnaj+@xkjk*kcouq93i(pq)p9p8$9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+from socket import gethostname, gethostbyname
+try:
+    HOSTNAME = gethostname()
+    HOSTBYNAME = gethostbyname(HOSTNAME)
+except:
+    HOSTNAME = HOSTBYNAME = 'localhost'
+
+
+# SECURITY WARNING: don't run with debug turned on in production!
+IS_SERVER = HOSTNAME.startswith('ip-')
+# DEBUG = not IS_SERVER
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = [
+    '127.0.0.1', 'localhost', HOSTNAME, HOSTBYNAME,
+    '.ad1shot.com', '.amazonaws.com'
+]
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -79,24 +91,24 @@ WSGI_APPLICATION = 'golf_booking.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'golf',
-        'USER': 'ad1shot',
-        'PASSWORD': 'jejuc9305',
-        'HOST': 'ad1shot.cluster-cwrgcas4fyns.ap-northeast-2.rds.amazonaws.com',
-        'PORT': '3306'
-    },
     # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'golf.sqlite3'),
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'golf',
+    #     'USER': 'ad1shot',
+    #     'PASSWORD': 'jejuc9305',
+    #     'HOST': 'ad1shot.cluster-cwrgcas4fyns.ap-northeast-2.rds.amazonaws.com',
+    #     'PORT': '3306'
     # },
-    'OPTIONS': {
-        'AUTOCOMMIT': True,
-        'init_command': 'SET storage_engine=InnoDB',
-        'CHARSET': 'utf8',
-        'USE_UNICODE': True
-    }
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'golf.sqlite3'),
+    },
+    # 'OPTIONS': {
+    #     'AUTOCOMMIT': True,
+    #     'init_command': 'SET storage_engine=InnoDB',
+    #     'CHARSET': 'utf8',
+    #     'USE_UNICODE': True
+    # }
 }
 
 # Password validation
@@ -134,6 +146,7 @@ USE_TZ = False  # README: False = set local timezone not UTC
 STATIC_URL = '/assets/'
 CLIENT_DIR = os.path.join(BASE_DIR, 'client')
 SERVER_DIR = os.path.join(BASE_DIR, 'server')
+
 
 STATICFILES_DIRS = (
     os.path.join(CLIENT_DIR, 'dist'),

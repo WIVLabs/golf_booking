@@ -15,7 +15,6 @@ class CourseForm extends React.Component {
         console.log('코스 렌더링 componentDidMount')
         Api.getGolfCourses(this.props.region)
             .then(data => {
-                // console.log(data);
                 this.setState({courses: data});
             });
     }
@@ -37,23 +36,24 @@ class CourseForm extends React.Component {
 
     render() {
         const courses = this.state.courses.map(_course => {
+            sessionStorage.setItem('course_'+_course.id, _course.name);
             return {'text': _course.name, 'id': _course.id}
         });
         return (
             <div className="form-group row">
-                <label className="search-title col-form-label">
-                    {this.props.hastitle === "true" ?
-                        <span><i className="fa fa-golf-ball"></i> 골프장</span> :
-                        <i className="fa fa-golf-ball fa-2x"></i>
-                    }
-                </label>
+                {this.props.hastitle === "true" ?
+                    <label className="search-title col-form-label">
+                        <i className="fa fa-golf-ball"></i> 골프장
+                    </label> : ''
+                }
                 <div className="col">
                     <Select2
                         data={courses}
                         onChange={this.changeCourse}
                         options={{
                             placeholder: '골프장 전체',
-                            width: '100%'
+                            width: '100%',
+                            allowClear: true
                         }}
                         defaultValue={this.props.course}
                     />

@@ -18,9 +18,11 @@ class CourseSearch extends React.Component {
             booking_dates: this.props.booking_dates,
             time_range: this.props.time_range,
             region: this.props.region,
-            course: this.props.region,
+            course: this.props.course,
             greenfee_range: this.props.greenfee_range,
-            collapse: true
+            collapse: true,
+            region_name: sessionStorage.getItem('region_' + this.props.region),
+            course_name: sessionStorage.getItem('course_' + this.props.course)
         };
     }
 
@@ -28,7 +30,16 @@ class CourseSearch extends React.Component {
         return (
             <header className="search-head text-light mb-3">
                 <div className="wrap-head">
-                    {this.state.collapse ? '간략정보를 넣어야함' : '위브랩 골프 샤샤샤샤샤샷!'}
+                    <a href="/"><img src="/assets/image/logo.png" className="logo"/></a>
+                    <div className="head-top">
+                        {this.state.region_name} > {this.state.course_name || '골프장 전체'}
+                    </div>
+                    {this.state.collapse ?
+                        <div className="head-bottom">
+                            {this.state.booking_dates.map(_d => moment(_d).format('MM.DD(dd)')).join(',')} / {this.state.time_range.from}~{this.state.time_range.to}시
+                            / {Number(this.state.greenfee_range.from).toLocaleString()}~{Number(this.state.greenfee_range.to).toLocaleString()}원
+                        </div> : ''
+                    }
                 </div>
                 {this.state.collapse ? '' :
                     <div className="info-route open-detail">
@@ -69,12 +80,12 @@ class CourseSearch extends React.Component {
                         </form>
                     </div>}
                 <div className="text-center btn-wrapper">
-                    <div className="btn btn-outline-light btn-collapse" onClick={() => {
+                    <div className="btn btn-link btn-collapse" onClick={() => {
                         this.setState({collapse: !this.state.collapse})
                     }}>
                         {this.state.collapse ?
-                            <i className="fa fa-angle-down"></i> :
-                            <i className="fa fa-angle-up"></i>}
+                            <i className="fa fa-angle-down fa-2x"></i> :
+                            <i className="fa fa-angle-up fa-2x"></i>}
                     </div>
                 </div>
             </header>

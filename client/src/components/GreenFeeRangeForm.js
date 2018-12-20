@@ -13,26 +13,25 @@ class GreenFeeRangeForm extends React.Component {
     render() {
         return (
             <div className="form-group row">
-                <label className="col-form-label search-title">
-             {this.props.hastitle === "true" ?
-                    <span><i className="fa fa-dollar-sign"></i> 그린피</span> :
-                    <i className="fa fa-dollar-sign fa-2x"></i>
+                {this.props.hastitle === "true" ?
+                    <label className="col-form-label search-title">
+                        <i className="fa fa-dollar-sign"></i> 그린피
+                    </label> : ''
                 }
-                </label>
                 <div className="col">
-                <IonSlider options={{
-                    type: 'double',
-                    min: '10000',
-                    max: '400000',
-                    from: this.state.from,
-                    to: this.state.to,
-                    step: '10000',
-                    postfix: '원',
-                    prettifySeparator: ',',
-                    skin: 'round',
-                    onChange: (ob) => this.props.onChange({from: ob.from, to: ob.to})
-                }}
-                />
+                    <IonSlider options={{
+                        type: 'double',
+                        min: '10000',
+                        max: '400000',
+                        from: this.state.from,
+                        to: this.state.to,
+                        step: '10000',
+                        postfix: '원',
+                        prettifySeparator: ',',
+                        skin: 'round',
+                        onChange: (ob) => this.props.onChange({from: ob.from, to: ob.to})
+                    }}
+                    />
                 </div>
             </div>
         );
