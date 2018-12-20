@@ -276,7 +276,6 @@ class Courses extends React.Component {
                                     </tr>
                                     </thead>
                                     <tbody>
-
                                     {this.state.courses.length != 0 && this.state.visibleKickoffDates.length !=0 ?
                                         this.state.courses.map(course => {
                                             return <BookingRow key={`course-${course.id}`} golfCourseNameWidth={this.state.golfCourseNameWidth} dateWidth={this.state.dateWidth} course={course} visibleKickoffDates={this.state.visibleKickoffDates} />
