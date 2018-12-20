@@ -32,6 +32,9 @@ class Courses extends React.Component {
         this.tablePlaceName = React.createRef();
         this.tableDate = React.createRef();
         this.tableHeader = React.createRef();
+        this.tableContainer = React.createRef();
+        // this.tablePrevButton = React.createRef();
+        // this.tableNextButton = React.createRef();
 
         this.getBookings = this.getBookings.bind(this);
         this.changeSearchValues = this.changeSearchValues.bind(this);
@@ -49,12 +52,16 @@ class Courses extends React.Component {
     }
 
     handleScroll() {
-        if (ObjectUtility.isEmpty(this.tableElement.current)) return;
+        if (ObjectUtility.isEmpty(this.tableContainer.current)) return;
 
-        let hidePosition = this.tableElement.current.offsetTop;
+        let hidePosition = this.tableContainer.current.offsetTop;
         if (event.srcElement.body.scrollTop > hidePosition) {
             if (!this.tableHeader.current.classList.contains('fixed-head')) {
                 this.tableHeader.current.classList.add("fixed-head");
+                // if (ObjectUtility.isEmpty(this.tableNextButton.current)) {
+                //     this.tableNextButton.current.style.top = 0;
+                //     console.log(this.tableNextButton.current.offsetTop)
+                // }
                 this.measureTableWidthAndRedrew();
             }
         }
@@ -185,8 +192,6 @@ class Courses extends React.Component {
         }
 
         this.setState({golfCourseNameWidth : this.tablePlaceName.current.offsetWidth, dateWidth:thLength});
-        this.forceUpdate();
-        console.log(['courses.js', this.state]);
     }
 
     getThClassName(kickoffDate) {
@@ -228,22 +233,22 @@ class Courses extends React.Component {
     render() {
         return (
             <div>
+                <div className='ml-3'>
+                    <button type='button' className="btn btn-outline-dark" onClick={this.goPrevPage}>
+                        <i className="fa fa-arrow-left"></i> 첫페이지로
+                    </button>
+                </div>
                 <CourseSearch booking_dates={this.state.searchParams.booking_dates}
                               time_range={this.state.searchParams.time_range}
                               region={this.state.searchParams.region}
                               course={this.state.searchParams.course}
                               greenfee_range={this.state.searchParams.greenfee_range}
                               onClick={this.changeSearchValues}/>
-                <div className='ml-3'>
-                    <button type='button' className="btn btn-outline-dark" onClick={this.goPrevPage}>
-                        <i className="fa fa-arrow-left"></i> 첫페이지로
-                    </button>
-                </div>
                 {this.state.loadBookings ?
                     <div className={'text-center'}> <Spinner loading={this.state.loadBookings}/></div>
                     : <div>
                         {this.state.visibleKickoffDates.length > 0 ?
-                        <div className="container-fluid">
+                        <div className="container-fluid" ref={this.tableContainer}>
                             {this.state.beforeKickoffDates.length > 0 ?
                                 <div className={'float-left mb-2'}>
                                     <button type='button' className="btn btn-secondary" onClick={this.drawBeforeBookings}>
