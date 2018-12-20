@@ -91,24 +91,24 @@ WSGI_APPLICATION = 'golf_booking.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'golf',
-        'USER': 'ad1shot',
-        'PASSWORD': 'jejuc9305',
-        'HOST': 'ad1shot.cluster-cwrgcas4fyns.ap-northeast-2.rds.amazonaws.com',
-        'PORT': '3306'
-    },
     # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'golf.sqlite3'),
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'golf',
+    #     'USER': 'ad1shot',
+    #     'PASSWORD': 'jejuc9305',
+    #     'HOST': 'ad1shot.cluster-cwrgcas4fyns.ap-northeast-2.rds.amazonaws.com',
+    #     'PORT': '3306'
     # },
-    'OPTIONS': {
-        'AUTOCOMMIT': True,
-        'init_command': 'SET storage_engine=InnoDB',
-        'CHARSET': 'utf8',
-        'USE_UNICODE': True
-    }
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'golf.sqlite3'),
+    },
+    # 'OPTIONS': {
+    #     'AUTOCOMMIT': True,
+    #     'init_command': 'SET storage_engine=InnoDB',
+    #     'CHARSET': 'utf8',
+    #     'USE_UNICODE': True
+    # }
 }
 
 # Password validation
