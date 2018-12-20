@@ -73,7 +73,15 @@ class CourseSearch extends React.Component {
                                 </div>
                                 <div className="col-sm-2 p-2">
                                     <a className="btn btn-danger btn-block search-btn"
-                                       onClick={() => this.props.onClick(this.state)}>
+                                       onClick={() => {
+                                           let params = Object.assign({}, this.state);
+                                           delete params.region_name;
+                                           delete params.course_name;
+                                           delete params.collapse;
+                                           this.state.collapse = true;
+                                           this.props.onClick(params);
+                                       }
+                                       }>
                                         <i className="fa fa-golf-ball"></i> 검색
                                     </a>
                                 </div>

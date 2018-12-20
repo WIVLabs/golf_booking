@@ -68,6 +68,7 @@ class Courses extends React.Component {
 
     changeSearchValues(_params){
         const params = JSON.stringify(_params);
+        console.log(params);
         this.props.history.push('./' + params);
         window.location.reload();
         return false;
