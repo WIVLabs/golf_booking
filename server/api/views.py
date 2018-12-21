@@ -173,17 +173,10 @@ class BookingsUsingPaginator(APIView):
 
         def trans_bookings(_bookings):
             data = []
-            print('len(_bookings):::', len(_bookings))
-            for _bk in _bookings:
-                _d = model_to_dict(_bk)
-                # print(_bk.golf_course)
-                # print(dir(_bk.golf_course))
-                # _d['golf_course_id'] = _bk.golf_course._get_pk_val()
-                _d['golf_course_id'] = _bk.golf_course.id
-                _d['site_id'] = _bk.site.id
-                _d['site_name'] = _bk.site.name
-                data.append(_d)
-                # break
+            sites = {_id: _name for _id, _name in Site.objects.all().values_list('id', 'name')}
+            for _bk in _bookings.values():
+                _bk['site_name'] = sites[_bk['site_id']]
+                data.append(_bk)
             return data
 
         def get_response_course_data(courses, kickoff_dates, booking_list):
@@ -204,14 +197,10 @@ class BookingsUsingPaginator(APIView):
 
         paging_courses = self.get_paging_courses(query)
         courses = paging_courses.get_page(page)
-        print('1'*100)
         bookings = self.get_bookings(query, list(map(lambda _c: _c.id, courses)))
-        print('2'*100)
 
         kickoff_dates = sorted(list(map(lambda x: self.R_NONDIGIT.subn('', x)[0], query.booking_dates)))
-        print('3' * 100)
         booking_list = trans_bookings(bookings)
-        print('4' * 100)
 
         return Response({
             'kickoff_dates': kickoff_dates,
@@ -232,8 +221,8 @@ class BookingsUsingPaginator(APIView):
                 grouped[_item[key]].append(_item)
             return grouped
 
-        def get_unique(items, key):
-            return sorted(set([_item[key] for _item in items if _item[key]]))
+        def get_unique(items, key, func=None):
+            return sorted(set([func and func(_item[key]) or _item[key] for _item in items if _item[key]]))
 
         def get_price(items):
             prices = get_unique(items, 'price')
@@ -256,16 +245,20 @@ class BookingsUsingPaginator(APIView):
                     for _hour in sorted(gr_hour.keys()):
                         gr_site = groupby(gr_hour[_hour], 'site_id')
                         sites = []
-                        for _site_id, _items in gr_site.items():
-                            site = {
+                        for _site_id in sorted(gr_site.keys()):
+                            _items = gr_site[_site_id]
+                            if golf_course_id == 56 and _date == '20181222' and _hour == '09':
+                                print(_site_id, '-'*100)
+                                pprint(_items)
+                            sites.append({
                                 'id': _site_id,
                                 'name': _items[0]['site_name'],
                                 'teams': len(_items),
-                                'notes': get_unique(_items, 'notes'),
+                                'notes': get_unique(_items, 'notes', lambda x: x.upper()),
                                 'price': get_price(_items),
-                                'url': _items[0]['url']
-                            }
-                            sites.append(site)
+                                'url': _items[0]['url'],
+                                'updated_at': _items[0]['updated_at']
+                            })
                         kickoff_hours.append({
                             'kickoff_date': _date,
                             'kickoff_hour': _hour,
@@ -274,7 +267,7 @@ class BookingsUsingPaginator(APIView):
                 kickoffs.append(kickoff_hours)
         return kickoffs
 
-    def get_paging_courses(self, query, limit=10):
+    def get_paging_courses(self, query, limit=20):
         filtering = self.extract_filtering_opts_about_course(query)
         courses = GolfCourse.objects.filter(**filtering)
         return Paginator(courses, limit)
