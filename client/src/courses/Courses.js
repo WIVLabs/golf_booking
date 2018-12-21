@@ -58,10 +58,6 @@ class Courses extends React.Component {
         if (event.srcElement.body.scrollTop > hidePosition) {
             if (!this.tableHeader.current.classList.contains('fixed-head')) {
                 this.tableHeader.current.classList.add("fixed-head");
-                // if (ObjectUtility.isEmpty(this.tableNextButton.current)) {
-                //     this.tableNextButton.current.style.top = 0;
-                //     console.log(this.tableNextButton.current.offsetTop)
-                // }
                 this.measureTableWidthAndRedrew();
             }
         }
@@ -235,11 +231,6 @@ class Courses extends React.Component {
     render() {
         return (
             <div>
-                <div className='ml-3'>
-                    <button type='button' className="btn btn-outline-dark" onClick={this.goPrevPage}>
-                        <i className="fa fa-arrow-left"></i> 첫페이지로
-                    </button>
-                </div>
                 <CourseSearch booking_dates={this.state.searchParams.booking_dates}
                               time_range={this.state.searchParams.time_range}
                               region={this.state.searchParams.region}
