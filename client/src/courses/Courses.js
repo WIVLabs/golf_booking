@@ -19,6 +19,8 @@ class Courses extends React.Component {
             courses: [],
             searchParams: paramsObj,
 
+            pageCursor: {},
+
             viewDateCount: 3,
             visibleKickoffDates: [],
             nextKickoffDates: [],
@@ -33,8 +35,7 @@ class Courses extends React.Component {
         this.tableDate = React.createRef();
         this.tableHeader = React.createRef();
         this.tableContainer = React.createRef();
-        // this.tablePrevButton = React.createRef();
-        // this.tableNextButton = React.createRef();
+        this.tableButtons = React.createRef();
 
         this.getBookings = this.getBookings.bind(this);
         this.changeSearchValues = this.changeSearchValues.bind(this);
@@ -44,33 +45,79 @@ class Courses extends React.Component {
         this.initVisibleDate = this.initVisibleDate.bind(this);
         this.measureTableWidthAndRedrew = this.measureTableWidthAndRedrew.bind(this);
         this.handleScroll = this.handleScroll.bind(this);
+        this.isTableBottomScroll = this.isTableBottomScroll.bind(this);
+        this.getMoreCourses = this.getMoreCourses.bind(this);
     }
 
     componentDidMount() {
-        window.addEventListener('scroll', this.handleScroll);
+        document.addEventListener('scroll', this.handleScroll);
+        document.addEventListener('scroll', this.isTableBottomScroll);
         this.getBookings();
+
+        window.addEventListener('resize', ()=> {
+            //this.measureTableWidthAndRedrew();
+            console.log('aaaa');
+        });
     }
 
     handleScroll() {
         if (ObjectUtility.isEmpty(this.tableContainer.current)) return;
 
+        const buttonsWidth = this.tableButtons.current.offsetWidth;
         let hidePosition = this.tableContainer.current.offsetTop;
         if (event.srcElement.body.scrollTop > hidePosition) {
             if (!this.tableHeader.current.classList.contains('fixed-head')) {
                 this.tableHeader.current.classList.add("fixed-head");
-                // if (ObjectUtility.isEmpty(this.tableNextButton.current)) {
-                //     this.tableNextButton.current.style.top = 0;
-                //     console.log(this.tableNextButton.current.offsetTop)
-                // }
+                this.tableButtons.current.classList.add("fixed-button");
+                this.tableButtons.current.style.width = buttonsWidth;
                 this.measureTableWidthAndRedrew();
             }
         }
         else if (this.tableHeader.current.offsetTop < hidePosition) {
             if (this.tableHeader.current.classList.contains('fixed-head')) {
                 this.tableHeader.current.classList.remove("fixed-head");
+                this.tableButtons.current.classList.remove("fixed-button");
                 this.measureTableWidthAndRedrew();
             }
         }
+    }
+
+    isTableBottomScroll() {
+        if (this.isBottom(this.tableElement.current)) {
+            document.removeEventListener('scroll', this.isTableBottomScroll);
+            this.getMoreCourses(() => {
+                document.addEventListener('scroll', this.isTableBottomScroll);
+            });
+        }
+    }
+
+    getMoreCourses(callback) {
+        let {searchParams} = this.state;
+        let params = Object.assign(searchParams);
+        if (ObjectUtility.isEmpty(params.page)) {
+            params.page = 2;
+        }
+        else {
+            params.page += 1;
+        }
+
+        this.setState({searchParams : params, loadBookings: true});
+        Api.getBookings(this.state.searchParams)
+                .then(data => {
+                    this.setState({
+                        loadBookings: false,
+                        courses: this.state.courses.concat(data.courses),
+                        pageCursor: data.cursor
+                    });
+
+                    if (data.cursor.has_next) {
+                        callback();
+                    }
+                });
+    }
+
+    isBottom(el) {
+      return el.getBoundingClientRect().bottom - 100 <= window.innerHeight;
     }
 
     changeSearchValues(_params){
@@ -91,10 +138,9 @@ class Courses extends React.Component {
         Api.getBookings(this.state.searchParams)
                 .then(data => {
                     this.setState({
-                        loadBookings: false
+                        loadBookings: false,
+                        pageCursor: data.cursor
                     });
-
-                    console.log(data);
                     this.initVisibleDate(data.courses, data.kickoff_dates);
                 });
 
@@ -235,61 +281,56 @@ class Courses extends React.Component {
     render() {
         return (
             <div>
-                <div className='ml-3'>
-                    <button type='button' className="btn btn-outline-dark" onClick={this.goPrevPage}>
-                        <i className="fa fa-arrow-left"></i> 첫페이지로
-                    </button>
-                </div>
                 <CourseSearch booking_dates={this.state.searchParams.booking_dates}
                               time_range={this.state.searchParams.time_range}
                               region={this.state.searchParams.region}
                               course={this.state.searchParams.course}
                               greenfee_range={this.state.searchParams.greenfee_range}
                               onClick={this.changeSearchValues}/>
-                {this.state.loadBookings ?
-                    <div className={'text-center'}> <Spinner loading={this.state.loadBookings}/></div>
-                    : <div>
-                        {this.state.visibleKickoffDates.length > 0 ?
-                        <div className="container-fluid" ref={this.tableContainer}>
-                            {this.state.beforeKickoffDates.length > 0 ?
-                                <div className={'float-left mb-2'}>
-                                    <button type='button' className="btn btn-secondary" onClick={this.drawBeforeBookings}>
-                                        <i className="fa fa-arrow-left"></i>&nbsp;{this.getButtonTitle(this.state.beforeKickoffDates)}
-                                    </button>
-                                </div>
-                                : '' }
-                            {this.state.nextKickoffDates.length > 0 ?
-                                <div className={'float-right align-right mb-2'}>
-                                    <button type='button' className="btn btn-secondary" onClick={this.drawNextBookings}>
-                                        {this.getButtonTitle(this.state.nextKickoffDates)}&nbsp;<i className="fa fa-arrow-right"></i>
-                                    </button>
-                                </div>
-                                : ''}
-                            <div className="table-responsive">
-                                <table ref={this.tableElement} className="table table-striped table-bordered table-hover">
-                                    <thead>
-                                    <tr ref={this.tableHeader}>
-                                        <th className={'booking-table-name text-center'} ref={this.tablePlaceName}>골프장</th>
-                                        {this.state.visibleKickoffDates.map(_kickoff_date => {
-                                                return <th className={this.getThClassName(_kickoff_date)} key={`booking-${_kickoff_date}`}>
-                                                            {DateUtility.convert(_kickoff_date, DateUtility.DF_DATE, 'YYYY-MM-DD(ddd)')}
-                                                       </th>
-                                        })}
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    {this.state.courses.length != 0 && this.state.visibleKickoffDates.length !=0 ?
-                                        this.state.courses.map(course => {
-                                            return <BookingRow key={`course-${course.id}`} golfCourseNameWidth={this.state.golfCourseNameWidth} dateWidth={this.state.dateWidth} course={course} visibleKickoffDates={this.state.visibleKickoffDates} />
-                                        })
-                                     : <tr><td className={'text-center'} colSpan={this.state.kickoff_dates.length + 1}>검색결과가 없습니다.</td></tr>}
-                                    </tbody>
-                                </table>
+                <div>
+                    {this.state.visibleKickoffDates.length > 0 ?
+                    <div className="container-fluid" ref={this.tableContainer} style={{minWidth: 1024 + 'px'}}>
+                        <div ref={this.tableButtons}>
+                        {this.state.beforeKickoffDates.length > 0 ?
+                            <div className={'float-left mb-2'} >
+                                <button type='button' className="btn btn-secondary" onClick={this.drawBeforeBookings}>
+                                    <i className="fa fa-arrow-left"></i>&nbsp;{this.getButtonTitle(this.state.beforeKickoffDates)}
+                                </button>
                             </div>
+                            : '' }
+                        {this.state.nextKickoffDates.length > 0 ?
+                            <div className={'float-right align-right mb-2'}>
+                                <button type='button' className="btn btn-secondary" onClick={this.drawNextBookings}>
+                                    {this.getButtonTitle(this.state.nextKickoffDates)}&nbsp;<i className="fa fa-arrow-right"></i>
+                                </button>
+                            </div>
+                            : ''}
                         </div>
-                        : ''}
+                        <div className="table-responsive">
+                            <table ref={this.tableElement} className="table table-striped table-bordered table-hover">
+                                <thead>
+                                <tr ref={this.tableHeader}>
+                                    <th className={'booking-table-name text-center'} ref={this.tablePlaceName}>골프장</th>
+                                    {this.state.visibleKickoffDates.map(_kickoff_date => {
+                                            return <th className={this.getThClassName(_kickoff_date)} key={`booking-${_kickoff_date}`}>
+                                                        {DateUtility.convert(_kickoff_date, DateUtility.DF_DATE, 'YYYY-MM-DD(ddd)')}
+                                                   </th>
+                                    })}
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {this.state.courses.length != 0 && this.state.visibleKickoffDates.length !=0 ?
+                                    this.state.courses.map(course => {
+                                        return <BookingRow key={`course-${course.id}`} golfCourseNameWidth={this.state.golfCourseNameWidth} dateWidth={this.state.dateWidth} course={course} visibleKickoffDates={this.state.visibleKickoffDates} />
+                                    })
+                                 : <tr><td className={'text-center'} colSpan={this.state.kickoff_dates.length + 1}>검색결과가 없습니다.</td></tr>}
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                    }
+                    : ''}
+                </div>
+                <Spinner loading={this.state.loadBookings}/>
             </div>
         )
     };

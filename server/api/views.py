@@ -173,12 +173,10 @@ class BookingsUsingPaginator(APIView):
 
         def trans_bookings(_bookings):
             data = []
-            for _bk in _bookings:
-                _d = model_to_dict(_bk)
-                _d['golf_course_id'] = _bk.golf_course.id
-                _d['site_id'] = _bk.site.id
-                _d['site_name'] = _bk.site.name
-                data.append(_d)
+            sites = {_id: _name for _id, _name in Site.objects.all().values_list('id', 'name')}
+            for _bk in _bookings.values():
+                _bk['site_name'] = sites[_bk['site_id']]
+                data.append(_bk)
             return data
 
         def get_response_course_data(courses, kickoff_dates, booking_list):
@@ -223,8 +221,8 @@ class BookingsUsingPaginator(APIView):
                 grouped[_item[key]].append(_item)
             return grouped
 
-        def get_unique(items, key):
-            return sorted(set([_item[key] for _item in items if _item[key]]))
+        def get_unique(items, key, func=None):
+            return sorted(set([func and func(_item[key]) or _item[key] for _item in items if _item[key]]))
 
         def get_price(items):
             prices = get_unique(items, 'price')
@@ -247,17 +245,22 @@ class BookingsUsingPaginator(APIView):
                     for _hour in sorted(gr_hour.keys()):
                         gr_site = groupby(gr_hour[_hour], 'site_id')
                         sites = []
-                        for _site_id, _items in gr_site.items():
-                            site = {
+                        for _site_id in sorted(gr_site.keys()):
+                            _items = gr_site[_site_id]
+                            if golf_course_id == 56 and _date == '20181222' and _hour == '09':
+                                print(_site_id, '-'*100)
+                                pprint(_items)
+                            sites.append({
                                 'id': _site_id,
                                 'name': _items[0]['site_name'],
                                 'teams': len(_items),
-                                'notes': get_unique(_items, 'notes'),
+                                'notes': get_unique(_items, 'notes', lambda x: x.upper()),
                                 'price': get_price(_items),
-                                'url': _items[0]['url']
-                            }
-                            sites.append(site)
+                                'url': _items[0]['url'],
+                                'updated_at': _items[0]['updated_at']
+                            })
                         kickoff_hours.append({
+                            'kickoff_date': _date,
                             'kickoff_hour': _hour,
                             'sites': sites
                         })
