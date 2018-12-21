@@ -9,4 +9,5 @@ urlpatterns = [
     path('golf-course-mapper', views.GolfCourseMapperList.as_view(), name='golf-course-mapper'),
     path('bookings', views.BookingList.as_view(), name='bookings'),
     path('bookings2', views.Bookings.as_view(), name='bookings2'),
+    path('bookings3', views.BookingsUsingPaginator.as_view(), name='bookings-paginator')
 ]
