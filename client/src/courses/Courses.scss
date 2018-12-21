@@ -1,7 +1,7 @@
 .booking-table-name {
   font-size:15px;
   font-weight:300;
-  width: 150px;
+  width: 170px;
 }
 
 .booking-table-date {
@@ -34,16 +34,17 @@
 }
 
 .booking-cell-time-hour {
-  font-family: monospace;
+  //font-family: monospace;
   display: inline-block;
-  font-size: 18px;
-  font-weight: 900;
+  //font-size: 18px;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .booking-cell-time-site-name {
   display: inline-block;
   text-align: right;
-  width: 60px;
+  width: 70px;
 }
 .booking-cell-time-enable-count {
   display: inline-block;
@@ -94,7 +95,14 @@
 
 .fixed-head {
   position: fixed;
-  top: 50px;
+  top: 0px;
   z-index:1030;
   background-color: #FFFFFF;
+}
+
+.fixed-button {
+  position: fixed;
+  top: 44px;
+  z-index:1030;
+  background-color: transparent;
 }

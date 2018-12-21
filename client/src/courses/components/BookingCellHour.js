@@ -12,13 +12,13 @@ class BookingCellHour extends Component {
     getPriceElement(price) {
         if (StringUtility.isEmpty(price)) return '0';
 
-        return (price.is_same ? (StringUtility.withComma(price.max)) : '~' + (StringUtility.withComma(price.max))) + "원"
+        return (price.is_same ? (StringUtility.withComma(price.max)) : '~' + (StringUtility.withComma(price.max)))
     }
 
     render() {
         return (
             <div>
-                <span className='booking-cell-time-hour'>{this.state.hour}</span>
+                <span className='booking-cell-time-hour'>{this.state.hour}시대</span>
                 <ul className='booking-cell-time-site'>
                 {
                     this.state.sites.map(_site => {
