@@ -12,6 +12,17 @@ const moment = extendMoment(Moment);
 
 class App extends Component {
 
+
+    // componentWillUnmount() {
+    //     console.log('App Unmount', sessionStorage);
+    //     for (let index = 0; index < sessionStorage.length; index++) {
+    //         const key = sessionStorage.key(index);
+    //         if (key && (key.startsWith('region_') || key.startsWith('course_'))) {
+    //             sessionStorage.removeItem(key);
+    //         }
+    //     }
+    // }
+
     render() {
         return (
             <Router>

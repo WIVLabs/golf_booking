@@ -15,7 +15,7 @@ class RegionForm extends React.Component {
     }
 
     render() {
-        let _options = [(<option key='00' value="">지역 전체</option>)];
+        let _options = [(<option key='00' value="">모든 지역</option>)];
         this.state.regions.map((_region, i) => {
             _options.push(<option key={i} value={_region.id}>{_region.name}</option>);
             sessionStorage.setItem('region_'+_region.id, _region.name);

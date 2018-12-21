@@ -7,6 +7,7 @@ import CourseForm from "../../components/CourseForm";
 import './CourseSearch.scss';
 import Moment from "moment";
 import {extendMoment} from 'moment-range';
+import {StringUtility} from "../../components/Utility";
 
 const moment = extendMoment(Moment);
 
@@ -32,12 +33,12 @@ class CourseSearch extends React.Component {
                 <div className="wrap-head">
                     <a href="/"><img src="/assets/image/logo.png" className="logo"/></a>
                     <div className="head-top">
-                        {this.state.region_name} > {this.state.course_name || '골프장 전체'}
+                        {this.state.region_name || '모든 지역'} > {this.state.course_name || '모든 골프장'}
                     </div>
                     {this.state.collapse ?
                         <div className="head-bottom">
                             {this.state.booking_dates.map(_d => moment(_d).format('MM.DD(dd)')).join(',')} / {this.state.time_range.from}~{this.state.time_range.to}시
-                            / {Number(this.state.greenfee_range.from).toLocaleString()}~{Number(this.state.greenfee_range.to).toLocaleString()}원
+                            / {StringUtility.withComma(this.state.greenfee_range.from)}~{StringUtility.withComma(this.state.greenfee_range.to)}원
                         </div> : ''
                     }
                 </div>
@@ -72,7 +73,15 @@ class CourseSearch extends React.Component {
                                 </div>
                                 <div className="col-sm-2 p-2">
                                     <a className="btn btn-danger btn-block search-btn"
-                                       onClick={() => this.props.onClick(this.state)}>
+                                       onClick={() => {
+                                           let params = Object.assign({}, this.state);
+                                           delete params.region_name;
+                                           delete params.course_name;
+                                           delete params.collapse;
+                                           this.state.collapse = true;
+                                           this.props.onClick(params);
+                                       }
+                                       }>
                                         <i className="fa fa-golf-ball"></i> 검색
                                     </a>
                                 </div>

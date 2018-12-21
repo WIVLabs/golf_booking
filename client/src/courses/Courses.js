@@ -75,6 +75,7 @@ class Courses extends React.Component {
 
     changeSearchValues(_params){
         const params = JSON.stringify(_params);
+        console.log(params);
         this.props.history.push('./' + params);
         window.location.reload();
         return false;
@@ -93,6 +94,7 @@ class Courses extends React.Component {
                         loadBookings: false
                     });
 
+                    console.log(data);
                     this.initVisibleDate(data.courses, data.kickoff_dates);
                 });
 
@@ -103,11 +105,11 @@ class Courses extends React.Component {
         let visibleDates = [];
         let nextKickoffDates = [];
         if (totalKickoffDates.length > this.state.viewDateCount) {
-            visibleDates = totalKickoffDates.slice(0, this.state.viewDateCount).map(kickoff => kickoff.date);
-            nextKickoffDates = totalKickoffDates.slice(this.state.viewDateCount, totalKickoffDates.length).map(kickoff => kickoff.date);
+            visibleDates = totalKickoffDates.slice(0, this.state.viewDateCount);
+            nextKickoffDates = totalKickoffDates.slice(this.state.viewDateCount, totalKickoffDates.length);
         }
         else {
-            visibleDates = totalKickoffDates.map(kickoff => kickoff.date);
+            visibleDates = totalKickoffDates;
         }
 
         this.setState({
