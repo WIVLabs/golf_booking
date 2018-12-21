@@ -87,6 +87,7 @@ class Courses extends React.Component {
                         loadBookings: false
                     });
 
+                    console.log(data);
                     this.initVisibleDate(data.courses, data.kickoff_dates);
                 });
 
@@ -97,11 +98,11 @@ class Courses extends React.Component {
         let visibleDates = [];
         let nextKickoffDates = [];
         if (totalKickoffDates.length > this.state.viewDateCount) {
-            visibleDates = totalKickoffDates.slice(0, this.state.viewDateCount).map(kickoff => kickoff.date);
-            nextKickoffDates = totalKickoffDates.slice(this.state.viewDateCount, totalKickoffDates.length).map(kickoff => kickoff.date);
+            visibleDates = totalKickoffDates.slice(0, this.state.viewDateCount);
+            nextKickoffDates = totalKickoffDates.slice(this.state.viewDateCount, totalKickoffDates.length);
         }
         else {
-            visibleDates = totalKickoffDates.map(kickoff => kickoff.date);
+            visibleDates = totalKickoffDates;
         }
 
         this.setState({
@@ -186,8 +187,6 @@ class Courses extends React.Component {
         }
 
         this.setState({golfCourseNameWidth : this.tablePlaceName.current.offsetWidth, dateWidth:thLength});
-        this.forceUpdate();
-        console.log(['courses.js', this.state]);
     }
 
     getThClassName(kickoffDate) {

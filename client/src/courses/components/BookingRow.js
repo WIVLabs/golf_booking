@@ -27,12 +27,9 @@ class BookingRow extends React.Component {
                     <span className='site-name'>{this.state.course.name}</span>
                     <span className='site-address text-muted'>{this.state.course.address}</span>
                 </td>
-
                 {this.state.course ?
-                    this.state.course.kickoffs
-                        .filter(_kickoff => this.state.visibleKickoffDates.includes(_kickoff.kickoff_date))
-                        .map((_kickoff, idx) => {
-                            return <BookingCell key={_kickoff.kickoff_date} dateWidth={this.state.dateWidth} kickoff={_kickoff}/>
+                    this.state.course.kickoffs.map((_kickoffsByHour, idx) => {
+                            return <BookingCell key={'cell-' + idx} dateWidth={this.state.dateWidth} kickoffsByHour={_kickoffsByHour}/>
                          })
                     : ''
                 }

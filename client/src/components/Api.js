@@ -29,7 +29,7 @@ const Api = {
      */
     getBookings: (paramsObj) => {
         const queryStringParameters = encodeURIComponent(JSON.stringify(paramsObj));
-        const url = `/api/bookings2?params=${queryStringParameters}`; //
+        const url = `/api/bookings3?params=${queryStringParameters}`; //
 
         return fetch(url).then(response => response.json());
     }
