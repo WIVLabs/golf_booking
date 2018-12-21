@@ -60,7 +60,7 @@ class Crawler:
         def extract_notes(tag):
             return tag.string.strip()
 
-        time.sleep(randint(10, 30) / 10.0)
+        time.sleep(randint(0, 20) / 10.0)
 
         url = self.get_daily_url(bk_date)
         soup = Downloader(url, fname='daily.html', debug=self.debug, encoding=self.encoding).soup
@@ -115,10 +115,10 @@ def run(course_id, site_id, pk_in_site, debug=False):
                 print('inserted: {}'.format(inserted))
 
 def test():
-    course_id = 356
+    course_id = 56
     site_id = 2
-    pk_in_site = 279
-    run(course_id, site_id, pk_in_site, debug=False)
+    pk_in_site = 319
+    run(course_id, site_id, pk_in_site)
 
 
 if __name__ == '__main__':

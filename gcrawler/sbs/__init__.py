@@ -104,9 +104,9 @@ def run(course_id, site_id, pk_in_site):
                 print('inserted: {}'.format(inserted))
 
 def test():
-    course_id = 306
+    course_id = 56
     site_id = 1
-    pk_in_site = 585
+    pk_in_site = 319
     run(course_id, site_id, pk_in_site)
 
 
