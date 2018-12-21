@@ -173,12 +173,17 @@ class BookingsUsingPaginator(APIView):
 
         def trans_bookings(_bookings):
             data = []
+            print('len(_bookings):::', len(_bookings))
             for _bk in _bookings:
                 _d = model_to_dict(_bk)
+                # print(_bk.golf_course)
+                # print(dir(_bk.golf_course))
+                # _d['golf_course_id'] = _bk.golf_course._get_pk_val()
                 _d['golf_course_id'] = _bk.golf_course.id
                 _d['site_id'] = _bk.site.id
                 _d['site_name'] = _bk.site.name
                 data.append(_d)
+                # break
             return data
 
         def get_response_course_data(courses, kickoff_dates, booking_list):
@@ -199,10 +204,14 @@ class BookingsUsingPaginator(APIView):
 
         paging_courses = self.get_paging_courses(query)
         courses = paging_courses.get_page(page)
+        print('1'*100)
         bookings = self.get_bookings(query, list(map(lambda _c: _c.id, courses)))
+        print('2'*100)
 
         kickoff_dates = sorted(list(map(lambda x: self.R_NONDIGIT.subn('', x)[0], query.booking_dates)))
+        print('3' * 100)
         booking_list = trans_bookings(bookings)
+        print('4' * 100)
 
         return Response({
             'kickoff_dates': kickoff_dates,
@@ -258,13 +267,14 @@ class BookingsUsingPaginator(APIView):
                             }
                             sites.append(site)
                         kickoff_hours.append({
+                            'kickoff_date': _date,
                             'kickoff_hour': _hour,
                             'sites': sites
                         })
                 kickoffs.append(kickoff_hours)
         return kickoffs
 
-    def get_paging_courses(self, query, limit=20):
+    def get_paging_courses(self, query, limit=10):
         filtering = self.extract_filtering_opts_about_course(query)
         courses = GolfCourse.objects.filter(**filtering)
         return Paginator(courses, limit)
