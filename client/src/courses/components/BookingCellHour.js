@@ -22,9 +22,16 @@ class BookingCellHour extends Component {
                 <ul className='booking-cell-time-site'>
                 {
                     this.state.sites.map(_site => {
+                        let colorStyle = {};
+                        if (_site.id === 1) {
+                            colorStyle = {color: 'blue'}
+                        }
+                        else if (_site.id === 2) {
+                            colorStyle = {color: 'green'}
+                        }
                         return (
                             <li key={`site-${this.state.hour}-${_site.id}`} className='booking-cell-time' >
-                                <a href={_site.url} target='_blank' className='booking-cell-time-site-name'>{_site.name}</a>
+                                <a href={_site.url} target='_blank' className='booking-cell-time-site-name' style={colorStyle}>{_site.name}</a>
                                 <span className='booking-cell-time-enable-count'>{_site.teams}<span className="text-muted">팀</span></span>
                                 <span className='booking-cell-time-fee'>{this.getPriceElement(_site.price)}원</span>
                                 <span className='booking-cell-time-notes'>{_site.notes.join(', ')}</span>
