@@ -18,7 +18,7 @@ class BookingCellHour extends Component {
     render() {
         return (
             <div>
-                <span className='booking-cell-time-hour'>{this.state.hour}시대</span>
+                <span className='booking-cell-time-hour'>{this.state.hour}<span className="text-muted" style={{fontWeight:300}}>시대</span></span>
                 <ul className='booking-cell-time-site'>
                 {
                     this.state.sites.map(_site => {

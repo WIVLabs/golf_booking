@@ -1,4 +1,5 @@
 import React from "react";
+import {CircleArrow as ScrollUpButton} from "react-scroll-up-button";
 import './Courses.scss';
 import CourseSearch from "./components/CourseSearch";
 import BookingRow from "./components/BookingRow";
@@ -53,11 +54,6 @@ class Courses extends React.Component {
         document.addEventListener('scroll', this.handleScroll);
         document.addEventListener('scroll', this.isTableBottomScroll);
         this.getBookings();
-
-        window.addEventListener('resize', ()=> {
-            //this.measureTableWidthAndRedrew();
-            console.log('aaaa');
-        });
     }
 
     handleScroll() {
@@ -117,7 +113,9 @@ class Courses extends React.Component {
     }
 
     isBottom(el) {
-      return el.getBoundingClientRect().bottom - 100 <= window.innerHeight;
+        if (ObjectUtility.isEmpty(el)) return false;
+
+        return el.getBoundingClientRect().bottom - 100 <= window.innerHeight;
     }
 
     changeSearchValues(_params){
@@ -326,6 +324,7 @@ class Courses extends React.Component {
                                  : <tr><td className={'text-center'} colSpan={this.state.kickoff_dates.length + 1}>검색결과가 없습니다.</td></tr>}
                                 </tbody>
                             </table>
+                            <ScrollUpButton EasingType="linear" />
                         </div>
                     </div>
                     : ''}
