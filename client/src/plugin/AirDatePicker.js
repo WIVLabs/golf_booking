@@ -4,6 +4,7 @@ import './i18n/datepicker.kr'
 import '../../node_modules/air-datepicker/dist/css/datepicker.min.css';
 
 export default class AirDatePicker extends React.Component {
+
     constructor(props) {
         super(props);
         this.state = {
@@ -11,14 +12,18 @@ export default class AirDatePicker extends React.Component {
         }
     }
 
+
     componentDidMount() {
         this.$el = $(this.refs.input);
+        const a15d = new Date();
+        a15d.setDate(a15d.getDate() + 15);
         const $dl = this.$el.datepicker({
             language: 'kr',
             position: 'bottom left',
             onHide: this.props.onSelect,
             minDate: new Date(),
             multipleDates: true,
+            maxDate: a15d,
             dateFormat: 'mm/dd D',
             multipleDatesSeparator: ', '
         }).data('datepicker');
