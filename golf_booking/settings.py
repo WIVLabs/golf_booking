@@ -39,7 +39,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1', 'localhost', HOSTNAME, HOSTBYNAME,
-    '.ad1shot.com', '.amazonaws.com'
+    '.golf1shot.com', '.amazonaws.com'
 ]
 
 # Application definition
@@ -56,6 +56,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'django.middleware.gzip.GZipMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
