@@ -7,7 +7,7 @@ export function requestGetBookings() {
     }
 }
 
-
+// 미들웨어.
 export function fetchGetBookings(params) {
     return function(dispatch) {
         // 요청 상태로 변경함

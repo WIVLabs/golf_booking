@@ -43,6 +43,14 @@ class Courses extends React.Component {
         this.props.getBookings(JSON.parse(searchParams));
     }
 
+    componentWillReceiveProps(nextProps, nextContext) {
+        // 화면이 맨 밑으로 스크롤 될때 페이징 된 골프장 목록 존재 여부를 확인하고 있었으나,
+        // 스크롤이 없을 경우도 더 가져올 골프장 목록이 있는지 확인 해야 함.
+        if (document.getElementById('react-app').offsetHeight <= window.innerHeight && nextProps.hasMoreCourses) {
+            this.getMoreCourses();
+        }
+    }
+
     handleScroll() {
         if (ObjectUtility.isEmpty(this.tableContainer.current)) return;
 
@@ -65,22 +73,22 @@ class Courses extends React.Component {
         }
     }
 
-    isTableBottomScroll() {
-        if (this.isBottom(this.tableElement.current) && this.props.hasMoreCourses & !this.props.loadBookings) {
-            this.getMoreCourses();
-        }
-    }
-
     isBottom(el) {
         if (ObjectUtility.isEmpty(el)) return false;
 
         return el.getBoundingClientRect().bottom - 150 <= window.innerHeight;
     }
 
+    isTableBottomScroll() {
+        if (this.isBottom(this.tableElement.current) && this.props.hasMoreCourses & !this.props.loadBookings) {
+            this.getMoreCourses();
+        }
+    }
+
     getMoreCourses() {
         let params = Object.assign(this.state.searchParams);
         params.page += 1;
-        this.props.getBookings(params);
+        this.props.getBookings(params, (response) => { console.log(response); });
     }
 
     changeSearchValues(_params){
