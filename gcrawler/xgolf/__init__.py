@@ -1,4 +1,5 @@
 import re
+import sys
 import time
 import requests
 import traceback
@@ -58,7 +59,7 @@ class Crawler:
             return tag.string.strip()
 
         def extract_notes(tag):
-            return tag.string.strip()
+            return (tag and tag.string) and tag.string.strip() or ''
 
         time.sleep(randint(0, 20) / 10.0)
 
@@ -88,7 +89,7 @@ class Crawler:
 
     def insert_bk_info(self, bk_info):
         resp = requests.post(self.API_URL, json=bk_info)
-        return resp.ok and resp.content or resp.reason
+        return resp.ok and resp.json() or '{}\n{}'.format(resp.reason, resp.content)
 
     def delete_bk_info(self, bk_date):
         url = '{}?golf_course={}&site={}&kickoff_date={}'.format(self.API_URL, self.course_id, self.site_id, bk_date)
@@ -109,10 +110,16 @@ def run(course_id, site_id, pk_in_site, debug=False):
         deleted = crawler.delete_bk_info(_bk_date)
         print('deleted: {} >> {}'.format(_bk_date, deleted))
         if _can_bk:
-            for _bk_info in crawler.iter_parse_daily(_bk_date):
-                print(_bk_info)
-                inserted = crawler.insert_bk_info(_bk_info)
-                print('inserted: {}'.format(inserted))
+            data_to_insert = list(crawler.iter_parse_daily(_bk_date))
+            inserted = crawler.insert_bk_info(data_to_insert)
+            if isinstance(inserted, (dict, list)):
+                print('len(inserted): {}'.format(len(inserted)))
+            else:
+                print('error: {}'.format(inserted), file=sys.stderr)
+                print(data_to_insert, file=sys.stderr)
+
+
+
 
 def test():
     course_id = 56

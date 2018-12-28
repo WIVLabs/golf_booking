@@ -1,4 +1,5 @@
 import re
+import sys
 import time
 import requests
 import traceback
@@ -44,7 +45,7 @@ class Crawler:
 
     def iter_parse_daily(self, bk_date):
         def download_bk_list():
-            time.sleep(randint(10, 30)/10.0)
+            time.sleep(randint(0, 20)/10.0)
             url = self.get_daily_url(bk_date)
             json = Downloader(url, fname='daily.xml', debug=self.debug, encoding=self.encoding).xml_to_json
             return json.get('golfInfo', {}).get('data', {})
@@ -74,7 +75,7 @@ class Crawler:
 
     def insert_bk_info(self, bk_info):
         resp = requests.post(self.API_URL, json=bk_info)
-        return resp.ok and resp.content or '{}\n{}'.format(resp.reason, resp.content)
+        return resp.ok and resp.json() or '{}\n{}'.format(resp.reason, resp.content)
 
     def delete_bk_info(self, bk_date):
         url = '{}?golf_course={}&site={}&kickoff_date={}'.format(self.API_URL, self.course_id, self.site_id, bk_date)
@@ -98,25 +99,28 @@ def run(course_id, site_id, pk_in_site):
         deleted = crawler.delete_bk_info(_bk_date)
         print('deleted: {} >> {}'.format(_bk_date, deleted))
         if _can_bk:
-            for _bk_info in crawler.iter_parse_daily(_bk_date):
-                print(_bk_info)
-                inserted = crawler.insert_bk_info(_bk_info)
-                print('inserted: {}'.format(inserted))
+            data_to_insert = list(crawler.iter_parse_daily(_bk_date))
+            inserted = crawler.insert_bk_info(data_to_insert)
+            if isinstance(inserted, (dict, list)):
+                print('len(inserted): {}'.format(len(inserted)))
+            else:
+                print('error: {}'.format(inserted), file=sys.stderr)
+                print(data_to_insert, file=sys.stderr)
 
 def test():
-    course_id = 56
+    course_id = 155
     site_id = 1
-    pk_in_site = 319
+    pk_in_site = 544
     run(course_id, site_id, pk_in_site)
 
 
 if __name__ == '__main__':
-    url = 'http://127.0.0.1:8000/api/golf-course-mapper?site=1'
-    items = Downloader(url).json
-    if items:
-        for i, _item in enumerate(items, start=1):
-            print(i, '^' * 100)
-            print('{0[golf_course]}\t{0[site]}\t{0[pk_in_site]}'.format(_item))
-            run(_item['golf_course'], _item['site'], _item['pk_in_site'])
+    # url = 'http://127.0.0.1:8000/api/golf-course-mapper?site=1'
+    # items = Downloader(url).json
+    # if items:
+    #     for i, _item in enumerate(items, start=1):
+    #         print(i, '^' * 100)
+    #         print('{0[golf_course]}\t{0[site]}\t{0[pk_in_site]}'.format(_item))
+    #         run(_item['golf_course'], _item['site'], _item['pk_in_site'])
 
-    # test()
+    test()
