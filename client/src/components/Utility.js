@@ -63,14 +63,20 @@ const DateUtility = {
 
         return moment(obj, sourceFormat).format(targetFormat);
     },
-    getWeekdayCode : (dateStr, format) => {
+    getWeekdayCode : (dateStr, format=DateUtility.DF_DATE) => {
         return moment(dateStr, format).day();
+    },
+    isSaturday: (weekdayCode) => {
+        return weekdayCode == 6;
     },
     isSunday: (weekdayCode) => {
         return  weekdayCode == 0;
     },
-    isSaturday: (weekdayCode) => {
-        return weekdayCode == 6;
+    isSaturdayByDate: (dateStr, format=DateUtility.DF_DATE) => {
+        return DateUtility.isSaturday(DateUtility.getWeekdayCode(dateStr, format));
+    },
+    isSundayByDate: (dateStr, format=DateUtility.DF_DATE) => {
+        return DateUtility.isSunday(DateUtility.getWeekdayCode(dateStr, format));
     }
 };
 

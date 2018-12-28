@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 import {Route, HashRouter as Router} from 'react-router-dom'
-import './App.scss';
-
-import Search from "./search/Search";
-import Courses from "./courses/Courses";
 import Moment from "moment";
 import {extendMoment} from 'moment-range';
 
-const moment = extendMoment(Moment);
+import Search from "./search/Search";
+import Courses from "./courses/Courses";
 
+import './App.scss';
+
+const moment = extendMoment(Moment);
 
 class App extends Component {
 
@@ -23,7 +23,6 @@ class App extends Component {
         );
     }
 }
-
 const range = moment.range(moment().add(1, 'days'), moment().add(7, 'days'));
 const twoWeeks = Array.from(range.by('day'));
 const SearchDefaultValues = {
@@ -42,4 +41,5 @@ const SearchDefaultValues = {
 export {
     SearchDefaultValues
 }
+
 export default App;
