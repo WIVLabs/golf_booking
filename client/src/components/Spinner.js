@@ -11,6 +11,7 @@ const override = css`
 class Spinner extends React.Component {
     constructor(props) {
         super(props);
+
         this.state = {
           loading: props.loading
         }
@@ -28,7 +29,6 @@ class Spinner extends React.Component {
         return (
             <div className='sweet-loading'>
               {/*<PacmanLoader*/}
-                  {/*text={'로딩중'}*/}
                   {/*className={override}*/}
                   {/*color={'#007bff'}*/}
                   {/*size={25}*/}
