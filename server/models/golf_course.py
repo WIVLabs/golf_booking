@@ -54,6 +54,7 @@ class GolfCourseMapper(models.Model):
     class Meta:
         db_table = 'golf_course_mapper'
         unique_together = (('site', 'pk_in_site'),)
+        ordering = ['golf_course__name']
 
 
 class GolfCourseMapperSerializer(serializers.ModelSerializer):
