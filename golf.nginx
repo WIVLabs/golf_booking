@@ -1,10 +1,9 @@
 server {
-        listen 8008;
-        listen [::]:8008;
+    listen 8008;
+    listen [::]:8008;
 
-        #server_name uac.ad1shot.com;
-        #server_name .amazonaws.com;
-        server_name ec2-52-79-137-115.ap-northeast-2.compute.amazonaws.com;
+    server_name booking.golf1shot.com;
+    #server_name ec2-52-79-137-115.ap-northeast-2.compute.amazonaws.com;
 
 	set $CHECK "";
 	if ($http_user_agent !~ 'HealthChecker') {
@@ -13,25 +12,23 @@ server {
 	if ($http_x_forwarded_proto != 'https') {
 		set $CHECK "${CHECK}T";
 	}
-	#if ($check = TT) {
-      		#rewrite ^(.*) https://$host$1 redirect;
-	#}
+	if ($check = TT) {
+      		rewrite ^(.*) https://$host$1 redirect;
+	}
 
-        access_log /var/log/nginx/golf.access.log;
-        error_log  /var/log/nginx/golf.error.log;
+    access_log /var/log/nginx/golf.access.log;
+    error_log  /var/log/nginx/golf.error.log;
 
-        location / {
-                uwsgi_pass  unix:///app_src/golf_booking/golf.socket;
-                include     /etc/nginx/uwsgi_params;
-        }
+    location / {
+            uwsgi_pass  unix:///app_src/golf_booking/golf.socket;
+            include     /etc/nginx/uwsgi_params;
+    }
 
-        location /assets/bundles {
-                alias /app_src/golf_booking/client/dist/bundles;
-        }
+    location /assets/bundles {
+            alias /app_src/golf_booking/client/dist/bundles;
+    }
 
-        location /assets {
-                alias /app_src/golf_booking/client/src/assets;
-        }
-		#static-map = /assets=client/dist
-#static-map = /assets=client/src/assets
+    location /assets {
+            alias /app_src/golf_booking/client/src/assets;
+    }
 }
