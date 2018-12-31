@@ -37,8 +37,15 @@ class Search extends React.Component {
             <div>
                 <header>
                     <a href="/"><img src="/assets/image/logo.png" className="logo"/></a>
+                    <span className="service-title h1">
+                        세상의 모든 골프 부킹을 <br/>
+                        한 눈에 확인하세요
+                    </span>
                 </header>
                 <section className="masthead">
+                    <div className="ad-section">
+                        Ad Area
+                    </div>
                     <div className="search-panel-wrapper">
                         <div className="float-right bg-search-panel p-5 mr-3">
                             <form>
@@ -76,6 +83,10 @@ class Search extends React.Component {
                 <footer>
                     <a href="mailto:info@wivlabs.com?subject=Golf1Shot%20문의"
                        className="customer-service text-dark font-weight-bold h4 mr-4 mb-4">Contact Us</a>
+                    <span className="golf-channels text-dark font-weight-bold h2 mb-4">
+                        <label className="h3">현재 서비스 중인 채널</label><br/>
+                        SBS골프, X골프, JTBC골프
+                    </span>
                 </footer>
             </div>
         )

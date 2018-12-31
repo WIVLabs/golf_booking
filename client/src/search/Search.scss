@@ -2,6 +2,18 @@
 @import '../assets/style/_mixins.scss';
 @import '../assets/style/_global.scss';
 
+
+header {
+  .service-title {
+    color: white;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    padding-top: 100px;
+    padding-left: 70px;
+  }
+}
+
 footer {
   .customer-service {
     width: 150px;
@@ -11,6 +23,14 @@ footer {
     padding-bottom: 18px;
     padding-right: 20px;
     text-shadow: 2px 2px 2px gray;
+  }
+
+  .golf-channels {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-bottom: 18px;
+    padding-left: 70px;
   }
 }
 
@@ -56,6 +76,16 @@ section.masthead {
       font-size: 4rem;
     }
   }
+}
+
+.ad-section {
+  background-color: rgba(white, 0.5);
+  width: 40%;
+  height: 50%;
+  margin-left: 70px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .search-panel-wrapper {
