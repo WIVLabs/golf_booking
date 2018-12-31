@@ -2,23 +2,41 @@
 @import '../assets/style/_mixins.scss';
 @import '../assets/style/_global.scss';
 
+footer {
+  .customer-service {
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 18px;
+    padding-right: 20px;
+    text-shadow: 2px 2px 2px gray;
+  }
+}
+
 // Styling for the masthead
-header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
+section.masthead {
+  display: flex !important;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
   background-image: url('/assets/image/main_bg.jpg');
   background-position: center center;
   @include background-cover;
+
   hr {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+
   h1 {
     font-size: 2rem;
   }
+
   p {
     font-weight: 300;
   }
+
   @media (min-width: 768px) {
     p {
       font-size: 1.15rem;
@@ -40,12 +58,21 @@ header.masthead {
   }
 }
 
-.bg-search-panel {
-  width: 550px;
-  background-color: rgba(255,255,255, 0.7);
+.search-panel-wrapper {
+  height: 100%;
+  width: 1000px;
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(white, 0), rgba(white, 0.8), white, white);
 }
 
-.search-title{
+.bg-search-panel {
+  width: 550px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.search-title {
   width: 80px;
-  padding-left:7px;
+  padding-left: 7px;
 }
