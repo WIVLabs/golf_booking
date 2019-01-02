@@ -13,7 +13,7 @@ import {CollectionUtility} from "../components/Utility";
 // API 호출이나 라우팅 전환같은 사이드이펙트를 일으키기;
 // Date.now()나 Math.random() 같이 순수하지 않은 함수를 호출하기.
 
-const initialState = {
+const initialBookingsState = {
     searchParams: {},
     viewDateCount: 3,
     loadBookings : false,
@@ -26,7 +26,7 @@ const initialState = {
     nextDates: []
 };
 
-function bookings(state = initialState, action) {
+function bookings(state = initialBookingsState, action) {
     const {viewDateCount} = state;
     const {nextDates, prevDates, currentDates} = state;
     let current = state.currentDates;
@@ -117,7 +117,11 @@ function bookings(state = initialState, action) {
     }
 }
 
-function table(state = {golfCourseNameWidth:150, dateWidth: 150}, action) {
+const initialTableState = {
+    golfCourseNameWidth:150,
+    dateWidth: 150
+}
+function table(state = initialTableState, action) {
     switch (action.type) {
         case SET_TABLE_HEADER_WIDTH:
             return Object.assign({}, state, {

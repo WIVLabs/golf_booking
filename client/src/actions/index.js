@@ -8,15 +8,13 @@ export function requestGetBookings() {
 }
 
 // 미들웨어.
-export function fetchGetBookings(params) {
-    return function(dispatch) {
-        // 요청 상태로 변경함
-        dispatch(requestGetBookings(params));
+export const fetchGetBookings = (params) => dispatch => {
+    // 요청 상태로 변경함
+    dispatch(requestGetBookings(params));
 
-        // 서버 호출 후 응답 함수를 호출함
-        return Api.getBookings(params)
-                    .then(response => dispatch(receivedGetBookings(params, response)));
-    }
+    // 서버 호출 후 응답 함수를 호출함
+    return Api.getBookings(params)
+        .then(response => dispatch(receivedGetBookings(params, response)));
 }
 
 export const RECEIVED_GET_BOOKINGS = 'RESPONSE_GET_BOOKINGS';

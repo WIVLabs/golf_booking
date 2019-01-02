@@ -233,20 +233,12 @@ const mapStateToProps = (state) => {
     };
 };
 
-const mapDispatchToProps = (dispatch, ownProps) => {
+const mapDispatchToProps = (dispatch) => {
     return {
-        getBookings: (searchParams) => {
-            dispatch(fetchGetBookings(searchParams));
-        },
-        onNextClick: () => {
-            dispatch(nextDays())
-        },
-        onPrevClick: () => {
-            dispatch(prevDays())
-        },
-        setTableHeaderWidth:(golfCourseNameWidth, dateWidth) => {
-            dispatch(setTableHeaderWidth(golfCourseNameWidth, dateWidth));
-        }
+        getBookings: (searchParams) => dispatch(fetchGetBookings(searchParams)),
+        onNextClick: () => dispatch(nextDays()),
+        onPrevClick: () => dispatch(prevDays()),
+        setTableHeaderWidth:(golfCourseNameWidth, dateWidth) => dispatch(setTableHeaderWidth(golfCourseNameWidth, dateWidth))
     }
 };
 
