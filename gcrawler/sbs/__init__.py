@@ -100,12 +100,13 @@ def run(course_id, site_id, pk_in_site):
         print('deleted: {} >> {}'.format(_bk_date, deleted))
         if _can_bk:
             data_to_insert = list(crawler.iter_parse_daily(_bk_date))
-            inserted = crawler.insert_bk_info(data_to_insert)
-            if isinstance(inserted, (dict, list)):
-                print('len(inserted): {}'.format(len(inserted)))
-            else:
-                print('error: {}'.format(inserted), file=sys.stderr)
-                print(data_to_insert, file=sys.stderr)
+            if data_to_insert:
+                inserted = crawler.insert_bk_info(data_to_insert)
+                if isinstance(inserted, (dict, list)):
+                    print('len(inserted): {}'.format(len(inserted)))
+                else:
+                    print('error: {}'.format(inserted), file=sys.stderr)
+                    print(data_to_insert, file=sys.stderr)
 
 def test():
     course_id = 155
@@ -115,12 +116,12 @@ def test():
 
 
 if __name__ == '__main__':
-    # url = 'http://127.0.0.1:8000/api/golf-course-mapper?site=1'
-    # items = Downloader(url).json
-    # if items:
-    #     for i, _item in enumerate(items, start=1):
-    #         print(i, '^' * 100)
-    #         print('{0[golf_course]}\t{0[site]}\t{0[pk_in_site]}'.format(_item))
-    #         run(_item['golf_course'], _item['site'], _item['pk_in_site'])
+    url = 'http://127.0.0.1:8000/api/golf-course-mapper?site=1'
+    items = Downloader(url).json
+    if items:
+        for i, _item in enumerate(items, start=1):
+            print(i, '^' * 100)
+            print('{0[golf_course]}\t{0[site]}\t{0[pk_in_site]}'.format(_item))
+            run(_item['golf_course'], _item['site'], _item['pk_in_site'])
 
-    test()
+    # test()
