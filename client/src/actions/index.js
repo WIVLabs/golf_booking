@@ -10,7 +10,7 @@ export function requestGetBookings() {
 // 미들웨어.
 export const fetchGetBookings = (params) => dispatch => {
     // 요청 상태로 변경함
-    dispatch(requestGetBookings(params));
+    dispatch(requestGetBookings());
 
     // 서버 호출 후 응답 함수를 호출함
     return Api.getBookings(params)
