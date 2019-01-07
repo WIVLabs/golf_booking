@@ -34,13 +34,13 @@ class Search extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="main-layout">
                 <header>
                     {/*<a href="/"><img src="/assets/image/logo.png" className="logo"/></a>*/}
                 </header>
-                <div className="service-title text-center text-light">
-                    세상의 모든 골프 부킹을 <br/>
-                    한 눈에 확인하세요
+                 <div className="service-title-wrapper text-center text-light">
+                    <span className="service-title">세상의 모든 골프 부킹을 <br/>
+                        한 눈에 확인하세요</span>
                 </div>
                 <section className="masthead">
                     <div className="float-right bg-search-panel p-5 mr-3 border border-light">
@@ -75,6 +75,7 @@ class Search extends React.Component {
                         </form>
                     </div>
                 </section>
+
                 <footer>
                     <div className="contact-us text-light">
                         <div className="text-center">현재 서비스 중인 채널 : SBS골프, X골프, JTBC골프</div>
