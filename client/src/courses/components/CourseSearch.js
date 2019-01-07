@@ -33,7 +33,7 @@ class CourseSearch extends React.Component {
                 <div className="wrap-head">
                     <a href="/"><img src="/assets/image/logo.png" className="logo"/></a>
                     <div className="head-top">
-                        {this.state.region_name || '모든 지역'} > {this.state.course_name || '모든 골프장'}
+                        <span className="location-course p-1 border-primary rounded">{this.state.region_name || '모든 지역'} > {this.state.course_name || '모든 골프장'}</span>
                     </div>
                     {this.state.collapse ?
                         <div className="head-bottom">
