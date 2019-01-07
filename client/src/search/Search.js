@@ -38,7 +38,7 @@ class Search extends React.Component {
                 <header>
                     {/*<a href="/"><img src="/assets/image/logo.png" className="logo"/></a>*/}
                 </header>
-                <div className="service-title h1 text-center text-light">
+                <div className="service-title text-center text-light">
                     세상의 모든 골프 부킹을 <br/>
                     한 눈에 확인하세요
                 </div>
