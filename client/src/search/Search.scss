@@ -127,3 +127,8 @@ section.masthead {
   width: 80px;
   padding-left: 7px;
 }
+
+/** select2 placeholder override*/
+.select2-selection__placeholder{
+  color: #495057!important;
+}
