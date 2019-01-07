@@ -19,10 +19,11 @@ header {
   margin: 0;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -57%);
+  letter-spacing: -2px;
 }
 
-.service-title-wrapper{
+.service-title-wrapper {
 }
 
 footer {
@@ -30,8 +31,11 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
-    padding-bottom: 30px;
-    font-size: 18px;
+    padding-bottom: 20px;
+    font-size: 15px;
+    a {
+      color: #f8f9fa !important;
+    }
   }
 
   .customer-service {

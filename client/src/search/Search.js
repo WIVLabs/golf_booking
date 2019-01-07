@@ -77,9 +77,9 @@ class Search extends React.Component {
                 </section>
 
                 <footer>
-                    <div className="contact-us text-light">
-                        <div className="text-center">현재 서비스 중인 채널 : SBS골프, X골프, JTBC골프</div>
-                        <div className="text-center">부킹 채널 추가 및 광고 문의는 <a href="mailto:info@wivlabs.com?subject=Golf1Shot%20문의">contact us</a> 혹은 <ins>info@wivlabs.com</ins> 으로 메일 주시면 검토 후 회신 드리겠습니다.</div>
+                    <div className="contact-us text-light pr-3">
+                        <div className="text-right">현재 서비스 중인 채널 : SBS골프, X골프, JTBC골프</div>
+                        <div className="text-right">부킹 채널 추가 및 광고 문의는 <a href="mailto:info@wivlabs.com?subject=Golf1Shot%20문의"><ins>contact us</ins></a> 혹은 <ins>info@wivlabs.com</ins> 으로 메일 주시면 검토 후 회신 드리겠습니다.</div>
                     </div>
                 </footer>
             </div>
